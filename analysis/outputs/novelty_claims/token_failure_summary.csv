@@ -1,0 +1,2 @@
+n_rl_runs,n_rl_tasks,overall_spearman_rho,overall_spearman_p,within_task_rho_mean,within_task_rho_median,n_tasks_within,solved_mean_tokens,failed_mean_tokens,token_ratio_failed_over_solved,mannwhitney_u,mannwhitney_p,n_solved,n_failed
+420,30,-0.5424,0.0,-0.5033,-0.5671,30,41328.0,154465.0,3.74,8569.0,0.0,237,183

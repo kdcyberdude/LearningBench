@@ -1,0 +1,6 @@
+category,thinking_score,instruct_score,thinking_advantage,pct_improvement
+concept,0.5412,0.191,0.3502,183.4
+observational,0.58,0.3034,0.2766,91.2
+language,0.6227,0.4146,0.2081,50.2
+rl,0.4741,0.2678,0.2064,77.1
+associative,0.6276,0.4638,0.1638,35.3

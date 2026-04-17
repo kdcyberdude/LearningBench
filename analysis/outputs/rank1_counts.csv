@@ -1,0 +1,12 @@
+model,rank1_count,tier,provider
+Gemini 3.1 Pro Preview,37,frontier,Google
+Gemini 2.5 Flash,13,mid,Google
+Qwen 3 Next 80B Thinking,6,mid,Open-source
+GLM-5,6,frontier,Open-source
+Claude Opus 4.6,3,frontier,Anthropic
+GPT-5.4 mini,2,mid,OpenAI
+Claude Haiku 4.5,2,small,Anthropic
+GPT-5.4,2,frontier,OpenAI
+Claude Sonnet 4.6,2,mid,Anthropic
+Gemini 3.1 Flash-Lite Preview,1,mid,Google
+DeepSeek V3.2,1,mid,Open-source

@@ -1,0 +1,188 @@
+{
+  "taskVersion": {
+    "versionNumber": 1,
+    "name": "chebyshev_point_rf_learning",
+    "description": "2D point; feedback is weighted L\u221e-style shell with hidden axis weights. Multi-turn RL: model only sees environment/user text each turn; return float in [0,1] (higher = fewer steps to succeed), cap 34 steps.",
+    "definition": "@kbench.task(\n    name=\"chebyshev_point_rf_learning\",\n    description=\"2D point; feedback is weighted L\u221e-style shell with hidden axis weights. Multi-turn RL: model only sees environment/user text each turn; return float in [0,1] (higher = fewer steps to succeed), cap 34 steps.\",\n)\ndef chebyshev_point_rf_learning(llm) -> float:\n    \"\"\"2D landmark search with hidden weighted L-infinity shell distance; composite score in [0,1].\"\"\"\n\n    def turn(user_message: str) -> str:\n        try:\n            r = llm.prompt(user_message, schema=_TurnTwoInts)\n            return f\"{int(r.first)} {int(r.second)}\"\n        except Exception:\n            return \"\"\n\n    result = run(turn, seed=0, max_steps=BUDGET_N)\n    score = _composite_score(result.solved, result.num_steps, BUDGET_N, MIN_EXPLORE, result.progress)\n    _log_trace(\n        \"chebyshev_point_rf_learning\",\n        _TASK_DESCRIPTION,\n        result.conversation,\n        result.solved,\n        result.num_steps,\n        BUDGET_N,\n        score,\n    )\n    return score\n"
+  },
+  "modelVersion": {
+    "slug": "google/gemini-2.5-flash"
+  },
+  "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+  "startTime": "2026-04-13T16:10:01.243878Z",
+  "endTime": "2026-04-13T16:14:37.207945Z",
+  "conversations": [
+    {
+      "id": "chebyshev_point_rf_learning-5daecca7",
+      "requests": [
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Hidden landmark (x,y) with 0\u2264x,y\u226414.\nSensors report **SHELL** = max(\u03b1\u00b7|\u0394x|, \u03b2\u00b7|\u0394y|) for unknown positive integers \u03b1,\u03b2 \u2208 {1,2} (fixed for the episode, undisclosed).\nInfer geometry online; exact coordinate match wins.\nBudget 34 probes."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"first\\\": 7, \\\"second\\\": 7}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-2.5-flash"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 93,
+            "outputTokens": 18,
+            "inputTokensCostNanodollars": "27900",
+            "outputTokensCostNanodollars": "40175000",
+            "totalBackendLatencyMs": "79271"
+          },
+          "id": "chebyshev_point_rf_learning-5daecca7-req-1"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "SHELL readout: **12**.\n\nTwo integers?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"first\\\": 1, \\\"second\\\": 1}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-2.5-flash"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 117,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "35100",
+            "outputTokensCostNanodollars": "12365000",
+            "totalBackendLatencyMs": "24424"
+          },
+          "id": "chebyshev_point_rf_learning-5daecca7-req-2"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "SHELL readout: **24**.\n\nTwo integers?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"first\\\": 0, \\\"second\\\": 13}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-2.5-flash"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 141,
+            "outputTokens": 13,
+            "inputTokensCostNanodollars": "42300",
+            "outputTokensCostNanodollars": "40805000",
+            "totalBackendLatencyMs": "75343"
+          },
+          "id": "chebyshev_point_rf_learning-5daecca7-req-3"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "SHELL readout: **26**.\n\nTwo integers?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"first\\\": 13, \\\"second\\\": 14}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-2.5-flash"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 166,
+            "outputTokens": 14,
+            "inputTokensCostNanodollars": "49800",
+            "outputTokensCostNanodollars": "42255000",
+            "totalBackendLatencyMs": "68710"
+          },
+          "id": "chebyshev_point_rf_learning-5daecca7-req-4"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "SHELL readout: **8**.\n\nTwo integers?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"first\\\": 13, \\\"second\\\": 6}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-2.5-flash"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 191,
+            "outputTokens": 13,
+            "inputTokensCostNanodollars": "57300",
+            "outputTokensCostNanodollars": "13840000",
+            "totalBackendLatencyMs": "26320"
+          },
+          "id": "chebyshev_point_rf_learning-5daecca7-req-5"
+        }
+      ],
+      "metrics": {
+        "inputTokens": 708,
+        "outputTokens": 70,
+        "inputTokensCostNanodollars": "212400",
+        "outputTokensCostNanodollars": "149440000",
+        "totalBackendLatencyMs": "274068"
+      },
+      "modelVersionSlug": "model_version_slug for conversation is DEPRECATED"
+    }
+  ],
+  "results": [
+    {
+      "type": "AGGREGATED",
+      "numericResult": {
+        "value": 1.0
+      }
+    }
+  ],
+  "pyRunId": "chebyshev_point_rf_learning-Run #1"
+}

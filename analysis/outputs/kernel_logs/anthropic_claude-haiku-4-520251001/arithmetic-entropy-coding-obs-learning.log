@@ -1,0 +1,53 @@
+[{"stream_name":"stdout","time":11.650346188,"data":"\n"}
+,{"stream_name":"stdout","time":11.650392968,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":11.650398768,"data":"  arithmetic_entropy_coding_obs_learning\n"}
+,{"stream_name":"stdout","time":11.650402618,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":11.650405778,"data":"\n"}
+,{"stream_name":"stdout","time":11.650409418,"data":"  TASK: The model observes symbol-sequence to encoded-bit-length pairs from an entropy coder with five hidden non-uniform symbol probabilities over alphabet {A,B,C,D,E}. The probabilities are all distinct. The hidden rule is ceil(-Σ log₂(P(x))) summed over every symbol occurrence. Early demos have equal counts and only pin the sum of all h-values; structured demos with one dominant symbol allow isolating individual h-values through inequality reasoning. All five h-values are uniquely determined from the 13 demonstrations. The model must then compute the encoded length for four new sequences.\n"}
+,{"stream_name":"stdout","time":11.650419358,"data":"\n"}
+,{"stream_name":"stdout","time":11.650422788,"data":"  PROMPT:\n"}
+,{"stream_name":"stdout","time":11.650426018,"data":"You are observing a data compression system that encodes symbol sequences.\n"}
+,{"stream_name":"stdout","time":11.650429638,"data":"The alphabet is {A, B, C, D, E}. Each symbol has a fixed but hidden probability.\n"}
+,{"stream_name":"stdout","time":11.650432198,"data":"Encoded length = ceil( sum of -log2(P(x)) over every symbol occurrence ).\n"}
+,{"stream_name":"stdout","time":11.650434138,"data":"\n"}
+,{"stream_name":"stdout","time":11.650435968,"data":"Observations (symbol sequence → encoded bit length):\n"}
+,{"stream_name":"stdout","time":11.650437908,"data":"   1. AABBCCDDEE  (counts: {'A': 2, 'B': 2, 'C': 2, 'D': 2, 'E': 2}) → 26 bits\n"}
+,{"stream_name":"stdout","time":11.650439838,"data":"   2. AABCDDEEBC  (counts: {'A': 2, 'B': 2, 'C': 2, 'D': 2, 'E': 2}) → 26 bits\n"}
+,{"stream_name":"stdout","time":11.650441748,"data":"   3. BBAAECDCDE  (counts: {'A': 2, 'B': 2, 'C': 2, 'D': 2, 'E': 2}) → 26 bits\n"}
+,{"stream_name":"stdout","time":11.650443668,"data":"   4. AAAAAAAABCDE  (counts: {'A': 8, 'B': 1, 'C': 1, 'D': 1, 'E': 1}) → 23 bits\n"}
+,{"stream_name":"stdout","time":11.650445588,"data":"   5. BBBBBBBACDE  (counts: {'A': 1, 'B': 7, 'C': 1, 'D': 1, 'E': 1}) → 25 bits\n"}
+,{"stream_name":"stdout","time":11.650447508,"data":"   6. CCCCCCCABDE  (counts: {'A': 1, 'B': 1, 'C': 7, 'D': 1, 'E': 1}) → 28 bits\n"}
+,{"stream_name":"stdout","time":11.650449468,"data":"   7. DDDDDDDABCE  (counts: {'A': 1, 'B': 1, 'C': 1, 'D': 7, 'E': 1}) → 32 bits\n"}
+,{"stream_name":"stdout","time":11.650451368,"data":"   8. EEEEEEEABCD  (counts: {'A': 1, 'B': 1, 'C': 1, 'D': 1, 'E': 7}) → 36 bits\n"}
+,{"stream_name":"stdout","time":11.650453278,"data":"   9. AAABBBCDE  (counts: {'A': 3, 'B': 3, 'C': 1, 'D': 1, 'E': 1}) → 20 bits\n"}
+,{"stream_name":"stdout","time":11.650455218,"data":"  10. AACCCDE  (counts: {'A': 2, 'C': 3, 'D': 1, 'E': 1}) → 18 bits\n"}
+,{"stream_name":"stdout","time":11.650457158,"data":"  11. AADDDDE  (counts: {'A': 2, 'D': 4, 'E': 1}) → 20 bits\n"}
+,{"stream_name":"stdout","time":11.650459058,"data":"  12. AABBBBCDE  (counts: {'A': 2, 'B': 4, 'C': 1, 'D': 1, 'E': 1}) → 21 bits\n"}
+,{"stream_name":"stdout","time":11.650462228,"data":"  13. CCDDDDDE  (counts: {'C': 2, 'D': 5, 'E': 1}) → 25 bits\n"}
+,{"stream_name":"stdout","time":11.650464218,"data":"\n"}
+,{"stream_name":"stdout","time":11.650468078,"data":"Now solve these 4 test questions:\n"}
+,{"stream_name":"stdout","time":11.650471598,"data":"  Q1: AAAAABBBCDE  (counts: {'A': 5, 'B': 3, 'C': 1, 'D': 1, 'E': 1}) → ? bits\n"}
+,{"stream_name":"stdout","time":11.650481538,"data":"  Q2: BBBBCCCDDE  (counts: {'B': 4, 'C': 3, 'D': 2, 'E': 1}) → ? bits\n"}
+,{"stream_name":"stdout","time":11.650485448,"data":"  Q3: CCCDDDEEE  (counts: {'C': 3, 'D': 3, 'E': 3}) → ? bits\n"}
+,{"stream_name":"stdout","time":11.650489188,"data":"  Q4: ABCDE  (counts: {'A': 1, 'B': 1, 'C': 1, 'D': 1, 'E': 1}) → ? bits\n"}
+,{"stream_name":"stdout","time":11.650492778,"data":"\n"}
+,{"stream_name":"stdout","time":11.650495818,"data":"Submit answer_1 through answer_4 as integer bit lengths.\n"}
+,{"stream_name":"stdout","time":11.650498788,"data":"\n"}
+,{"stream_name":"stdout","time":11.650501438,"data":"  TEST RESULTS:\n"}
+,{"stream_name":"stdout","time":11.650504168,"data":"    [FAIL] Q1: expected=23  got=22\n"}
+,{"stream_name":"stdout","time":11.650506888,"data":"    [FAIL] Q2: expected=26  got=19\n"}
+,{"stream_name":"stdout","time":11.650509578,"data":"    [FAIL] Q3: expected=29  got=18\n"}
+,{"stream_name":"stdout","time":11.650512548,"data":"    [FAIL] Q4: expected=13  got=12\n"}
+,{"stream_name":"stdout","time":11.650515238,"data":"\n"}
+,{"stream_name":"stdout","time":11.650517918,"data":"  SCORE: 0.0000\n"}
+,{"stream_name":"stdout","time":11.650520678,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":11.650523498,"data":"\n"}
+,{"stream_name":"stderr","time":15.129086306,"data":"/benchmarks/.venv/lib/python3.11/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":15.129110195,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":15.146406837,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":15.407963034,"data":"[NbConvertApp] Writing 73386 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":17.530963717,"data":"/benchmarks/.venv/lib/python3.11/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":17.531008437,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":17.548128368,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":18.329173491,"data":"[NbConvertApp] Writing 332895 bytes to __results__.html\n"}
+]

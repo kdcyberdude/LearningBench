@@ -1,0 +1,159 @@
+task,model,n_practice_rounds,n_transfer_tests,practice_round_1,practice_round_last,delta_first_to_last,ols_slope,trajectory_class,mean_practice_score,mean_transfer_score,composite_score
+adaptive-sort-rule,Claude Haiku,5,4,0.4273,0.4273,0.0,0.02454,flat,0.5091,0.0,0.3901
+adaptive-sort-rule,Claude Opus,5,4,0.5909,1.0,0.4091,0.08182,improving,0.9182,1.0,0.9104
+adaptive-sort-rule,Claude Sonnet,5,4,0.6727,1.0,0.3273,0.06546,improving,0.9345,0.75,0.8284
+adaptive-sort-rule,DeepSeek,5,4,0.5909,0.1818,-0.4091,-0.01637,flat,0.4927,0.25,0.4359
+adaptive-sort-rule,GLM-5,5,4,0.6727,1.0,0.3273,0.06546,improving,0.9345,1.0,0.9034
+adaptive-sort-rule,GPT-5.4,5,4,0.5091,0.6727,0.1636,0.08181,improving,0.6727,0.0,0.5204
+adaptive-sort-rule,GPT-mini,5,4,0.5091,0.6727,0.1636,-1e-05,flat,0.4927,0.0,0.3304
+adaptive-sort-rule,GPT-nano,5,4,0.0,0.6727,0.6727,0.17545,improving,0.5218,0.0,0.5393
+adaptive-sort-rule,G-Flash,5,4,0.5909,1.0,0.4091,0.08182,improving,0.9182,0.75,0.8354
+adaptive-sort-rule,G-Lite,5,4,0.0,0.4273,0.4273,0.05273,improving,0.3418,0.0,0.3029
+adaptive-sort-rule,G-Pro,5,4,0.8364,1.0,0.1636,0.03272,improving,0.9673,0.75,0.8142
+adaptive-sort-rule,Gemma,5,4,0.5909,0.5091,-0.0818,0.0,flat,0.5745,0.0,0.3876
+adaptive-sort-rule,Qwen-I,5,4,0.4273,0.1818,-0.2455,0.01636,flat,0.4927,0.0,0.3714
+adaptive-sort-rule,Qwen-T,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+boolean-circuit,Claude Haiku,5,4,0.1,0.2,0.1,0.05,improving,0.12,0.0,0.2432
+boolean-circuit,Claude Opus,5,4,0.1,0.0,-0.1,0.0,flat,0.06,0.0,0.162
+boolean-circuit,Claude Sonnet,5,4,0.1,0.0,-0.1,-0.02,flat,0.08,0.25,0.2158
+boolean-circuit,DeepSeek,5,4,0.5,0.1,-0.4,-0.09,deteriorating,0.26,0.0,0.145
+boolean-circuit,GLM-5,5,4,0.6,0.2,-0.4,-0.09,deteriorating,0.54,0.0,0.276
+boolean-circuit,GPT-5.4,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+boolean-circuit,GPT-mini,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+boolean-circuit,GPT-nano,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+boolean-circuit,G-Flash,5,4,0.4,0.4,0.0,0.01,flat,0.52,0.0,0.3603
+boolean-circuit,G-Lite,5,4,0.7,0.2,-0.5,-0.1,deteriorating,0.5,0.0,0.2867
+boolean-circuit,G-Pro,5,4,0.6,0.3,-0.3,-0.04,deteriorating,0.54,0.0,0.3327
+boolean-circuit,G-Flash-3,5,0,0.52,0.52,0.0,0.0,flat,0.52,,0.26
+boolean-circuit,Gemma,5,4,0.0,0.0,0.0,0.01,flat,0.06,0.0,0.1683
+boolean-circuit,Qwen-I,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+boolean-circuit,Qwen-T,5,4,0.8,0.0,-0.8,-0.11,deteriorating,0.42,0.0,0.2143
+dialect-morphology,Claude Haiku,5,4,0.2286,1.0,0.7714,0.15428,improving,0.8457,0.0,0.6419
+dialect-morphology,Claude Opus,5,4,0.1,0.2286,0.1286,-0.06428,deteriorating,0.3829,0.0,0.2019
+dialect-morphology,Claude Sonnet,5,4,0.1,0.8714,0.7714,0.12857,improving,0.64,0.0,0.5201
+dialect-morphology,DeepSeek,5,4,0.7429,0.7429,0.0,0.0,flat,0.7686,0.0,0.4644
+dialect-morphology,GLM-5,5,4,0.4857,1.0,0.5143,0.10286,improving,0.8457,0.0,0.5932
+dialect-morphology,GPT-5.4,5,4,1.0,1.0,0.0,0.0,flat,1.0,0.0,0.575
+dialect-morphology,GPT-mini,5,4,0.8714,1.0,0.1286,0.02572,flat,0.9743,0.0,0.5861
+dialect-morphology,GPT-nano,5,4,1.0,1.0,0.0,0.0,flat,1.0,0.0,0.575
+dialect-morphology,G-Flash,5,4,0.8714,1.0,0.1286,0.02572,flat,0.9743,0.0,0.5861
+dialect-morphology,G-Lite,5,4,0.8714,1.0,0.1286,0.02572,flat,0.9743,0.0,0.5861
+dialect-morphology,G-Pro,5,4,0.8714,0.7429,-0.1285,-0.0257,flat,0.9229,0.0,0.5111
+dialect-morphology,Gemma,5,4,0.0,0.2286,0.2286,0.00715,flat,0.1829,0.0,0.2072
+dialect-morphology,Qwen-I,5,4,0.1,0.8714,0.7714,0.16713,improving,0.6914,0.0,0.587
+dialect-morphology,Qwen-T,5,4,1.0,1.0,0.0,0.0,flat,1.0,0.0,0.575
+grammar-induction,Claude Haiku,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+grammar-induction,Claude Opus,5,4,0.0,0.0,0.0,0.0,flat,0.02,0.25,0.204
+grammar-induction,Claude Sonnet,5,4,0.0,0.0,0.0,0.0,flat,0.02,0.25,0.204
+grammar-induction,DeepSeek,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+grammar-induction,GLM-5,5,4,0.0,0.1692,0.1692,0.00615,flat,0.1631,0.75,0.4202
+grammar-induction,GPT-5.4,5,4,0.0,0.0,0.0,0.0,flat,0.0477,0.25,0.2095
+grammar-induction,GPT-mini,5,4,0.0,0.0,0.0,0.0,flat,0.1446,0.0,
+grammar-induction,GPT-nano,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+grammar-induction,G-Flash,5,4,0.0,0.1,0.1,0.02,flat,0.02,0.5,0.3042
+grammar-induction,G-Lite,5,4,0.0,0.0,0.0,0.0,flat,0.1169,0.25,0.2234
+grammar-induction,G-Pro,5,4,0.1,0.3077,0.2077,0.01385,flat,0.3354,1.0,0.5691
+grammar-induction,G-Flash-3,5,0,0.0,0.0,0.0,0.0,flat,0.04,,0.52
+grammar-induction,Gemma,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+grammar-induction,Qwen-I,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+grammar-induction,Qwen-T,5,4,0.0,0.0,0.0,-0.05846,deteriorating,0.1923,0.25,0.2014
+lights-out-variant,Claude Haiku,5,0,0.52,0.0,-0.52,-0.104,deteriorating,0.104,,0.552
+lights-out-variant,Claude Opus,5,0,0.0,0.0,0.0,0.0,flat,0.092,,0.546
+lights-out-variant,Claude Sonnet,5,0,0.0,0.58,0.58,0.156,improving,0.336,,0.668
+lights-out-variant,DeepSeek,5,0,0.0,0.0,0.0,0.0,flat,0.0,,
+lights-out-variant,GLM-5,5,0,0.52,0.58,0.06,-0.004,flat,0.252,,
+lights-out-variant,GPT-5.4,5,0,0.0,0.0,0.0,0.0,flat,0.0,,0.5
+lights-out-variant,GPT-mini,5,0,0.0,0.0,0.0,0.0,flat,0.0,,
+lights-out-variant,GPT-nano,5,0,0.0,0.0,0.0,0.0,flat,0.0,,
+lights-out-variant,G-Flash,5,0,0.64,0.58,-0.06,-0.036,deteriorating,0.592,,0.796
+lights-out-variant,G-Lite,5,0,0.64,0.1,-0.54,-0.132,deteriorating,0.424,,0.712
+lights-out-variant,G-Pro,5,0,0.64,0.58,-0.06,-0.036,deteriorating,0.592,,0.796
+lights-out-variant,G-Flash-3,5,0,0.64,0.46,-0.18,-0.084,deteriorating,0.52,,0.76
+lights-out-variant,Gemma,5,0,0.0,0.0,0.0,-0.052,deteriorating,0.104,,0.052000000000000005
+lights-out-variant,Qwen-I,5,0,0.28,0.0,-0.28,-0.028,flat,0.252,,0.626
+lights-out-variant,Qwen-T,5,0,0.0,0.58,0.58,0.116,improving,0.116,,
+nim-variant,Claude Haiku,5,0,0.0,0.0,0.0,0.0,flat,0.0,,
+nim-variant,Claude Opus,5,0,0.0,0.8286,0.8286,0.16572,improving,0.1657,,0.4417
+nim-variant,Claude Sonnet,5,0,0.0,0.0,0.0,0.0,flat,0.0,,
+nim-variant,DeepSeek,5,0,0.0,0.0,0.0,0.0,flat,0.0,,
+nim-variant,GLM-5,5,0,0.0,0.0,0.0,0.0,flat,0.0,,0.275
+nim-variant,GPT-5.4,5,0,0.0,0.0,0.0,0.0,flat,0.0,,
+nim-variant,GPT-mini,5,0,0.0,0.0,0.0,0.0,flat,0.0,,
+nim-variant,GPT-nano,5,0,0.0,0.0,0.0,0.0,flat,0.0,,
+nim-variant,G-Flash,5,0,0.0,0.8714,0.8714,0.26999,improving,0.3657,,0.5877
+nim-variant,G-Lite,5,0,0.0,0.0,0.0,0.0,flat,0.0,,
+nim-variant,G-Pro,5,0,0.0,0.8714,0.8714,0.26999,improving,0.3657,,0.6627
+nim-variant,Gemma,5,0,0.0,0.0,0.0,0.0,flat,0.0,,
+nim-variant,Qwen-I,5,0,0.0,0.0,0.0,0.0,flat,0.0,,
+nim-variant,Qwen-T,5,0,0.0,0.0,0.0,0.0,flat,0.0,,0.2
+opponent-strategy,Claude Haiku,5,0,1.0,0.0,-1.0,-0.2,deteriorating,0.8,,0.5833
+opponent-strategy,Claude Opus,5,0,1.0,0.0,-1.0,-0.1,deteriorating,0.6,,0.6067
+opponent-strategy,Claude Sonnet,5,0,1.0,1.0,0.0,0.0,flat,0.8,,0.685
+opponent-strategy,DeepSeek,5,0,1.0,1.0,0.0,0.0,flat,0.8,,0.76
+opponent-strategy,GLM-5,5,0,1.0,1.0,0.0,0.1,improving,0.6,,0.7083
+opponent-strategy,GPT-5.4,5,0,1.0,1.0,0.0,0.0,flat,0.4,,0.405
+opponent-strategy,GPT-mini,5,0,0.0,1.0,1.0,0.1,improving,0.4,,0.4683
+opponent-strategy,GPT-nano,5,0,1.0,1.0,0.0,-0.1,deteriorating,0.6,,0.3817
+opponent-strategy,G-Flash,5,0,1.0,1.0,0.0,-0.1,deteriorating,0.6,,0.4567
+opponent-strategy,G-Lite,5,0,0.0,1.0,1.0,0.1,improving,0.4,,0.4683
+opponent-strategy,G-Pro,5,0,1.0,1.0,0.0,0.0,flat,1.0,,0.875
+opponent-strategy,Gemma,5,0,1.0,1.0,0.0,0.0,flat,0.8,,0.685
+opponent-strategy,Qwen-I,5,0,1.0,1.0,0.0,0.0,flat,1.0,,0.875
+opponent-strategy,Qwen-T,5,0,0.0,0.0,0.0,-0.1,deteriorating,0.2,,0.2517
+packet-filter,Claude Haiku,5,4,0.4857,0.0,-0.4857,-0.09714,deteriorating,0.1171,0.5,0.2369
+packet-filter,Claude Opus,5,4,0.6143,0.1,-0.5143,-0.10286,deteriorating,0.3886,0.5,0.3769
+packet-filter,Claude Sonnet,5,4,0.6143,0.1,-0.5143,-0.02857,flat,0.3114,0.5,0.4246
+packet-filter,DeepSeek,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.5,0.275
+packet-filter,GLM-5,5,4,1.0,0.0,-1.0,-0.22286,deteriorating,0.2457,0.75,0.258
+packet-filter,GPT-5.4,5,4,0.0,0.0,0.0,-0.02286,flat,0.0914,0.5,0.2788
+packet-filter,GPT-mini,5,4,1.0,1.0,0.0,0.0,flat,0.4,0.0,0.33
+packet-filter,GPT-nano,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+packet-filter,G-Flash,5,4,1.0,0.0,-1.0,-0.23571,deteriorating,0.42,0.75,0.2847
+packet-filter,G-Lite,5,4,0.7429,0.0,-0.7429,-0.11287,deteriorating,0.22,0.5,0.2922
+packet-filter,G-Pro,5,4,0.3571,0.0,-0.3571,-0.04571,deteriorating,0.42,1.0,0.6051
+packet-filter,Gemma,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+packet-filter,Qwen-I,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.25,0.2
+packet-filter,Qwen-T,5,4,0.6143,0.0,-0.6143,-0.13286,deteriorating,0.1629,0.25,0.1484
+sql-reverse-engineering,Claude Haiku,5,4,1.0,0.4,-0.6,-0.22,deteriorating,0.68,0.75,0.3967
+sql-reverse-engineering,Claude Opus,5,4,1.0,0.0,-1.0,-0.2,deteriorating,0.8,0.75,0.5083
+sql-reverse-engineering,Claude Sonnet,5,4,0.85,0.1,-0.75,-0.25,deteriorating,0.59,0.5,0.2472
+sql-reverse-engineering,DeepSeek,5,4,0.7,0.0,-0.7,-0.24,deteriorating,0.54,0.75,0.306
+sql-reverse-engineering,GLM-5,5,4,1.0,1.0,0.0,0.0,flat,1.0,0.75,0.8
+sql-reverse-engineering,GPT-5.4,5,4,0.4,0.0,-0.4,-0.18,deteriorating,0.48,0.5,0.257
+sql-reverse-engineering,GPT-mini,5,4,0.0,0.0,0.0,-0.075,deteriorating,0.25,0.5,0.3087
+sql-reverse-engineering,GPT-nano,5,4,0.0,0.0,0.0,-0.1,deteriorating,0.2,0.5,0.2517
+sql-reverse-engineering,G-Flash,5,4,0.55,0.4,-0.15,-0.09,deteriorating,0.67,1.0,0.602
+sql-reverse-engineering,G-Lite,5,4,1.0,0.0,-1.0,-0.2,deteriorating,0.8,0.5,0.4333
+sql-reverse-engineering,G-Pro,5,4,1.0,1.0,0.0,0.0,flat,1.0,0.75,0.8
+sql-reverse-engineering,Gemma,5,4,0.55,0.0,-0.55,-0.11,deteriorating,0.62,0.75,0.5293
+sql-reverse-engineering,Qwen-I,5,4,1.0,0.0,-1.0,-0.3,deteriorating,0.4,0.25,0.115
+sql-reverse-engineering,Qwen-T,5,4,1.0,0.0,-1.0,-0.3,deteriorating,0.6,0.5,0.23
+state-machine-password,Claude Haiku,5,4,0.0,0.0,0.0,0.075,improving,0.42,0.75,0.6065
+state-machine-password,Claude Opus,5,4,0.0,0.0,0.0,0.03,improving,0.48,0.75,0.59
+state-machine-password,Claude Sonnet,5,4,0.0,0.0,0.0,-0.1,deteriorating,0.2,1.0,0.4017
+state-machine-password,DeepSeek,5,4,0.0,0.0,0.0,0.0,flat,0.6,0.5,0.52
+state-machine-password,GLM-5,5,4,0.0,0.0,0.0,0.045,improving,0.51,0.75,0.6055
+state-machine-password,GPT-5.4,5,4,0.25,0.0,-0.25,-0.005,flat,0.53,0.75,0.5778
+state-machine-password,GPT-mini,5,4,0.0,0.0,0.0,0.0,flat,0.4,0.25,0.405
+state-machine-password,GPT-nano,5,4,0.0,0.0,0.0,0.085,improving,0.17,0.5,0.4691
+state-machine-password,G-Flash,5,4,0.7,0.0,-0.7,-0.095,deteriorating,0.62,0.75,0.5388
+state-machine-password,G-Lite,5,4,0.55,0.0,-0.55,-0.08,deteriorating,0.45,0.75,0.5143
+state-machine-password,G-Pro,5,4,0.0,0.0,0.0,0.0,flat,0.57,0.75,0.589
+state-machine-password,Gemma,5,4,0.0,0.0,0.0,0.06,improving,0.28,0.75,0.569
+state-machine-password,Qwen-I,5,4,0.0,0.4,0.4,0.18,improving,0.28,0.5,0.62
+state-machine-password,Qwen-T,5,4,0.25,0.4,0.15,0.075,improving,0.52,0.75,0.6765
+voting-protocol,Claude Haiku,5,4,0.325,0.775,0.45,0.1125,improving,0.5275,1.0,0.7814
+voting-protocol,Claude Opus,5,4,0.1,0.1,0.0,0.01,flat,0.08,1.0,0.4723
+voting-protocol,Claude Sonnet,5,4,0.1,0.1,0.0,0.0,flat,0.06,0.5,0.2995
+voting-protocol,DeepSeek,5,4,0.2125,0.4375,0.225,0.0775,improving,0.215,1.0,0.6124
+voting-protocol,GLM-5,5,4,0.775,0.775,0.0,0.0,flat,0.8875,1.0,0.8244
+voting-protocol,GPT-5.4,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+voting-protocol,GPT-mini,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+voting-protocol,GPT-nano,5,4,0.0,0.0,0.0,0.0,flat,0.0,0.0,
+voting-protocol,G-Flash,5,4,0.8875,1.0,0.1125,0.0225,flat,0.9775,1.0,0.8848
+voting-protocol,G-Lite,5,4,0.55,1.0,0.45,0.1125,improving,0.865,1.0,0.9193
+voting-protocol,G-Pro,5,4,0.775,1.0,0.225,0.0675,improving,0.91,1.0,0.8998
+voting-protocol,G-Flash-3,5,0,0.9,0.9,0.0,0.0,flat,0.86,,0.93
+voting-protocol,Gemma,5,4,0.1,0.2125,0.1125,0.0225,flat,0.19,0.5,0.3804
+voting-protocol,Qwen-I,5,4,0.2125,0.4375,0.225,0.05625,improving,0.3025,0.5,0.4805
+voting-protocol,Qwen-T,5,4,1.0,1.0,0.0,0.0225,flat,0.955,1.0,0.8803

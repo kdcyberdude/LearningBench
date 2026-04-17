@@ -1,0 +1,158 @@
+task_name,category,max_rank_change,mean_rank_change,models_affected,models_moved_2plus,spearman_with_baseline,top_mover,top_change
+xor_subset_hamming_rf_learning,rl,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Opus 4.6,1.0
+hot_cold_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+hanoi_two_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+hidden_damping_physics_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+inhibitory_summation_assoc_learning,associative,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+grid_parity_path_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+hidden_group_operation_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+custom_gravity_simulation_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+interval_contains_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+chemical_reaction_order_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+flow_network_capacity_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+letter_overlap_word_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+lfu_cache_eviction_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+linear_feedback_shift_register_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+arithmetic_entropy_coding_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+affine_transform_chain_obs_learning,observational,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Opus 4.6,1.0
+agglutinative_morphology_obs_learning,observational,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Opus 4.6,1.0
+trevkovan_gradation_lang_learning,language,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+trenval_bleeding_lang_learning,language,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+threlkav_scope_ergativity_lang_learning,language,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+strevoklan_neg_lang_learning,language,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+strelkov_ergative_lang_learning,language,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+skovar_deletion_lang_learning,language,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+sklonveth_root_pattern_lang_learning,language,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+hanoi_three_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+phonological_alternation_harmony_obs_learning,observational,1.0,0.42857142857142855,6,0,0.9868131868131869,Claude Opus 4.6,1.0
+gwelthar_mirative_evidential_tone_lang_learning,language,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Sonnet 4.6,1.0
+hidden_modal_logic_kripke2_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+collatz_length_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+base7_decode_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Sonnet 4.6,1.0
+battleship_1d_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+battleship_two_ships_rf_learning,rl,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Opus 4.6,1.0
+affine_cipher_word_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+divisor_count_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+voronoi_custom_metric_obs_learning,observational,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Opus 4.6,1.0
+two_counter_machine_obs_learning,observational,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+finite_state_transducer_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+hidden_priority_order_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+regex_intersection_membership_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+hidden_region_classifier_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+syntax_tree_rewrite_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+hidden_modal_logic_kripke_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+symbolic_glyphpair_scoring_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+hidden_state_machine_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+grid_octile_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+register_machine_trace_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+grid_nav_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+mealy_machine_output_obs_learning,observational,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+pushdown_automaton_inference_obs_learning,observational,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+sigil_naming_obs_learning,observational,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+skolvren_polysynthetic_lang_learning,language,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+vrendel_templatic_lang_learning,language,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+skelth_allomorph_lang_learning,language,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+modular_subsequence_concept_learning,concept,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+sudoku_2x2_rf_learning,rl,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Opus 4.6,1.0
+positional_encode_concept_learning,concept,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+hapax_prime_concept_learning,concept,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Opus 4.6,1.0
+encoded_triple_concept_learning,concept,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+dual_recurrence_concept_learning,concept,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+sum_product_xy_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+disjunctive_noise_concept_learning,concept,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+glyph_bind_assoc_learning,associative,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+gated_dual_signal_binding_assoc_learning,associative,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+cumulative_state_rewrite_assoc_learning,associative,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+odd_letter_score_pair_assoc_learning,associative,1.0,0.14285714285714285,2,0,0.9956043956043955,GPT-5.4 mini,1.0
+inference_dyad_operators_assoc_learning,associative,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+overexpectation_assoc_learning,associative,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+occasion_setting_assoc_learning,associative,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+retrospective_revaluation_assoc_learning,associative,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+deep_second_order_extinction_assoc_learning,associative,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+temporal_pairing_tnr_assoc_learning,associative,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Opus 4.6,1.0
+blocking_effect_assoc_learning,associative,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+latent_inhibition_assoc_learning,associative,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+contextual_flip_assoc_learning,associative,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Opus 4.6,1.0
+learned_irrelevance_assoc_learning,associative,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+latent_set_variant_assoc_learning,associative,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+latent_set_binding_assoc_learning,associative,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+consonant_clusters_concept_learning,concept,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+nested_logic_concept_learning,concept,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+semantic_override_concept_learning,concept,1.0,0.42857142857142855,6,0,0.9868131868131869,Claude Haiku 4.5,1.0
+product_hotcold_rf_learning,rl,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Opus 4.6,1.0
+prentova_allomorphy_wugtest_lang_learning,language,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Opus 4.6,1.0
+mastermind_aggregate_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Sonnet 4.6,1.0
+mixed_radix_number_lang_learning,language,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+positional_mapping_concept_learning,concept,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Opus 4.6,1.0
+perm_footrule_rf_learning,rl,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+recurrence_second_order_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+drelkovak_harmony_lang_learning,language,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Opus 4.6,1.0
+crt_unique_rf_learning,rl,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+violation_counter_concept_learning,concept,1.0,0.42857142857142855,6,0,0.9868131868131869,Claude Haiku 4.5,1.0
+relational_pairs_concept_learning,concept,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+state_machine_concept_learning,concept,1.0,0.2857142857142857,4,0,0.9912087912087912,Claude Haiku 4.5,1.0
+shift_cipher_rf_learning,rl,1.0,0.14285714285714285,2,0,0.9956043956043955,Claude Haiku 4.5,1.0
+euler_totient_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+wordle_micro_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+cubic_eval_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+mastermind_classic_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+digitwise_l1_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+linear_equation_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+digit_square_error_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+verbal_bandit_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+hangman_lite_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+linear_polynomial_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+lights_out_2x2_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+quadratic_root_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+minesweeper_1d_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+fib_like_next_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+nim_heap_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+parity_groups_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+manhattan_point_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+grid_seven_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+graph_shortest_path_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+gray_hamming_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+levenshtein_words_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+rule90_step_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+perm_fixed_points_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+spurious_hue_true_edge_assoc_learning,associative,0.0,0.0,0,0,1.0,,0.0
+cyclic_distance_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+bitstring_hamming_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+norkvash_scalar_lang_learning,language,0.0,0.0,0,0,1.0,,0.0
+pelvan_agreement_lang_learning,language,0.0,0.0,0,0,1.0,,0.0
+kelstran_tone_lang_learning,language,0.0,0.0,0,0,1.0,,0.0
+grelkan_suppletion_lang_learning,language,0.0,0.0,0,0,1.0,,0.0
+kophar_quantity_lang_learning,language,0.0,0.0,0,0,1.0,,0.0
+drelvak_reduplication_lang_learning,language,0.0,0.0,0,0,1.0,,0.0
+dralven_tone_sandhi_lang_learning,language,0.0,0.0,0,0,1.0,,0.0
+drafnelt_switch_reference_lang_learning,language,0.0,0.0,0,0,1.0,,0.0
+dimval_metathesis_lang_learning,language,0.0,0.0,0,0,1.0,,0.0
+grid_transform_concept_learning,concept,0.0,0.0,0,0,1.0,,0.0
+interleave_reverse_concept_learning,concept,0.0,0.0,0,0,1.0,,0.0
+vowel_rotation_concept_learning,concept,0.0,0.0,0,0,1.0,,0.0
+triple_parity_concept_learning,concept,0.0,0.0,0,0,1.0,,0.0
+layered_transform_concept_learning,concept,0.0,0.0,0,0,1.0,,0.0
+digit_cipher_concept_learning,concept,0.0,0.0,0,0,1.0,,0.0
+xor_attribute_binding_assoc_learning,associative,0.0,0.0,0,0,1.0,,0.0
+latent_cross_binding_assoc_learning,associative,0.0,0.0,0,0,1.0,,0.0
+telvari_evidentiality_lang_learning,language,0.0,0.0,0,0,1.0,,0.0
+wukal_tones_lang_learning,language,0.0,0.0,0,0,1.0,,0.0
+vrelthan_rule_interaction_lang_learning,language,0.0,0.0,0,0,1.0,,0.0
+hidden_attribute_rule_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+coin_balance_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+chebyshev_point_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+arithmetic_next_rf_learning,rl,0.0,0.0,0,0,1.0,,0.0
+titration_curve_diprotic_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+vigenere_variant_cipher_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+ring_operations_hidden_carry_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+shapley_values_cooperative_game_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+pipeline_hazard_stall_counting_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+deceptive_stack_machine_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+hidden_token_filter_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+lattice_meet_join_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+singleton_gate_local_max_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+hidden_graph_centrality_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+feistel_cipher_round_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+codon_table_translation_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+auction_mechanism_second_price_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0
+hidden_matrix_fill_obs_learning,observational,0.0,0.0,0,0,1.0,,0.0

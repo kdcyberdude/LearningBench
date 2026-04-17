@@ -1,0 +1,15 @@
+model,tier,unknown_task_score,normal_task_score,overall_assoc_score,deficit_on_unknown
+Gemini 3.1 Pro Preview,frontier,0.7778,0.9629,0.9351,0.1851
+GLM-5,frontier,0.7778,0.7949,0.7917,0.0171
+Claude Opus 4.6,frontier,0.8889,0.6215,0.6616,-0.2674
+Claude Sonnet 4.6,mid,0.8889,0.6088,0.6508,-0.2801
+GPT-5.4,frontier,0.7222,0.6375,0.6502,-0.0848
+Qwen 3 Next 80B Thinking,mid,0.6333,0.6266,0.6276,-0.0067
+Gemini 2.5 Flash,mid,0.6222,0.5901,0.5949,-0.0321
+Gemini 3.1 Flash-Lite Preview,mid,0.675,0.5416,0.5616,-0.1334
+DeepSeek V3.2,mid,0.7056,0.491,0.5232,-0.2145
+Claude Haiku 4.5,small,0.6972,0.4678,0.5022,-0.2294
+Gemma 4 26B A4B,small,0.7139,0.4615,0.5014,-0.2524
+GPT-5.4 mini,mid,0.5722,0.4723,0.4873,-0.1
+Qwen 3 Next 80B Instruct,small,0.5472,0.4491,0.4638,-0.0981
+GPT-5.4 nano,small,0.5139,0.4232,0.4368,-0.0907

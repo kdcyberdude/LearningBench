@@ -1,0 +1,6 @@
+{
+  "versionNumber": 1,
+  "name": "bitstring_hamming_rf_learning",
+  "description": "Hidden string over a binary glyph alphabet; feedback is DIVERGENCE count (Hamming under the hood). Multi-turn RL: model only sees environment/user text each turn; return float in [0,1] (higher = fewer steps to succeed), cap 30 steps.",
+  "definition": "@kbench.task(\n    name=\"bitstring_hamming_rf_learning\",\n    description=\"Hidden string over a binary glyph alphabet; feedback is DIVERGENCE count (Hamming under the hood). Multi-turn RL: model only sees environment/user text each turn; return float in [0,1] (higher = fewer steps to succeed), cap 30 steps.\",\n)\ndef bitstring_hamming_rf_learning(llm) -> float:\n    \"\"\"14-bit binary tape with Hamming-style DIVERGENCE feedback; composite score in [0,1].\"\"\"\n\n    def turn(user_message: str) -> str:\n        try:\n            return llm.prompt(user_message)\n        except Exception:\n            return \"\"\n\n    result = run(turn, seed=0, max_steps=BUDGET_N)\n    score = _composite_score(result.solved, result.num_steps, BUDGET_N, MIN_EXPLORE, result.progress)\n    _log_trace(\n        \"bitstring_hamming_rf_learning\",\n        _TASK_DESCRIPTION,\n        result.conversation,\n        result.solved,\n        result.num_steps,\n        BUDGET_N,\n        score,\n    )\n    return score\n"
+}

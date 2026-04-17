@@ -1,0 +1,2 @@
+n_runs,min_mean_requests,max_mean_requests,min_model,max_model,spearman_rho,spearman_p
+622,3.8,13.86,Qwen 3 Next 80B Thinking,Claude Haiku 4.5,-0.3677,0.0

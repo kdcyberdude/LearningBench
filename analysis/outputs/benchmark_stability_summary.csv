@@ -1,0 +1,10 @@
+scope,metric,value
+global_loo,max_rank_change_any_task,1.0
+global_loo,median_max_rank_change,1.0
+global_loo,mean_spearman_with_baseline,0.9965
+global_loo,min_spearman_with_baseline,0.9868
+global_loo,pct_tasks_zero_change,40.7643
+global_loo,pct_tasks_change_le_1,100.0
+category_loo,max_rank_change_any_task,4.0
+category_loo,median_max_rank_change,1.0
+category_loo,mean_spearman_with_baseline,0.9897

@@ -1,0 +1,68 @@
+{
+  "taskVersion": {
+    "versionNumber": 1,
+    "name": "feistel_cipher_round_obs_learning",
+    "description": "Observe 14 plaintext\u2192ciphertext pairs encrypted by a 2-round Feistel cipher with hidden round function F(x)=(ax+b) mod P. Infer the structure and coefficients; submit decrypted plaintexts (L, R) for 4 new ciphertexts.",
+    "definition": "@kbench.task(\n    name=\"feistel_cipher_round_obs_learning\",\n    description=(\n        \"Observe 14 plaintext\u2192ciphertext pairs encrypted by a 2-round Feistel cipher with hidden \"\n        \"round function F(x)=(ax+b) mod P. Infer the structure and coefficients; \"\n        \"submit decrypted plaintexts (L, R) for 4 new ciphertexts.\"\n    ),\n)\ndef feistel_cipher_round_obs_learning(llm) -> float:\n    \"\"\"Infer a 2-round Feistel cipher's hidden F(x)=(ax+b) mod P from 14 pairs; decrypt 4 ciphertexts.\"\"\"\n    prompt, grade_fn = _prepare()\n    try:\n        response = llm.prompt(prompt, schema=_Answer)\n    except Exception:\n        response = None\n    score, test_results = (\n        grade_fn(response)\n        if response is not None\n        else (\n            0.0,\n            [\n                {\n                    \"q\": i,\n                    \"expected\": _TEST_CASES[i - 1][1],\n                    \"got\": None,\n                    \"correct\": False,\n                }\n                for i in range(1, 5)\n            ],\n        )\n    )\n    reasoning = (\n        getattr(response, \"reasoning\", \"\") or getattr(response, \"thinking\", \"\") or \"\"\n    )\n    _log_trace(\n        task=\"feistel_cipher_round_obs_learning\",\n        description=_TASK_DESCRIPTION,\n        prompt=prompt,\n        test_results=test_results,\n        score=score,\n        reasoning=str(reasoning),\n    )\n    return score\n"
+  },
+  "modelVersion": {
+    "slug": "deepseek-ai/deepseek-v3.2"
+  },
+  "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+  "startTime": "2026-04-12T11:32:04.208458Z",
+  "endTime": "2026-04-12T11:34:51.824352Z",
+  "conversations": [
+    {
+      "id": "feistel_cipher_round_obs_learning-dc7804e8",
+      "requests": [
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "You are observing a FEISTEL CIPHER encrypting pairs of integers.\nEach plaintext and ciphertext is a pair of integers in [0, 28].\nThe cipher structure and round function are NOT described \u2014 deduce them from the examples.\n\nObservations (plaintext L,R \u2192 ciphertext C0,C1):\n  1. (27, 12) \u2192 (19, 16)\n  2. (24, 28) \u2192 (28, 24)\n  3. (13, 1) \u2192 (2, 24)\n  4. (8, 16) \u2192 (15, 16)\n  5. (15, 12) \u2192 (7, 14)\n  6. (25, 26) \u2192 (10, 13)\n  7. (9, 15) \u2192 (9, 2)\n  8. (11, 18) \u2192 (1, 0)\n  9. (28, 6) \u2192 (4, 12)\n  10. (16, 4) \u2192 (26, 23)\n  11. (9, 4) \u2192 (3, 7)\n  12. (24, 3) \u2192 (27, 25)\n  13. (19, 25) \u2192 (2, 0)\n  14. (8, 17) \u2192 (6, 9)\n\nDecrypt each of the following ciphertexts to recover the original (L, R):\n  Q1: ciphertext = (4, 6)\n  Q2: ciphertext = (26, 0)\n  Q3: ciphertext = (7, 5)\n  Q4: ciphertext = (13, 11)\n\nSubmit your answers as left_1/right_1, left_2/right_2, left_3/right_3, left_4/right_4."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"left_1\\\": 12, \\\"right_1\\\": 12, \\\"left_2\\\": 19, \\\"right_2\\\": 19, \\\"left_3\\\": 5, \\\"right_3\\\": 7, \\\"left_4\\\": 2, \\\"right_4\\\": 1}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "deepseek-ai/deepseek-v3.2"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 615,
+            "outputTokens": 5431,
+            "inputTokensCostNanodollars": "344400",
+            "outputTokensCostNanodollars": "9124080",
+            "totalBackendLatencyMs": "166750"
+          },
+          "id": "feistel_cipher_round_obs_learning-dc7804e8-req-1"
+        }
+      ],
+      "metrics": {
+        "inputTokens": 615,
+        "outputTokens": 5431,
+        "inputTokensCostNanodollars": "344400",
+        "outputTokensCostNanodollars": "9124080",
+        "totalBackendLatencyMs": "166750"
+      },
+      "modelVersionSlug": "model_version_slug for conversation is DEPRECATED"
+    }
+  ],
+  "results": [
+    {
+      "type": "AGGREGATED",
+      "numericResult": {
+        "value": 0.5
+      }
+    }
+  ],
+  "pyRunId": "feistel_cipher_round_obs_learning-Run #1"
+}

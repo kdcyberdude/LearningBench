@@ -1,0 +1,53 @@
+[{"stream_name":"stdout","time":16.842723494,"data":"\n"}
+,{"stream_name":"stdout","time":16.842792109,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":16.842799479,"data":"  affine_transform_chain_obs_learning\n"}
+,{"stream_name":"stdout","time":16.842804315,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":16.842809056,"data":"\n"}
+,{"stream_name":"stdout","time":16.842813845,"data":"  TASK: The model observes (input, output) point pairs produced by a hidden chain of 3 affine transforms (rotation at multiples of 30°, uniform scale 1.5 or 2.0, integer translation). Early demos use the origin and axis-aligned points where rotation is hard to disentangle from scale. Success requires inferring all three transform parameters and predicting the output for novel off-axis test points.\n"}
+,{"stream_name":"stdout","time":16.842821502,"data":"\n"}
+,{"stream_name":"stdout","time":16.842825753,"data":"  PROMPT:\n"}
+,{"stream_name":"stdout","time":16.842830355,"data":"You are observing a sequence of (input, output) pairs where a hidden 2D transform\n"}
+,{"stream_name":"stdout","time":16.842835137,"data":"chain maps each input point to an output point.\n"}
+,{"stream_name":"stdout","time":16.84283956,"data":"\n"}
+,{"stream_name":"stdout","time":16.842843533,"data":"Observations (input → output):\n"}
+,{"stream_name":"stdout","time":16.842847835,"data":"   1. (   0,    0) → (  30,  -10)\n"}
+,{"stream_name":"stdout","time":16.842851853,"data":"   2. (   1,    0) → (  30,  -16)\n"}
+,{"stream_name":"stdout","time":16.842854726,"data":"   3. (   0,    1) → (  36,  -10)\n"}
+,{"stream_name":"stdout","time":16.842859133,"data":"   4. (  -1,    0) → (  30,   -2)\n"}
+,{"stream_name":"stdout","time":16.842863522000002,"data":"   5. (   0,   -1) → (  24,   -8)\n"}
+,{"stream_name":"stdout","time":16.842895597000002,"data":"   6. (   2,    1) → (  38,  -20)\n"}
+,{"stream_name":"stdout","time":16.842900646,"data":"   7. (  -2,    3) → (  46,    2)\n"}
+,{"stream_name":"stdout","time":16.842905116,"data":"   8. (   3,   -2) → (  20,  -28)\n"}
+,{"stream_name":"stdout","time":16.842909785,"data":"   9. (  -3,   -1) → (  22,    8)\n"}
+,{"stream_name":"stdout","time":16.842914167,"data":"  10. (   4,    2) → (  40,  -32)\n"}
+,{"stream_name":"stdout","time":16.842918537,"data":"  11. (  -4,    3) → (  48,   16)\n"}
+,{"stream_name":"stdout","time":16.842922963,"data":"  12. (   5,   -1) → (  22,  -40)\n"}
+,{"stream_name":"stdout","time":16.842927455999998,"data":"  13. (  -5,    4) → (  54,   22)\n"}
+,{"stream_name":"stdout","time":16.842931818,"data":"  14. (   2,   -4) → (   6,  -20)\n"}
+,{"stream_name":"stdout","time":16.84293615,"data":"\n"}
+,{"stream_name":"stdout","time":16.842940329,"data":"Now solve these 4 test questions:\n"}
+,{"stream_name":"stdout","time":16.842944832,"data":"  Q1: Input (7, -3) → ?\n"}
+,{"stream_name":"stdout","time":16.842949319,"data":"  Q2: Input (-5, 6) → ?\n"}
+,{"stream_name":"stdout","time":16.842953715,"data":"  Q3: Input (4, 9) → ?\n"}
+,{"stream_name":"stdout","time":16.84295813,"data":"  Q4: Input (-8, -4) → ?\n"}
+,{"stream_name":"stdout","time":16.842962711,"data":"\n"}
+,{"stream_name":"stdout","time":16.842966206,"data":"Submit answer_1 through answer_4 as 'x,y' strings (e.g. '12,-7').\n"}
+,{"stream_name":"stdout","time":16.842971213,"data":"\n"}
+,{"stream_name":"stdout","time":16.842975616,"data":"  TEST RESULTS:\n"}
+,{"stream_name":"stdout","time":16.84298,"data":"    [FAIL] Q1: expected=(12, -52)  got=(-12, -52)\n"}
+,{"stream_name":"stdout","time":16.84299189,"data":"    [FAIL] Q2: expected=(66, 22)  got=(66, 34)\n"}
+,{"stream_name":"stdout","time":16.842996713,"data":"    [FAIL] Q3: expected=(84, -34)  got=(84, -22)\n"}
+,{"stream_name":"stdout","time":16.843000986,"data":"    [FAIL] Q4: expected=(6, 40)  got=(16, 46)\n"}
+,{"stream_name":"stdout","time":16.843005778,"data":"\n"}
+,{"stream_name":"stdout","time":16.843010205,"data":"  SCORE: 0.0000\n"}
+,{"stream_name":"stdout","time":16.843014708,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":16.843019482,"data":"\n"}
+,{"stream_name":"stderr","time":21.279534497,"data":"/benchmarks/.venv/lib/python3.11/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":21.279597615,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":21.301979097,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":21.738721664,"data":"[NbConvertApp] Writing 71880 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":24.803820104,"data":"/benchmarks/.venv/lib/python3.11/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":24.803894576,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":24.828029329,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":26.077119014,"data":"[NbConvertApp] Writing 341634 bytes to __results__.html\n"}
+]

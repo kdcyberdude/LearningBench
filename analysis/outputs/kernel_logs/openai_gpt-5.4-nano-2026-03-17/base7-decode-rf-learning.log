@@ -1,0 +1,325 @@
+[{"stream_name":"stdout","time":46.127414126,"data":"\n"}
+,{"stream_name":"stdout","time":46.127538148,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":46.12755408,"data":"  base7_decode_rf_learning\n"}
+,{"stream_name":"stdout","time":46.127559963,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":46.127564105,"data":"\n"}
+,{"stream_name":"stdout","time":46.127582201,"data":"  TASK: Alternating-position glyph substitution over base-3 digit strings with unknown endianness; witness glyph↔digit pairs fix a unique hidden isomorphism; MAP probes return mismatch mass; commit with DIGITS. RL subskill: hypothesis formation + planning under constraint.\n"}
+,{"stream_name":"stdout","time":46.127589488,"data":"\n"}
+,{"stream_name":"stdout","time":46.127593686,"data":"[USER — Turn 1]\n"}
+,{"stream_name":"stdout","time":46.127598359,"data":"A fixed secret turns each nonnegative integer into a **glyph string** over ['⬡', '⬢', '⬣'].\n"}
+,{"stream_name":"stdout","time":46.127603494,"data":"\n"}
+,{"stream_name":"stdout","time":46.127607838,"data":"Structure (constant for this episode, all unknown):\n"}
+,{"stream_name":"stdout","time":46.127612254,"data":"- Base-three expansion with **no leading-zero digit** except the integer 0.\n"}
+,{"stream_name":"stdout","time":46.127616946,"data":"- The digit list is read either **most-significant-first** or **reversed** along the string.\n"}
+,{"stream_name":"stdout","time":46.127621471,"data":"- Glyph at index 0 of that list uses one digit→glyph bijection; index 1 uses another **independent** bijection on the same three glyphs; indices alternate.\n"}
+,{"stream_name":"stdout","time":46.127626161,"data":"\n"}
+,{"stream_name":"stdout","time":46.127630198,"data":"**Witness rows** (each row: glyph string, then the matching digit list in MSB-first standard form using characters 0, 1, 2 only):\n"}
+,{"stream_name":"stdout","time":46.12763487,"data":"- `⬣⬢⬢⬣⬢⬢`  →  `100100`\n"}
+,{"stream_name":"stdout","time":46.12763981,"data":"- `⬡⬣⬡⬣⬣`  →  `21211`\n"}
+,{"stream_name":"stdout","time":46.127644637,"data":"- `⬣⬡⬡⬡⬢`  →  `12220`\n"}
+,{"stream_name":"stdout","time":46.127649231,"data":"- `⬣⬢⬢⬢⬣⬡`  →  `100012`\n"}
+,{"stream_name":"stdout","time":46.127653799,"data":"- `⬡⬢⬡⬡⬣`  →  `20221`\n"}
+,{"stream_name":"stdout","time":46.12765839,"data":"\n"}
+,{"stream_name":"stdout","time":46.127662551,"data":"**Test glyph string:** `⬣⬣⬢⬡⬣`\n"}
+,{"stream_name":"stdout","time":46.127667186,"data":"\n"}
+,{"stream_name":"stdout","time":46.127671348,"data":"Reply each turn with **one** line:\n"}
+,{"stream_name":"stdout","time":46.127676116,"data":"- Probe: `MAP EVEN abc ODD def ENDIAN MSB` or `... ENDIAN LSB` where `abc` and `def` are each a permutation of 012 meaning, in glyph order ['⬡', '⬢', '⬣'], the digit carried by ⬡, ⬢, ⬣ at even and odd indices respectively.\n"}
+,{"stream_name":"stdout","time":46.127682035,"data":"- Final answer: `DIGITS zzz...` — MSB-first 0/1/2 digit list for the test string under the episode rules.\n"}
+,{"stream_name":"stdout","time":46.127687209,"data":"\n"}
+,{"stream_name":"stdout","time":46.127691662,"data":"After a `MAP` line you receive the **total digit mismatches** summed across all witness rows (exact Hamming; length mismatch counts per position). 0 means the probe matches every witness.\n"}
+,{"stream_name":"stdout","time":46.127695205,"data":"\n"}
+,{"stream_name":"stdout","time":46.127697986,"data":"[ASSISTANT — Turn 1]\n"}
+,{"stream_name":"stdout","time":46.127700924,"data":"MAP EVEN 021 ODD 120 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.127712037,"data":"\n"}
+,{"stream_name":"stdout","time":46.127716723,"data":"[USER — Turn 2]\n"}
+,{"stream_name":"stdout","time":46.127721287,"data":"MAP score: **24** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.12772561,"data":"\n"}
+,{"stream_name":"stdout","time":46.127729984,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.12773429,"data":"\n"}
+,{"stream_name":"stdout","time":46.127738565,"data":"[ASSISTANT — Turn 2]\n"}
+,{"stream_name":"stdout","time":46.127747057,"data":"MAP EVEN 120 ODD 021 ENDIAN MSB\n"}
+,{"stream_name":"stdout","time":46.127751496,"data":"\n"}
+,{"stream_name":"stdout","time":46.12775577,"data":"[USER — Turn 3]\n"}
+,{"stream_name":"stdout","time":46.12776635,"data":"MAP score: **24** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.127770849,"data":"\n"}
+,{"stream_name":"stdout","time":46.127775165,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.12777959,"data":"\n"}
+,{"stream_name":"stdout","time":46.127783914,"data":"[ASSISTANT — Turn 3]\n"}
+,{"stream_name":"stdout","time":46.12778841,"data":"MAP EVEN 210 ODD 021 ENDIAN MSB\n"}
+,{"stream_name":"stdout","time":46.127792912,"data":"\n"}
+,{"stream_name":"stdout","time":46.127863243,"data":"[USER — Turn 4]\n"}
+,{"stream_name":"stdout","time":46.127875773,"data":"MAP score: **19** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.127881132,"data":"\n"}
+,{"stream_name":"stdout","time":46.127885553,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.12789004,"data":"\n"}
+,{"stream_name":"stdout","time":46.127894418,"data":"[ASSISTANT — Turn 4]\n"}
+,{"stream_name":"stdout","time":46.127898994,"data":"MAP EVEN 012 ODD 201 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.127903515,"data":"\n"}
+,{"stream_name":"stdout","time":46.127908009,"data":"[USER — Turn 5]\n"}
+,{"stream_name":"stdout","time":46.127912538,"data":"MAP score: **16** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.127917174,"data":"\n"}
+,{"stream_name":"stdout","time":46.127921428,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.127925868,"data":"\n"}
+,{"stream_name":"stdout","time":46.127930135,"data":"[ASSISTANT — Turn 5]\n"}
+,{"stream_name":"stdout","time":46.127934471,"data":"MAP EVEN 021 ODD 201 ENDIAN MSB\n"}
+,{"stream_name":"stdout","time":46.127947055,"data":"\n"}
+,{"stream_name":"stdout","time":46.127957544,"data":"[USER — Turn 6]\n"}
+,{"stream_name":"stdout","time":46.127962308,"data":"MAP score: **9** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.127966823,"data":"\n"}
+,{"stream_name":"stdout","time":46.127971213,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.127975485,"data":"\n"}
+,{"stream_name":"stdout","time":46.12798002,"data":"[ASSISTANT — Turn 6]\n"}
+,{"stream_name":"stdout","time":46.127984545,"data":"MAP EVEN 201 ODD 012 ENDIAN MSB\n"}
+,{"stream_name":"stdout","time":46.127989085,"data":"\n"}
+,{"stream_name":"stdout","time":46.127993452,"data":"[USER — Turn 7]\n"}
+,{"stream_name":"stdout","time":46.127998056,"data":"MAP score: **12** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128002613,"data":"\n"}
+,{"stream_name":"stdout","time":46.128006957,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128011595,"data":"\n"}
+,{"stream_name":"stdout","time":46.128027627,"data":"[ASSISTANT — Turn 7]\n"}
+,{"stream_name":"stdout","time":46.12803215,"data":"MAP EVEN 102 ODD 201 ENDIAN MSB\n"}
+,{"stream_name":"stdout","time":46.128036184,"data":"\n"}
+,{"stream_name":"stdout","time":46.128040517,"data":"[USER — Turn 8]\n"}
+,{"stream_name":"stdout","time":46.12804485,"data":"MAP score: **11** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128049121,"data":"\n"}
+,{"stream_name":"stdout","time":46.128053117,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128057327,"data":"\n"}
+,{"stream_name":"stdout","time":46.128061568,"data":"[ASSISTANT — Turn 8]\n"}
+,{"stream_name":"stdout","time":46.12806608,"data":"MAP EVEN 102 ODD 210 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128070401,"data":"\n"}
+,{"stream_name":"stdout","time":46.128074429,"data":"[USER — Turn 9]\n"}
+,{"stream_name":"stdout","time":46.1280788,"data":"MAP score: **15** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128083358,"data":"\n"}
+,{"stream_name":"stdout","time":46.128087555,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128092017,"data":"\n"}
+,{"stream_name":"stdout","time":46.12809623,"data":"[ASSISTANT — Turn 9]\n"}
+,{"stream_name":"stdout","time":46.12810063,"data":"MAP EVEN 201 ODD 102 ENDIAN MSB\n"}
+,{"stream_name":"stdout","time":46.128105034,"data":"\n"}
+,{"stream_name":"stdout","time":46.128109265,"data":"[USER — Turn 10]\n"}
+,{"stream_name":"stdout","time":46.128113678,"data":"MAP score: **7** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128118135,"data":"\n"}
+,{"stream_name":"stdout","time":46.128128233,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128132753,"data":"\n"}
+,{"stream_name":"stdout","time":46.128137131,"data":"[ASSISTANT — Turn 10]\n"}
+,{"stream_name":"stdout","time":46.128141495,"data":"MAP EVEN 012 ODD 102 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128146048,"data":"\n"}
+,{"stream_name":"stdout","time":46.128150428,"data":"[USER — Turn 11]\n"}
+,{"stream_name":"stdout","time":46.128154875,"data":"MAP score: **19** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128159464,"data":"\n"}
+,{"stream_name":"stdout","time":46.128163638,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128168042,"data":"\n"}
+,{"stream_name":"stdout","time":46.12817206,"data":"[ASSISTANT — Turn 11]\n"}
+,{"stream_name":"stdout","time":46.128176545,"data":"MAP EVEN 201 ODD 012 ENDIAN MSB\n"}
+,{"stream_name":"stdout","time":46.128217405,"data":"\n"}
+,{"stream_name":"stdout","time":46.128221673,"data":"[USER — Turn 12]\n"}
+,{"stream_name":"stdout","time":46.128226415,"data":"MAP score: **12** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128254087,"data":"\n"}
+,{"stream_name":"stdout","time":46.128258757,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128263041,"data":"\n"}
+,{"stream_name":"stdout","time":46.12826742,"data":"[ASSISTANT — Turn 12]\n"}
+,{"stream_name":"stdout","time":46.128272054,"data":"MAP EVEN 120 ODD 102 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128276625,"data":"\n"}
+,{"stream_name":"stdout","time":46.128281,"data":"[USER — Turn 13]\n"}
+,{"stream_name":"stdout","time":46.128285412,"data":"MAP score: **19** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128289888,"data":"\n"}
+,{"stream_name":"stdout","time":46.128306168,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128310778,"data":"\n"}
+,{"stream_name":"stdout","time":46.128315042,"data":"[ASSISTANT — Turn 13]\n"}
+,{"stream_name":"stdout","time":46.128319415,"data":"DIGITS 11220\n"}
+,{"stream_name":"stdout","time":46.128323988,"data":"\n"}
+,{"stream_name":"stdout","time":46.128328673,"data":"[USER — Turn 14]\n"}
+,{"stream_name":"stdout","time":46.12833265,"data":"DIGITS string incorrect for the test row under the hidden rules.\n"}
+,{"stream_name":"stdout","time":46.128337243,"data":"\n"}
+,{"stream_name":"stdout","time":46.128341527,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.12834568,"data":"\n"}
+,{"stream_name":"stdout","time":46.128349787,"data":"[ASSISTANT — Turn 14]\n"}
+,{"stream_name":"stdout","time":46.128353985,"data":"MAP EVEN 210 ODD 120 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128358397,"data":"\n"}
+,{"stream_name":"stdout","time":46.128362594,"data":"[USER — Turn 15]\n"}
+,{"stream_name":"stdout","time":46.128367568,"data":"MAP score: **16** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128372232,"data":"\n"}
+,{"stream_name":"stdout","time":46.128376444,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.12838077,"data":"\n"}
+,{"stream_name":"stdout","time":46.128385003,"data":"[ASSISTANT — Turn 15]\n"}
+,{"stream_name":"stdout","time":46.12838931,"data":"MAP EVEN 210 ODD 120 ENDIAN MSB\n"}
+,{"stream_name":"stdout","time":46.128393641,"data":"\n"}
+,{"stream_name":"stdout","time":46.128397898,"data":"[USER — Turn 16]\n"}
+,{"stream_name":"stdout","time":46.128404104,"data":"MAP score: **22** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128408701,"data":"\n"}
+,{"stream_name":"stdout","time":46.128412792,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128417078,"data":"\n"}
+,{"stream_name":"stdout","time":46.128421368,"data":"[ASSISTANT — Turn 16]\n"}
+,{"stream_name":"stdout","time":46.128425802,"data":"MAP EVEN 201 ODD 210 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128429713,"data":"\n"}
+,{"stream_name":"stdout","time":46.128496365,"data":"[USER — Turn 17]\n"}
+,{"stream_name":"stdout","time":46.128508848,"data":"MAP score: **17** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128514247,"data":"\n"}
+,{"stream_name":"stdout","time":46.12851868,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128523048,"data":"\n"}
+,{"stream_name":"stdout","time":46.12852724,"data":"[ASSISTANT — Turn 17]\n"}
+,{"stream_name":"stdout","time":46.128532078,"data":"MAP EVEN 102 ODD 210 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128536528,"data":"\n"}
+,{"stream_name":"stdout","time":46.128540962,"data":"[USER — Turn 18]\n"}
+,{"stream_name":"stdout","time":46.12855276,"data":"MAP score: **15** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128557465,"data":"\n"}
+,{"stream_name":"stdout","time":46.128561795,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.12856627,"data":"\n"}
+,{"stream_name":"stdout","time":46.128570658,"data":"[ASSISTANT — Turn 18]\n"}
+,{"stream_name":"stdout","time":46.128575238,"data":"MAP EVEN 012 ODD 210 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128585083,"data":"\n"}
+,{"stream_name":"stdout","time":46.128589552,"data":"[USER — Turn 19]\n"}
+,{"stream_name":"stdout","time":46.128604581,"data":"MAP score: **17** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128609661,"data":"\n"}
+,{"stream_name":"stdout","time":46.12861396,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128618408,"data":"\n"}
+,{"stream_name":"stdout","time":46.128622544,"data":"[ASSISTANT — Turn 19]\n"}
+,{"stream_name":"stdout","time":46.128627368,"data":"MAP EVEN 120 ODD 102 ENDIAN MSB\n"}
+,{"stream_name":"stdout","time":46.128631792,"data":"\n"}
+,{"stream_name":"stdout","time":46.128636258,"data":"[USER — Turn 20]\n"}
+,{"stream_name":"stdout","time":46.128641041,"data":"MAP score: **22** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128645692,"data":"\n"}
+,{"stream_name":"stdout","time":46.128650108,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128654638,"data":"\n"}
+,{"stream_name":"stdout","time":46.128658935,"data":"[ASSISTANT — Turn 20]\n"}
+,{"stream_name":"stdout","time":46.128663433,"data":"MAP EVEN 102 ODD 120 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128668005,"data":"\n"}
+,{"stream_name":"stdout","time":46.128672381,"data":"[USER — Turn 21]\n"}
+,{"stream_name":"stdout","time":46.128676948,"data":"MAP score: **17** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128681592,"data":"\n"}
+,{"stream_name":"stdout","time":46.128685913,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128690473,"data":"\n"}
+,{"stream_name":"stdout","time":46.128694725,"data":"[ASSISTANT — Turn 21]\n"}
+,{"stream_name":"stdout","time":46.128698468,"data":"MAP EVEN 021 ODD 012 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128702962,"data":"\n"}
+,{"stream_name":"stdout","time":46.128707185,"data":"[USER — Turn 22]\n"}
+,{"stream_name":"stdout","time":46.128721538,"data":"MAP score: **24** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128726407,"data":"\n"}
+,{"stream_name":"stdout","time":46.128731825,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.12873649,"data":"\n"}
+,{"stream_name":"stdout","time":46.128741145,"data":"[ASSISTANT — Turn 22]\n"}
+,{"stream_name":"stdout","time":46.128745523,"data":"MAP EVEN 012 ODD 021 ENDIAN MSB\n"}
+,{"stream_name":"stdout","time":46.128750113,"data":"\n"}
+,{"stream_name":"stdout","time":46.128754532,"data":"[USER — Turn 23]\n"}
+,{"stream_name":"stdout","time":46.128759154,"data":"MAP score: **24** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128763732,"data":"\n"}
+,{"stream_name":"stdout","time":46.128768615,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128773003,"data":"\n"}
+,{"stream_name":"stdout","time":46.128777328,"data":"[ASSISTANT — Turn 23]\n"}
+,{"stream_name":"stdout","time":46.12878185,"data":"MAP EVEN 210 ODD 012 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128786333,"data":"\n"}
+,{"stream_name":"stdout","time":46.128790661,"data":"[USER — Turn 24]\n"}
+,{"stream_name":"stdout","time":46.128794627,"data":"MAP score: **16** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128799063,"data":"\n"}
+,{"stream_name":"stdout","time":46.12880435,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128808571,"data":"\n"}
+,{"stream_name":"stdout","time":46.128812703,"data":"[ASSISTANT — Turn 24]\n"}
+,{"stream_name":"stdout","time":46.128816973,"data":"MAP EVEN 210 ODD 201 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128829767,"data":"\n"}
+,{"stream_name":"stdout","time":46.128834515,"data":"[USER — Turn 25]\n"}
+,{"stream_name":"stdout","time":46.12883901,"data":"MAP score: **13** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128843607,"data":"\n"}
+,{"stream_name":"stdout","time":46.128847955,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128852437,"data":"\n"}
+,{"stream_name":"stdout","time":46.128856773,"data":"[ASSISTANT — Turn 25]\n"}
+,{"stream_name":"stdout","time":46.128861378,"data":"MAP EVEN 210 ODD 102 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128865842,"data":"\n"}
+,{"stream_name":"stdout","time":46.128870293,"data":"[USER — Turn 26]\n"}
+,{"stream_name":"stdout","time":46.128874729,"data":"MAP score: **16** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128879242,"data":"\n"}
+,{"stream_name":"stdout","time":46.12888346,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.12888785,"data":"\n"}
+,{"stream_name":"stdout","time":46.128891736,"data":"[ASSISTANT — Turn 26]\n"}
+,{"stream_name":"stdout","time":46.128896233,"data":"MAP EVEN 210 ODD 102 ENDIAN MSB\n"}
+,{"stream_name":"stdout","time":46.12890047,"data":"\n"}
+,{"stream_name":"stdout","time":46.128904595,"data":"[USER — Turn 27]\n"}
+,{"stream_name":"stdout","time":46.128908947,"data":"MAP score: **17** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128913268,"data":"\n"}
+,{"stream_name":"stdout","time":46.128917566,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128921665,"data":"\n"}
+,{"stream_name":"stdout","time":46.12892603,"data":"[ASSISTANT — Turn 27]\n"}
+,{"stream_name":"stdout","time":46.128930378,"data":"MAP EVEN 021 ODD 102 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128934755,"data":"\n"}
+,{"stream_name":"stdout","time":46.128938947,"data":"[USER — Turn 28]\n"}
+,{"stream_name":"stdout","time":46.128943337,"data":"MAP score: **24** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128947917,"data":"\n"}
+,{"stream_name":"stdout","time":46.128952974,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128957365,"data":"\n"}
+,{"stream_name":"stdout","time":46.12896154,"data":"[ASSISTANT — Turn 28]\n"}
+,{"stream_name":"stdout","time":46.128965872,"data":"MAP EVEN 012 ODD 102 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.128970145,"data":"\n"}
+,{"stream_name":"stdout","time":46.128974365,"data":"[USER — Turn 29]\n"}
+,{"stream_name":"stdout","time":46.128978723,"data":"MAP score: **19** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.128983402,"data":"\n"}
+,{"stream_name":"stdout","time":46.128989813,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.128994333,"data":"\n"}
+,{"stream_name":"stdout","time":46.128998774,"data":"[ASSISTANT — Turn 29]\n"}
+,{"stream_name":"stdout","time":46.129003037,"data":"MAP EVEN 210 ODD 012 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.129007247,"data":"\n"}
+,{"stream_name":"stdout","time":46.129011588,"data":"[USER — Turn 30]\n"}
+,{"stream_name":"stdout","time":46.129015626,"data":"MAP score: **16** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.129020318,"data":"\n"}
+,{"stream_name":"stdout","time":46.129024412,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.129028985,"data":"\n"}
+,{"stream_name":"stdout","time":46.12903696,"data":"[ASSISTANT — Turn 30]\n"}
+,{"stream_name":"stdout","time":46.129041474,"data":"MAP EVEN 012 ODD 102 ENDIAN MSB\n"}
+,{"stream_name":"stdout","time":46.12904588,"data":"\n"}
+,{"stream_name":"stdout","time":46.12905031,"data":"[USER — Turn 31]\n"}
+,{"stream_name":"stdout","time":46.129054753,"data":"MAP score: **22** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.129059301,"data":"\n"}
+,{"stream_name":"stdout","time":46.129063588,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.129067997,"data":"\n"}
+,{"stream_name":"stdout","time":46.12907236,"data":"[ASSISTANT — Turn 31]\n"}
+,{"stream_name":"stdout","time":46.129076908,"data":"DIGITS 11111\n"}
+,{"stream_name":"stdout","time":46.129081377,"data":"\n"}
+,{"stream_name":"stdout","time":46.129084647,"data":"[USER — Turn 32]\n"}
+,{"stream_name":"stdout","time":46.129088485,"data":"DIGITS string incorrect for the test row under the hidden rules.\n"}
+,{"stream_name":"stdout","time":46.129093287,"data":"\n"}
+,{"stream_name":"stdout","time":46.129097647,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.129102073,"data":"\n"}
+,{"stream_name":"stdout","time":46.129106212,"data":"[ASSISTANT — Turn 32]\n"}
+,{"stream_name":"stdout","time":46.129110452,"data":"MAP EVEN 201 ODD 102 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.129114665,"data":"\n"}
+,{"stream_name":"stdout","time":46.129119113,"data":"[USER — Turn 33]\n"}
+,{"stream_name":"stdout","time":46.129123626,"data":"MAP score: **19** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.129128137,"data":"\n"}
+,{"stream_name":"stdout","time":46.129132298,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.129136796,"data":"\n"}
+,{"stream_name":"stdout","time":46.12914085,"data":"[ASSISTANT — Turn 33]\n"}
+,{"stream_name":"stdout","time":46.129145125,"data":"MAP EVEN 201 ODD 012 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.12914945,"data":"\n"}
+,{"stream_name":"stdout","time":46.129153643,"data":"[USER — Turn 34]\n"}
+,{"stream_name":"stdout","time":46.129157897,"data":"MAP score: **19** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.129162335,"data":"\n"}
+,{"stream_name":"stdout","time":46.129166537,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.129210315,"data":"\n"}
+,{"stream_name":"stdout","time":46.129214748,"data":"[ASSISTANT — Turn 34]\n"}
+,{"stream_name":"stdout","time":46.12921913,"data":"MAP EVEN 201 ODD 210 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.12922354,"data":"\n"}
+,{"stream_name":"stdout","time":46.129245333,"data":"[USER — Turn 35]\n"}
+,{"stream_name":"stdout","time":46.129250457,"data":"MAP score: **17** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.129255063,"data":"\n"}
+,{"stream_name":"stdout","time":46.129259455,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.129270552,"data":"\n"}
+,{"stream_name":"stdout","time":46.12927496,"data":"[ASSISTANT — Turn 35]\n"}
+,{"stream_name":"stdout","time":46.12927956,"data":"MAP EVEN 102 ODD 120 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.129283905,"data":"\n"}
+,{"stream_name":"stdout","time":46.129288322,"data":"[USER — Turn 36]\n"}
+,{"stream_name":"stdout","time":46.129292727,"data":"MAP score: **17** total witness digit mismatches.\n"}
+,{"stream_name":"stdout","time":46.129297315,"data":"\n"}
+,{"stream_name":"stdout","time":46.129305332,"data":"Next line (MAP or DIGITS)?\n"}
+,{"stream_name":"stdout","time":46.129309796,"data":"\n"}
+,{"stream_name":"stdout","time":46.129314096,"data":"[ASSISTANT — Turn 36]\n"}
+,{"stream_name":"stdout","time":46.129318312,"data":"MAP EVEN 120 ODD 102 ENDIAN LSB\n"}
+,{"stream_name":"stdout","time":46.129322147,"data":"\n"}
+,{"stream_name":"stdout","time":46.129326465,"data":"  RESULT: FAIL ✗  steps=36/36  score=0.1562\n"}
+,{"stream_name":"stdout","time":46.129331223,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":46.129335893,"data":"\n"}
+,{"stream_name":"stderr","time":50.529496175,"data":"/benchmarks/.venv/lib/python3.11/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":50.529545648,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":50.551969988,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":50.993150037,"data":"[NbConvertApp] Writing 89650 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":54.155005655,"data":"/benchmarks/.venv/lib/python3.11/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":54.155120064,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":54.178962635,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":55.636005519,"data":"[NbConvertApp] Writing 379066 bytes to __results__.html\n"}
+]

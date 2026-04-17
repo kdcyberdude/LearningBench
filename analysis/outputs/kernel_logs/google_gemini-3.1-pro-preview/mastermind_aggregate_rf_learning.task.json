@@ -1,0 +1,6 @@
+{
+  "versionNumber": 1,
+  "name": "mastermind_aggregate_rf_learning",
+  "description": "Mastermind-style code; only scalar COUPLING_SUM feedback (no LOCK/DRIFT split). Multi-turn RL; return float in [0,1], cap 30 steps.",
+  "definition": "@kbench.task(\n    name=\"mastermind_aggregate_rf_learning\",\n    description=\"Mastermind-style code; only scalar COUPLING_SUM feedback (no LOCK/DRIFT split). Multi-turn RL; return float in [0,1], cap 30 steps.\",\n)\ndef mastermind_aggregate_rf_learning(llm) -> float:\n    \"\"\"Mastermind with scalar COUPLING_SUM only; returns composite [0,1] for up to 30 turns.\"\"\"\n\n    def turn(user_message: str) -> str:\n        try:\n            r = llm.prompt(user_message, schema=_TurnCodeSymbols)\n            return r.guess.strip().upper()\n        except Exception:\n            return \"\"\n\n    result = run(turn, seed=0, max_steps=BUDGET_N)\n    score = _composite_score(result.solved, result.num_steps, BUDGET_N, MIN_EXPLORE, result.progress)\n    _log_trace(\n        \"mastermind_aggregate_rf_learning\",\n        _TASK_DESCRIPTION,\n        result.conversation,\n        result.solved,\n        result.num_steps,\n        BUDGET_N,\n        score,\n    )\n    return score\n"
+}

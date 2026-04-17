@@ -1,0 +1,158 @@
+category,task_name,rank1_model,rank1_score
+associative,blocking_effect_assoc_learning,"TIE:Claude Opus 4.6,Claude Sonnet 4.6,GPT-5.4",1.0
+associative,contextual_flip_assoc_learning,"TIE:GLM-5,Claude Opus 4.6,Gemini 3.1 Pro Preview",0.75
+associative,cumulative_state_rewrite_assoc_learning,Gemini 3.1 Pro Preview,1.0
+associative,deep_second_order_extinction_assoc_learning,"TIE:GLM-5,Claude Opus 4.6,Claude Sonnet 4.6",1.0
+associative,gated_dual_signal_binding_assoc_learning,"TIE:Gemini 3.1 Pro Preview,GPT-5.4",1.0
+associative,glyph_bind_assoc_learning,"TIE:Claude Opus 4.6,Gemini 3.1 Pro Preview",1.0
+associative,inference_dyad_operators_assoc_learning,"TIE:GLM-5,Gemini 3.1 Pro Preview",1.0
+associative,inhibitory_summation_assoc_learning,Gemini 3.1 Pro Preview,1.0
+associative,latent_cross_binding_assoc_learning,"TIE:Qwen 3 Next 80B Thinking,Gemini 3.1 Pro Preview,GPT-5.4",1.0
+associative,latent_inhibition_assoc_learning,Gemini 3.1 Pro Preview,1.0
+associative,latent_set_binding_assoc_learning,"TIE:Gemini 2.5 Flash,DeepSeek V3.2,Claude Opus 4.6",1.0
+associative,latent_set_variant_assoc_learning,"TIE:GLM-5,Claude Opus 4.6,Gemini 3.1 Pro Preview",1.0
+associative,learned_irrelevance_assoc_learning,"TIE:Gemini 2.5 Flash,Gemini 3.1 Pro Preview,GPT-5.4",1.0
+associative,occasion_setting_assoc_learning,"TIE:Claude Opus 4.6,Claude Sonnet 4.6,GPT-5.4",1.0
+associative,odd_letter_score_pair_assoc_learning,"TIE:Qwen 3 Next 80B Thinking,Gemini 3.1 Pro Preview,GPT-5.4",0.8333
+associative,overexpectation_assoc_learning,Gemini 3.1 Pro Preview,1.0
+associative,retrospective_revaluation_assoc_learning,"TIE:Gemini 2.5 Flash,Qwen 3 Next 80B Thinking,Gemini 3.1 Pro Preview",1.0
+associative,spurious_hue_true_edge_assoc_learning,Gemini 3.1 Pro Preview,1.0
+associative,temporal_pairing_tnr_assoc_learning,"TIE:GLM-5,Claude Haiku 4.5,Qwen 3 Next 80B Thinking",1.0
+associative,xor_attribute_binding_assoc_learning,"TIE:GLM-5,Gemini 3.1 Pro Preview",0.8333
+concept,consonant_clusters_concept_learning,Gemini 3.1 Pro Preview,0.9571
+concept,digit_cipher_concept_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5",1.0
+concept,disjunctive_noise_concept_learning,Qwen 3 Next 80B Thinking,0.75
+concept,dual_recurrence_concept_learning,"TIE:Claude Sonnet 4.6,Gemma 4 26B A4B,GPT-5.4",0.4
+concept,encoded_triple_concept_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Gemini 2.5 Flash",1.0
+concept,grid_transform_concept_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,Gemini 2.5 Flash",1.0
+concept,hapax_prime_concept_learning,GPT-5.4 mini,0.66
+concept,interleave_reverse_concept_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Qwen 3 Next 80B Thinking",1.0
+concept,layered_transform_concept_learning,Gemini 3.1 Pro Preview,1.0
+concept,modular_subsequence_concept_learning,"TIE:Qwen 3 Next 80B Thinking,Gemini 3.1 Flash-Lite Preview,GPT-5.4",0.24
+concept,nested_logic_concept_learning,Gemini 3.1 Pro Preview,1.0
+concept,positional_encode_concept_learning,Gemini 3.1 Pro Preview,0.96
+concept,positional_mapping_concept_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Gemini 2.5 Flash",1.0
+concept,relational_pairs_concept_learning,"TIE:Qwen 3 Next 80B Thinking,Gemini 3.1 Flash-Lite Preview",0.75
+concept,semantic_override_concept_learning,Gemini 2.5 Flash,0.95
+concept,state_machine_concept_learning,Gemini 2.5 Flash,1.0
+concept,triple_parity_concept_learning,Gemini 3.1 Flash-Lite Preview,0.76
+concept,violation_counter_concept_learning,Gemini 3.1 Pro Preview,0.7
+concept,vowel_rotation_concept_learning,Gemini 3.1 Pro Preview,1.0
+language,dimval_metathesis_lang_learning,Gemini 3.1 Pro Preview,1.0
+language,drafnelt_switch_reference_lang_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Qwen 3 Next 80B Thinking",1.0
+language,dralven_tone_sandhi_lang_learning,GPT-5.4 mini,0.4357
+language,drelkovak_harmony_lang_learning,Claude Opus 4.6,1.0
+language,drelvak_reduplication_lang_learning,Gemini 2.5 Flash,0.7
+language,grelkan_suppletion_lang_learning,GLM-5,0.64
+language,gwelthar_mirative_evidential_tone_lang_learning,Gemini 3.1 Pro Preview,0.9077
+language,kelstran_tone_lang_learning,GLM-5,0.92
+language,kophar_quantity_lang_learning,"TIE:Qwen 3 Next 80B Thinking,GPT-5.4,Claude Opus 4.6",0.75
+language,mixed_radix_number_lang_learning,Gemini 3.1 Pro Preview,0.8909
+language,norkvash_scalar_lang_learning,"TIE:GLM-5,GPT-5.4",0.82
+language,pelvan_agreement_lang_learning,GLM-5,0.6273
+language,prentova_allomorphy_wugtest_lang_learning,Qwen 3 Next 80B Thinking,1.0
+language,skelth_allomorph_lang_learning,"TIE:Gemini 3.1 Pro Preview,GPT-5.4,Claude Opus 4.6",1.0
+language,sklonveth_root_pattern_lang_learning,GLM-5,0.6214
+language,skolvren_polysynthetic_lang_learning,Gemini 3.1 Pro Preview,0.4875
+language,skovar_deletion_lang_learning,Gemini 3.1 Pro Preview,1.0
+language,strelkov_ergative_lang_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Qwen 3 Next 80B Thinking",1.0
+language,strevoklan_neg_lang_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5",0.75
+language,telvari_evidentiality_lang_learning,"TIE:Gemini 3.1 Pro Preview,GPT-5.4,Gemini 3.1 Flash-Lite Preview",1.0
+language,threlkav_scope_ergativity_lang_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Qwen 3 Next 80B Thinking",1.0
+language,trenval_bleeding_lang_learning,"TIE:GLM-5,GPT-5.4 mini",0.9077
+language,trevkovan_gradation_lang_learning,"TIE:Qwen 3 Next 80B Thinking,GPT-5.4,Gemini 2.5 Flash",1.0
+language,vrelthan_rule_interaction_lang_learning,Gemini 3.1 Pro Preview,0.75
+language,vrendel_templatic_lang_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,GPT-5.4",1.0
+language,wukal_tones_lang_learning,"TIE:GLM-5,Qwen 3 Next 80B Thinking",0.8364
+observational,affine_transform_chain_obs_learning,Claude Opus 4.6,0.75
+observational,agglutinative_morphology_obs_learning,Gemini 3.1 Pro Preview,1.0
+observational,arithmetic_entropy_coding_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,GLM-5",1.0
+observational,auction_mechanism_second_price_obs_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5",1.0
+observational,chemical_reaction_order_obs_learning,Gemini 3.1 Pro Preview,1.0
+observational,codon_table_translation_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,GLM-5",1.0
+observational,custom_gravity_simulation_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,Gemini 2.5 Flash",1.0
+observational,deceptive_stack_machine_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,GLM-5",1.0
+observational,feistel_cipher_round_obs_learning,Gemini 3.1 Pro Preview,1.0
+observational,finite_state_transducer_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,GLM-5",1.0
+observational,flow_network_capacity_obs_learning,"TIE:Gemini 3.1 Pro Preview,Claude Haiku 4.5",0.75
+observational,grid_parity_path_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking",1.0
+observational,hidden_attribute_rule_obs_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Gemini 2.5 Flash",0.75
+observational,hidden_damping_physics_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,GLM-5",1.0
+observational,hidden_graph_centrality_obs_learning,"TIE:Gemini 3.1 Pro Preview,DeepSeek V3.2",1.0
+observational,hidden_group_operation_obs_learning,Gemini 3.1 Pro Preview,1.0
+observational,hidden_matrix_fill_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,GLM-5",1.0
+observational,hidden_modal_logic_kripke2_obs_learning,"TIE:Gemini 3.1 Pro Preview,Gemini 2.5 Flash,Claude Opus 4.6",0.625
+observational,hidden_modal_logic_kripke_obs_learning,DeepSeek V3.2,1.0
+observational,hidden_priority_order_obs_learning,"TIE:Qwen 3 Next 80B Thinking,Qwen 3 Next 80B Instruct",1.0
+observational,hidden_region_classifier_obs_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Qwen 3 Next 80B Instruct",1.0
+observational,hidden_state_machine_obs_learning,Gemini 3.1 Pro Preview,1.0
+observational,hidden_token_filter_obs_learning,Gemini 3.1 Pro Preview,1.0
+observational,lattice_meet_join_obs_learning,Gemini 3.1 Pro Preview,1.0
+observational,lfu_cache_eviction_obs_learning,Gemini 3.1 Pro Preview,1.0
+observational,linear_feedback_shift_register_obs_learning,Gemini 3.1 Pro Preview,1.0
+observational,mealy_machine_output_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,GLM-5",0.75
+observational,phonological_alternation_harmony_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,GLM-5",1.0
+observational,pipeline_hazard_stall_counting_obs_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5",1.0
+observational,pushdown_automaton_inference_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,GLM-5",1.0
+observational,regex_intersection_membership_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,GLM-5",1.0
+observational,register_machine_trace_obs_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5",0.75
+observational,ring_operations_hidden_carry_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,GLM-5",1.0
+observational,shapley_values_cooperative_game_obs_learning,"TIE:Gemini 3.1 Pro Preview,Qwen 3 Next 80B Thinking,GLM-5",1.0
+observational,sigil_naming_obs_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5",1.0
+observational,singleton_gate_local_max_obs_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,DeepSeek V3.2",0.5
+observational,symbolic_glyphpair_scoring_obs_learning,Qwen 3 Next 80B Thinking,0.5
+observational,syntax_tree_rewrite_obs_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Claude Opus 4.6",1.0
+observational,titration_curve_diprotic_obs_learning,Gemini 3.1 Pro Preview,0.8
+observational,two_counter_machine_obs_learning,Qwen 3 Next 80B Thinking,1.0
+observational,vigenere_variant_cipher_obs_learning,Gemini 3.1 Pro Preview,0.5
+observational,voronoi_custom_metric_obs_learning,Claude Haiku 4.5,0.8333
+rl,affine_cipher_word_rf_learning,"TIE:Gemini 3.1 Pro Preview,Gemma 4 26B A4B,GPT-5.4",0.8
+rl,arithmetic_next_rf_learning,Gemini 3.1 Pro Preview,0.9333
+rl,base7_decode_rf_learning,"TIE:GLM-5,Qwen 3 Next 80B Thinking,Gemma 4 26B A4B",1.0
+rl,battleship_1d_rf_learning,Gemini 3.1 Pro Preview,1.0
+rl,battleship_two_ships_rf_learning,"TIE:Gemini 3.1 Pro Preview,Gemini 3.1 Flash-Lite Preview,GPT-5.4",1.0
+rl,bitstring_hamming_rf_learning,Gemini 3.1 Pro Preview,0.9489
+rl,chebyshev_point_rf_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Gemini 2.5 Flash",1.0
+rl,coin_balance_rf_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Qwen 3 Next 80B Thinking",1.0
+rl,collatz_length_rf_learning,Claude Opus 4.6,0.9284
+rl,crt_unique_rf_learning,"TIE:Gemini 3.1 Pro Preview,Gemma 4 26B A4B,Claude Opus 4.6",1.0
+rl,cubic_eval_rf_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Qwen 3 Next 80B Thinking",1.0
+rl,cyclic_distance_rf_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Gemini 2.5 Flash",1.0
+rl,digit_square_error_rf_learning,GPT-5.4,0.8924
+rl,digitwise_l1_rf_learning,Gemini 3.1 Pro Preview,1.0
+rl,divisor_count_rf_learning,"TIE:Gemini 3.1 Pro Preview,Gemini 2.5 Flash,Gemma 4 26B A4B",0.8
+rl,euler_totient_rf_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Gemini 2.5 Flash",0.0
+rl,fib_like_next_rf_learning,Claude Haiku 4.5,1.0
+rl,graph_shortest_path_rf_learning,Gemini 3.1 Pro Preview,0.8935
+rl,gray_hamming_rf_learning,Gemini 3.1 Pro Preview,0.9489
+rl,grid_nav_rf_learning,Gemini 3.1 Pro Preview,0.9801
+rl,grid_octile_rf_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Gemini 2.5 Flash",1.0
+rl,grid_seven_rf_learning,Qwen 3 Next 80B Thinking,0.1333
+rl,hangman_lite_rf_learning,Gemini 2.5 Flash,0.1333
+rl,hanoi_three_rf_learning,Gemini 2.5 Flash,0.8554
+rl,hanoi_two_rf_learning,Gemini 2.5 Flash,0.9932
+rl,hot_cold_rf_learning,Gemini 2.5 Flash,0.8172
+rl,interval_contains_rf_learning,Gemini 2.5 Flash,0.9489
+rl,letter_overlap_word_rf_learning,Gemini 2.5 Flash,1.0
+rl,levenshtein_words_rf_learning,Gemini 2.5 Flash,0.1
+rl,lights_out_2x2_rf_learning,Gemini 2.5 Flash,0.1
+rl,linear_equation_rf_learning,Gemini 2.5 Flash,1.0
+rl,linear_polynomial_rf_learning,Gemini 2.5 Flash,1.0
+rl,manhattan_point_rf_learning,"TIE:GLM-5,Qwen 3 Next 80B Thinking,Claude Sonnet 4.6",1.0
+rl,mastermind_aggregate_rf_learning,Claude Sonnet 4.6,0.925
+rl,mastermind_classic_rf_learning,"TIE:Claude Sonnet 4.6,DeepSeek V3.2,Claude Opus 4.6",0.16
+rl,minesweeper_1d_rf_learning,Gemini 3.1 Pro Preview,0.9345
+rl,nim_heap_rf_learning,"TIE:Qwen 3 Next 80B Thinking,DeepSeek V3.2,Gemini 3.1 Flash-Lite Preview",0.15
+rl,parity_groups_rf_learning,Claude Sonnet 4.6,0.1667
+rl,perm_fixed_points_rf_learning,Qwen 3 Next 80B Thinking,1.0
+rl,perm_footrule_rf_learning,"TIE:Gemini 3.1 Pro Preview,Gemma 4 26B A4B",1.0
+rl,product_hotcold_rf_learning,"TIE:Gemini 3.1 Pro Preview,GPT-5.4,Claude Haiku 4.5",1.0
+rl,quadratic_root_rf_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Gemini 2.5 Flash",1.0
+rl,recurrence_second_order_rf_learning,GLM-5,1.0
+rl,rule90_step_rf_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Gemini 3.1 Flash-Lite Preview",1.0
+rl,shift_cipher_rf_learning,GPT-5.4,1.0
+rl,sudoku_2x2_rf_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Gemini 2.5 Flash",1.0
+rl,sum_product_xy_rf_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Qwen 3 Next 80B Thinking",1.0
+rl,verbal_bandit_rf_learning,Gemini 3.1 Pro Preview,1.0
+rl,wordle_micro_rf_learning,GLM-5,1.0
+rl,xor_subset_hamming_rf_learning,"TIE:Gemini 3.1 Pro Preview,GLM-5,Gemini 2.5 Flash",1.0

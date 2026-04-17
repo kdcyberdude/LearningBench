@@ -1,0 +1,15 @@
+Model,Provider,Tier,Assoc.,Concept,Language,Observ.,RL,Overall,Rank
+Gemini 3.1 Pro Preview,Google,frontier,0.935,0.724,0.756,0.837,0.624,0.775,1.0
+GLM-5,Open-source,frontier,0.792,0.55,0.693,0.558,0.527,0.624,2.0
+Qwen 3 Next 80B Thinking,Open-source,mid,0.628,0.541,0.623,0.58,0.474,0.569,3.0
+Gemini 2.5 Flash,Google,mid,0.595,0.518,0.47,0.35,0.498,0.486,4.0
+GPT-5.4,OpenAI,frontier,0.65,0.268,0.6,0.291,0.411,0.444,5.0
+Claude Opus 4.6,Anthropic,frontier,0.662,0.262,0.51,0.315,0.409,0.431,6.0
+Claude Sonnet 4.6,Anthropic,mid,0.651,0.329,0.467,0.255,0.42,0.424,7.0
+Gemini 3.1 Flash-Lite Preview,Google,mid,0.562,0.323,0.492,0.285,0.412,0.415,8.0
+DeepSeek V3.2,Open-source,mid,0.523,0.194,0.473,0.425,0.415,0.406,9.0
+GPT-5.4 mini,OpenAI,mid,0.487,0.276,0.463,0.205,0.288,0.344,10.0
+Gemma 4 26B A4B,Google,small,0.501,0.278,0.271,0.207,0.447,0.341,11.0
+Claude Haiku 4.5,Anthropic,small,0.502,0.198,0.349,0.241,0.404,0.339,12.0
+Qwen 3 Next 80B Instruct,Open-source,small,0.464,0.191,0.415,0.303,0.268,0.328,13.0
+GPT-5.4 nano,OpenAI,small,0.437,0.156,0.315,0.144,0.202,0.251,14.0

@@ -1,0 +1,65 @@
+[{"stream_name":"stdout","time":17.030718229,"data":"\n"}
+,{"stream_name":"stdout","time":17.030783543,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":17.030788681,"data":"  inhibitory_summation\n"}
+,{"stream_name":"stdout","time":17.030791421,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":17.030794214,"data":"\n"}
+,{"stream_name":"stdout","time":17.030799298,"data":"  TASK: Tests multi-cue inhibitory summation with hierarchical modulation and compositional transfer. Six novel signals (gorv, telk, pryn, shael, dozn, felk) interact in a reactor system that may produce one of three outcomes (FLARE, DAMP, INERT). Hidden roles: gorv is a strong excitor (FLARE), felk is a weak excitor (DAMP), telk is a partial inhibitor (-1 step), pryn is a full inhibitor (-2 steps), shael is a modulator that doubles the strength of each co-present inhibitor, and dozn is neutral. The model must infer all six roles and the inhibitory-strength algebra from 18 observations, then predict 8 novel combinations that span all three outcome levels. Key challenges: (1) distinguishing two excitors of different strength, (2) partial vs full inhibition, (3) recognizing shael's multiplier role, (4) compositional predictions for unseen multi-signal combinations. No rules or roles are stated.\n"}
+,{"stream_name":"stdout","time":17.030804377,"data":"\n"}
+,{"stream_name":"stdout","time":17.030806711,"data":"  PROMPT:\n"}
+,{"stream_name":"stdout","time":17.030809236,"data":"A reactor's output depends on which signals are active. Study these logs to infer how signals interact.\n"}
+,{"stream_name":"stdout","time":17.030811874,"data":"\n"}
+,{"stream_name":"stdout","time":17.030814204,"data":"Reactor logs (each line = one trial):\n"}
+,{"stream_name":"stdout","time":17.030816695,"data":"  Trial  1: signals active: gorv                    -\u003e outcome: FLARE\n"}
+,{"stream_name":"stdout","time":17.030819879,"data":"  Trial  2: signals active: gorv                    -\u003e outcome: FLARE\n"}
+,{"stream_name":"stdout","time":17.03082248,"data":"  Trial  3: signals active: felk                    -\u003e outcome: DAMP\n"}
+,{"stream_name":"stdout","time":17.030825043,"data":"  Trial  4: signals active: felk                    -\u003e outcome: DAMP\n"}
+,{"stream_name":"stdout","time":17.030827694,"data":"  Trial  5: signals active: gorv, dozn              -\u003e outcome: FLARE\n"}
+,{"stream_name":"stdout","time":17.030830241,"data":"  Trial  6: signals active: gorv, dozn              -\u003e outcome: FLARE\n"}
+,{"stream_name":"stdout","time":17.030832777,"data":"  Trial  7: signals active: gorv, telk              -\u003e outcome: DAMP\n"}
+,{"stream_name":"stdout","time":17.030835256,"data":"  Trial  8: signals active: gorv, telk              -\u003e outcome: DAMP\n"}
+,{"stream_name":"stdout","time":17.030837749,"data":"  Trial  9: signals active: gorv, pryn              -\u003e outcome: INERT\n"}
+,{"stream_name":"stdout","time":17.030840564,"data":"  Trial 10: signals active: gorv, pryn              -\u003e outcome: INERT\n"}
+,{"stream_name":"stdout","time":17.03084313,"data":"  Trial 11: signals active: felk, telk              -\u003e outcome: INERT\n"}
+,{"stream_name":"stdout","time":17.030845695,"data":"  Trial 12: signals active: felk, telk              -\u003e outcome: INERT\n"}
+,{"stream_name":"stdout","time":17.030849651,"data":"  Trial 13: signals active: gorv, telk, shael       -\u003e outcome: INERT\n"}
+,{"stream_name":"stdout","time":17.030852261,"data":"  Trial 14: signals active: gorv, telk, shael       -\u003e outcome: INERT\n"}
+,{"stream_name":"stdout","time":17.030855306,"data":"  Trial 15: signals active: gorv, shael             -\u003e outcome: FLARE\n"}
+,{"stream_name":"stdout","time":17.030862153,"data":"  Trial 16: signals active: felk, shael             -\u003e outcome: DAMP\n"}
+,{"stream_name":"stdout","time":17.030864927,"data":"  Trial 17: signals active: gorv, dozn, telk        -\u003e outcome: DAMP\n"}
+,{"stream_name":"stdout","time":17.030867686,"data":"  Trial 18: signals active: telk, dozn              -\u003e outcome: INERT\n"}
+,{"stream_name":"stdout","time":17.030870271,"data":"\n"}
+,{"stream_name":"stdout","time":17.03087263,"data":"Predict the reactor outcome for each combination below.\n"}
+,{"stream_name":"stdout","time":17.030875219,"data":"Answer FLARE, DAMP, or INERT for each question.\n"}
+,{"stream_name":"stdout","time":17.030877694,"data":"\n"}
+,{"stream_name":"stdout","time":17.030880083,"data":"  Q1: signals active: gorv, felk\n"}
+,{"stream_name":"stdout","time":17.030882555,"data":"  Q2: signals active: gorv, pryn, shael\n"}
+,{"stream_name":"stdout","time":17.0308852,"data":"  Q3: signals active: felk, pryn\n"}
+,{"stream_name":"stdout","time":17.030887911,"data":"  Q4: signals active: gorv, telk, dozn, shael\n"}
+,{"stream_name":"stdout","time":17.030890479,"data":"  Q5: signals active: felk, telk, shael\n"}
+,{"stream_name":"stdout","time":17.030892955,"data":"  Q6: signals active: gorv, felk, telk\n"}
+,{"stream_name":"stdout","time":17.0308955,"data":"  Q7: signals active: gorv, felk, pryn\n"}
+,{"stream_name":"stdout","time":17.030897875,"data":"  Q8: signals active: dozn, shael\n"}
+,{"stream_name":"stdout","time":17.030900282,"data":"\n"}
+,{"stream_name":"stdout","time":17.030925173,"data":"\n"}
+,{"stream_name":"stdout","time":17.030929469,"data":"  RESPONSES:\n"}
+,{"stream_name":"stdout","time":17.030933047,"data":"    q_1: got='FLARE'  expected='FLARE'  ✓\n"}
+,{"stream_name":"stdout","time":17.030937834,"data":"    q_2: got='INERT'  expected='INERT'  ✓\n"}
+,{"stream_name":"stdout","time":17.030941797,"data":"    q_3: got='DAMP'  expected='INERT'  ✗\n"}
+,{"stream_name":"stdout","time":17.030945731,"data":"    q_4: got='DAMP'  expected='INERT'  ✗\n"}
+,{"stream_name":"stdout","time":17.030949591,"data":"    q_5: got='INERT'  expected='INERT'  ✓\n"}
+,{"stream_name":"stdout","time":17.030953621,"data":"    q_6: got='DAMP'  expected='FLARE'  ✗\n"}
+,{"stream_name":"stdout","time":17.030957927,"data":"    q_7: got='INERT'  expected='DAMP'  ✗\n"}
+,{"stream_name":"stdout","time":17.03096198,"data":"    q_8: got='INERT'  expected='INERT'  ✓\n"}
+,{"stream_name":"stdout","time":17.030966016,"data":"\n"}
+,{"stream_name":"stdout","time":17.030969781,"data":"  SCORE: 0.5000\n"}
+,{"stream_name":"stdout","time":17.030973535,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":17.030977508,"data":"\n"}
+,{"stream_name":"stderr","time":21.188303764,"data":"/benchmarks/.venv/lib/python3.11/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":21.188362369,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":21.20725945,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":21.602701575,"data":"[NbConvertApp] Writing 76068 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":24.334333955,"data":"/benchmarks/.venv/lib/python3.11/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":24.334388268,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":24.355662633,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":25.383506292,"data":"[NbConvertApp] Writing 328958 bytes to __results__.html\n"}
+]

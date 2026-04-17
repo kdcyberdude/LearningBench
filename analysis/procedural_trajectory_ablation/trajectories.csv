@@ -1,0 +1,1239 @@
+task,model,phase,round,score
+adaptive-sort-rule,Claude Haiku,practice,1,0.4273
+adaptive-sort-rule,Claude Haiku,practice,2,0.5091
+adaptive-sort-rule,Claude Haiku,practice,3,0.4273
+adaptive-sort-rule,Claude Haiku,practice,4,0.7545
+adaptive-sort-rule,Claude Haiku,practice,5,0.4273
+adaptive-sort-rule,Claude Haiku,transfer,1,0.0
+adaptive-sort-rule,Claude Haiku,transfer,2,0.0
+adaptive-sort-rule,Claude Haiku,transfer,3,0.0
+adaptive-sort-rule,Claude Haiku,transfer,4,0.0
+adaptive-sort-rule,Claude Opus,practice,1,0.5909
+adaptive-sort-rule,Claude Opus,practice,2,1.0
+adaptive-sort-rule,Claude Opus,practice,3,1.0
+adaptive-sort-rule,Claude Opus,practice,4,1.0
+adaptive-sort-rule,Claude Opus,practice,5,1.0
+adaptive-sort-rule,Claude Opus,transfer,1,1.0
+adaptive-sort-rule,Claude Opus,transfer,2,1.0
+adaptive-sort-rule,Claude Opus,transfer,3,1.0
+adaptive-sort-rule,Claude Opus,transfer,4,1.0
+adaptive-sort-rule,Claude Sonnet,practice,1,0.6727
+adaptive-sort-rule,Claude Sonnet,practice,2,1.0
+adaptive-sort-rule,Claude Sonnet,practice,3,1.0
+adaptive-sort-rule,Claude Sonnet,practice,4,1.0
+adaptive-sort-rule,Claude Sonnet,practice,5,1.0
+adaptive-sort-rule,Claude Sonnet,transfer,1,1.0
+adaptive-sort-rule,Claude Sonnet,transfer,2,1.0
+adaptive-sort-rule,Claude Sonnet,transfer,3,0.0
+adaptive-sort-rule,Claude Sonnet,transfer,4,1.0
+adaptive-sort-rule,DeepSeek,practice,1,0.5909
+adaptive-sort-rule,DeepSeek,practice,2,0.3455
+adaptive-sort-rule,DeepSeek,practice,3,0.3455
+adaptive-sort-rule,DeepSeek,practice,4,1.0
+adaptive-sort-rule,DeepSeek,practice,5,0.1818
+adaptive-sort-rule,DeepSeek,transfer,1,0.0
+adaptive-sort-rule,DeepSeek,transfer,2,0.0
+adaptive-sort-rule,DeepSeek,transfer,3,1.0
+adaptive-sort-rule,DeepSeek,transfer,4,0.0
+adaptive-sort-rule,GLM-5,practice,1,0.6727
+adaptive-sort-rule,GLM-5,practice,2,1.0
+adaptive-sort-rule,GLM-5,practice,3,1.0
+adaptive-sort-rule,GLM-5,practice,4,1.0
+adaptive-sort-rule,GLM-5,practice,5,1.0
+adaptive-sort-rule,GLM-5,transfer,1,1.0
+adaptive-sort-rule,GLM-5,transfer,2,1.0
+adaptive-sort-rule,GLM-5,transfer,3,1.0
+adaptive-sort-rule,GLM-5,transfer,4,1.0
+adaptive-sort-rule,GPT-5.4,practice,1,0.5091
+adaptive-sort-rule,GPT-5.4,practice,2,0.5091
+adaptive-sort-rule,GPT-5.4,practice,3,0.6727
+adaptive-sort-rule,GPT-5.4,practice,4,1.0
+adaptive-sort-rule,GPT-5.4,practice,5,0.6727
+adaptive-sort-rule,GPT-5.4,transfer,1,0.0
+adaptive-sort-rule,GPT-5.4,transfer,2,0.0
+adaptive-sort-rule,GPT-5.4,transfer,3,0.0
+adaptive-sort-rule,GPT-5.4,transfer,4,0.0
+adaptive-sort-rule,GPT-mini,practice,1,0.5091
+adaptive-sort-rule,GPT-mini,practice,2,0.5091
+adaptive-sort-rule,GPT-mini,practice,3,0.5909
+adaptive-sort-rule,GPT-mini,practice,4,0.1818
+adaptive-sort-rule,GPT-mini,practice,5,0.6727
+adaptive-sort-rule,GPT-mini,transfer,1,0.0
+adaptive-sort-rule,GPT-mini,transfer,2,0.0
+adaptive-sort-rule,GPT-mini,transfer,3,0.0
+adaptive-sort-rule,GPT-mini,transfer,4,0.0
+adaptive-sort-rule,GPT-nano,practice,1,0.0
+adaptive-sort-rule,GPT-nano,practice,2,0.5091
+adaptive-sort-rule,GPT-nano,practice,3,0.5091
+adaptive-sort-rule,GPT-nano,practice,4,0.9182
+adaptive-sort-rule,GPT-nano,practice,5,0.6727
+adaptive-sort-rule,GPT-nano,transfer,1,0.0
+adaptive-sort-rule,GPT-nano,transfer,2,0.0
+adaptive-sort-rule,GPT-nano,transfer,3,0.0
+adaptive-sort-rule,GPT-nano,transfer,4,0.0
+adaptive-sort-rule,G-Flash,practice,1,0.5909
+adaptive-sort-rule,G-Flash,practice,2,1.0
+adaptive-sort-rule,G-Flash,practice,3,1.0
+adaptive-sort-rule,G-Flash,practice,4,1.0
+adaptive-sort-rule,G-Flash,practice,5,1.0
+adaptive-sort-rule,G-Flash,transfer,1,1.0
+adaptive-sort-rule,G-Flash,transfer,2,1.0
+adaptive-sort-rule,G-Flash,transfer,3,0.0
+adaptive-sort-rule,G-Flash,transfer,4,1.0
+adaptive-sort-rule,G-Lite,practice,1,0.0
+adaptive-sort-rule,G-Lite,practice,2,0.5091
+adaptive-sort-rule,G-Lite,practice,3,0.5909
+adaptive-sort-rule,G-Lite,practice,4,0.1818
+adaptive-sort-rule,G-Lite,practice,5,0.4273
+adaptive-sort-rule,G-Lite,transfer,1,0.0
+adaptive-sort-rule,G-Lite,transfer,2,0.0
+adaptive-sort-rule,G-Lite,transfer,3,0.0
+adaptive-sort-rule,G-Lite,transfer,4,0.0
+adaptive-sort-rule,G-Pro,practice,1,0.8364
+adaptive-sort-rule,G-Pro,practice,2,1.0
+adaptive-sort-rule,G-Pro,practice,3,1.0
+adaptive-sort-rule,G-Pro,practice,4,1.0
+adaptive-sort-rule,G-Pro,practice,5,1.0
+adaptive-sort-rule,G-Pro,transfer,1,1.0
+adaptive-sort-rule,G-Pro,transfer,2,1.0
+adaptive-sort-rule,G-Pro,transfer,3,0.0
+adaptive-sort-rule,G-Pro,transfer,4,1.0
+adaptive-sort-rule,Gemma,practice,1,0.5909
+adaptive-sort-rule,Gemma,practice,2,0.5091
+adaptive-sort-rule,Gemma,practice,3,0.5909
+adaptive-sort-rule,Gemma,practice,4,0.6727
+adaptive-sort-rule,Gemma,practice,5,0.5091
+adaptive-sort-rule,Gemma,transfer,1,0.0
+adaptive-sort-rule,Gemma,transfer,2,0.0
+adaptive-sort-rule,Gemma,transfer,3,0.0
+adaptive-sort-rule,Gemma,transfer,4,0.0
+adaptive-sort-rule,Qwen-I,practice,1,0.4273
+adaptive-sort-rule,Qwen-I,practice,2,0.2636
+adaptive-sort-rule,Qwen-I,practice,3,0.6727
+adaptive-sort-rule,Qwen-I,practice,4,0.9182
+adaptive-sort-rule,Qwen-I,practice,5,0.1818
+adaptive-sort-rule,Qwen-I,transfer,1,0.0
+adaptive-sort-rule,Qwen-I,transfer,2,0.0
+adaptive-sort-rule,Qwen-I,transfer,3,0.0
+adaptive-sort-rule,Qwen-I,transfer,4,0.0
+adaptive-sort-rule,Qwen-T,practice,1,0.0
+adaptive-sort-rule,Qwen-T,practice,2,0.0
+adaptive-sort-rule,Qwen-T,practice,3,0.0
+adaptive-sort-rule,Qwen-T,practice,4,0.0
+adaptive-sort-rule,Qwen-T,practice,5,0.0
+adaptive-sort-rule,Qwen-T,transfer,1,0.0
+adaptive-sort-rule,Qwen-T,transfer,2,0.0
+adaptive-sort-rule,Qwen-T,transfer,3,0.0
+adaptive-sort-rule,Qwen-T,transfer,4,0.0
+boolean-circuit,Claude Haiku,practice,1,0.1
+boolean-circuit,Claude Haiku,practice,2,0.0
+boolean-circuit,Claude Haiku,practice,3,0.0
+boolean-circuit,Claude Haiku,practice,4,0.3
+boolean-circuit,Claude Haiku,practice,5,0.2
+boolean-circuit,Claude Haiku,transfer,1,0.0
+boolean-circuit,Claude Haiku,transfer,2,0.0
+boolean-circuit,Claude Haiku,transfer,3,0.0
+boolean-circuit,Claude Haiku,transfer,4,0.0
+boolean-circuit,Claude Opus,practice,1,0.1
+boolean-circuit,Claude Opus,practice,2,0.0
+boolean-circuit,Claude Opus,practice,3,0.0
+boolean-circuit,Claude Opus,practice,4,0.2
+boolean-circuit,Claude Opus,practice,5,0.0
+boolean-circuit,Claude Opus,transfer,1,0.0
+boolean-circuit,Claude Opus,transfer,2,0.0
+boolean-circuit,Claude Opus,transfer,3,0.0
+boolean-circuit,Claude Opus,transfer,4,0.0
+boolean-circuit,Claude Sonnet,practice,1,0.1
+boolean-circuit,Claude Sonnet,practice,2,0.1
+boolean-circuit,Claude Sonnet,practice,3,0.1
+boolean-circuit,Claude Sonnet,practice,4,0.1
+boolean-circuit,Claude Sonnet,practice,5,0.0
+boolean-circuit,Claude Sonnet,transfer,1,0.0
+boolean-circuit,Claude Sonnet,transfer,2,1.0
+boolean-circuit,Claude Sonnet,transfer,3,0.0
+boolean-circuit,Claude Sonnet,transfer,4,0.0
+boolean-circuit,DeepSeek,practice,1,0.5
+boolean-circuit,DeepSeek,practice,2,0.2
+boolean-circuit,DeepSeek,practice,3,0.4
+boolean-circuit,DeepSeek,practice,4,0.1
+boolean-circuit,DeepSeek,practice,5,0.1
+boolean-circuit,DeepSeek,transfer,1,0.0
+boolean-circuit,DeepSeek,transfer,2,0.0
+boolean-circuit,DeepSeek,transfer,3,0.0
+boolean-circuit,DeepSeek,transfer,4,0.0
+boolean-circuit,GLM-5,practice,1,0.6
+boolean-circuit,GLM-5,practice,2,0.7
+boolean-circuit,GLM-5,practice,3,0.6
+boolean-circuit,GLM-5,practice,4,0.6
+boolean-circuit,GLM-5,practice,5,0.2
+boolean-circuit,GLM-5,transfer,1,0.0
+boolean-circuit,GLM-5,transfer,2,0.0
+boolean-circuit,GLM-5,transfer,3,0.0
+boolean-circuit,GLM-5,transfer,4,0.0
+boolean-circuit,GPT-5.4,practice,1,0.0
+boolean-circuit,GPT-5.4,practice,2,0.0
+boolean-circuit,GPT-5.4,practice,3,0.0
+boolean-circuit,GPT-5.4,practice,4,0.0
+boolean-circuit,GPT-5.4,practice,5,0.0
+boolean-circuit,GPT-5.4,transfer,1,0.0
+boolean-circuit,GPT-5.4,transfer,2,0.0
+boolean-circuit,GPT-5.4,transfer,3,0.0
+boolean-circuit,GPT-5.4,transfer,4,0.0
+boolean-circuit,GPT-mini,practice,1,0.0
+boolean-circuit,GPT-mini,practice,2,0.0
+boolean-circuit,GPT-mini,practice,3,0.0
+boolean-circuit,GPT-mini,practice,4,0.0
+boolean-circuit,GPT-mini,practice,5,0.0
+boolean-circuit,GPT-mini,transfer,1,0.0
+boolean-circuit,GPT-mini,transfer,2,0.0
+boolean-circuit,GPT-mini,transfer,3,0.0
+boolean-circuit,GPT-mini,transfer,4,0.0
+boolean-circuit,GPT-nano,practice,1,0.0
+boolean-circuit,GPT-nano,practice,2,0.0
+boolean-circuit,GPT-nano,practice,3,0.0
+boolean-circuit,GPT-nano,practice,4,0.0
+boolean-circuit,GPT-nano,practice,5,0.0
+boolean-circuit,GPT-nano,transfer,1,0.0
+boolean-circuit,GPT-nano,transfer,2,0.0
+boolean-circuit,GPT-nano,transfer,3,0.0
+boolean-circuit,GPT-nano,transfer,4,0.0
+boolean-circuit,G-Flash,practice,1,0.4
+boolean-circuit,G-Flash,practice,2,0.5
+boolean-circuit,G-Flash,practice,3,0.7
+boolean-circuit,G-Flash,practice,4,0.6
+boolean-circuit,G-Flash,practice,5,0.4
+boolean-circuit,G-Flash,transfer,1,0.0
+boolean-circuit,G-Flash,transfer,2,0.0
+boolean-circuit,G-Flash,transfer,3,0.0
+boolean-circuit,G-Flash,transfer,4,0.0
+boolean-circuit,G-Lite,practice,1,0.7
+boolean-circuit,G-Lite,practice,2,0.8
+boolean-circuit,G-Lite,practice,3,0.0
+boolean-circuit,G-Lite,practice,4,0.8
+boolean-circuit,G-Lite,practice,5,0.2
+boolean-circuit,G-Lite,transfer,1,0.0
+boolean-circuit,G-Lite,transfer,2,0.0
+boolean-circuit,G-Lite,transfer,3,0.0
+boolean-circuit,G-Lite,transfer,4,0.0
+boolean-circuit,G-Pro,practice,1,0.6
+boolean-circuit,G-Pro,practice,2,0.5
+boolean-circuit,G-Pro,practice,3,0.6
+boolean-circuit,G-Pro,practice,4,0.7
+boolean-circuit,G-Pro,practice,5,0.3
+boolean-circuit,G-Pro,transfer,1,0.0
+boolean-circuit,G-Pro,transfer,2,0.0
+boolean-circuit,G-Pro,transfer,3,0.0
+boolean-circuit,G-Pro,transfer,4,0.0
+boolean-circuit,G-Flash-3,practice,1,0.52
+boolean-circuit,G-Flash-3,practice,2,0.52
+boolean-circuit,G-Flash-3,practice,3,0.52
+boolean-circuit,G-Flash-3,practice,4,0.52
+boolean-circuit,G-Flash-3,practice,5,0.52
+boolean-circuit,Gemma,practice,1,0.0
+boolean-circuit,Gemma,practice,2,0.1
+boolean-circuit,Gemma,practice,3,0.0
+boolean-circuit,Gemma,practice,4,0.2
+boolean-circuit,Gemma,practice,5,0.0
+boolean-circuit,Gemma,transfer,1,0.0
+boolean-circuit,Gemma,transfer,2,0.0
+boolean-circuit,Gemma,transfer,3,0.0
+boolean-circuit,Gemma,transfer,4,0.0
+boolean-circuit,Qwen-I,practice,1,0.0
+boolean-circuit,Qwen-I,practice,2,0.0
+boolean-circuit,Qwen-I,practice,3,0.0
+boolean-circuit,Qwen-I,practice,4,0.0
+boolean-circuit,Qwen-I,practice,5,0.0
+boolean-circuit,Qwen-I,transfer,1,0.0
+boolean-circuit,Qwen-I,transfer,2,0.0
+boolean-circuit,Qwen-I,transfer,3,0.0
+boolean-circuit,Qwen-I,transfer,4,0.0
+boolean-circuit,Qwen-T,practice,1,0.8
+boolean-circuit,Qwen-T,practice,2,0.1
+boolean-circuit,Qwen-T,practice,3,0.6
+boolean-circuit,Qwen-T,practice,4,0.6
+boolean-circuit,Qwen-T,practice,5,0.0
+boolean-circuit,Qwen-T,transfer,1,0.0
+boolean-circuit,Qwen-T,transfer,2,0.0
+boolean-circuit,Qwen-T,transfer,3,0.0
+boolean-circuit,Qwen-T,transfer,4,0.0
+dialect-morphology,Claude Haiku,practice,1,0.2286
+dialect-morphology,Claude Haiku,practice,2,1.0
+dialect-morphology,Claude Haiku,practice,3,1.0
+dialect-morphology,Claude Haiku,practice,4,1.0
+dialect-morphology,Claude Haiku,practice,5,1.0
+dialect-morphology,Claude Haiku,transfer,1,0.0
+dialect-morphology,Claude Haiku,transfer,2,0.0
+dialect-morphology,Claude Haiku,transfer,3,0.0
+dialect-morphology,Claude Haiku,transfer,4,0.0
+dialect-morphology,Claude Opus,practice,1,0.1
+dialect-morphology,Claude Opus,practice,2,1.0
+dialect-morphology,Claude Opus,practice,3,0.4857
+dialect-morphology,Claude Opus,practice,4,0.1
+dialect-morphology,Claude Opus,practice,5,0.2286
+dialect-morphology,Claude Opus,transfer,1,0.0
+dialect-morphology,Claude Opus,transfer,2,0.0
+dialect-morphology,Claude Opus,transfer,3,0.0
+dialect-morphology,Claude Opus,transfer,4,0.0
+dialect-morphology,Claude Sonnet,practice,1,0.1
+dialect-morphology,Claude Sonnet,practice,2,0.8714
+dialect-morphology,Claude Sonnet,practice,3,0.7429
+dialect-morphology,Claude Sonnet,practice,4,0.6143
+dialect-morphology,Claude Sonnet,practice,5,0.8714
+dialect-morphology,Claude Sonnet,transfer,1,0.0
+dialect-morphology,Claude Sonnet,transfer,2,0.0
+dialect-morphology,Claude Sonnet,transfer,3,0.0
+dialect-morphology,Claude Sonnet,transfer,4,0.0
+dialect-morphology,DeepSeek,practice,1,0.7429
+dialect-morphology,DeepSeek,practice,2,0.7429
+dialect-morphology,DeepSeek,practice,3,0.8714
+dialect-morphology,DeepSeek,practice,4,0.7429
+dialect-morphology,DeepSeek,practice,5,0.7429
+dialect-morphology,DeepSeek,transfer,1,0.0
+dialect-morphology,DeepSeek,transfer,2,0.0
+dialect-morphology,DeepSeek,transfer,3,0.0
+dialect-morphology,DeepSeek,transfer,4,0.0
+dialect-morphology,GLM-5,practice,1,0.4857
+dialect-morphology,GLM-5,practice,2,0.8714
+dialect-morphology,GLM-5,practice,3,1.0
+dialect-morphology,GLM-5,practice,4,0.8714
+dialect-morphology,GLM-5,practice,5,1.0
+dialect-morphology,GLM-5,transfer,1,0.0
+dialect-morphology,GLM-5,transfer,2,0.0
+dialect-morphology,GLM-5,transfer,3,0.0
+dialect-morphology,GLM-5,transfer,4,0.0
+dialect-morphology,GPT-5.4,practice,1,1.0
+dialect-morphology,GPT-5.4,practice,2,1.0
+dialect-morphology,GPT-5.4,practice,3,1.0
+dialect-morphology,GPT-5.4,practice,4,1.0
+dialect-morphology,GPT-5.4,practice,5,1.0
+dialect-morphology,GPT-5.4,transfer,1,0.0
+dialect-morphology,GPT-5.4,transfer,2,0.0
+dialect-morphology,GPT-5.4,transfer,3,0.0
+dialect-morphology,GPT-5.4,transfer,4,0.0
+dialect-morphology,GPT-mini,practice,1,0.8714
+dialect-morphology,GPT-mini,practice,2,1.0
+dialect-morphology,GPT-mini,practice,3,1.0
+dialect-morphology,GPT-mini,practice,4,1.0
+dialect-morphology,GPT-mini,practice,5,1.0
+dialect-morphology,GPT-mini,transfer,1,0.0
+dialect-morphology,GPT-mini,transfer,2,0.0
+dialect-morphology,GPT-mini,transfer,3,0.0
+dialect-morphology,GPT-mini,transfer,4,0.0
+dialect-morphology,GPT-nano,practice,1,1.0
+dialect-morphology,GPT-nano,practice,2,1.0
+dialect-morphology,GPT-nano,practice,3,1.0
+dialect-morphology,GPT-nano,practice,4,1.0
+dialect-morphology,GPT-nano,practice,5,1.0
+dialect-morphology,GPT-nano,transfer,1,0.0
+dialect-morphology,GPT-nano,transfer,2,0.0
+dialect-morphology,GPT-nano,transfer,3,0.0
+dialect-morphology,GPT-nano,transfer,4,0.0
+dialect-morphology,G-Flash,practice,1,0.8714
+dialect-morphology,G-Flash,practice,2,1.0
+dialect-morphology,G-Flash,practice,3,1.0
+dialect-morphology,G-Flash,practice,4,1.0
+dialect-morphology,G-Flash,practice,5,1.0
+dialect-morphology,G-Flash,transfer,1,0.0
+dialect-morphology,G-Flash,transfer,2,0.0
+dialect-morphology,G-Flash,transfer,3,0.0
+dialect-morphology,G-Flash,transfer,4,0.0
+dialect-morphology,G-Lite,practice,1,0.8714
+dialect-morphology,G-Lite,practice,2,1.0
+dialect-morphology,G-Lite,practice,3,1.0
+dialect-morphology,G-Lite,practice,4,1.0
+dialect-morphology,G-Lite,practice,5,1.0
+dialect-morphology,G-Lite,transfer,1,0.0
+dialect-morphology,G-Lite,transfer,2,0.0
+dialect-morphology,G-Lite,transfer,3,0.0
+dialect-morphology,G-Lite,transfer,4,0.0
+dialect-morphology,G-Pro,practice,1,0.8714
+dialect-morphology,G-Pro,practice,2,1.0
+dialect-morphology,G-Pro,practice,3,1.0
+dialect-morphology,G-Pro,practice,4,1.0
+dialect-morphology,G-Pro,practice,5,0.7429
+dialect-morphology,G-Pro,transfer,1,0.0
+dialect-morphology,G-Pro,transfer,2,0.0
+dialect-morphology,G-Pro,transfer,3,0.0
+dialect-morphology,G-Pro,transfer,4,0.0
+dialect-morphology,Gemma,practice,1,0.0
+dialect-morphology,Gemma,practice,2,0.4857
+dialect-morphology,Gemma,practice,3,0.1
+dialect-morphology,Gemma,practice,4,0.1
+dialect-morphology,Gemma,practice,5,0.2286
+dialect-morphology,Gemma,transfer,1,0.0
+dialect-morphology,Gemma,transfer,2,0.0
+dialect-morphology,Gemma,transfer,3,0.0
+dialect-morphology,Gemma,transfer,4,0.0
+dialect-morphology,Qwen-I,practice,1,0.1
+dialect-morphology,Qwen-I,practice,2,0.7429
+dialect-morphology,Qwen-I,practice,3,0.8714
+dialect-morphology,Qwen-I,practice,4,0.8714
+dialect-morphology,Qwen-I,practice,5,0.8714
+dialect-morphology,Qwen-I,transfer,1,0.0
+dialect-morphology,Qwen-I,transfer,2,0.0
+dialect-morphology,Qwen-I,transfer,3,0.0
+dialect-morphology,Qwen-I,transfer,4,0.0
+dialect-morphology,Qwen-T,practice,1,1.0
+dialect-morphology,Qwen-T,practice,2,1.0
+dialect-morphology,Qwen-T,practice,3,1.0
+dialect-morphology,Qwen-T,practice,4,1.0
+dialect-morphology,Qwen-T,practice,5,1.0
+dialect-morphology,Qwen-T,transfer,1,0.0
+dialect-morphology,Qwen-T,transfer,2,0.0
+dialect-morphology,Qwen-T,transfer,3,0.0
+dialect-morphology,Qwen-T,transfer,4,0.0
+grammar-induction,Claude Haiku,practice,1,0.0
+grammar-induction,Claude Haiku,practice,2,0.0
+grammar-induction,Claude Haiku,practice,3,0.0
+grammar-induction,Claude Haiku,practice,4,0.0
+grammar-induction,Claude Haiku,practice,5,0.0
+grammar-induction,Claude Haiku,transfer,1,0.0
+grammar-induction,Claude Haiku,transfer,2,0.0
+grammar-induction,Claude Haiku,transfer,3,0.0
+grammar-induction,Claude Haiku,transfer,4,0.0
+grammar-induction,Claude Opus,practice,1,0.0
+grammar-induction,Claude Opus,practice,2,0.0
+grammar-induction,Claude Opus,practice,3,0.1
+grammar-induction,Claude Opus,practice,4,0.0
+grammar-induction,Claude Opus,practice,5,0.0
+grammar-induction,Claude Opus,transfer,1,0.0
+grammar-induction,Claude Opus,transfer,2,0.0
+grammar-induction,Claude Opus,transfer,3,0.0
+grammar-induction,Claude Opus,transfer,4,1.0
+grammar-induction,Claude Sonnet,practice,1,0.0
+grammar-induction,Claude Sonnet,practice,2,0.0
+grammar-induction,Claude Sonnet,practice,3,0.1
+grammar-induction,Claude Sonnet,practice,4,0.0
+grammar-induction,Claude Sonnet,practice,5,0.0
+grammar-induction,Claude Sonnet,transfer,1,0.0
+grammar-induction,Claude Sonnet,transfer,2,0.0
+grammar-induction,Claude Sonnet,transfer,3,0.0
+grammar-induction,Claude Sonnet,transfer,4,1.0
+grammar-induction,DeepSeek,practice,1,0.0
+grammar-induction,DeepSeek,practice,2,0.0
+grammar-induction,DeepSeek,practice,3,0.0
+grammar-induction,DeepSeek,practice,4,0.0
+grammar-induction,DeepSeek,practice,5,0.0
+grammar-induction,DeepSeek,transfer,1,0.0
+grammar-induction,DeepSeek,transfer,2,0.0
+grammar-induction,DeepSeek,transfer,3,0.0
+grammar-induction,DeepSeek,transfer,4,0.0
+grammar-induction,GLM-5,practice,1,0.0
+grammar-induction,GLM-5,practice,2,0.3769
+grammar-induction,GLM-5,practice,3,0.1692
+grammar-induction,GLM-5,practice,4,0.1
+grammar-induction,GLM-5,practice,5,0.1692
+grammar-induction,GLM-5,transfer,1,1.0
+grammar-induction,GLM-5,transfer,2,1.0
+grammar-induction,GLM-5,transfer,3,0.0
+grammar-induction,GLM-5,transfer,4,1.0
+grammar-induction,GPT-5.4,practice,1,0.0
+grammar-induction,GPT-5.4,practice,2,0.0
+grammar-induction,GPT-5.4,practice,3,0.2385
+grammar-induction,GPT-5.4,practice,4,0.0
+grammar-induction,GPT-5.4,practice,5,0.0
+grammar-induction,GPT-5.4,transfer,1,0.0
+grammar-induction,GPT-5.4,transfer,2,0.0
+grammar-induction,GPT-5.4,transfer,3,0.0
+grammar-induction,GPT-5.4,transfer,4,1.0
+grammar-induction,GPT-mini,practice,1,0.0
+grammar-induction,GPT-mini,practice,2,0.0
+grammar-induction,GPT-mini,practice,3,0.7231
+grammar-induction,GPT-mini,practice,4,0.0
+grammar-induction,GPT-mini,practice,5,0.0
+grammar-induction,GPT-mini,transfer,1,0.0
+grammar-induction,GPT-mini,transfer,2,0.0
+grammar-induction,GPT-mini,transfer,3,0.0
+grammar-induction,GPT-mini,transfer,4,0.0
+grammar-induction,GPT-nano,practice,1,0.0
+grammar-induction,GPT-nano,practice,2,0.0
+grammar-induction,GPT-nano,practice,3,0.0
+grammar-induction,GPT-nano,practice,4,0.0
+grammar-induction,GPT-nano,practice,5,0.0
+grammar-induction,GPT-nano,transfer,1,0.0
+grammar-induction,GPT-nano,transfer,2,0.0
+grammar-induction,GPT-nano,transfer,3,0.0
+grammar-induction,GPT-nano,transfer,4,0.0
+grammar-induction,G-Flash,practice,1,0.0
+grammar-induction,G-Flash,practice,2,0.0
+grammar-induction,G-Flash,practice,3,0.0
+grammar-induction,G-Flash,practice,4,0.0
+grammar-induction,G-Flash,practice,5,0.1
+grammar-induction,G-Flash,transfer,1,0.0
+grammar-induction,G-Flash,transfer,2,1.0
+grammar-induction,G-Flash,transfer,3,0.0
+grammar-induction,G-Flash,transfer,4,1.0
+grammar-induction,G-Lite,practice,1,0.0
+grammar-induction,G-Lite,practice,2,0.0
+grammar-induction,G-Lite,practice,3,0.5846
+grammar-induction,G-Lite,practice,4,0.0
+grammar-induction,G-Lite,practice,5,0.0
+grammar-induction,G-Lite,transfer,1,0.0
+grammar-induction,G-Lite,transfer,2,0.0
+grammar-induction,G-Lite,transfer,3,0.0
+grammar-induction,G-Lite,transfer,4,1.0
+grammar-induction,G-Pro,practice,1,0.1
+grammar-induction,G-Pro,practice,2,0.5154
+grammar-induction,G-Pro,practice,3,0.5154
+grammar-induction,G-Pro,practice,4,0.2385
+grammar-induction,G-Pro,practice,5,0.3077
+grammar-induction,G-Pro,transfer,1,1.0
+grammar-induction,G-Pro,transfer,2,1.0
+grammar-induction,G-Pro,transfer,3,1.0
+grammar-induction,G-Pro,transfer,4,1.0
+grammar-induction,G-Flash-3,practice,1,0.0
+grammar-induction,G-Flash-3,practice,2,0.1
+grammar-induction,G-Flash-3,practice,3,0.0
+grammar-induction,G-Flash-3,practice,4,0.1
+grammar-induction,G-Flash-3,practice,5,0.0
+grammar-induction,Gemma,practice,1,0.0
+grammar-induction,Gemma,practice,2,0.0
+grammar-induction,Gemma,practice,3,0.0
+grammar-induction,Gemma,practice,4,0.0
+grammar-induction,Gemma,practice,5,0.0
+grammar-induction,Gemma,transfer,1,0.0
+grammar-induction,Gemma,transfer,2,0.0
+grammar-induction,Gemma,transfer,3,0.0
+grammar-induction,Gemma,transfer,4,0.0
+grammar-induction,Qwen-I,practice,1,0.0
+grammar-induction,Qwen-I,practice,2,0.0
+grammar-induction,Qwen-I,practice,3,0.0
+grammar-induction,Qwen-I,practice,4,0.0
+grammar-induction,Qwen-I,practice,5,0.0
+grammar-induction,Qwen-I,transfer,1,0.0
+grammar-induction,Qwen-I,transfer,2,0.0
+grammar-induction,Qwen-I,transfer,3,0.0
+grammar-induction,Qwen-I,transfer,4,0.0
+grammar-induction,Qwen-T,practice,1,0.0
+grammar-induction,Qwen-T,practice,2,0.5846
+grammar-induction,Qwen-T,practice,3,0.3769
+grammar-induction,Qwen-T,practice,4,0.0
+grammar-induction,Qwen-T,practice,5,0.0
+grammar-induction,Qwen-T,transfer,1,0.0
+grammar-induction,Qwen-T,transfer,2,0.0
+grammar-induction,Qwen-T,transfer,3,0.0
+grammar-induction,Qwen-T,transfer,4,1.0
+lights-out-variant,Claude Haiku,practice,1,0.52
+lights-out-variant,Claude Haiku,practice,2,0.0
+lights-out-variant,Claude Haiku,practice,3,0.0
+lights-out-variant,Claude Haiku,practice,4,0.0
+lights-out-variant,Claude Haiku,practice,5,0.0
+lights-out-variant,Claude Opus,practice,1,0.0
+lights-out-variant,Claude Opus,practice,2,0.0
+lights-out-variant,Claude Opus,practice,3,0.46
+lights-out-variant,Claude Opus,practice,4,0.0
+lights-out-variant,Claude Opus,practice,5,0.0
+lights-out-variant,Claude Sonnet,practice,1,0.0
+lights-out-variant,Claude Sonnet,practice,2,0.0
+lights-out-variant,Claude Sonnet,practice,3,0.7
+lights-out-variant,Claude Sonnet,practice,4,0.4
+lights-out-variant,Claude Sonnet,practice,5,0.58
+lights-out-variant,DeepSeek,practice,1,0.0
+lights-out-variant,DeepSeek,practice,2,0.0
+lights-out-variant,DeepSeek,practice,3,0.0
+lights-out-variant,DeepSeek,practice,4,0.0
+lights-out-variant,DeepSeek,practice,5,0.0
+lights-out-variant,GLM-5,practice,1,0.52
+lights-out-variant,GLM-5,practice,2,0.16
+lights-out-variant,GLM-5,practice,3,0.0
+lights-out-variant,GLM-5,practice,4,0.0
+lights-out-variant,GLM-5,practice,5,0.58
+lights-out-variant,GPT-5.4,practice,1,0.0
+lights-out-variant,GPT-5.4,practice,2,0.0
+lights-out-variant,GPT-5.4,practice,3,0.0
+lights-out-variant,GPT-5.4,practice,4,0.0
+lights-out-variant,GPT-5.4,practice,5,0.0
+lights-out-variant,GPT-mini,practice,1,0.0
+lights-out-variant,GPT-mini,practice,2,0.0
+lights-out-variant,GPT-mini,practice,3,0.0
+lights-out-variant,GPT-mini,practice,4,0.0
+lights-out-variant,GPT-mini,practice,5,0.0
+lights-out-variant,GPT-nano,practice,1,0.0
+lights-out-variant,GPT-nano,practice,2,0.0
+lights-out-variant,GPT-nano,practice,3,0.0
+lights-out-variant,GPT-nano,practice,4,0.0
+lights-out-variant,GPT-nano,practice,5,0.0
+lights-out-variant,G-Flash,practice,1,0.64
+lights-out-variant,G-Flash,practice,2,0.64
+lights-out-variant,G-Flash,practice,3,0.7
+lights-out-variant,G-Flash,practice,4,0.4
+lights-out-variant,G-Flash,practice,5,0.58
+lights-out-variant,G-Lite,practice,1,0.64
+lights-out-variant,G-Lite,practice,2,0.64
+lights-out-variant,G-Lite,practice,3,0.34
+lights-out-variant,G-Lite,practice,4,0.4
+lights-out-variant,G-Lite,practice,5,0.1
+lights-out-variant,G-Pro,practice,1,0.64
+lights-out-variant,G-Pro,practice,2,0.64
+lights-out-variant,G-Pro,practice,3,0.7
+lights-out-variant,G-Pro,practice,4,0.4
+lights-out-variant,G-Pro,practice,5,0.58
+lights-out-variant,G-Flash-3,practice,1,0.64
+lights-out-variant,G-Flash-3,practice,2,0.64
+lights-out-variant,G-Flash-3,practice,3,0.7
+lights-out-variant,G-Flash-3,practice,4,0.16
+lights-out-variant,G-Flash-3,practice,5,0.46
+lights-out-variant,Gemma,practice,1,0.0
+lights-out-variant,Gemma,practice,2,0.52
+lights-out-variant,Gemma,practice,3,0.0
+lights-out-variant,Gemma,practice,4,0.0
+lights-out-variant,Gemma,practice,5,0.0
+lights-out-variant,Qwen-I,practice,1,0.28
+lights-out-variant,Qwen-I,practice,2,0.0
+lights-out-variant,Qwen-I,practice,3,0.7
+lights-out-variant,Qwen-I,practice,4,0.28
+lights-out-variant,Qwen-I,practice,5,0.0
+lights-out-variant,Qwen-T,practice,1,0.0
+lights-out-variant,Qwen-T,practice,2,0.0
+lights-out-variant,Qwen-T,practice,3,0.0
+lights-out-variant,Qwen-T,practice,4,0.0
+lights-out-variant,Qwen-T,practice,5,0.58
+nim-variant,Claude Haiku,practice,1,0.0
+nim-variant,Claude Haiku,practice,2,0.0
+nim-variant,Claude Haiku,practice,3,0.0
+nim-variant,Claude Haiku,practice,4,0.0
+nim-variant,Claude Haiku,practice,5,0.0
+nim-variant,Claude Opus,practice,1,0.0
+nim-variant,Claude Opus,practice,2,0.0
+nim-variant,Claude Opus,practice,3,0.0
+nim-variant,Claude Opus,practice,4,0.0
+nim-variant,Claude Opus,practice,5,0.8286
+nim-variant,Claude Sonnet,practice,1,0.0
+nim-variant,Claude Sonnet,practice,2,0.0
+nim-variant,Claude Sonnet,practice,3,0.0
+nim-variant,Claude Sonnet,practice,4,0.0
+nim-variant,Claude Sonnet,practice,5,0.0
+nim-variant,DeepSeek,practice,1,0.0
+nim-variant,DeepSeek,practice,2,0.0
+nim-variant,DeepSeek,practice,3,0.0
+nim-variant,DeepSeek,practice,4,0.0
+nim-variant,DeepSeek,practice,5,0.0
+nim-variant,GLM-5,practice,1,0.0
+nim-variant,GLM-5,practice,2,0.0
+nim-variant,GLM-5,practice,3,0.0
+nim-variant,GLM-5,practice,4,0.0
+nim-variant,GLM-5,practice,5,0.0
+nim-variant,GPT-5.4,practice,1,0.0
+nim-variant,GPT-5.4,practice,2,0.0
+nim-variant,GPT-5.4,practice,3,0.0
+nim-variant,GPT-5.4,practice,4,0.0
+nim-variant,GPT-5.4,practice,5,0.0
+nim-variant,GPT-mini,practice,1,0.0
+nim-variant,GPT-mini,practice,2,0.0
+nim-variant,GPT-mini,practice,3,0.0
+nim-variant,GPT-mini,practice,4,0.0
+nim-variant,GPT-mini,practice,5,0.0
+nim-variant,GPT-nano,practice,1,0.0
+nim-variant,GPT-nano,practice,2,0.0
+nim-variant,GPT-nano,practice,3,0.0
+nim-variant,GPT-nano,practice,4,0.0
+nim-variant,GPT-nano,practice,5,0.0
+nim-variant,G-Flash,practice,1,0.0
+nim-variant,G-Flash,practice,2,0.0
+nim-variant,G-Flash,practice,3,0.0
+nim-variant,G-Flash,practice,4,0.9571
+nim-variant,G-Flash,practice,5,0.8714
+nim-variant,G-Lite,practice,1,0.0
+nim-variant,G-Lite,practice,2,0.0
+nim-variant,G-Lite,practice,3,0.0
+nim-variant,G-Lite,practice,4,0.0
+nim-variant,G-Lite,practice,5,0.0
+nim-variant,G-Pro,practice,1,0.0
+nim-variant,G-Pro,practice,2,0.0
+nim-variant,G-Pro,practice,3,0.0
+nim-variant,G-Pro,practice,4,0.9571
+nim-variant,G-Pro,practice,5,0.8714
+nim-variant,Gemma,practice,1,0.0
+nim-variant,Gemma,practice,2,0.0
+nim-variant,Gemma,practice,3,0.0
+nim-variant,Gemma,practice,4,0.0
+nim-variant,Gemma,practice,5,0.0
+nim-variant,Qwen-I,practice,1,0.0
+nim-variant,Qwen-I,practice,2,0.0
+nim-variant,Qwen-I,practice,3,0.0
+nim-variant,Qwen-I,practice,4,0.0
+nim-variant,Qwen-I,practice,5,0.0
+nim-variant,Qwen-T,practice,1,0.0
+nim-variant,Qwen-T,practice,2,0.0
+nim-variant,Qwen-T,practice,3,0.0
+nim-variant,Qwen-T,practice,4,0.0
+nim-variant,Qwen-T,practice,5,0.0
+opponent-strategy,Claude Haiku,practice,1,1.0
+opponent-strategy,Claude Haiku,practice,2,1.0
+opponent-strategy,Claude Haiku,practice,3,1.0
+opponent-strategy,Claude Haiku,practice,4,1.0
+opponent-strategy,Claude Haiku,practice,5,0.0
+opponent-strategy,Claude Opus,practice,1,1.0
+opponent-strategy,Claude Opus,practice,2,0.0
+opponent-strategy,Claude Opus,practice,3,1.0
+opponent-strategy,Claude Opus,practice,4,1.0
+opponent-strategy,Claude Opus,practice,5,0.0
+opponent-strategy,Claude Sonnet,practice,1,1.0
+opponent-strategy,Claude Sonnet,practice,2,1.0
+opponent-strategy,Claude Sonnet,practice,3,0.0
+opponent-strategy,Claude Sonnet,practice,4,1.0
+opponent-strategy,Claude Sonnet,practice,5,1.0
+opponent-strategy,DeepSeek,practice,1,1.0
+opponent-strategy,DeepSeek,practice,2,1.0
+opponent-strategy,DeepSeek,practice,3,0.0
+opponent-strategy,DeepSeek,practice,4,1.0
+opponent-strategy,DeepSeek,practice,5,1.0
+opponent-strategy,GLM-5,practice,1,1.0
+opponent-strategy,GLM-5,practice,2,0.0
+opponent-strategy,GLM-5,practice,3,0.0
+opponent-strategy,GLM-5,practice,4,1.0
+opponent-strategy,GLM-5,practice,5,1.0
+opponent-strategy,GPT-5.4,practice,1,1.0
+opponent-strategy,GPT-5.4,practice,2,0.0
+opponent-strategy,GPT-5.4,practice,3,0.0
+opponent-strategy,GPT-5.4,practice,4,0.0
+opponent-strategy,GPT-5.4,practice,5,1.0
+opponent-strategy,GPT-mini,practice,1,0.0
+opponent-strategy,GPT-mini,practice,2,1.0
+opponent-strategy,GPT-mini,practice,3,0.0
+opponent-strategy,GPT-mini,practice,4,0.0
+opponent-strategy,GPT-mini,practice,5,1.0
+opponent-strategy,GPT-nano,practice,1,1.0
+opponent-strategy,GPT-nano,practice,2,1.0
+opponent-strategy,GPT-nano,practice,3,0.0
+opponent-strategy,GPT-nano,practice,4,0.0
+opponent-strategy,GPT-nano,practice,5,1.0
+opponent-strategy,G-Flash,practice,1,1.0
+opponent-strategy,G-Flash,practice,2,1.0
+opponent-strategy,G-Flash,practice,3,0.0
+opponent-strategy,G-Flash,practice,4,0.0
+opponent-strategy,G-Flash,practice,5,1.0
+opponent-strategy,G-Lite,practice,1,0.0
+opponent-strategy,G-Lite,practice,2,1.0
+opponent-strategy,G-Lite,practice,3,0.0
+opponent-strategy,G-Lite,practice,4,0.0
+opponent-strategy,G-Lite,practice,5,1.0
+opponent-strategy,G-Pro,practice,1,1.0
+opponent-strategy,G-Pro,practice,2,1.0
+opponent-strategy,G-Pro,practice,3,1.0
+opponent-strategy,G-Pro,practice,4,1.0
+opponent-strategy,G-Pro,practice,5,1.0
+opponent-strategy,Gemma,practice,1,1.0
+opponent-strategy,Gemma,practice,2,1.0
+opponent-strategy,Gemma,practice,3,0.0
+opponent-strategy,Gemma,practice,4,1.0
+opponent-strategy,Gemma,practice,5,1.0
+opponent-strategy,Qwen-I,practice,1,1.0
+opponent-strategy,Qwen-I,practice,2,1.0
+opponent-strategy,Qwen-I,practice,3,1.0
+opponent-strategy,Qwen-I,practice,4,1.0
+opponent-strategy,Qwen-I,practice,5,1.0
+opponent-strategy,Qwen-T,practice,1,0.0
+opponent-strategy,Qwen-T,practice,2,1.0
+opponent-strategy,Qwen-T,practice,3,0.0
+opponent-strategy,Qwen-T,practice,4,0.0
+opponent-strategy,Qwen-T,practice,5,0.0
+packet-filter,Claude Haiku,practice,1,0.4857
+packet-filter,Claude Haiku,practice,2,0.0
+packet-filter,Claude Haiku,practice,3,0.1
+packet-filter,Claude Haiku,practice,4,0.0
+packet-filter,Claude Haiku,practice,5,0.0
+packet-filter,Claude Haiku,transfer,1,0.0
+packet-filter,Claude Haiku,transfer,2,1.0
+packet-filter,Claude Haiku,transfer,3,1.0
+packet-filter,Claude Haiku,transfer,4,0.0
+packet-filter,Claude Opus,practice,1,0.6143
+packet-filter,Claude Opus,practice,2,0.6143
+packet-filter,Claude Opus,practice,3,0.0
+packet-filter,Claude Opus,practice,4,0.6143
+packet-filter,Claude Opus,practice,5,0.1
+packet-filter,Claude Opus,transfer,1,0.0
+packet-filter,Claude Opus,transfer,2,1.0
+packet-filter,Claude Opus,transfer,3,1.0
+packet-filter,Claude Opus,transfer,4,0.0
+packet-filter,Claude Sonnet,practice,1,0.6143
+packet-filter,Claude Sonnet,practice,2,0.0
+packet-filter,Claude Sonnet,practice,3,0.1
+packet-filter,Claude Sonnet,practice,4,0.7429
+packet-filter,Claude Sonnet,practice,5,0.1
+packet-filter,Claude Sonnet,transfer,1,0.0
+packet-filter,Claude Sonnet,transfer,2,0.0
+packet-filter,Claude Sonnet,transfer,3,1.0
+packet-filter,Claude Sonnet,transfer,4,1.0
+packet-filter,DeepSeek,practice,1,0.0
+packet-filter,DeepSeek,practice,2,0.0
+packet-filter,DeepSeek,practice,3,0.0
+packet-filter,DeepSeek,practice,4,0.0
+packet-filter,DeepSeek,practice,5,0.0
+packet-filter,DeepSeek,transfer,1,1.0
+packet-filter,DeepSeek,transfer,2,0.0
+packet-filter,DeepSeek,transfer,3,1.0
+packet-filter,DeepSeek,transfer,4,0.0
+packet-filter,GLM-5,practice,1,1.0
+packet-filter,GLM-5,practice,2,0.2286
+packet-filter,GLM-5,practice,3,0.0
+packet-filter,GLM-5,practice,4,0.0
+packet-filter,GLM-5,practice,5,0.0
+packet-filter,GLM-5,transfer,1,0.0
+packet-filter,GLM-5,transfer,2,1.0
+packet-filter,GLM-5,transfer,3,1.0
+packet-filter,GLM-5,transfer,4,1.0
+packet-filter,GPT-5.4,practice,1,0.0
+packet-filter,GPT-5.4,practice,2,0.2286
+packet-filter,GPT-5.4,practice,3,0.2286
+packet-filter,GPT-5.4,practice,4,0.0
+packet-filter,GPT-5.4,practice,5,0.0
+packet-filter,GPT-5.4,transfer,1,0.0
+packet-filter,GPT-5.4,transfer,2,0.0
+packet-filter,GPT-5.4,transfer,3,1.0
+packet-filter,GPT-5.4,transfer,4,1.0
+packet-filter,GPT-mini,practice,1,1.0
+packet-filter,GPT-mini,practice,2,0.0
+packet-filter,GPT-mini,practice,3,0.0
+packet-filter,GPT-mini,practice,4,0.0
+packet-filter,GPT-mini,practice,5,1.0
+packet-filter,GPT-mini,transfer,1,0.0
+packet-filter,GPT-mini,transfer,2,0.0
+packet-filter,GPT-mini,transfer,3,0.0
+packet-filter,GPT-mini,transfer,4,0.0
+packet-filter,GPT-nano,practice,1,0.0
+packet-filter,GPT-nano,practice,2,0.0
+packet-filter,GPT-nano,practice,3,0.0
+packet-filter,GPT-nano,practice,4,0.0
+packet-filter,GPT-nano,practice,5,0.0
+packet-filter,GPT-nano,transfer,1,0.0
+packet-filter,GPT-nano,transfer,2,0.0
+packet-filter,GPT-nano,transfer,3,0.0
+packet-filter,GPT-nano,transfer,4,0.0
+packet-filter,G-Flash,practice,1,1.0
+packet-filter,G-Flash,practice,2,0.3571
+packet-filter,G-Flash,practice,3,0.7429
+packet-filter,G-Flash,practice,4,0.0
+packet-filter,G-Flash,practice,5,0.0
+packet-filter,G-Flash,transfer,1,1.0
+packet-filter,G-Flash,transfer,2,0.0
+packet-filter,G-Flash,transfer,3,1.0
+packet-filter,G-Flash,transfer,4,1.0
+packet-filter,G-Lite,practice,1,0.7429
+packet-filter,G-Lite,practice,2,0.0
+packet-filter,G-Lite,practice,3,0.0
+packet-filter,G-Lite,practice,4,0.3571
+packet-filter,G-Lite,practice,5,0.0
+packet-filter,G-Lite,transfer,1,1.0
+packet-filter,G-Lite,transfer,2,0.0
+packet-filter,G-Lite,transfer,3,1.0
+packet-filter,G-Lite,transfer,4,0.0
+packet-filter,G-Pro,practice,1,0.3571
+packet-filter,G-Pro,practice,2,0.7429
+packet-filter,G-Pro,practice,3,0.0
+packet-filter,G-Pro,practice,4,1.0
+packet-filter,G-Pro,practice,5,0.0
+packet-filter,G-Pro,transfer,1,1.0
+packet-filter,G-Pro,transfer,2,1.0
+packet-filter,G-Pro,transfer,3,1.0
+packet-filter,G-Pro,transfer,4,1.0
+packet-filter,Gemma,practice,1,0.0
+packet-filter,Gemma,practice,2,0.0
+packet-filter,Gemma,practice,3,0.0
+packet-filter,Gemma,practice,4,0.0
+packet-filter,Gemma,practice,5,0.0
+packet-filter,Gemma,transfer,1,0.0
+packet-filter,Gemma,transfer,2,0.0
+packet-filter,Gemma,transfer,3,0.0
+packet-filter,Gemma,transfer,4,0.0
+packet-filter,Qwen-I,practice,1,0.0
+packet-filter,Qwen-I,practice,2,0.0
+packet-filter,Qwen-I,practice,3,0.0
+packet-filter,Qwen-I,practice,4,0.0
+packet-filter,Qwen-I,practice,5,0.0
+packet-filter,Qwen-I,transfer,1,0.0
+packet-filter,Qwen-I,transfer,2,0.0
+packet-filter,Qwen-I,transfer,3,1.0
+packet-filter,Qwen-I,transfer,4,0.0
+packet-filter,Qwen-T,practice,1,0.6143
+packet-filter,Qwen-T,practice,2,0.1
+packet-filter,Qwen-T,practice,3,0.1
+packet-filter,Qwen-T,practice,4,0.0
+packet-filter,Qwen-T,practice,5,0.0
+packet-filter,Qwen-T,transfer,1,0.0
+packet-filter,Qwen-T,transfer,2,0.0
+packet-filter,Qwen-T,transfer,3,1.0
+packet-filter,Qwen-T,transfer,4,0.0
+sql-reverse-engineering,Claude Haiku,practice,1,1.0
+sql-reverse-engineering,Claude Haiku,practice,2,1.0
+sql-reverse-engineering,Claude Haiku,practice,3,1.0
+sql-reverse-engineering,Claude Haiku,practice,4,0.0
+sql-reverse-engineering,Claude Haiku,practice,5,0.4
+sql-reverse-engineering,Claude Haiku,transfer,1,1.0
+sql-reverse-engineering,Claude Haiku,transfer,2,1.0
+sql-reverse-engineering,Claude Haiku,transfer,3,0.0
+sql-reverse-engineering,Claude Haiku,transfer,4,1.0
+sql-reverse-engineering,Claude Opus,practice,1,1.0
+sql-reverse-engineering,Claude Opus,practice,2,1.0
+sql-reverse-engineering,Claude Opus,practice,3,1.0
+sql-reverse-engineering,Claude Opus,practice,4,1.0
+sql-reverse-engineering,Claude Opus,practice,5,0.0
+sql-reverse-engineering,Claude Opus,transfer,1,1.0
+sql-reverse-engineering,Claude Opus,transfer,2,1.0
+sql-reverse-engineering,Claude Opus,transfer,3,0.0
+sql-reverse-engineering,Claude Opus,transfer,4,1.0
+sql-reverse-engineering,Claude Sonnet,practice,1,0.85
+sql-reverse-engineering,Claude Sonnet,practice,2,1.0
+sql-reverse-engineering,Claude Sonnet,practice,3,1.0
+sql-reverse-engineering,Claude Sonnet,practice,4,0.0
+sql-reverse-engineering,Claude Sonnet,practice,5,0.1
+sql-reverse-engineering,Claude Sonnet,transfer,1,1.0
+sql-reverse-engineering,Claude Sonnet,transfer,2,1.0
+sql-reverse-engineering,Claude Sonnet,transfer,3,0.0
+sql-reverse-engineering,Claude Sonnet,transfer,4,0.0
+sql-reverse-engineering,DeepSeek,practice,1,0.7
+sql-reverse-engineering,DeepSeek,practice,2,1.0
+sql-reverse-engineering,DeepSeek,practice,3,1.0
+sql-reverse-engineering,DeepSeek,practice,4,0.0
+sql-reverse-engineering,DeepSeek,practice,5,0.0
+sql-reverse-engineering,DeepSeek,transfer,1,1.0
+sql-reverse-engineering,DeepSeek,transfer,2,1.0
+sql-reverse-engineering,DeepSeek,transfer,3,0.0
+sql-reverse-engineering,DeepSeek,transfer,4,1.0
+sql-reverse-engineering,GLM-5,practice,1,1.0
+sql-reverse-engineering,GLM-5,practice,2,1.0
+sql-reverse-engineering,GLM-5,practice,3,1.0
+sql-reverse-engineering,GLM-5,practice,4,1.0
+sql-reverse-engineering,GLM-5,practice,5,1.0
+sql-reverse-engineering,GLM-5,transfer,1,1.0
+sql-reverse-engineering,GLM-5,transfer,2,1.0
+sql-reverse-engineering,GLM-5,transfer,3,0.0
+sql-reverse-engineering,GLM-5,transfer,4,1.0
+sql-reverse-engineering,GPT-5.4,practice,1,0.4
+sql-reverse-engineering,GPT-5.4,practice,2,1.0
+sql-reverse-engineering,GPT-5.4,practice,3,1.0
+sql-reverse-engineering,GPT-5.4,practice,4,0.0
+sql-reverse-engineering,GPT-5.4,practice,5,0.0
+sql-reverse-engineering,GPT-5.4,transfer,1,1.0
+sql-reverse-engineering,GPT-5.4,transfer,2,1.0
+sql-reverse-engineering,GPT-5.4,transfer,3,0.0
+sql-reverse-engineering,GPT-5.4,transfer,4,0.0
+sql-reverse-engineering,GPT-mini,practice,1,0.0
+sql-reverse-engineering,GPT-mini,practice,2,1.0
+sql-reverse-engineering,GPT-mini,practice,3,0.0
+sql-reverse-engineering,GPT-mini,practice,4,0.25
+sql-reverse-engineering,GPT-mini,practice,5,0.0
+sql-reverse-engineering,GPT-mini,transfer,1,1.0
+sql-reverse-engineering,GPT-mini,transfer,2,0.0
+sql-reverse-engineering,GPT-mini,transfer,3,0.0
+sql-reverse-engineering,GPT-mini,transfer,4,1.0
+sql-reverse-engineering,GPT-nano,practice,1,0.0
+sql-reverse-engineering,GPT-nano,practice,2,1.0
+sql-reverse-engineering,GPT-nano,practice,3,0.0
+sql-reverse-engineering,GPT-nano,practice,4,0.0
+sql-reverse-engineering,GPT-nano,practice,5,0.0
+sql-reverse-engineering,GPT-nano,transfer,1,1.0
+sql-reverse-engineering,GPT-nano,transfer,2,1.0
+sql-reverse-engineering,GPT-nano,transfer,3,0.0
+sql-reverse-engineering,GPT-nano,transfer,4,0.0
+sql-reverse-engineering,G-Flash,practice,1,0.55
+sql-reverse-engineering,G-Flash,practice,2,1.0
+sql-reverse-engineering,G-Flash,practice,3,1.0
+sql-reverse-engineering,G-Flash,practice,4,0.4
+sql-reverse-engineering,G-Flash,practice,5,0.4
+sql-reverse-engineering,G-Flash,transfer,1,1.0
+sql-reverse-engineering,G-Flash,transfer,2,1.0
+sql-reverse-engineering,G-Flash,transfer,3,1.0
+sql-reverse-engineering,G-Flash,transfer,4,1.0
+sql-reverse-engineering,G-Lite,practice,1,1.0
+sql-reverse-engineering,G-Lite,practice,2,1.0
+sql-reverse-engineering,G-Lite,practice,3,1.0
+sql-reverse-engineering,G-Lite,practice,4,1.0
+sql-reverse-engineering,G-Lite,practice,5,0.0
+sql-reverse-engineering,G-Lite,transfer,1,1.0
+sql-reverse-engineering,G-Lite,transfer,2,1.0
+sql-reverse-engineering,G-Lite,transfer,3,0.0
+sql-reverse-engineering,G-Lite,transfer,4,0.0
+sql-reverse-engineering,G-Pro,practice,1,1.0
+sql-reverse-engineering,G-Pro,practice,2,1.0
+sql-reverse-engineering,G-Pro,practice,3,1.0
+sql-reverse-engineering,G-Pro,practice,4,1.0
+sql-reverse-engineering,G-Pro,practice,5,1.0
+sql-reverse-engineering,G-Pro,transfer,1,1.0
+sql-reverse-engineering,G-Pro,transfer,2,1.0
+sql-reverse-engineering,G-Pro,transfer,3,1.0
+sql-reverse-engineering,G-Pro,transfer,4,0.0
+sql-reverse-engineering,Gemma,practice,1,0.55
+sql-reverse-engineering,Gemma,practice,2,1.0
+sql-reverse-engineering,Gemma,practice,3,0.55
+sql-reverse-engineering,Gemma,practice,4,1.0
+sql-reverse-engineering,Gemma,practice,5,0.0
+sql-reverse-engineering,Gemma,transfer,1,1.0
+sql-reverse-engineering,Gemma,transfer,2,1.0
+sql-reverse-engineering,Gemma,transfer,3,0.0
+sql-reverse-engineering,Gemma,transfer,4,1.0
+sql-reverse-engineering,Qwen-I,practice,1,1.0
+sql-reverse-engineering,Qwen-I,practice,2,1.0
+sql-reverse-engineering,Qwen-I,practice,3,0.0
+sql-reverse-engineering,Qwen-I,practice,4,0.0
+sql-reverse-engineering,Qwen-I,practice,5,0.0
+sql-reverse-engineering,Qwen-I,transfer,1,1.0
+sql-reverse-engineering,Qwen-I,transfer,2,0.0
+sql-reverse-engineering,Qwen-I,transfer,3,0.0
+sql-reverse-engineering,Qwen-I,transfer,4,0.0
+sql-reverse-engineering,Qwen-T,practice,1,1.0
+sql-reverse-engineering,Qwen-T,practice,2,1.0
+sql-reverse-engineering,Qwen-T,practice,3,1.0
+sql-reverse-engineering,Qwen-T,practice,4,0.0
+sql-reverse-engineering,Qwen-T,practice,5,0.0
+sql-reverse-engineering,Qwen-T,transfer,1,1.0
+sql-reverse-engineering,Qwen-T,transfer,2,1.0
+sql-reverse-engineering,Qwen-T,transfer,3,0.0
+sql-reverse-engineering,Qwen-T,transfer,4,0.0
+state-machine-password,Claude Haiku,practice,1,0.0
+state-machine-password,Claude Haiku,practice,2,0.25
+state-machine-password,Claude Haiku,practice,3,0.85
+state-machine-password,Claude Haiku,practice,4,1.0
+state-machine-password,Claude Haiku,practice,5,0.0
+state-machine-password,Claude Haiku,transfer,1,1.0
+state-machine-password,Claude Haiku,transfer,2,1.0
+state-machine-password,Claude Haiku,transfer,3,1.0
+state-machine-password,Claude Haiku,transfer,4,0.0
+state-machine-password,Claude Opus,practice,1,0.0
+state-machine-password,Claude Opus,practice,2,0.7
+state-machine-password,Claude Opus,practice,3,0.7
+state-machine-password,Claude Opus,practice,4,1.0
+state-machine-password,Claude Opus,practice,5,0.0
+state-machine-password,Claude Opus,transfer,1,1.0
+state-machine-password,Claude Opus,transfer,2,1.0
+state-machine-password,Claude Opus,transfer,3,1.0
+state-machine-password,Claude Opus,transfer,4,0.0
+state-machine-password,Claude Sonnet,practice,1,0.0
+state-machine-password,Claude Sonnet,practice,2,1.0
+state-machine-password,Claude Sonnet,practice,3,0.0
+state-machine-password,Claude Sonnet,practice,4,0.0
+state-machine-password,Claude Sonnet,practice,5,0.0
+state-machine-password,Claude Sonnet,transfer,1,1.0
+state-machine-password,Claude Sonnet,transfer,2,1.0
+state-machine-password,Claude Sonnet,transfer,3,1.0
+state-machine-password,Claude Sonnet,transfer,4,1.0
+state-machine-password,DeepSeek,practice,1,0.0
+state-machine-password,DeepSeek,practice,2,1.0
+state-machine-password,DeepSeek,practice,3,1.0
+state-machine-password,DeepSeek,practice,4,1.0
+state-machine-password,DeepSeek,practice,5,0.0
+state-machine-password,DeepSeek,transfer,1,1.0
+state-machine-password,DeepSeek,transfer,2,0.0
+state-machine-password,DeepSeek,transfer,3,1.0
+state-machine-password,DeepSeek,transfer,4,0.0
+state-machine-password,GLM-5,practice,1,0.0
+state-machine-password,GLM-5,practice,2,0.55
+state-machine-password,GLM-5,practice,3,1.0
+state-machine-password,GLM-5,practice,4,1.0
+state-machine-password,GLM-5,practice,5,0.0
+state-machine-password,GLM-5,transfer,1,1.0
+state-machine-password,GLM-5,transfer,2,1.0
+state-machine-password,GLM-5,transfer,3,1.0
+state-machine-password,GLM-5,transfer,4,0.0
+state-machine-password,GPT-5.4,practice,1,0.25
+state-machine-password,GPT-5.4,practice,2,0.55
+state-machine-password,GPT-5.4,practice,3,0.85
+state-machine-password,GPT-5.4,practice,4,1.0
+state-machine-password,GPT-5.4,practice,5,0.0
+state-machine-password,GPT-5.4,transfer,1,1.0
+state-machine-password,GPT-5.4,transfer,2,1.0
+state-machine-password,GPT-5.4,transfer,3,1.0
+state-machine-password,GPT-5.4,transfer,4,0.0
+state-machine-password,GPT-mini,practice,1,0.0
+state-machine-password,GPT-mini,practice,2,1.0
+state-machine-password,GPT-mini,practice,3,0.0
+state-machine-password,GPT-mini,practice,4,1.0
+state-machine-password,GPT-mini,practice,5,0.0
+state-machine-password,GPT-mini,transfer,1,1.0
+state-machine-password,GPT-mini,transfer,2,0.0
+state-machine-password,GPT-mini,transfer,3,0.0
+state-machine-password,GPT-mini,transfer,4,0.0
+state-machine-password,GPT-nano,practice,1,0.0
+state-machine-password,GPT-nano,practice,2,0.0
+state-machine-password,GPT-nano,practice,3,0.0
+state-machine-password,GPT-nano,practice,4,0.85
+state-machine-password,GPT-nano,practice,5,0.0
+state-machine-password,GPT-nano,transfer,1,1.0
+state-machine-password,GPT-nano,transfer,2,0.0
+state-machine-password,GPT-nano,transfer,3,1.0
+state-machine-password,GPT-nano,transfer,4,0.0
+state-machine-password,G-Flash,practice,1,0.7
+state-machine-password,G-Flash,practice,2,0.55
+state-machine-password,G-Flash,practice,3,0.85
+state-machine-password,G-Flash,practice,4,1.0
+state-machine-password,G-Flash,practice,5,0.0
+state-machine-password,G-Flash,transfer,1,1.0
+state-machine-password,G-Flash,transfer,2,1.0
+state-machine-password,G-Flash,transfer,3,1.0
+state-machine-password,G-Flash,transfer,4,0.0
+state-machine-password,G-Lite,practice,1,0.55
+state-machine-password,G-Lite,practice,2,0.7
+state-machine-password,G-Lite,practice,3,0.0
+state-machine-password,G-Lite,practice,4,1.0
+state-machine-password,G-Lite,practice,5,0.0
+state-machine-password,G-Lite,transfer,1,1.0
+state-machine-password,G-Lite,transfer,2,1.0
+state-machine-password,G-Lite,transfer,3,1.0
+state-machine-password,G-Lite,transfer,4,0.0
+state-machine-password,G-Pro,practice,1,0.0
+state-machine-password,G-Pro,practice,2,1.0
+state-machine-password,G-Pro,practice,3,0.85
+state-machine-password,G-Pro,practice,4,1.0
+state-machine-password,G-Pro,practice,5,0.0
+state-machine-password,G-Pro,transfer,1,1.0
+state-machine-password,G-Pro,transfer,2,1.0
+state-machine-password,G-Pro,transfer,3,1.0
+state-machine-password,G-Pro,transfer,4,0.0
+state-machine-password,Gemma,practice,1,0.0
+state-machine-password,Gemma,practice,2,0.4
+state-machine-password,Gemma,practice,3,0.0
+state-machine-password,Gemma,practice,4,1.0
+state-machine-password,Gemma,practice,5,0.0
+state-machine-password,Gemma,transfer,1,1.0
+state-machine-password,Gemma,transfer,2,1.0
+state-machine-password,Gemma,transfer,3,1.0
+state-machine-password,Gemma,transfer,4,0.0
+state-machine-password,Qwen-I,practice,1,0.0
+state-machine-password,Qwen-I,practice,2,0.0
+state-machine-password,Qwen-I,practice,3,0.0
+state-machine-password,Qwen-I,practice,4,1.0
+state-machine-password,Qwen-I,practice,5,0.4
+state-machine-password,Qwen-I,transfer,1,1.0
+state-machine-password,Qwen-I,transfer,2,0.0
+state-machine-password,Qwen-I,transfer,3,1.0
+state-machine-password,Qwen-I,transfer,4,0.0
+state-machine-password,Qwen-T,practice,1,0.25
+state-machine-password,Qwen-T,practice,2,0.55
+state-machine-password,Qwen-T,practice,3,0.4
+state-machine-password,Qwen-T,practice,4,1.0
+state-machine-password,Qwen-T,practice,5,0.4
+state-machine-password,Qwen-T,transfer,1,1.0
+state-machine-password,Qwen-T,transfer,2,1.0
+state-machine-password,Qwen-T,transfer,3,1.0
+state-machine-password,Qwen-T,transfer,4,0.0
+voting-protocol,Claude Haiku,practice,1,0.325
+voting-protocol,Claude Haiku,practice,2,0.4375
+voting-protocol,Claude Haiku,practice,3,0.4375
+voting-protocol,Claude Haiku,practice,4,0.6625
+voting-protocol,Claude Haiku,practice,5,0.775
+voting-protocol,Claude Haiku,transfer,1,1.0
+voting-protocol,Claude Haiku,transfer,2,1.0
+voting-protocol,Claude Haiku,transfer,3,1.0
+voting-protocol,Claude Haiku,transfer,4,1.0
+voting-protocol,Claude Opus,practice,1,0.1
+voting-protocol,Claude Opus,practice,2,0.0
+voting-protocol,Claude Opus,practice,3,0.1
+voting-protocol,Claude Opus,practice,4,0.1
+voting-protocol,Claude Opus,practice,5,0.1
+voting-protocol,Claude Opus,transfer,1,1.0
+voting-protocol,Claude Opus,transfer,2,1.0
+voting-protocol,Claude Opus,transfer,3,1.0
+voting-protocol,Claude Opus,transfer,4,1.0
+voting-protocol,Claude Sonnet,practice,1,0.1
+voting-protocol,Claude Sonnet,practice,2,0.0
+voting-protocol,Claude Sonnet,practice,3,0.1
+voting-protocol,Claude Sonnet,practice,4,0.0
+voting-protocol,Claude Sonnet,practice,5,0.1
+voting-protocol,Claude Sonnet,transfer,1,1.0
+voting-protocol,Claude Sonnet,transfer,2,1.0
+voting-protocol,Claude Sonnet,transfer,3,0.0
+voting-protocol,Claude Sonnet,transfer,4,0.0
+voting-protocol,DeepSeek,practice,1,0.2125
+voting-protocol,DeepSeek,practice,2,0.0
+voting-protocol,DeepSeek,practice,3,0.1
+voting-protocol,DeepSeek,practice,4,0.325
+voting-protocol,DeepSeek,practice,5,0.4375
+voting-protocol,DeepSeek,transfer,1,1.0
+voting-protocol,DeepSeek,transfer,2,1.0
+voting-protocol,DeepSeek,transfer,3,1.0
+voting-protocol,DeepSeek,transfer,4,1.0
+voting-protocol,GLM-5,practice,1,0.775
+voting-protocol,GLM-5,practice,2,1.0
+voting-protocol,GLM-5,practice,3,0.8875
+voting-protocol,GLM-5,practice,4,1.0
+voting-protocol,GLM-5,practice,5,0.775
+voting-protocol,GLM-5,transfer,1,1.0
+voting-protocol,GLM-5,transfer,2,1.0
+voting-protocol,GLM-5,transfer,3,1.0
+voting-protocol,GLM-5,transfer,4,1.0
+voting-protocol,GPT-5.4,practice,1,0.0
+voting-protocol,GPT-5.4,practice,2,0.0
+voting-protocol,GPT-5.4,practice,3,0.0
+voting-protocol,GPT-5.4,practice,4,0.0
+voting-protocol,GPT-5.4,practice,5,0.0
+voting-protocol,GPT-5.4,transfer,1,0.0
+voting-protocol,GPT-5.4,transfer,2,0.0
+voting-protocol,GPT-5.4,transfer,3,0.0
+voting-protocol,GPT-5.4,transfer,4,0.0
+voting-protocol,GPT-mini,practice,1,0.0
+voting-protocol,GPT-mini,practice,2,0.0
+voting-protocol,GPT-mini,practice,3,0.0
+voting-protocol,GPT-mini,practice,4,0.0
+voting-protocol,GPT-mini,practice,5,0.0
+voting-protocol,GPT-mini,transfer,1,0.0
+voting-protocol,GPT-mini,transfer,2,0.0
+voting-protocol,GPT-mini,transfer,3,0.0
+voting-protocol,GPT-mini,transfer,4,0.0
+voting-protocol,GPT-nano,practice,1,0.0
+voting-protocol,GPT-nano,practice,2,0.0
+voting-protocol,GPT-nano,practice,3,0.0
+voting-protocol,GPT-nano,practice,4,0.0
+voting-protocol,GPT-nano,practice,5,0.0
+voting-protocol,GPT-nano,transfer,1,0.0
+voting-protocol,GPT-nano,transfer,2,0.0
+voting-protocol,GPT-nano,transfer,3,0.0
+voting-protocol,GPT-nano,transfer,4,0.0
+voting-protocol,G-Flash,practice,1,0.8875
+voting-protocol,G-Flash,practice,2,1.0
+voting-protocol,G-Flash,practice,3,1.0
+voting-protocol,G-Flash,practice,4,1.0
+voting-protocol,G-Flash,practice,5,1.0
+voting-protocol,G-Flash,transfer,1,1.0
+voting-protocol,G-Flash,transfer,2,1.0
+voting-protocol,G-Flash,transfer,3,1.0
+voting-protocol,G-Flash,transfer,4,1.0
+voting-protocol,G-Lite,practice,1,0.55
+voting-protocol,G-Lite,practice,2,0.775
+voting-protocol,G-Lite,practice,3,1.0
+voting-protocol,G-Lite,practice,4,1.0
+voting-protocol,G-Lite,practice,5,1.0
+voting-protocol,G-Lite,transfer,1,1.0
+voting-protocol,G-Lite,transfer,2,1.0
+voting-protocol,G-Lite,transfer,3,1.0
+voting-protocol,G-Lite,transfer,4,1.0
+voting-protocol,G-Pro,practice,1,0.775
+voting-protocol,G-Pro,practice,2,0.775
+voting-protocol,G-Pro,practice,3,1.0
+voting-protocol,G-Pro,practice,4,1.0
+voting-protocol,G-Pro,practice,5,1.0
+voting-protocol,G-Pro,transfer,1,1.0
+voting-protocol,G-Pro,transfer,2,1.0
+voting-protocol,G-Pro,transfer,3,1.0
+voting-protocol,G-Pro,transfer,4,1.0
+voting-protocol,G-Flash-3,practice,1,0.9
+voting-protocol,G-Flash-3,practice,2,0.8
+voting-protocol,G-Flash-3,practice,3,0.9
+voting-protocol,G-Flash-3,practice,4,0.8
+voting-protocol,G-Flash-3,practice,5,0.9
+voting-protocol,Gemma,practice,1,0.1
+voting-protocol,Gemma,practice,2,0.2125
+voting-protocol,Gemma,practice,3,0.2125
+voting-protocol,Gemma,practice,4,0.2125
+voting-protocol,Gemma,practice,5,0.2125
+voting-protocol,Gemma,transfer,1,1.0
+voting-protocol,Gemma,transfer,2,1.0
+voting-protocol,Gemma,transfer,3,0.0
+voting-protocol,Gemma,transfer,4,0.0
+voting-protocol,Qwen-I,practice,1,0.2125
+voting-protocol,Qwen-I,practice,2,0.325
+voting-protocol,Qwen-I,practice,3,0.1
+voting-protocol,Qwen-I,practice,4,0.4375
+voting-protocol,Qwen-I,practice,5,0.4375
+voting-protocol,Qwen-I,transfer,1,1.0
+voting-protocol,Qwen-I,transfer,2,1.0
+voting-protocol,Qwen-I,transfer,3,0.0
+voting-protocol,Qwen-I,transfer,4,0.0
+voting-protocol,Qwen-T,practice,1,1.0
+voting-protocol,Qwen-T,practice,2,0.775
+voting-protocol,Qwen-T,practice,3,1.0
+voting-protocol,Qwen-T,practice,4,1.0
+voting-protocol,Qwen-T,practice,5,1.0
+voting-protocol,Qwen-T,transfer,1,1.0
+voting-protocol,Qwen-T,transfer,2,1.0
+voting-protocol,Qwen-T,transfer,3,1.0
+voting-protocol,Qwen-T,transfer,4,1.0

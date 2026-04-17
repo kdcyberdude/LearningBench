@@ -1,0 +1,85 @@
+model,category,n_tasks,mean_score,mean_avg_input_tokens,mean_avg_output_tokens,mean_wall_sec,mean_avg_latency_ms,median_avg_input_tokens,median_avg_output_tokens,median_wall_sec,n_token_samples
+Claude Haiku 4.5,Associative Learning,17,0.5,2772.0,296.0,2.77,1544.0,2772.0,296.0,2.77,1
+Claude Haiku 4.5,Concept Formation,18,0.19,1997.63,83.13,26.13,1070.47,1919.1,86.6,27.81,3
+Claude Haiku 4.5,Language Learning,26,0.35,2330.51,178.93,26.14,1765.8,2104.55,159.65,23.7,22
+Claude Haiku 4.5,Observational Learning,38,0.24,1504.2,109.8,1.94,967.2,1581.0,101.0,1.87,5
+Claude Haiku 4.5,Overall,131,0.36,2179.26,162.29,21.48,1562.55,1969.0,143.0,19.65,31
+Claude Haiku 4.5,Reinforcement Learning,32,0.54,,,,,,,,0
+Claude Opus 4.6,Associative Learning,17,0.68,2040.5,186.5,4.07,3060.0,1926.5,176.0,3.75,4
+Claude Opus 4.6,Concept Formation,18,0.26,1561.3,91.75,54.01,2634.1,1561.3,91.75,54.01,2
+Claude Opus 4.6,Language Learning,26,0.51,,,,,,,,0
+Claude Opus 4.6,Observational Learning,38,0.34,,,,,,,,0
+Claude Opus 4.6,Overall,131,0.48,1880.77,154.92,20.72,2918.03,1671.7,161.0,4.98,6
+Claude Opus 4.6,Reinforcement Learning,32,0.62,,,,,,,,0
+Claude Sonnet 4.6,Associative Learning,17,0.66,2288.0,214.0,3.75,2540.0,2288.0,214.0,3.75,1
+Claude Sonnet 4.6,Concept Formation,18,0.33,,,,,,,,0
+Claude Sonnet 4.6,Language Learning,26,0.47,,,,,,,,0
+Claude Sonnet 4.6,Observational Learning,38,0.27,2426.0,120.8,2.81,1861.0,1341.0,112.0,2.71,5
+Claude Sonnet 4.6,Overall,131,0.45,2330.87,127.97,12.86,2043.3,1490.0,112.0,3.07,7
+Claude Sonnet 4.6,Reinforcement Learning,32,0.6,1898.1,77.8,72.24,2458.1,1898.1,77.8,72.24,1
+DeepSeek V3.2,Associative Learning,17,0.52,,,,,,,,0
+DeepSeek V3.2,Concept Formation,18,0.19,,,,,,,,0
+DeepSeek V3.2,Language Learning,26,0.47,,,,,,,,0
+DeepSeek V3.2,Observational Learning,38,0.43,1590.75,2391.5,78.16,63772.0,1099.5,2022.0,84.48,5
+DeepSeek V3.2,Overall,131,0.44,1590.75,2391.5,78.16,63772.0,1099.5,2022.0,84.48,5
+DeepSeek V3.2,Reinforcement Learning,32,0.51,,,,,,,,0
+GLM-5,Associative Learning,17,0.77,1401.0,13008.0,225.87,224718.0,1401.0,13008.0,225.87,1
+GLM-5,Concept Formation,18,0.57,300.5,4166.5,195.18,91457.5,300.5,4166.5,195.18,1
+GLM-5,Language Learning,26,0.69,741.5,2296.5,58.18,28561.0,741.5,2296.5,58.18,1
+GLM-5,Observational Learning,38,0.57,,,302.06,,,,302.06,2
+GLM-5,Overall,131,0.67,814.33,6490.33,216.67,114912.17,741.5,4166.5,225.87,5
+GLM-5,Reinforcement Learning,32,0.77,,,,,,,,0
+GPT-5.4,Associative Learning,17,0.66,458.0,38.0,2.16,988.0,458.0,38.0,2.16,1
+GPT-5.4,Concept Formation,18,0.28,1268.1,33.63,18.83,1383.97,833.6,24.1,18.63,3
+GPT-5.4,Language Learning,26,0.6,,,,,,,,0
+GPT-5.4,Observational Learning,38,0.3,488.5,50.0,2.69,1415.5,488.5,50.0,2.69,2
+GPT-5.4,Overall,131,0.48,790.04,36.23,10.46,1265.81,542.0,36.0,4.06,7
+GPT-5.4,Reinforcement Learning,32,0.63,291.0,14.7,9.22,889.8,291.0,14.7,9.22,1
+GPT-5.4 mini,Associative Learning,17,0.48,,,,,,,,0
+GPT-5.4 mini,Concept Formation,18,0.22,548.5,30.0,4.97,603.5,548.5,30.0,4.97,1
+GPT-5.4 mini,Language Learning,26,0.46,,,,,,,,0
+GPT-5.4 mini,Observational Learning,38,0.22,1599.0,56.0,1.2,506.0,1599.0,56.0,1.2,1
+GPT-5.4 mini,Overall,131,0.35,839.77,31.98,8.09,556.88,779.15,27.55,3.89,4
+GPT-5.4 mini,Reinforcement Learning,32,0.41,605.8,20.95,13.09,559.0,605.8,20.95,13.09,2
+GPT-5.4 nano,Associative Learning,17,0.43,,,,,,,,0
+GPT-5.4 nano,Concept Formation,18,0.15,1098.75,31.75,22.45,744.05,1098.75,31.75,22.45,2
+GPT-5.4 nano,Language Learning,26,0.31,,,,,,,,0
+GPT-5.4 nano,Observational Learning,38,0.14,968.0,40.5,1.8,761.0,836.5,32.0,1.84,4
+GPT-5.4 nano,Overall,131,0.24,1387.34,63.38,24.05,956.32,1093.0,32.0,24.95,19
+GPT-5.4 nano,Reinforcement Learning,32,0.24,1560.77,75.29,31.14,1049.07,1121.5,18.0,27.25,13
+Gemini 2.5 Flash,Associative Learning,17,0.61,,,,,,,,0
+Gemini 2.5 Flash,Concept Formation,18,0.53,502.57,32.8,202.85,29973.03,443.5,14.5,35.07,3
+Gemini 2.5 Flash,Language Learning,26,0.47,1050.1,22.9,341.28,19929.5,1050.1,22.9,341.28,1
+Gemini 2.5 Flash,Observational Learning,38,0.35,322.0,28.0,66.33,65339.0,322.0,28.0,66.33,1
+Gemini 2.5 Flash,Overall,131,0.46,503.57,27.22,215.35,38333.53,382.75,18.7,171.14,6
+Gemini 2.5 Flash,Reinforcement Learning,32,0.45,141.6,14.0,275.96,54813.6,141.6,14.0,275.96,1
+Gemini 3.1 Flash-Lite Preview,Associative Learning,17,0.59,,,,,,,,0
+Gemini 3.1 Flash-Lite Preview,Concept Formation,18,0.31,,,,,,,,0
+Gemini 3.1 Flash-Lite Preview,Language Learning,26,0.49,,,,,,,,0
+Gemini 3.1 Flash-Lite Preview,Observational Learning,38,0.29,,,,,,,,0
+Gemini 3.1 Flash-Lite Preview,Overall,131,0.44,,,,,,,,0
+Gemini 3.1 Flash-Lite Preview,Reinforcement Learning,32,0.55,,,,,,,,0
+Gemini 3.1 Pro Preview,Associative Learning,17,0.95,1150.0,104.0,41.62,40095.0,1150.0,104.0,41.62,1
+Gemini 3.1 Pro Preview,Concept Formation,18,0.8,455.8,21.5,70.96,17288.2,455.8,21.5,70.96,1
+Gemini 3.1 Pro Preview,Language Learning,26,0.76,,,,,,,,0
+Gemini 3.1 Pro Preview,Observational Learning,38,0.85,,,,,,,,0
+Gemini 3.1 Pro Preview,Overall,131,0.84,786.57,45.17,364.69,29973.07,753.9,21.5,70.96,3
+Gemini 3.1 Pro Preview,Reinforcement Learning,32,0.87,753.9,10.0,981.48,32536.0,753.9,10.0,981.48,1
+Gemma 4 26B A4B,Associative Learning,17,0.51,75729.0,33.0,5.53,4280.0,75729.0,33.0,5.53,1
+Gemma 4 26B A4B,Concept Formation,18,0.25,853.1,62.0,1824.8,1625.9,853.1,62.0,1824.8,1
+Gemma 4 26B A4B,Language Learning,26,0.27,,,,,,,,0
+Gemma 4 26B A4B,Observational Learning,38,0.22,1173.0,55.0,2.57,1532.0,1173.0,55.0,2.57,2
+Gemma 4 26B A4B,Overall,131,0.35,19732.03,51.25,458.87,2242.47,1459.55,47.5,4.39,4
+Gemma 4 26B A4B,Reinforcement Learning,32,0.52,,,,,,,,0
+Qwen 3 Next 80B Instruct,Associative Learning,17,0.48,738.17,71.67,2.61,478.67,518.5,68.5,1.67,6
+Qwen 3 Next 80B Instruct,Concept Formation,18,0.19,,,,,,,,0
+Qwen 3 Next 80B Instruct,Language Learning,26,0.41,825.1,24.8,5.11,454.5,825.1,24.8,5.11,1
+Qwen 3 Next 80B Instruct,Observational Learning,38,0.31,1766.5,85.0,23.54,532.0,1766.5,85.0,1.51,3
+Qwen 3 Next 80B Instruct,Overall,131,0.34,9584.4,814.51,74.94,3473.63,2418.1,310.35,34.1,21
+Qwen 3 Next 80B Instruct,Reinforcement Learning,32,0.32,16627.35,1424.14,134.76,5916.56,11737.1,941.8,111.06,11
+Qwen 3 Next 80B Thinking,Associative Learning,17,0.65,8184.0,51306.0,267.66,266304.0,8184.0,51306.0,267.66,1
+Qwen 3 Next 80B Thinking,Concept Formation,18,0.56,458.6,1994.6,83.35,11529.6,458.6,1994.6,83.35,1
+Qwen 3 Next 80B Thinking,Language Learning,26,0.62,723.0,6046.0,61.72,30154.5,723.0,6046.0,61.72,1
+Qwen 3 Next 80B Thinking,Observational Learning,38,0.58,707.0,34707.0,252.38,201647.0,707.0,34707.0,252.38,2
+Qwen 3 Next 80B Thinking,Overall,131,0.61,2723.27,16991.52,262.28,92778.6,715.0,6376.05,202.62,7
+Qwen 3 Next 80B Thinking,Reinforcement Learning,32,0.63,3133.5,3947.75,459.25,23518.25,3133.5,3947.75,459.25,2

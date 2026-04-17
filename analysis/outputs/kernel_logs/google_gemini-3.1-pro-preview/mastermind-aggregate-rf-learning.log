@@ -1,0 +1,290 @@
+[{"stream_name":"stdout","time":996.146985272,"data":"\n"}
+,{"stream_name":"stdout","time":996.147096201,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":996.147103244,"data":"  mastermind_aggregate_rf_learning\n"}
+,{"stream_name":"stdout","time":996.147107848,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":996.147111897,"data":"\n"}
+,{"stream_name":"stdout","time":996.147115462,"data":"  TASK: Mastermind-style code over nine symbols; each attempt returns only **COUPLING_SUM** (LOCK+DRIFT combined under multiset rules) with **no split** into anchored vs displaced mass.\n"}
+,{"stream_name":"stdout","time":996.147119754,"data":"\n"}
+,{"stream_name":"stdout","time":996.147238869,"data":"[USER — Turn 1]\n"}
+,{"stream_name":"stdout","time":996.147270397,"data":"A hidden pattern length 5 over symbols ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'] (repetition allowed).\n"}
+,{"stream_name":"stdout","time":996.147275604,"data":"Each attempt returns a **single scalar**: the environment's **COUPLING_SUM** = LOCK count + DRIFT count (see task-01 style semantics) but **without** splitting the two components.\n"}
+,{"stream_name":"stdout","time":996.14728066,"data":"Infer the pattern purely from scalar echoes.\n"}
+,{"stream_name":"stdout","time":996.147335404,"data":"Submit via JSON \"guess\", `GUESS:`, or a final line of 5 symbols.\n"}
+,{"stream_name":"stdout","time":996.147346364,"data":"Budget: 20 attempts.\n"}
+,{"stream_name":"stdout","time":996.147349912,"data":"\n"}
+,{"stream_name":"stdout","time":996.147355644,"data":"[ASSISTANT — Turn 1]\n"}
+,{"stream_name":"stdout","time":996.147360091,"data":"AAAAA\n"}
+,{"stream_name":"stdout","time":996.14736349,"data":"\n"}
+,{"stream_name":"stdout","time":996.147367097,"data":"[USER — Turn 2]\n"}
+,{"stream_name":"stdout","time":996.147370917,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.14737538,"data":"COUPLING_SUM = **1** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.147379577,"data":"\n"}
+,{"stream_name":"stdout","time":996.147383154,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.147387038,"data":"\n"}
+,{"stream_name":"stdout","time":996.147390639,"data":"[ASSISTANT — Turn 2]\n"}
+,{"stream_name":"stdout","time":996.147394161,"data":"BBBBB\n"}
+,{"stream_name":"stdout","time":996.147397909,"data":"\n"}
+,{"stream_name":"stdout","time":996.147401576,"data":"[USER — Turn 3]\n"}
+,{"stream_name":"stdout","time":996.147405903,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.147409775,"data":"COUPLING_SUM = **0** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.147414155,"data":"\n"}
+,{"stream_name":"stdout","time":996.147417938,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.14742169,"data":"\n"}
+,{"stream_name":"stdout","time":996.147425391,"data":"[ASSISTANT — Turn 3]\n"}
+,{"stream_name":"stdout","time":996.14742921,"data":"CCCCC\n"}
+,{"stream_name":"stdout","time":996.147432895,"data":"\n"}
+,{"stream_name":"stdout","time":996.147437066,"data":"[USER — Turn 4]\n"}
+,{"stream_name":"stdout","time":996.147440934,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.147444801,"data":"COUPLING_SUM = **0** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.147449027,"data":"\n"}
+,{"stream_name":"stdout","time":996.14745234,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.147469458,"data":"\n"}
+,{"stream_name":"stdout","time":996.147473559,"data":"[ASSISTANT — Turn 4]\n"}
+,{"stream_name":"stdout","time":996.147477622,"data":"DDDDD\n"}
+,{"stream_name":"stdout","time":996.147481857,"data":"\n"}
+,{"stream_name":"stdout","time":996.147485834,"data":"[USER — Turn 5]\n"}
+,{"stream_name":"stdout","time":996.14749001,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.147493887,"data":"COUPLING_SUM = **0** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.147498232,"data":"\n"}
+,{"stream_name":"stdout","time":996.147501877,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.147505685,"data":"\n"}
+,{"stream_name":"stdout","time":996.147509299,"data":"[ASSISTANT — Turn 5]\n"}
+,{"stream_name":"stdout","time":996.147513744,"data":"EEEEE\n"}
+,{"stream_name":"stdout","time":996.147517433,"data":"\n"}
+,{"stream_name":"stdout","time":996.147521147,"data":"[USER — Turn 6]\n"}
+,{"stream_name":"stdout","time":996.147525014,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.147529067,"data":"COUPLING_SUM = **1** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.147532862,"data":"\n"}
+,{"stream_name":"stdout","time":996.147536277,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.147683327,"data":"\n"}
+,{"stream_name":"stdout","time":996.147700715,"data":"[ASSISTANT — Turn 6]\n"}
+,{"stream_name":"stdout","time":996.147706196,"data":"FFFFF\n"}
+,{"stream_name":"stdout","time":996.147710177,"data":"\n"}
+,{"stream_name":"stdout","time":996.147714123,"data":"[USER — Turn 7]\n"}
+,{"stream_name":"stdout","time":996.147718549,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.147722319,"data":"COUPLING_SUM = **0** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.147726714,"data":"\n"}
+,{"stream_name":"stdout","time":996.147730435,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.147734328,"data":"\n"}
+,{"stream_name":"stdout","time":996.147737893,"data":"[ASSISTANT — Turn 7]\n"}
+,{"stream_name":"stdout","time":996.147741751,"data":"GGGGG\n"}
+,{"stream_name":"stdout","time":996.147745303,"data":"\n"}
+,{"stream_name":"stdout","time":996.147749388,"data":"[USER — Turn 8]\n"}
+,{"stream_name":"stdout","time":996.147753223,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.14776064,"data":"COUPLING_SUM = **2** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.147765077,"data":"\n"}
+,{"stream_name":"stdout","time":996.147768798,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.14777251,"data":"\n"}
+,{"stream_name":"stdout","time":996.147776138,"data":"[ASSISTANT — Turn 8]\n"}
+,{"stream_name":"stdout","time":996.147779869,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.147783961,"data":"\n"}
+,{"stream_name":"stdout","time":996.147787689,"data":"[USER — Turn 9]\n"}
+,{"stream_name":"stdout","time":996.147791428,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.147795065,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.147799552,"data":"\n"}
+,{"stream_name":"stdout","time":996.147814492,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.147818822,"data":"\n"}
+,{"stream_name":"stdout","time":996.147822463,"data":"[ASSISTANT — Turn 9]\n"}
+,{"stream_name":"stdout","time":996.147826725,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.147830579,"data":"\n"}
+,{"stream_name":"stdout","time":996.147834374,"data":"[USER — Turn 10]\n"}
+,{"stream_name":"stdout","time":996.147838325,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.147842124,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.147846286,"data":"\n"}
+,{"stream_name":"stdout","time":996.147849925,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.147853662,"data":"\n"}
+,{"stream_name":"stdout","time":996.14785778,"data":"[ASSISTANT — Turn 10]\n"}
+,{"stream_name":"stdout","time":996.147861776,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.147865518,"data":"\n"}
+,{"stream_name":"stdout","time":996.147869224,"data":"[USER — Turn 11]\n"}
+,{"stream_name":"stdout","time":996.147872325,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.147874696,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.147877596,"data":"\n"}
+,{"stream_name":"stdout","time":996.147881313,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.147885388,"data":"\n"}
+,{"stream_name":"stdout","time":996.14788914,"data":"[ASSISTANT — Turn 11]\n"}
+,{"stream_name":"stdout","time":996.147893121,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.147897036,"data":"\n"}
+,{"stream_name":"stdout","time":996.14790075,"data":"[USER — Turn 12]\n"}
+,{"stream_name":"stdout","time":996.147904595,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.147908528,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.147912474,"data":"\n"}
+,{"stream_name":"stdout","time":996.147916461,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.147920343,"data":"\n"}
+,{"stream_name":"stdout","time":996.14792414,"data":"[ASSISTANT — Turn 12]\n"}
+,{"stream_name":"stdout","time":996.147928097,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.147931808,"data":"\n"}
+,{"stream_name":"stdout","time":996.147935409,"data":"[USER — Turn 13]\n"}
+,{"stream_name":"stdout","time":996.147939199,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.147942829,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.147947349,"data":"\n"}
+,{"stream_name":"stdout","time":996.147951519,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.14795543,"data":"\n"}
+,{"stream_name":"stdout","time":996.147959145,"data":"[ASSISTANT — Turn 13]\n"}
+,{"stream_name":"stdout","time":996.147963003,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.147967272,"data":"\n"}
+,{"stream_name":"stdout","time":996.147969829,"data":"[USER — Turn 14]\n"}
+,{"stream_name":"stdout","time":996.147972203,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.147975768,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.147979771,"data":"\n"}
+,{"stream_name":"stdout","time":996.147988101,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.147992296,"data":"\n"}
+,{"stream_name":"stdout","time":996.147996107,"data":"[ASSISTANT — Turn 14]\n"}
+,{"stream_name":"stdout","time":996.148000011,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.148003761,"data":"\n"}
+,{"stream_name":"stdout","time":996.148007391,"data":"[USER — Turn 15]\n"}
+,{"stream_name":"stdout","time":996.148011541,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148015329,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148019591,"data":"\n"}
+,{"stream_name":"stdout","time":996.148023281,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148027046,"data":"\n"}
+,{"stream_name":"stdout","time":996.148030651,"data":"[ASSISTANT — Turn 15]\n"}
+,{"stream_name":"stdout","time":996.148034444,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.148038082,"data":"\n"}
+,{"stream_name":"stdout","time":996.148042072,"data":"[USER — Turn 16]\n"}
+,{"stream_name":"stdout","time":996.148045973,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148049773,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148054012,"data":"\n"}
+,{"stream_name":"stdout","time":996.148057455,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148059999,"data":"\n"}
+,{"stream_name":"stdout","time":996.148062249,"data":"[ASSISTANT — Turn 16]\n"}
+,{"stream_name":"stdout","time":996.148065213,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.148069196,"data":"\n"}
+,{"stream_name":"stdout","time":996.148072976,"data":"[USER — Turn 17]\n"}
+,{"stream_name":"stdout","time":996.148076946,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148080995,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148085453,"data":"\n"}
+,{"stream_name":"stdout","time":996.148089298,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148092761,"data":"\n"}
+,{"stream_name":"stdout","time":996.148096376,"data":"[ASSISTANT — Turn 17]\n"}
+,{"stream_name":"stdout","time":996.148100617,"data":"GAIGE\n"}
+,{"stream_name":"stdout","time":996.148104421,"data":"\n"}
+,{"stream_name":"stdout","time":996.148108158,"data":"[USER — Turn 18]\n"}
+,{"stream_name":"stdout","time":996.148112046,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148116374,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148120541,"data":"\n"}
+,{"stream_name":"stdout","time":996.148124145,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148127846,"data":"\n"}
+,{"stream_name":"stdout","time":996.148131809,"data":"[ASSISTANT — Turn 18]\n"}
+,{"stream_name":"stdout","time":996.148135736,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.148139497,"data":"\n"}
+,{"stream_name":"stdout","time":996.148143291,"data":"[USER — Turn 19]\n"}
+,{"stream_name":"stdout","time":996.148146961,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148149501,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148155642,"data":"\n"}
+,{"stream_name":"stdout","time":996.14815922,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148163239,"data":"\n"}
+,{"stream_name":"stdout","time":996.148167187,"data":"[ASSISTANT — Turn 19]\n"}
+,{"stream_name":"stdout","time":996.148171223,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.148175137,"data":"\n"}
+,{"stream_name":"stdout","time":996.148179069,"data":"[USER — Turn 20]\n"}
+,{"stream_name":"stdout","time":996.148182755,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148186469,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148190684,"data":"\n"}
+,{"stream_name":"stdout","time":996.148198099,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148224986,"data":"\n"}
+,{"stream_name":"stdout","time":996.148236601,"data":"[ASSISTANT — Turn 20]\n"}
+,{"stream_name":"stdout","time":996.148240813,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.148244686,"data":"\n"}
+,{"stream_name":"stdout","time":996.148248339,"data":"[USER — Turn 21]\n"}
+,{"stream_name":"stdout","time":996.14825255,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148256401,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148260685,"data":"\n"}
+,{"stream_name":"stdout","time":996.148264417,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148268177,"data":"\n"}
+,{"stream_name":"stdout","time":996.148271811,"data":"[ASSISTANT — Turn 21]\n"}
+,{"stream_name":"stdout","time":996.148275686,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.148279417,"data":"\n"}
+,{"stream_name":"stdout","time":996.14828337,"data":"[USER — Turn 22]\n"}
+,{"stream_name":"stdout","time":996.148287443,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148290062,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148292848,"data":"\n"}
+,{"stream_name":"stdout","time":996.148296186,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148299629,"data":"\n"}
+,{"stream_name":"stdout","time":996.148303174,"data":"[ASSISTANT — Turn 22]\n"}
+,{"stream_name":"stdout","time":996.148307071,"data":"EGGIA\n"}
+,{"stream_name":"stdout","time":996.148311337,"data":"\n"}
+,{"stream_name":"stdout","time":996.14831522,"data":"[USER — Turn 23]\n"}
+,{"stream_name":"stdout","time":996.1483191,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148323241,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148327527,"data":"\n"}
+,{"stream_name":"stdout","time":996.148331202,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148335034,"data":"\n"}
+,{"stream_name":"stdout","time":996.148338706,"data":"[ASSISTANT — Turn 23]\n"}
+,{"stream_name":"stdout","time":996.148342957,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.148346759,"data":"\n"}
+,{"stream_name":"stdout","time":996.148350487,"data":"[USER — Turn 24]\n"}
+,{"stream_name":"stdout","time":996.148354382,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148358014,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148366116,"data":"\n"}
+,{"stream_name":"stdout","time":996.14836993,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148373678,"data":"\n"}
+,{"stream_name":"stdout","time":996.148377472,"data":"[ASSISTANT — Turn 24]\n"}
+,{"stream_name":"stdout","time":996.148381419,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.148384141,"data":"\n"}
+,{"stream_name":"stdout","time":996.148387012,"data":"[USER — Turn 25]\n"}
+,{"stream_name":"stdout","time":996.148390998,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148394615,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.14839892,"data":"\n"}
+,{"stream_name":"stdout","time":996.148402544,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148408049,"data":"\n"}
+,{"stream_name":"stdout","time":996.148412095,"data":"[ASSISTANT — Turn 25]\n"}
+,{"stream_name":"stdout","time":996.14841715,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.148421047,"data":"\n"}
+,{"stream_name":"stdout","time":996.148424678,"data":"[USER — Turn 26]\n"}
+,{"stream_name":"stdout","time":996.148428603,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148432553,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148436742,"data":"\n"}
+,{"stream_name":"stdout","time":996.148440775,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148444563,"data":"\n"}
+,{"stream_name":"stdout","time":996.148448386,"data":"[ASSISTANT — Turn 26]\n"}
+,{"stream_name":"stdout","time":996.148452407,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.148456054,"data":"\n"}
+,{"stream_name":"stdout","time":996.148459723,"data":"[USER — Turn 27]\n"}
+,{"stream_name":"stdout","time":996.148463552,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148467212,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148472041,"data":"\n"}
+,{"stream_name":"stdout","time":996.148474647,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148477171,"data":"\n"}
+,{"stream_name":"stdout","time":996.148480118,"data":"[ASSISTANT — Turn 27]\n"}
+,{"stream_name":"stdout","time":996.148483891,"data":"IGAGE\n"}
+,{"stream_name":"stdout","time":996.148487703,"data":"\n"}
+,{"stream_name":"stdout","time":996.1484916,"data":"[USER — Turn 28]\n"}
+,{"stream_name":"stdout","time":996.148495673,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148500073,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148504694,"data":"\n"}
+,{"stream_name":"stdout","time":996.148508424,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148512208,"data":"\n"}
+,{"stream_name":"stdout","time":996.148516376,"data":"[ASSISTANT — Turn 28]\n"}
+,{"stream_name":"stdout","time":996.148520261,"data":"GAGEI\n"}
+,{"stream_name":"stdout","time":996.148523978,"data":"\n"}
+,{"stream_name":"stdout","time":996.148527606,"data":"[USER — Turn 29]\n"}
+,{"stream_name":"stdout","time":996.148531811,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.14853563,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148543327,"data":"\n"}
+,{"stream_name":"stdout","time":996.148547173,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.148550877,"data":"\n"}
+,{"stream_name":"stdout","time":996.148554478,"data":"[ASSISTANT — Turn 29]\n"}
+,{"stream_name":"stdout","time":996.148558324,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.148562062,"data":"\n"}
+,{"stream_name":"stdout","time":996.148565677,"data":"[USER — Turn 30]\n"}
+,{"stream_name":"stdout","time":996.148569504,"data":"Echo:\n"}
+,{"stream_name":"stdout","time":996.148573787,"data":"COUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n"}
+,{"stream_name":"stdout","time":996.148578016,"data":"\n"}
+,{"stream_name":"stdout","time":996.148582247,"data":"Next pattern?\n"}
+,{"stream_name":"stdout","time":996.14858788,"data":"\n"}
+,{"stream_name":"stdout","time":996.148592002,"data":"[ASSISTANT — Turn 30]\n"}
+,{"stream_name":"stdout","time":996.148596047,"data":"AGGIE\n"}
+,{"stream_name":"stdout","time":996.148600658,"data":"\n"}
+,{"stream_name":"stdout","time":996.148604394,"data":"  RESULT: FAIL ✗  steps=30/30  score=0.2000\n"}
+,{"stream_name":"stdout","time":996.148608528,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":996.148612452,"data":"\n"}
+,{"stream_name":"stderr","time":1000.553569096,"data":"/benchmarks/.venv/lib/python3.11/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":1000.553624423,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":1000.574397548,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1000.986529549,"data":"[NbConvertApp] Writing 86452 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1003.923494425,"data":"/benchmarks/.venv/lib/python3.11/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":1003.923545235,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":1003.945162183,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1005.20955343,"data":"[NbConvertApp] Writing 364098 bytes to __results__.html\n"}
+]

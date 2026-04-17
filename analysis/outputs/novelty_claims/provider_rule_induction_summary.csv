@@ -1,0 +1,2 @@
+anthropic_openai_mean_ri,google_opensource_mean_ri,mannwhitney_u,mannwhitney_p,anthropic_concept_mean,openai_concept_mean,google_concept_mean,opensource_concept_mean,anthropic_observational_mean,openai_observational_mean
+0.2449,0.429,6.0,0.01,0.2631,0.233,0.4605,0.3689,0.2703,0.2134

@@ -1,0 +1,5 @@
+provider,associative,concept,language,observational,rl
+Google,0.6483,0.4605,0.4973,0.4198,0.4953
+OpenAI,0.5247,0.233,0.4591,0.2134,0.3002
+Anthropic,0.6049,0.2631,0.4418,0.2703,0.4108
+Open-source,0.6016,0.3689,0.5508,0.4666,0.421

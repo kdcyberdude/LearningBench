@@ -1,0 +1,7 @@
+category,thinking,instruct,gain_pct
+associative,0.6276,0.4638,35.3
+concept,0.5412,0.191,183.4
+language,0.6227,0.4146,50.2
+observational,0.58,0.3034,91.2
+rl,0.4741,0.2678,77.1
+overall_mean,0.5691,0.3281,73.5

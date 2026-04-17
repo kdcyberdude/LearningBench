@@ -1,0 +1,15 @@
+model_name,model_slug,mean_score,rank
+Gemini 3.1 Pro Preview,gemini-3.1-pro-preview,0.8509583111111111,1
+GLM-5,glm-5,0.6920671777777778,2
+Qwen 3 Next 80B Thinking,qwen3-next-80b-a3b-thinking,0.6056863703703704,3
+Claude Opus 4.6,claude-opus-4-6-default,0.5080956962962963,4
+Gemini 2.5 Flash,gemini-2.5-flash,0.5069418888888889,5
+GPT-5.4,gpt-5.4-2026-03-05,0.4932126370370371,6
+Claude Sonnet 4.6,claude-sonnet-4-6-default,0.46636543703703703,7
+Gemini 3.1 Flash-Lite Preview,gemini-3.1-flash-lite-preview,0.45766337037037036,8
+DeepSeek V3.2,deepseek-v3.2,0.4315081777777778,9
+Claude Haiku 4.5,claude-haiku-4-5-20251001,0.3839562296296296,10
+GPT-5.4 mini,gpt-5.4-mini-2026-03-17,0.36211509629629635,11
+Gemma 4 26B A4B,gemma-4-26b-a4b-it,0.3455083407407407,12
+Qwen 3 Next 80B Instruct,qwen3-next-80b-a3b-instruct,0.34044071851851854,13
+GPT-5.4 nano,gpt-5.4-nano-2026-03-17,0.24578874074074075,14

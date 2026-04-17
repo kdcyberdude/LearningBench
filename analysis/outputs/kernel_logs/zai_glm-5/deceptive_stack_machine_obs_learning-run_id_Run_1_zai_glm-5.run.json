@@ -1,0 +1,68 @@
+{
+  "taskVersion": {
+    "versionNumber": 1,
+    "name": "deceptive_stack_machine_obs_learning",
+    "description": "Observe stack machine traces (PUSH/DUPE/SWAP/ADD/MULMOD/DIVMOD) where early programs never trigger modular reduction. Infer the hidden prime modulus from later traces and submit the final stack state for 4 new programs that each require mod reduction.",
+    "definition": "@kbench.task(\n    name=\"deceptive_stack_machine_obs_learning\",\n    description=(\n        \"Observe stack machine traces (PUSH/DUPE/SWAP/ADD/MULMOD/DIVMOD) where early programs \"\n        \"never trigger modular reduction. Infer the hidden prime modulus from later traces and \"\n        \"submit the final stack state for 4 new programs that each require mod reduction.\"\n    ),\n)\ndef deceptive_stack_machine_obs_learning(llm) -> float:\n    \"\"\"Infer a hidden prime modulus from 14 stack machine traces; execute 4 test programs. Float score.\"\"\"\n    prompt, grade_fn = _prepare()\n    try:\n        response = llm.prompt(prompt, schema=_Answer)\n    except Exception:\n        response = None\n    score, test_results = (\n        grade_fn(response)\n        if response is not None\n        else (\n            0.0,\n            [\n                {\n                    \"q\": i,\n                    \"expected\": _TEST_CASES[i - 1][1],\n                    \"got\": None,\n                    \"correct\": False,\n                }\n                for i in range(1, 5)\n            ],\n        )\n    )\n    reasoning = (\n        getattr(response, \"reasoning\", \"\") or getattr(response, \"thinking\", \"\") or \"\"\n    )\n    _log_trace(\n        task=\"deceptive_stack_machine_obs_learning\",\n        description=_TASK_DESCRIPTION,\n        prompt=prompt,\n        test_results=test_results,\n        score=score,\n        reasoning=str(reasoning),\n    )\n    return score\n"
+  },
+  "modelVersion": {
+    "slug": "zai/glm-5"
+  },
+  "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+  "startTime": "2026-04-15T14:03:20.357149Z",
+  "endTime": "2026-04-15T14:05:30.331238Z",
+  "conversations": [
+    {
+      "id": "deceptive_stack_machine_obs_learning-64538ac2",
+      "requests": [
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "You are observing a STACK MACHINE being executed.\n\nThe machine has a stack (initially empty) and instructions: PUSH, DUPE, SWAP, ADD, MULMOD, DIVMOD.\nThe exact semantics are NOT described \u2014 deduce them from the traces.\n\n=== Trace 1 ===\nProgram:\n  1. PUSH 1\n  2. PUSH 2\n  3. MULMOD 3\n  4. PUSH 4\n  5. ADD\n  6. DUPE\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 1): [1]\n  After step 2 (PUSH 2): [1, 2]\n  After step 3 (MULMOD 3): [1, 6]\n  After step 4 (PUSH 4): [1, 6, 4]\n  After step 5 (ADD): [1, 10]\n  After step 6 (DUPE): [1, 10, 10]\n\n=== Trace 2 ===\nProgram:\n  1. PUSH 3\n  2. DUPE\n  3. ADD\n  4. MULMOD 2\n  5. PUSH 1\n  6. SWAP\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 3): [3]\n  After step 2 (DUPE): [3, 3]\n  After step 3 (ADD): [6]\n  After step 4 (MULMOD 2): [12]\n  After step 5 (PUSH 1): [12, 1]\n  After step 6 (SWAP): [1, 12]\n\n=== Trace 3 ===\nProgram:\n  1. PUSH 2\n  2. PUSH 3\n  3. MULMOD 2\n  4. DUPE\n  5. ADD\n  6. PUSH 1\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 2): [2]\n  After step 2 (PUSH 3): [2, 3]\n  After step 3 (MULMOD 2): [2, 6]\n  After step 4 (DUPE): [2, 6, 6]\n  After step 5 (ADD): [2, 12]\n  After step 6 (PUSH 1): [2, 12, 1]\n\n=== Trace 4 ===\nProgram:\n  1. PUSH 7\n  2. MULMOD 6\n  3. PUSH 3\n  4. ADD\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 7): [7]\n  After step 2 (MULMOD 6): [3]\n  After step 3 (PUSH 3): [3, 3]\n  After step 4 (ADD): [6]\n\n=== Trace 5 ===\nProgram:\n  1. PUSH 9\n  2. MULMOD 5\n  3. DUPE\n  4. ADD\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 9): [9]\n  After step 2 (MULMOD 5): [6]\n  After step 3 (DUPE): [6, 6]\n  After step 4 (ADD): [12]\n\n=== Trace 6 ===\nProgram:\n  1. PUSH 12\n  2. MULMOD 3\n  3. PUSH 5\n  4. SWAP\n  5. ADD\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 12): [12]\n  After step 2 (MULMOD 3): [10]\n  After step 3 (PUSH 5): [10, 5]\n  After step 4 (SWAP): [5, 10]\n  After step 5 (ADD): [15]\n\n=== Trace 7 ===\nProgram:\n  1. PUSH 8\n  2. MULMOD 7\n  3. PUSH 4\n  4. MULMOD 4\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 8): [8]\n  After step 2 (MULMOD 7): [4]\n  After step 3 (PUSH 4): [4, 4]\n  After step 4 (MULMOD 4): [4, 3]\n\n=== Trace 8 ===\nProgram:\n  1. PUSH 11\n  2. MULMOD 4\n  3. PUSH 2\n  4. ADD\n  5. MULMOD 6\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 11): [11]\n  After step 2 (MULMOD 4): [5]\n  After step 3 (PUSH 2): [5, 2]\n  After step 4 (ADD): [7]\n  After step 5 (MULMOD 6): [3]\n\n=== Trace 9 ===\nProgram:\n  1. PUSH 5\n  2. PUSH 10\n  3. MULMOD 5\n  4. SWAP\n  5. DIVMOD 3\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 5): [5]\n  After step 2 (PUSH 10): [5, 10]\n  After step 3 (MULMOD 5): [5, 11]\n  After step 4 (SWAP): [11, 5]\n  After step 5 (DIVMOD 3): [11, 1]\n\n=== Trace 10 ===\nProgram:\n  1. PUSH 12\n  2. DUPE\n  3. MULMOD 4\n  4. SWAP\n  5. MULMOD 6\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 12): [12]\n  After step 2 (DUPE): [12, 12]\n  After step 3 (MULMOD 4): [12, 9]\n  After step 4 (SWAP): [9, 12]\n  After step 5 (MULMOD 6): [9, 7]\n\n=== Trace 11 ===\nProgram:\n  1. PUSH 6\n  2. MULMOD 9\n  3. PUSH 11\n  4. MULMOD 5\n  5. ADD\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 6): [6]\n  After step 2 (MULMOD 9): [2]\n  After step 3 (PUSH 11): [2, 11]\n  After step 4 (MULMOD 5): [2, 3]\n  After step 5 (ADD): [5]\n\n=== Trace 12 ===\nProgram:\n  1. PUSH 10\n  2. DIVMOD 2\n  3. PUSH 7\n  4. MULMOD 8\n  5. ADD\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 10): [10]\n  After step 2 (DIVMOD 2): [5]\n  After step 3 (PUSH 7): [5, 7]\n  After step 4 (MULMOD 8): [5, 4]\n  After step 5 (ADD): [9]\n\n=== Trace 13 ===\nProgram:\n  1. PUSH 3\n  2. PUSH 9\n  3. ADD\n  4. MULMOD 7\n  5. DIVMOD 4\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 3): [3]\n  After step 2 (PUSH 9): [3, 9]\n  After step 3 (ADD): [12]\n  After step 4 (MULMOD 7): [6]\n  After step 5 (DIVMOD 4): [1]\n\n=== Trace 14 ===\nProgram:\n  1. PUSH 8\n  2. MULMOD 11\n  3. PUSH 6\n  4. ADD\n  5. DIVMOD 5\nExecution (stack shown bottom\u2192top):\n  Initial: []\n  After step 1 (PUSH 8): [8]\n  After step 2 (MULMOD 11): [10]\n  After step 3 (PUSH 6): [10, 6]\n  After step 4 (ADD): [16]\n  After step 5 (DIVMOD 5): [3]\n\n=== TEST PROGRAM Q1 ===\n  1. PUSH 5\n  2. PUSH 7\n  3. MULMOD 4\n  4. ADD\n\n=== TEST PROGRAM Q2 ===\n  1. PUSH 9\n  2. DUPE\n  3. MULMOD 3\n  4. PUSH 6\n  5. SWAP\n  6. DIVMOD 2\n\n=== TEST PROGRAM Q3 ===\n  1. PUSH 3\n  2. PUSH 8\n  3. ADD\n  4. MULMOD 5\n  5. PUSH 4\n  6. MULMOD 7\n\n=== TEST PROGRAM Q4 ===\n  1. PUSH 6\n  2. PUSH 11\n  3. MULMOD 6\n  4. SWAP\n  5. DIVMOD 3\n  6. ADD\n\nExecute each test program and submit the final stack (bottom to top) as stack_1, stack_2, stack_3, stack_4."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"stack_1\\\": [7], \\\"stack_2\\\": [9, 6, 0], \\\"stack_3\\\": [3, 2], \\\"stack_4\\\": [3]}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "zai/glm-5"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 2206,
+            "outputTokens": 8502,
+            "inputTokensCostNanodollars": "2206000",
+            "outputTokensCostNanodollars": "27206400",
+            "totalBackendLatencyMs": "129075"
+          },
+          "id": "deceptive_stack_machine_obs_learning-64538ac2-req-1"
+        }
+      ],
+      "metrics": {
+        "inputTokens": 2206,
+        "outputTokens": 8502,
+        "inputTokensCostNanodollars": "2206000",
+        "outputTokensCostNanodollars": "27206400",
+        "totalBackendLatencyMs": "129075"
+      },
+      "modelVersionSlug": "model_version_slug for conversation is DEPRECATED"
+    }
+  ],
+  "results": [
+    {
+      "type": "AGGREGATED",
+      "numericResult": {
+        "value": 1.0
+      }
+    }
+  ],
+  "pyRunId": "deceptive_stack_machine_obs_learning-Run #1"
+}

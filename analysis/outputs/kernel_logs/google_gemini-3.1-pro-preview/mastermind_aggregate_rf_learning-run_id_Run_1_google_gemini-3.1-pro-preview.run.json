@@ -1,0 +1,938 @@
+{
+  "taskVersion": {
+    "versionNumber": 1,
+    "name": "mastermind_aggregate_rf_learning",
+    "description": "Mastermind-style code; only scalar COUPLING_SUM feedback (no LOCK/DRIFT split). Multi-turn RL; return float in [0,1], cap 30 steps.",
+    "definition": "@kbench.task(\n    name=\"mastermind_aggregate_rf_learning\",\n    description=\"Mastermind-style code; only scalar COUPLING_SUM feedback (no LOCK/DRIFT split). Multi-turn RL; return float in [0,1], cap 30 steps.\",\n)\ndef mastermind_aggregate_rf_learning(llm) -> float:\n    \"\"\"Mastermind with scalar COUPLING_SUM only; returns composite [0,1] for up to 30 turns.\"\"\"\n\n    def turn(user_message: str) -> str:\n        try:\n            r = llm.prompt(user_message, schema=_TurnCodeSymbols)\n            return r.guess.strip().upper()\n        except Exception:\n            return \"\"\n\n    result = run(turn, seed=0, max_steps=BUDGET_N)\n    score = _composite_score(result.solved, result.num_steps, BUDGET_N, MIN_EXPLORE, result.progress)\n    _log_trace(\n        \"mastermind_aggregate_rf_learning\",\n        _TASK_DESCRIPTION,\n        result.conversation,\n        result.solved,\n        result.num_steps,\n        BUDGET_N,\n        score,\n    )\n    return score\n"
+  },
+  "modelVersion": {
+    "slug": "google/gemini-3.1-pro-preview"
+  },
+  "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+  "startTime": "2026-04-15T14:01:15.508069Z",
+  "endTime": "2026-04-15T14:17:36.983595Z",
+  "conversations": [
+    {
+      "id": "mastermind_aggregate_rf_learning-ffa909f3",
+      "requests": [
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "A hidden pattern length 5 over symbols ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'] (repetition allowed).\nEach attempt returns a **single scalar**: the environment's **COUPLING_SUM** = LOCK count + DRIFT count (see task-01 style semantics) but **without** splitting the two components.\nInfer the pattern purely from scalar echoes.\nSubmit via JSON \"guess\", `GUESS:`, or a final line of 5 symbols.\nBudget: 20 attempts."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AAAAA\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 131,
+            "outputTokens": 7,
+            "inputTokensCostNanodollars": "262000",
+            "outputTokensCostNanodollars": "4464000",
+            "totalBackendLatencyMs": "4506"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-1"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **1** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"BBBBB\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 174,
+            "outputTokens": 7,
+            "inputTokensCostNanodollars": "348000",
+            "outputTokensCostNanodollars": "3072000",
+            "totalBackendLatencyMs": "3601"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-2"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **0** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"CCCCC\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 217,
+            "outputTokens": 6,
+            "inputTokensCostNanodollars": "434000",
+            "outputTokensCostNanodollars": "996000",
+            "totalBackendLatencyMs": "2237"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-3"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **0** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"DDDDD\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 259,
+            "outputTokens": 7,
+            "inputTokensCostNanodollars": "518000",
+            "outputTokensCostNanodollars": "1092000",
+            "totalBackendLatencyMs": "3260"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-4"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **0** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"EEEEE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 302,
+            "outputTokens": 7,
+            "inputTokensCostNanodollars": "604000",
+            "outputTokensCostNanodollars": "3672000",
+            "totalBackendLatencyMs": "3883"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-5"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **1** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"FFFFF\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 345,
+            "outputTokens": 7,
+            "inputTokensCostNanodollars": "690000",
+            "outputTokensCostNanodollars": "1440000",
+            "totalBackendLatencyMs": "4106"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-6"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **0** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"GGGGG\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 388,
+            "outputTokens": 7,
+            "inputTokensCostNanodollars": "776000",
+            "outputTokensCostNanodollars": "2088000",
+            "totalBackendLatencyMs": "3237"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-7"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **2** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 431,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "862000",
+            "outputTokensCostNanodollars": "71340000",
+            "totalBackendLatencyMs": "91565"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-8"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 474,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "948000",
+            "outputTokensCostNanodollars": "102540000",
+            "totalBackendLatencyMs": "71453"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-9"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 517,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "1034000",
+            "outputTokensCostNanodollars": "63552000",
+            "totalBackendLatencyMs": "82433"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-10"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 560,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "1120000",
+            "outputTokensCostNanodollars": "45552000",
+            "totalBackendLatencyMs": "61085"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-11"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 603,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "1206000",
+            "outputTokensCostNanodollars": "66720000",
+            "totalBackendLatencyMs": "46169"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-12"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 646,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "1292000",
+            "outputTokensCostNanodollars": "27228000",
+            "totalBackendLatencyMs": "20108"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-13"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 689,
+            "outputTokens": 7,
+            "inputTokensCostNanodollars": "1378000",
+            "outputTokensCostNanodollars": "35808000",
+            "totalBackendLatencyMs": "26137"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-14"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 732,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "1464000",
+            "outputTokensCostNanodollars": "27660000",
+            "totalBackendLatencyMs": "19787"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-15"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 775,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "1550000",
+            "outputTokensCostNanodollars": "19968000",
+            "totalBackendLatencyMs": "31775"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-16"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"GAIGE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 818,
+            "outputTokens": 7,
+            "inputTokensCostNanodollars": "1636000",
+            "outputTokensCostNanodollars": "41652000",
+            "totalBackendLatencyMs": "54256"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-17"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 861,
+            "outputTokens": 7,
+            "inputTokensCostNanodollars": "1722000",
+            "outputTokensCostNanodollars": "22224000",
+            "totalBackendLatencyMs": "27790"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-18"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 904,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "1808000",
+            "outputTokensCostNanodollars": "24708000",
+            "totalBackendLatencyMs": "29407"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-19"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 947,
+            "outputTokens": 7,
+            "inputTokensCostNanodollars": "1894000",
+            "outputTokensCostNanodollars": "23172000",
+            "totalBackendLatencyMs": "17038"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-20"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 990,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "1980000",
+            "outputTokensCostNanodollars": "41280000",
+            "totalBackendLatencyMs": "30242"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-21"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"EGGIA\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 1033,
+            "outputTokens": 13,
+            "inputTokensCostNanodollars": "2066000",
+            "outputTokensCostNanodollars": "22848000",
+            "totalBackendLatencyMs": "32418"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-22"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 1077,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "2154000",
+            "outputTokensCostNanodollars": "47952000",
+            "totalBackendLatencyMs": "56288"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-23"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 1120,
+            "outputTokens": 7,
+            "inputTokensCostNanodollars": "2240000",
+            "outputTokensCostNanodollars": "8880000",
+            "totalBackendLatencyMs": "8102"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-24"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 1163,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "2326000",
+            "outputTokensCostNanodollars": "24396000",
+            "totalBackendLatencyMs": "19298"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-25"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 1206,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "2412000",
+            "outputTokensCostNanodollars": "40284000",
+            "totalBackendLatencyMs": "42215"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-26"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"IGAGE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 1249,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "2498000",
+            "outputTokensCostNanodollars": "26220000",
+            "totalBackendLatencyMs": "34708"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-27"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"GAGEI\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 1292,
+            "outputTokens": 13,
+            "inputTokensCostNanodollars": "2584000",
+            "outputTokensCostNanodollars": "39144000",
+            "totalBackendLatencyMs": "39531"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-28"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 1336,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "2672000",
+            "outputTokensCostNanodollars": "34128000",
+            "totalBackendLatencyMs": "42347"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-29"
+        },
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "Echo:\nCOUPLING_SUM = **5** (combined multiset overlap; anchoring vs displacement **not** disclosed). Zero means no multiset overlap.\n\nNext pattern?"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"guess\\\": \\\"AGGIE\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "google/gemini-3.1-pro-preview"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 1379,
+            "outputTokens": 12,
+            "inputTokensCostNanodollars": "2758000",
+            "outputTokensCostNanodollars": "53220000",
+            "totalBackendLatencyMs": "67097"
+          },
+          "id": "mastermind_aggregate_rf_learning-ffa909f3-req-30"
+        }
+      ],
+      "metrics": {
+        "inputTokens": 22618,
+        "outputTokens": 301,
+        "inputTokensCostNanodollars": "45236000",
+        "outputTokensCostNanodollars": "927300000",
+        "totalBackendLatencyMs": "976079"
+      },
+      "modelVersionSlug": "model_version_slug for conversation is DEPRECATED"
+    }
+  ],
+  "results": [
+    {
+      "type": "AGGREGATED",
+      "numericResult": {
+        "value": 0.2
+      }
+    }
+  ],
+  "pyRunId": "mastermind_aggregate_rf_learning-Run #1"
+}

@@ -1,0 +1,166 @@
+{
+  "taskVersion": {
+    "versionNumber": 1,
+    "name": "inhibitory_summation_assoc_learning",
+    "description": "H-07: Infer six hidden signal roles (strong/weak excitor, partial/full inhibitor, inhibitory multiplier, neutral) from reactor logs; predict novel combinations.",
+    "definition": "@kbench.task(\n    name=\"inhibitory_summation_assoc_learning\",\n    description=\"H-07: Infer six hidden signal roles (strong/weak excitor, partial/full inhibitor, inhibitory multiplier, neutral) from reactor logs; predict novel combinations.\",\n)\ndef inhibitory_summation_assoc_learning(llm) -> float:\n    \"\"\"Multi-cue inhibitory summation with hierarchical modulation; return fraction correct.\"\"\"\n\n    prompt = \"\\n\".join([\n        \"A reactor's output depends on which signals are active. Study these logs to infer how signals interact.\",\n        \"\",\n        \"Reactor logs (each line = one trial):\",\n        \"  Trial  1: signals active: gorv                    -> outcome: FLARE\",\n        \"  Trial  2: signals active: gorv                    -> outcome: FLARE\",\n        \"  Trial  3: signals active: felk                    -> outcome: DAMP\",\n        \"  Trial  4: signals active: felk                    -> outcome: DAMP\",\n        \"  Trial  5: signals active: gorv, dozn              -> outcome: FLARE\",\n        \"  Trial  6: signals active: gorv, dozn              -> outcome: FLARE\",\n        \"  Trial  7: signals active: gorv, telk              -> outcome: DAMP\",\n        \"  Trial  8: signals active: gorv, telk              -> outcome: DAMP\",\n        \"  Trial  9: signals active: gorv, pryn              -> outcome: INERT\",\n        \"  Trial 10: signals active: gorv, pryn              -> outcome: INERT\",\n        \"  Trial 11: signals active: felk, telk              -> outcome: INERT\",\n        \"  Trial 12: signals active: felk, telk              -> outcome: INERT\",\n        \"  Trial 13: signals active: gorv, telk, shael       -> outcome: INERT\",\n        \"  Trial 14: signals active: gorv, telk, shael       -> outcome: INERT\",\n        \"  Trial 15: signals active: gorv, shael             -> outcome: FLARE\",\n        \"  Trial 16: signals active: felk, shael             -> outcome: DAMP\",\n        \"  Trial 17: signals active: gorv, dozn, telk        -> outcome: DAMP\",\n        \"  Trial 18: signals active: telk, dozn              -> outcome: INERT\",\n        \"\",\n        \"Predict the reactor outcome for each combination below.\",\n        \"Answer FLARE, DAMP, or INERT for each question.\",\n        \"\",\n        \"  Q1: signals active: gorv, felk\",\n        \"  Q2: signals active: gorv, pryn, shael\",\n        \"  Q3: signals active: felk, pryn\",\n        \"  Q4: signals active: gorv, telk, dozn, shael\",\n        \"  Q5: signals active: felk, telk, shael\",\n        \"  Q6: signals active: gorv, felk, telk\",\n        \"  Q7: signals active: gorv, felk, pryn\",\n        \"  Q8: signals active: dozn, shael\",\n        \"\",\n    ])\n\n    result = llm.prompt(prompt, schema=InhibitorySummationAnswer)\n    assertions = kbench.assertions\n    correct = 0\n    total = len(_INHIBITORY_EXPECTED)\n\n    for key, expn in _INHIBITORY_EXPECTED.items():\n        act = str(getattr(result, key)).strip().upper()\n        if _str_match(expn, act):\n            correct += 1\n        assertions.assert_equal(expn, act, expectation=f\"`{key}` must match.\")\n\n    score = correct / total\n    answers = {k: getattr(result, k) for k in _INHIBITORY_EXPECTED}\n    _log_trace(\"inhibitory_summation\", _TASK_DESCRIPTION, prompt, answers, _INHIBITORY_EXPECTED, score)\n    return score\n"
+  },
+  "modelVersion": {
+    "slug": "anthropic/claude-opus-4-6@default"
+  },
+  "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+  "startTime": "2026-04-09T11:28:51.263374Z",
+  "endTime": "2026-04-09T11:28:55.513432Z",
+  "conversations": [
+    {
+      "id": "inhibitory_summation_assoc_learning-b913ed10",
+      "requests": [
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "A reactor's output depends on which signals are active. Study these logs to infer how signals interact.\n\nReactor logs (each line = one trial):\n  Trial  1: signals active: gorv                    -> outcome: FLARE\n  Trial  2: signals active: gorv                    -> outcome: FLARE\n  Trial  3: signals active: felk                    -> outcome: DAMP\n  Trial  4: signals active: felk                    -> outcome: DAMP\n  Trial  5: signals active: gorv, dozn              -> outcome: FLARE\n  Trial  6: signals active: gorv, dozn              -> outcome: FLARE\n  Trial  7: signals active: gorv, telk              -> outcome: DAMP\n  Trial  8: signals active: gorv, telk              -> outcome: DAMP\n  Trial  9: signals active: gorv, pryn              -> outcome: INERT\n  Trial 10: signals active: gorv, pryn              -> outcome: INERT\n  Trial 11: signals active: felk, telk              -> outcome: INERT\n  Trial 12: signals active: felk, telk              -> outcome: INERT\n  Trial 13: signals active: gorv, telk, shael       -> outcome: INERT\n  Trial 14: signals active: gorv, telk, shael       -> outcome: INERT\n  Trial 15: signals active: gorv, shael             -> outcome: FLARE\n  Trial 16: signals active: felk, shael             -> outcome: DAMP\n  Trial 17: signals active: gorv, dozn, telk        -> outcome: DAMP\n  Trial 18: signals active: telk, dozn              -> outcome: INERT\n\nPredict the reactor outcome for each combination below.\nAnswer FLARE, DAMP, or INERT for each question.\n\n  Q1: signals active: gorv, felk\n  Q2: signals active: gorv, pryn, shael\n  Q3: signals active: felk, pryn\n  Q4: signals active: gorv, telk, dozn, shael\n  Q5: signals active: felk, telk, shael\n  Q6: signals active: gorv, felk, telk\n  Q7: signals active: gorv, felk, pryn\n  Q8: signals active: dozn, shael\n"
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"q_1\\\": \\\"FLARE\\\", \\\"q_2\\\": \\\"INERT\\\", \\\"q_3\\\": \\\"DAMP\\\", \\\"q_4\\\": \\\"DAMP\\\", \\\"q_5\\\": \\\"INERT\\\", \\\"q_6\\\": \\\"DAMP\\\", \\\"q_7\\\": \\\"INERT\\\", \\\"q_8\\\": \\\"INERT\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "anthropic/claude-opus-4-6@default"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 1422,
+            "outputTokens": 184,
+            "inputTokensCostNanodollars": "7110000",
+            "outputTokensCostNanodollars": "4600000",
+            "totalBackendLatencyMs": "3218"
+          },
+          "id": "inhibitory_summation_assoc_learning-b913ed10-req-1"
+        }
+      ],
+      "metrics": {
+        "inputTokens": 1422,
+        "outputTokens": 184,
+        "inputTokensCostNanodollars": "7110000",
+        "outputTokensCostNanodollars": "4600000",
+        "totalBackendLatencyMs": "3218"
+      },
+      "modelVersionSlug": "model_version_slug for conversation is DEPRECATED"
+    }
+  ],
+  "results": [
+    {
+      "type": "AGGREGATED",
+      "numericResult": {
+        "value": 0.5
+      }
+    }
+  ],
+  "assertions": [
+    {
+      "expectation": "`q_1` must match.",
+      "status": "BENCHMARK_TASK_RUN_ASSERTION_STATUS_PASSED",
+      "lineNumber": 176,
+      "definition": "assertions.assert_equal(expn, act, expectation=f\"`{key}` must match.\")",
+      "conversationRequestIds": [
+        {
+          "conversationId": "inhibitory_summation_assoc_learning-b913ed10",
+          "requestId": "inhibitory_summation_assoc_learning-b913ed10-req-1"
+        }
+      ]
+    },
+    {
+      "expectation": "`q_2` must match.",
+      "status": "BENCHMARK_TASK_RUN_ASSERTION_STATUS_PASSED",
+      "lineNumber": 176,
+      "definition": "assertions.assert_equal(expn, act, expectation=f\"`{key}` must match.\")",
+      "conversationRequestIds": [
+        {
+          "conversationId": "inhibitory_summation_assoc_learning-b913ed10",
+          "requestId": "inhibitory_summation_assoc_learning-b913ed10-req-1"
+        }
+      ]
+    },
+    {
+      "expectation": "`q_3` must match.",
+      "status": "BENCHMARK_TASK_RUN_ASSERTION_STATUS_FAILED",
+      "lineNumber": 176,
+      "definition": "assertions.assert_equal(expn, act, expectation=f\"`{key}` must match.\")",
+      "conversationRequestIds": [
+        {
+          "conversationId": "inhibitory_summation_assoc_learning-b913ed10",
+          "requestId": "inhibitory_summation_assoc_learning-b913ed10-req-1"
+        }
+      ]
+    },
+    {
+      "expectation": "`q_4` must match.",
+      "status": "BENCHMARK_TASK_RUN_ASSERTION_STATUS_FAILED",
+      "lineNumber": 176,
+      "definition": "assertions.assert_equal(expn, act, expectation=f\"`{key}` must match.\")",
+      "conversationRequestIds": [
+        {
+          "conversationId": "inhibitory_summation_assoc_learning-b913ed10",
+          "requestId": "inhibitory_summation_assoc_learning-b913ed10-req-1"
+        }
+      ]
+    },
+    {
+      "expectation": "`q_5` must match.",
+      "status": "BENCHMARK_TASK_RUN_ASSERTION_STATUS_PASSED",
+      "lineNumber": 176,
+      "definition": "assertions.assert_equal(expn, act, expectation=f\"`{key}` must match.\")",
+      "conversationRequestIds": [
+        {
+          "conversationId": "inhibitory_summation_assoc_learning-b913ed10",
+          "requestId": "inhibitory_summation_assoc_learning-b913ed10-req-1"
+        }
+      ]
+    },
+    {
+      "expectation": "`q_6` must match.",
+      "status": "BENCHMARK_TASK_RUN_ASSERTION_STATUS_FAILED",
+      "lineNumber": 176,
+      "definition": "assertions.assert_equal(expn, act, expectation=f\"`{key}` must match.\")",
+      "conversationRequestIds": [
+        {
+          "conversationId": "inhibitory_summation_assoc_learning-b913ed10",
+          "requestId": "inhibitory_summation_assoc_learning-b913ed10-req-1"
+        }
+      ]
+    },
+    {
+      "expectation": "`q_7` must match.",
+      "status": "BENCHMARK_TASK_RUN_ASSERTION_STATUS_FAILED",
+      "lineNumber": 176,
+      "definition": "assertions.assert_equal(expn, act, expectation=f\"`{key}` must match.\")",
+      "conversationRequestIds": [
+        {
+          "conversationId": "inhibitory_summation_assoc_learning-b913ed10",
+          "requestId": "inhibitory_summation_assoc_learning-b913ed10-req-1"
+        }
+      ]
+    },
+    {
+      "expectation": "`q_8` must match.",
+      "status": "BENCHMARK_TASK_RUN_ASSERTION_STATUS_PASSED",
+      "lineNumber": 176,
+      "definition": "assertions.assert_equal(expn, act, expectation=f\"`{key}` must match.\")",
+      "conversationRequestIds": [
+        {
+          "conversationId": "inhibitory_summation_assoc_learning-b913ed10",
+          "requestId": "inhibitory_summation_assoc_learning-b913ed10-req-1"
+        }
+      ]
+    }
+  ],
+  "pyRunId": "inhibitory_summation_assoc_learning-Run #1"
+}

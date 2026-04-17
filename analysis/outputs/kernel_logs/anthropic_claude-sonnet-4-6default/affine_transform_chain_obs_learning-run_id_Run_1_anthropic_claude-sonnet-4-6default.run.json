@@ -1,0 +1,66 @@
+{
+  "taskVersion": {
+    "versionNumber": 1,
+    "name": "affine_transform_chain_obs_learning",
+    "description": "Observe (input\u2192output) point pairs for a hidden chain of 3 affine transforms (rotation at multiples of 30\u00b0, scale 1.5 or 2.0, integer translation). 14 demos reveal all transform parameters. Predict outputs for 4 novel test points.",
+    "definition": "@kbench.task(\n    name=\"affine_transform_chain_obs_learning\",\n    description=(\n        \"Observe (input\u2192output) point pairs for a hidden chain of 3 affine transforms \"\n        \"(rotation at multiples of 30\u00b0, scale 1.5 or 2.0, integer translation). \"\n        \"14 demos reveal all transform parameters. Predict outputs for 4 novel test points.\"\n    ),\n)\ndef affine_transform_chain_obs_learning(llm) -> float:\n    \"\"\"Infer a 3-step affine transform chain from 14 I/O point pairs; predict outputs for 4 test points.\"\"\"\n    prompt, grade_fn = _prepare()\n    try:\n        response = llm.prompt(prompt, schema=_Answer)\n    except Exception:\n        response = None\n\n    if response is not None:\n        score, test_results = grade_fn(response)\n    else:\n        score = 0.0\n        test_results = [\n            {\"q\": i, \"expected\": _TEST_CASES[i - 1][1], \"got\": None, \"correct\": False}\n            for i in range(1, 5)\n        ]\n\n    reasoning = getattr(response, \"reasoning\", \"\") or getattr(response, \"thinking\", \"\") or \"\"\n    _log_trace(\n        task=\"affine_transform_chain_obs_learning\",\n        description=_TASK_DESCRIPTION,\n        prompt=prompt,\n        test_results=test_results,\n        score=score,\n        reasoning=str(reasoning),\n    )\n    return score\n"
+  },
+  "modelVersion": {
+    "slug": "anthropic/claude-sonnet-4-6@default"
+  },
+  "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+  "startTime": "2026-04-12T11:37:41.759879Z",
+  "endTime": "2026-04-12T11:37:44.249072Z",
+  "conversations": [
+    {
+      "id": "affine_transform_chain_obs_learning-4f133484",
+      "requests": [
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "You are observing a sequence of (input, output) pairs where a hidden 2D transform\nchain maps each input point to an output point.\n\nObservations (input \u2192 output):\n   1. (   0,    0) \u2192 (  30,  -10)\n   2. (   1,    0) \u2192 (  30,  -16)\n   3. (   0,    1) \u2192 (  36,  -10)\n   4. (  -1,    0) \u2192 (  30,   -2)\n   5. (   0,   -1) \u2192 (  24,   -8)\n   6. (   2,    1) \u2192 (  38,  -20)\n   7. (  -2,    3) \u2192 (  46,    2)\n   8. (   3,   -2) \u2192 (  20,  -28)\n   9. (  -3,   -1) \u2192 (  22,    8)\n  10. (   4,    2) \u2192 (  40,  -32)\n  11. (  -4,    3) \u2192 (  48,   16)\n  12. (   5,   -1) \u2192 (  22,  -40)\n  13. (  -5,    4) \u2192 (  54,   22)\n  14. (   2,   -4) \u2192 (   6,  -20)\n\nNow solve these 4 test questions:\n  Q1: Input (7, -3) \u2192 ?\n  Q2: Input (-5, 6) \u2192 ?\n  Q3: Input (4, 9) \u2192 ?\n  Q4: Input (-8, -4) \u2192 ?\n\nSubmit answer_1 through answer_4 as 'x,y' strings (e.g. '12,-7')."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"answer_1\\\": \\\"-12,-52\\\", \\\"answer_2\\\": \\\"66,34\\\", \\\"answer_3\\\": \\\"84,-22\\\", \\\"answer_4\\\": \\\"16,46\\\"}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "anthropic/claude-sonnet-4-6@default"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 1174,
+            "outputTokens": 101,
+            "inputTokensCostNanodollars": "3522000",
+            "outputTokensCostNanodollars": "1515000",
+            "totalBackendLatencyMs": "1605"
+          },
+          "id": "affine_transform_chain_obs_learning-4f133484-req-1"
+        }
+      ],
+      "metrics": {
+        "inputTokens": 1174,
+        "outputTokens": 101,
+        "inputTokensCostNanodollars": "3522000",
+        "outputTokensCostNanodollars": "1515000",
+        "totalBackendLatencyMs": "1605"
+      },
+      "modelVersionSlug": "model_version_slug for conversation is DEPRECATED"
+    }
+  ],
+  "results": [
+    {
+      "type": "AGGREGATED",
+      "numericResult": {}
+    }
+  ],
+  "pyRunId": "affine_transform_chain_obs_learning-Run #1"
+}

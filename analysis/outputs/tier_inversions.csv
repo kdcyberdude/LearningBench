@@ -1,0 +1,23 @@
+category,smaller_model,smaller_tier,smaller_score,larger_model,larger_tier,larger_score,gap
+observational,Qwen 3 Next 80B Thinking,mid,0.58,GPT-5.4,frontier,0.2913,0.2887
+concept,Qwen 3 Next 80B Thinking,mid,0.5412,Claude Opus 4.6,frontier,0.2616,0.2796
+concept,Qwen 3 Next 80B Thinking,mid,0.5412,GPT-5.4,frontier,0.2676,0.2736
+observational,Qwen 3 Next 80B Thinking,mid,0.58,Claude Opus 4.6,frontier,0.3153,0.2647
+concept,Gemini 2.5 Flash,mid,0.5178,Claude Opus 4.6,frontier,0.2616,0.2562
+concept,Gemini 2.5 Flash,mid,0.5178,GPT-5.4,frontier,0.2676,0.2502
+rl,Gemma 4 26B A4B,small,0.4475,GPT-5.4 mini,mid,0.2882,0.1593
+observational,DeepSeek V3.2,mid,0.425,GPT-5.4,frontier,0.2913,0.1337
+rl,Claude Haiku 4.5,small,0.4036,GPT-5.4 mini,mid,0.2882,0.1154
+language,Qwen 3 Next 80B Thinking,mid,0.6227,Claude Opus 4.6,frontier,0.51,0.1127
+observational,DeepSeek V3.2,mid,0.425,Claude Opus 4.6,frontier,0.3153,0.1097
+observational,Qwen 3 Next 80B Instruct,small,0.3034,GPT-5.4 mini,mid,0.2052,0.0982
+rl,Gemini 2.5 Flash,mid,0.4981,Claude Opus 4.6,frontier,0.4085,0.0896
+rl,Gemini 2.5 Flash,mid,0.4981,GPT-5.4,frontier,0.4105,0.0876
+concept,Gemma 4 26B A4B,small,0.2782,DeepSeek V3.2,mid,0.1941,0.0842
+concept,Claude Sonnet 4.6,mid,0.3292,Claude Opus 4.6,frontier,0.2616,0.0676
+rl,Qwen 3 Next 80B Thinking,mid,0.4741,Claude Opus 4.6,frontier,0.4085,0.0656
+rl,Qwen 3 Next 80B Thinking,mid,0.4741,GPT-5.4,frontier,0.4105,0.0636
+concept,Claude Sonnet 4.6,mid,0.3292,GPT-5.4,frontier,0.2676,0.0616
+concept,Gemini 3.1 Flash-Lite Preview,mid,0.3225,Claude Opus 4.6,frontier,0.2616,0.0609
+observational,Gemini 2.5 Flash,mid,0.35,GPT-5.4,frontier,0.2913,0.0587
+concept,Gemini 3.1 Flash-Lite Preview,mid,0.3225,GPT-5.4,frontier,0.2676,0.055

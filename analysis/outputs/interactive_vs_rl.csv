@@ -1,0 +1,15 @@
+model,interactive_mean,rl_mean,tier
+Claude Haiku 4.5,0.2852,0.4036,small
+Claude Opus 4.6,0.4051,0.4085,frontier
+Claude Sonnet 4.6,0.4087,0.4201,mid
+DeepSeek V3.2,0.355,0.4151,mid
+GLM-5,0.6326,0.5268,frontier
+GPT-5.4,0.4595,0.4105,frontier
+GPT-5.4 mini,0.3838,0.2882,mid
+GPT-5.4 nano,0.2475,0.2019,small
+Gemini 2.5 Flash,0.4904,0.4981,mid
+Gemini 3.1 Flash-Lite Preview,0.4206,0.412,mid
+Gemini 3.1 Pro Preview,0.7422,0.6237,frontier
+Gemma 4 26B A4B,0.2739,0.4475,small
+Qwen 3 Next 80B Instruct,0.3202,0.2678,small
+Qwen 3 Next 80B Thinking,0.5883,0.4741,mid

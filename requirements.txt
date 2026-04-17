@@ -1,0 +1,13 @@
+# LearningBench — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+numpy>=2.0
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.8
+seaborn>=0.13
+requests>=2.31
+tqdm>=4.66
+
+# Optional: for downloading kernel logs from Kaggle API
+# kaggle>=1.6

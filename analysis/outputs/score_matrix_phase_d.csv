@@ -1,0 +1,1928 @@
+category,category_full,task_name,model,score,tier,provider
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,GLM-5,0.75,frontier,Open-source
+associative,Associative Learning,inhibitory_summation_assoc_learning,GLM-5,0.75,frontier,Open-source
+associative,Associative Learning,latent_cross_binding_assoc_learning,GLM-5,0.3333333333333333,frontier,Open-source
+associative,Associative Learning,latent_set_binding_assoc_learning,GLM-5,0.8571428571428571,frontier,Open-source
+associative,Associative Learning,latent_set_variant_assoc_learning,GLM-5,1.0,frontier,Open-source
+associative,Associative Learning,learned_irrelevance_assoc_learning,GLM-5,0.875,frontier,Open-source
+associative,Associative Learning,contextual_flip_assoc_learning,GLM-5,0.75,frontier,Open-source
+associative,Associative Learning,latent_inhibition_assoc_learning,GLM-5,0.75,frontier,Open-source
+associative,Associative Learning,xor_attribute_binding_assoc_learning,GLM-5,0.8333333333333334,frontier,Open-source
+associative,Associative Learning,blocking_effect_assoc_learning,GLM-5,0.5,frontier,Open-source
+associative,Associative Learning,temporal_pairing_tnr_assoc_learning,GLM-5,1.0,frontier,Open-source
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,GLM-5,1.0,frontier,Open-source
+associative,Associative Learning,retrospective_revaluation_assoc_learning,GLM-5,0.7142857142857143,frontier,Open-source
+associative,Associative Learning,occasion_setting_assoc_learning,GLM-5,0.9285714285714286,frontier,Open-source
+associative,Associative Learning,overexpectation_assoc_learning,GLM-5,0.625,frontier,Open-source
+associative,Associative Learning,inference_dyad_operators_assoc_learning,GLM-5,1.0,frontier,Open-source
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,Gemma 4 26B A4B,0.0,small,Google
+associative,Associative Learning,inhibitory_summation_assoc_learning,Gemma 4 26B A4B,0.5,small,Google
+associative,Associative Learning,latent_cross_binding_assoc_learning,Gemma 4 26B A4B,0.5,small,Google
+associative,Associative Learning,latent_set_binding_assoc_learning,Gemma 4 26B A4B,0.7142857142857143,small,Google
+associative,Associative Learning,latent_set_variant_assoc_learning,Gemma 4 26B A4B,0.8333333333333334,small,Google
+associative,Associative Learning,learned_irrelevance_assoc_learning,Gemma 4 26B A4B,0.875,small,Google
+associative,Associative Learning,contextual_flip_assoc_learning,Gemma 4 26B A4B,0.5,small,Google
+associative,Associative Learning,odd_letter_score_pair_assoc_learning,Gemma 4 26B A4B,0.3333333333333333,small,Google
+associative,Associative Learning,cumulative_state_rewrite_assoc_learning,Gemma 4 26B A4B,0.1428571428571428,small,Google
+associative,Associative Learning,latent_inhibition_assoc_learning,Gemma 4 26B A4B,0.5,small,Google
+associative,Associative Learning,xor_attribute_binding_assoc_learning,Gemma 4 26B A4B,0.6666666666666666,small,Google
+associative,Associative Learning,blocking_effect_assoc_learning,Gemma 4 26B A4B,0.875,small,Google
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,Gemma 4 26B A4B,0.6,small,Google
+associative,Associative Learning,retrospective_revaluation_assoc_learning,Gemma 4 26B A4B,0.4285714285714285,small,Google
+associative,Associative Learning,occasion_setting_assoc_learning,Gemma 4 26B A4B,0.8571428571428571,small,Google
+associative,Associative Learning,gated_dual_signal_binding_assoc_learning,Gemma 4 26B A4B,0.0,small,Google
+associative,Associative Learning,glyph_bind_assoc_learning,Gemma 4 26B A4B,0.2,small,Google
+associative,Associative Learning,overexpectation_assoc_learning,Gemma 4 26B A4B,0.875,small,Google
+associative,Associative Learning,inference_dyad_operators_assoc_learning,Gemma 4 26B A4B,0.125,small,Google
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,Gemini 2.5 Flash,0.5,mid,Google
+associative,Associative Learning,inhibitory_summation_assoc_learning,Gemini 2.5 Flash,0.625,mid,Google
+associative,Associative Learning,latent_cross_binding_assoc_learning,Gemini 2.5 Flash,0.5,mid,Google
+associative,Associative Learning,latent_set_binding_assoc_learning,Gemini 2.5 Flash,1.0,mid,Google
+associative,Associative Learning,latent_set_variant_assoc_learning,Gemini 2.5 Flash,0.8333333333333334,mid,Google
+associative,Associative Learning,learned_irrelevance_assoc_learning,Gemini 2.5 Flash,1.0,mid,Google
+associative,Associative Learning,contextual_flip_assoc_learning,Gemini 2.5 Flash,0.375,mid,Google
+associative,Associative Learning,odd_letter_score_pair_assoc_learning,Gemini 2.5 Flash,0.5,mid,Google
+associative,Associative Learning,cumulative_state_rewrite_assoc_learning,Gemini 2.5 Flash,0.7142857142857143,mid,Google
+associative,Associative Learning,latent_inhibition_assoc_learning,Gemini 2.5 Flash,0.625,mid,Google
+associative,Associative Learning,xor_attribute_binding_assoc_learning,Gemini 2.5 Flash,0.6666666666666666,mid,Google
+associative,Associative Learning,blocking_effect_assoc_learning,Gemini 2.5 Flash,0.5,mid,Google
+associative,Associative Learning,temporal_pairing_tnr_assoc_learning,Gemini 2.5 Flash,0.75,mid,Google
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,Gemini 2.5 Flash,0.7,mid,Google
+associative,Associative Learning,retrospective_revaluation_assoc_learning,Gemini 2.5 Flash,1.0,mid,Google
+associative,Associative Learning,occasion_setting_assoc_learning,Gemini 2.5 Flash,0.6428571428571429,mid,Google
+associative,Associative Learning,gated_dual_signal_binding_assoc_learning,Gemini 2.5 Flash,0.1666666666666666,mid,Google
+associative,Associative Learning,glyph_bind_assoc_learning,Gemini 2.5 Flash,0.3,mid,Google
+associative,Associative Learning,overexpectation_assoc_learning,Gemini 2.5 Flash,0.25,mid,Google
+associative,Associative Learning,inference_dyad_operators_assoc_learning,Gemini 2.5 Flash,0.25,mid,Google
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,Claude Haiku 4.5,0.0,small,Anthropic
+associative,Associative Learning,inhibitory_summation_assoc_learning,Claude Haiku 4.5,0.25,small,Anthropic
+associative,Associative Learning,latent_cross_binding_assoc_learning,Claude Haiku 4.5,0.5,small,Anthropic
+associative,Associative Learning,latent_set_binding_assoc_learning,Claude Haiku 4.5,0.4285714285714285,small,Anthropic
+associative,Associative Learning,latent_set_variant_assoc_learning,Claude Haiku 4.5,0.8333333333333334,small,Anthropic
+associative,Associative Learning,learned_irrelevance_assoc_learning,Claude Haiku 4.5,0.75,small,Anthropic
+associative,Associative Learning,contextual_flip_assoc_learning,Claude Haiku 4.5,0.5,small,Anthropic
+associative,Associative Learning,odd_letter_score_pair_assoc_learning,Claude Haiku 4.5,0.3333333333333333,small,Anthropic
+associative,Associative Learning,cumulative_state_rewrite_assoc_learning,Claude Haiku 4.5,0.5714285714285714,small,Anthropic
+associative,Associative Learning,latent_inhibition_assoc_learning,Claude Haiku 4.5,0.625,small,Anthropic
+associative,Associative Learning,xor_attribute_binding_assoc_learning,Claude Haiku 4.5,0.6666666666666666,small,Anthropic
+associative,Associative Learning,blocking_effect_assoc_learning,Claude Haiku 4.5,0.625,small,Anthropic
+associative,Associative Learning,temporal_pairing_tnr_assoc_learning,Claude Haiku 4.5,1.0,small,Anthropic
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,Claude Haiku 4.5,0.8,small,Anthropic
+associative,Associative Learning,retrospective_revaluation_assoc_learning,Claude Haiku 4.5,0.4285714285714285,small,Anthropic
+associative,Associative Learning,occasion_setting_assoc_learning,Claude Haiku 4.5,0.8571428571428571,small,Anthropic
+associative,Associative Learning,gated_dual_signal_binding_assoc_learning,Claude Haiku 4.5,0.5,small,Anthropic
+associative,Associative Learning,glyph_bind_assoc_learning,Claude Haiku 4.5,0.0,small,Anthropic
+associative,Associative Learning,overexpectation_assoc_learning,Claude Haiku 4.5,0.25,small,Anthropic
+associative,Associative Learning,inference_dyad_operators_assoc_learning,Claude Haiku 4.5,0.125,small,Anthropic
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,DeepSeek V3.2,0.0,mid,Open-source
+associative,Associative Learning,inhibitory_summation_assoc_learning,DeepSeek V3.2,0.625,mid,Open-source
+associative,Associative Learning,latent_cross_binding_assoc_learning,DeepSeek V3.2,0.5,mid,Open-source
+associative,Associative Learning,latent_set_binding_assoc_learning,DeepSeek V3.2,1.0,mid,Open-source
+associative,Associative Learning,latent_set_variant_assoc_learning,DeepSeek V3.2,0.8333333333333334,mid,Open-source
+associative,Associative Learning,learned_irrelevance_assoc_learning,DeepSeek V3.2,0.75,mid,Open-source
+associative,Associative Learning,contextual_flip_assoc_learning,DeepSeek V3.2,0.375,mid,Open-source
+associative,Associative Learning,odd_letter_score_pair_assoc_learning,DeepSeek V3.2,0.5,mid,Open-source
+associative,Associative Learning,cumulative_state_rewrite_assoc_learning,DeepSeek V3.2,0.0,mid,Open-source
+associative,Associative Learning,latent_inhibition_assoc_learning,DeepSeek V3.2,0.5,mid,Open-source
+associative,Associative Learning,xor_attribute_binding_assoc_learning,DeepSeek V3.2,0.6666666666666666,mid,Open-source
+associative,Associative Learning,blocking_effect_assoc_learning,DeepSeek V3.2,0.75,mid,Open-source
+associative,Associative Learning,temporal_pairing_tnr_assoc_learning,DeepSeek V3.2,0.75,mid,Open-source
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,DeepSeek V3.2,0.7,mid,Open-source
+associative,Associative Learning,retrospective_revaluation_assoc_learning,DeepSeek V3.2,0.4285714285714285,mid,Open-source
+associative,Associative Learning,occasion_setting_assoc_learning,DeepSeek V3.2,0.7857142857142857,mid,Open-source
+associative,Associative Learning,gated_dual_signal_binding_assoc_learning,DeepSeek V3.2,0.5,mid,Open-source
+associative,Associative Learning,glyph_bind_assoc_learning,DeepSeek V3.2,0.3,mid,Open-source
+associative,Associative Learning,overexpectation_assoc_learning,DeepSeek V3.2,0.25,mid,Open-source
+associative,Associative Learning,inference_dyad_operators_assoc_learning,DeepSeek V3.2,0.25,mid,Open-source
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,Qwen 3 Next 80B Instruct,0.25,small,Open-source
+associative,Associative Learning,inhibitory_summation_assoc_learning,Qwen 3 Next 80B Instruct,0.625,small,Open-source
+associative,Associative Learning,latent_cross_binding_assoc_learning,Qwen 3 Next 80B Instruct,0.5,small,Open-source
+associative,Associative Learning,latent_set_binding_assoc_learning,Qwen 3 Next 80B Instruct,0.7142857142857143,small,Open-source
+associative,Associative Learning,latent_set_variant_assoc_learning,Qwen 3 Next 80B Instruct,0.8333333333333334,small,Open-source
+associative,Associative Learning,learned_irrelevance_assoc_learning,Qwen 3 Next 80B Instruct,0.75,small,Open-source
+associative,Associative Learning,contextual_flip_assoc_learning,Qwen 3 Next 80B Instruct,0.125,small,Open-source
+associative,Associative Learning,odd_letter_score_pair_assoc_learning,Qwen 3 Next 80B Instruct,0.1666666666666666,small,Open-source
+associative,Associative Learning,cumulative_state_rewrite_assoc_learning,Qwen 3 Next 80B Instruct,0.1428571428571428,small,Open-source
+associative,Associative Learning,latent_inhibition_assoc_learning,Qwen 3 Next 80B Instruct,0.75,small,Open-source
+associative,Associative Learning,xor_attribute_binding_assoc_learning,Qwen 3 Next 80B Instruct,0.1666666666666666,small,Open-source
+associative,Associative Learning,blocking_effect_assoc_learning,Qwen 3 Next 80B Instruct,0.875,small,Open-source
+associative,Associative Learning,temporal_pairing_tnr_assoc_learning,Qwen 3 Next 80B Instruct,0.75,small,Open-source
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,Qwen 3 Next 80B Instruct,0.6,small,Open-source
+associative,Associative Learning,retrospective_revaluation_assoc_learning,Qwen 3 Next 80B Instruct,0.4285714285714285,small,Open-source
+associative,Associative Learning,occasion_setting_assoc_learning,Qwen 3 Next 80B Instruct,0.8571428571428571,small,Open-source
+associative,Associative Learning,gated_dual_signal_binding_assoc_learning,Qwen 3 Next 80B Instruct,0.1666666666666666,small,Open-source
+associative,Associative Learning,glyph_bind_assoc_learning,Qwen 3 Next 80B Instruct,0.2,small,Open-source
+associative,Associative Learning,overexpectation_assoc_learning,Qwen 3 Next 80B Instruct,0.25,small,Open-source
+associative,Associative Learning,inference_dyad_operators_assoc_learning,Qwen 3 Next 80B Instruct,0.125,small,Open-source
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+associative,Associative Learning,inhibitory_summation_assoc_learning,Qwen 3 Next 80B Thinking,0.625,mid,Open-source
+associative,Associative Learning,latent_cross_binding_assoc_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+associative,Associative Learning,latent_set_binding_assoc_learning,Qwen 3 Next 80B Thinking,0.8571428571428571,mid,Open-source
+associative,Associative Learning,latent_set_variant_assoc_learning,Qwen 3 Next 80B Thinking,0.8333333333333334,mid,Open-source
+associative,Associative Learning,learned_irrelevance_assoc_learning,Qwen 3 Next 80B Thinking,0.875,mid,Open-source
+associative,Associative Learning,contextual_flip_assoc_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+associative,Associative Learning,odd_letter_score_pair_assoc_learning,Qwen 3 Next 80B Thinking,0.8333333333333334,mid,Open-source
+associative,Associative Learning,cumulative_state_rewrite_assoc_learning,Qwen 3 Next 80B Thinking,0.1428571428571428,mid,Open-source
+associative,Associative Learning,latent_inhibition_assoc_learning,Qwen 3 Next 80B Thinking,0.625,mid,Open-source
+associative,Associative Learning,xor_attribute_binding_assoc_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+associative,Associative Learning,blocking_effect_assoc_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+associative,Associative Learning,temporal_pairing_tnr_assoc_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,Qwen 3 Next 80B Thinking,0.9,mid,Open-source
+associative,Associative Learning,retrospective_revaluation_assoc_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+associative,Associative Learning,occasion_setting_assoc_learning,Qwen 3 Next 80B Thinking,0.7857142857142857,mid,Open-source
+associative,Associative Learning,gated_dual_signal_binding_assoc_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+associative,Associative Learning,glyph_bind_assoc_learning,Qwen 3 Next 80B Thinking,0.2,mid,Open-source
+associative,Associative Learning,overexpectation_assoc_learning,Qwen 3 Next 80B Thinking,0.25,mid,Open-source
+associative,Associative Learning,inference_dyad_operators_assoc_learning,Qwen 3 Next 80B Thinking,0.125,mid,Open-source
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+associative,Associative Learning,inhibitory_summation_assoc_learning,Claude Opus 4.6,0.5,frontier,Anthropic
+associative,Associative Learning,latent_cross_binding_assoc_learning,Claude Opus 4.6,0.5,frontier,Anthropic
+associative,Associative Learning,latent_set_binding_assoc_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+associative,Associative Learning,latent_set_variant_assoc_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+associative,Associative Learning,learned_irrelevance_assoc_learning,Claude Opus 4.6,0.875,frontier,Anthropic
+associative,Associative Learning,contextual_flip_assoc_learning,Claude Opus 4.6,0.75,frontier,Anthropic
+associative,Associative Learning,odd_letter_score_pair_assoc_learning,Claude Opus 4.6,0.3333333333333333,frontier,Anthropic
+associative,Associative Learning,cumulative_state_rewrite_assoc_learning,Claude Opus 4.6,0.1428571428571428,frontier,Anthropic
+associative,Associative Learning,latent_inhibition_assoc_learning,Claude Opus 4.6,0.625,frontier,Anthropic
+associative,Associative Learning,xor_attribute_binding_assoc_learning,Claude Opus 4.6,0.6666666666666666,frontier,Anthropic
+associative,Associative Learning,blocking_effect_assoc_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+associative,Associative Learning,temporal_pairing_tnr_assoc_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+associative,Associative Learning,retrospective_revaluation_assoc_learning,Claude Opus 4.6,0.7142857142857143,frontier,Anthropic
+associative,Associative Learning,occasion_setting_assoc_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+associative,Associative Learning,gated_dual_signal_binding_assoc_learning,Claude Opus 4.6,0.5,frontier,Anthropic
+associative,Associative Learning,glyph_bind_assoc_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+associative,Associative Learning,overexpectation_assoc_learning,Claude Opus 4.6,0.25,frontier,Anthropic
+associative,Associative Learning,inference_dyad_operators_assoc_learning,Claude Opus 4.6,0.375,frontier,Anthropic
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,Claude Sonnet 4.6,0.25,mid,Anthropic
+associative,Associative Learning,inhibitory_summation_assoc_learning,Claude Sonnet 4.6,0.75,mid,Anthropic
+associative,Associative Learning,latent_cross_binding_assoc_learning,Claude Sonnet 4.6,0.6666666666666666,mid,Anthropic
+associative,Associative Learning,latent_set_binding_assoc_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+associative,Associative Learning,latent_set_variant_assoc_learning,Claude Sonnet 4.6,0.8333333333333334,mid,Anthropic
+associative,Associative Learning,learned_irrelevance_assoc_learning,Claude Sonnet 4.6,0.875,mid,Anthropic
+associative,Associative Learning,contextual_flip_assoc_learning,Claude Sonnet 4.6,0.375,mid,Anthropic
+associative,Associative Learning,odd_letter_score_pair_assoc_learning,Claude Sonnet 4.6,0.5,mid,Anthropic
+associative,Associative Learning,cumulative_state_rewrite_assoc_learning,Claude Sonnet 4.6,0.1428571428571428,mid,Anthropic
+associative,Associative Learning,latent_inhibition_assoc_learning,Claude Sonnet 4.6,0.75,mid,Anthropic
+associative,Associative Learning,xor_attribute_binding_assoc_learning,Claude Sonnet 4.6,0.6666666666666666,mid,Anthropic
+associative,Associative Learning,blocking_effect_assoc_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+associative,Associative Learning,temporal_pairing_tnr_assoc_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+associative,Associative Learning,retrospective_revaluation_assoc_learning,Claude Sonnet 4.6,0.7142857142857143,mid,Anthropic
+associative,Associative Learning,occasion_setting_assoc_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+associative,Associative Learning,gated_dual_signal_binding_assoc_learning,Claude Sonnet 4.6,0.6666666666666666,mid,Anthropic
+associative,Associative Learning,glyph_bind_assoc_learning,Claude Sonnet 4.6,0.2,mid,Anthropic
+associative,Associative Learning,overexpectation_assoc_learning,Claude Sonnet 4.6,0.25,mid,Anthropic
+associative,Associative Learning,inference_dyad_operators_assoc_learning,Claude Sonnet 4.6,0.375,mid,Anthropic
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,inhibitory_summation_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,latent_cross_binding_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,latent_set_binding_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,latent_set_variant_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,learned_irrelevance_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,contextual_flip_assoc_learning,Gemini 3.1 Pro Preview,0.75,frontier,Google
+associative,Associative Learning,odd_letter_score_pair_assoc_learning,Gemini 3.1 Pro Preview,0.8333333333333334,frontier,Google
+associative,Associative Learning,cumulative_state_rewrite_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,latent_inhibition_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,xor_attribute_binding_assoc_learning,Gemini 3.1 Pro Preview,0.8333333333333334,frontier,Google
+associative,Associative Learning,blocking_effect_assoc_learning,Gemini 3.1 Pro Preview,0.5,frontier,Google
+associative,Associative Learning,temporal_pairing_tnr_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,retrospective_revaluation_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,occasion_setting_assoc_learning,Gemini 3.1 Pro Preview,0.7857142857142857,frontier,Google
+associative,Associative Learning,gated_dual_signal_binding_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,glyph_bind_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,overexpectation_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,inference_dyad_operators_assoc_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,GPT-5.4,0.0,frontier,OpenAI
+associative,Associative Learning,inhibitory_summation_assoc_learning,GPT-5.4,0.5,frontier,OpenAI
+associative,Associative Learning,latent_cross_binding_assoc_learning,GPT-5.4,1.0,frontier,OpenAI
+associative,Associative Learning,latent_set_binding_assoc_learning,GPT-5.4,0.8571428571428571,frontier,OpenAI
+associative,Associative Learning,latent_set_variant_assoc_learning,GPT-5.4,1.0,frontier,OpenAI
+associative,Associative Learning,learned_irrelevance_assoc_learning,GPT-5.4,1.0,frontier,OpenAI
+associative,Associative Learning,contextual_flip_assoc_learning,GPT-5.4,0.5,frontier,OpenAI
+associative,Associative Learning,odd_letter_score_pair_assoc_learning,GPT-5.4,0.8333333333333334,frontier,OpenAI
+associative,Associative Learning,cumulative_state_rewrite_assoc_learning,GPT-5.4,0.0,frontier,OpenAI
+associative,Associative Learning,latent_inhibition_assoc_learning,GPT-5.4,0.625,frontier,OpenAI
+associative,Associative Learning,xor_attribute_binding_assoc_learning,GPT-5.4,0.1666666666666666,frontier,OpenAI
+associative,Associative Learning,blocking_effect_assoc_learning,GPT-5.4,1.0,frontier,OpenAI
+associative,Associative Learning,temporal_pairing_tnr_assoc_learning,GPT-5.4,1.0,frontier,OpenAI
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,GPT-5.4,1.0,frontier,OpenAI
+associative,Associative Learning,retrospective_revaluation_assoc_learning,GPT-5.4,0.5714285714285714,frontier,OpenAI
+associative,Associative Learning,occasion_setting_assoc_learning,GPT-5.4,1.0,frontier,OpenAI
+associative,Associative Learning,gated_dual_signal_binding_assoc_learning,GPT-5.4,1.0,frontier,OpenAI
+associative,Associative Learning,glyph_bind_assoc_learning,GPT-5.4,0.2,frontier,OpenAI
+associative,Associative Learning,overexpectation_assoc_learning,GPT-5.4,0.5,frontier,OpenAI
+associative,Associative Learning,inference_dyad_operators_assoc_learning,GPT-5.4,0.25,frontier,OpenAI
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+associative,Associative Learning,inhibitory_summation_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.375,mid,Google
+associative,Associative Learning,latent_cross_binding_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.6666666666666666,mid,Google
+associative,Associative Learning,latent_set_binding_assoc_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+associative,Associative Learning,latent_set_variant_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.8333333333333334,mid,Google
+associative,Associative Learning,learned_irrelevance_assoc_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+associative,Associative Learning,contextual_flip_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.25,mid,Google
+associative,Associative Learning,odd_letter_score_pair_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+associative,Associative Learning,cumulative_state_rewrite_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.2857142857142857,mid,Google
+associative,Associative Learning,latent_inhibition_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.375,mid,Google
+associative,Associative Learning,xor_attribute_binding_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+associative,Associative Learning,blocking_effect_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.625,mid,Google
+associative,Associative Learning,temporal_pairing_tnr_assoc_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.9,mid,Google
+associative,Associative Learning,retrospective_revaluation_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.5714285714285714,mid,Google
+associative,Associative Learning,occasion_setting_assoc_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+associative,Associative Learning,gated_dual_signal_binding_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+associative,Associative Learning,glyph_bind_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.1,mid,Google
+associative,Associative Learning,overexpectation_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.25,mid,Google
+associative,Associative Learning,inference_dyad_operators_assoc_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,GPT-5.4 mini,0.0,mid,OpenAI
+associative,Associative Learning,inhibitory_summation_assoc_learning,GPT-5.4 mini,0.375,mid,OpenAI
+associative,Associative Learning,latent_cross_binding_assoc_learning,GPT-5.4 mini,0.3333333333333333,mid,OpenAI
+associative,Associative Learning,latent_set_binding_assoc_learning,GPT-5.4 mini,0.4285714285714285,mid,OpenAI
+associative,Associative Learning,latent_set_variant_assoc_learning,GPT-5.4 mini,1.0,mid,OpenAI
+associative,Associative Learning,learned_irrelevance_assoc_learning,GPT-5.4 mini,0.5,mid,OpenAI
+associative,Associative Learning,contextual_flip_assoc_learning,GPT-5.4 mini,0.375,mid,OpenAI
+associative,Associative Learning,odd_letter_score_pair_assoc_learning,GPT-5.4 mini,0.5,mid,OpenAI
+associative,Associative Learning,cumulative_state_rewrite_assoc_learning,GPT-5.4 mini,0.1428571428571428,mid,OpenAI
+associative,Associative Learning,latent_inhibition_assoc_learning,GPT-5.4 mini,0.625,mid,OpenAI
+associative,Associative Learning,xor_attribute_binding_assoc_learning,GPT-5.4 mini,0.1666666666666666,mid,OpenAI
+associative,Associative Learning,blocking_effect_assoc_learning,GPT-5.4 mini,0.75,mid,OpenAI
+associative,Associative Learning,temporal_pairing_tnr_assoc_learning,GPT-5.4 mini,1.0,mid,OpenAI
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,GPT-5.4 mini,0.8,mid,OpenAI
+associative,Associative Learning,retrospective_revaluation_assoc_learning,GPT-5.4 mini,0.4285714285714285,mid,OpenAI
+associative,Associative Learning,occasion_setting_assoc_learning,GPT-5.4 mini,0.9285714285714286,mid,OpenAI
+associative,Associative Learning,gated_dual_signal_binding_assoc_learning,GPT-5.4 mini,0.6666666666666666,mid,OpenAI
+associative,Associative Learning,glyph_bind_assoc_learning,GPT-5.4 mini,0.1,mid,OpenAI
+associative,Associative Learning,overexpectation_assoc_learning,GPT-5.4 mini,0.5,mid,OpenAI
+associative,Associative Learning,inference_dyad_operators_assoc_learning,GPT-5.4 mini,0.125,mid,OpenAI
+associative,Associative Learning,spurious_hue_true_edge_assoc_learning,GPT-5.4 nano,0.5,small,OpenAI
+associative,Associative Learning,inhibitory_summation_assoc_learning,GPT-5.4 nano,0.625,small,OpenAI
+associative,Associative Learning,latent_cross_binding_assoc_learning,GPT-5.4 nano,0.6666666666666666,small,OpenAI
+associative,Associative Learning,latent_set_binding_assoc_learning,GPT-5.4 nano,1.0,small,OpenAI
+associative,Associative Learning,latent_set_variant_assoc_learning,GPT-5.4 nano,0.8333333333333334,small,OpenAI
+associative,Associative Learning,learned_irrelevance_assoc_learning,GPT-5.4 nano,0.5,small,OpenAI
+associative,Associative Learning,contextual_flip_assoc_learning,GPT-5.4 nano,0.5,small,OpenAI
+associative,Associative Learning,odd_letter_score_pair_assoc_learning,GPT-5.4 nano,0.3333333333333333,small,OpenAI
+associative,Associative Learning,cumulative_state_rewrite_assoc_learning,GPT-5.4 nano,0.0,small,OpenAI
+associative,Associative Learning,latent_inhibition_assoc_learning,GPT-5.4 nano,0.5,small,OpenAI
+associative,Associative Learning,xor_attribute_binding_assoc_learning,GPT-5.4 nano,0.1666666666666666,small,OpenAI
+associative,Associative Learning,blocking_effect_assoc_learning,GPT-5.4 nano,0.875,small,OpenAI
+associative,Associative Learning,temporal_pairing_tnr_assoc_learning,GPT-5.4 nano,0.5,small,OpenAI
+associative,Associative Learning,deep_second_order_extinction_assoc_learning,GPT-5.4 nano,0.5,small,OpenAI
+associative,Associative Learning,retrospective_revaluation_assoc_learning,GPT-5.4 nano,0.2857142857142857,small,OpenAI
+associative,Associative Learning,occasion_setting_assoc_learning,GPT-5.4 nano,0.5,small,OpenAI
+associative,Associative Learning,gated_dual_signal_binding_assoc_learning,GPT-5.4 nano,0.0,small,OpenAI
+associative,Associative Learning,glyph_bind_assoc_learning,GPT-5.4 nano,0.2,small,OpenAI
+associative,Associative Learning,overexpectation_assoc_learning,GPT-5.4 nano,0.0,small,OpenAI
+associative,Associative Learning,inference_dyad_operators_assoc_learning,GPT-5.4 nano,0.25,small,OpenAI
+concept,Concept Formation,disjunctive_noise_concept_learning,Gemini 3.1 Pro Preview,0.5249999999999999,frontier,Google
+concept,Concept Formation,digit_cipher_concept_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+concept,Concept Formation,dual_recurrence_concept_learning,Gemini 3.1 Pro Preview,0.2,frontier,Google
+concept,Concept Formation,encoded_triple_concept_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+concept,Concept Formation,nested_logic_concept_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+concept,Concept Formation,positional_encode_concept_learning,Gemini 3.1 Pro Preview,0.96,frontier,Google
+concept,Concept Formation,layered_transform_concept_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+concept,Concept Formation,consonant_clusters_concept_learning,Gemini 3.1 Pro Preview,0.9571428571428572,frontier,Google
+concept,Concept Formation,modular_subsequence_concept_learning,Gemini 3.1 Pro Preview,0.22,frontier,Google
+concept,Concept Formation,semantic_override_concept_learning,Gemini 3.1 Pro Preview,0.0,frontier,Google
+concept,Concept Formation,positional_mapping_concept_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+concept,Concept Formation,relational_pairs_concept_learning,Gemini 3.1 Pro Preview,0.6000000000000001,frontier,Google
+concept,Concept Formation,state_machine_concept_learning,Gemini 3.1 Pro Preview,0.7272727272727273,frontier,Google
+concept,Concept Formation,triple_parity_concept_learning,Gemini 3.1 Pro Preview,0.64,frontier,Google
+concept,Concept Formation,vowel_rotation_concept_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+concept,Concept Formation,violation_counter_concept_learning,Gemini 3.1 Pro Preview,0.7,frontier,Google
+concept,Concept Formation,interleave_reverse_concept_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+concept,Concept Formation,grid_transform_concept_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+concept,Concept Formation,disjunctive_noise_concept_learning,GLM-5,0.7,frontier,Open-source
+concept,Concept Formation,digit_cipher_concept_learning,GLM-5,1.0,frontier,Open-source
+concept,Concept Formation,dual_recurrence_concept_learning,GLM-5,0.0,frontier,Open-source
+concept,Concept Formation,encoded_triple_concept_learning,GLM-5,1.0,frontier,Open-source
+concept,Concept Formation,nested_logic_concept_learning,GLM-5,0.75,frontier,Open-source
+concept,Concept Formation,positional_encode_concept_learning,GLM-5,0.25,frontier,Open-source
+concept,Concept Formation,layered_transform_concept_learning,GLM-5,0.9625,frontier,Open-source
+concept,Concept Formation,consonant_clusters_concept_learning,GLM-5,0.5,frontier,Open-source
+concept,Concept Formation,modular_subsequence_concept_learning,GLM-5,0.0,frontier,Open-source
+concept,Concept Formation,semantic_override_concept_learning,GLM-5,0.75,frontier,Open-source
+concept,Concept Formation,positional_mapping_concept_learning,GLM-5,1.0,frontier,Open-source
+concept,Concept Formation,relational_pairs_concept_learning,GLM-5,0.6000000000000001,frontier,Open-source
+concept,Concept Formation,state_machine_concept_learning,GLM-5,0.7090909090909091,frontier,Open-source
+concept,Concept Formation,triple_parity_concept_learning,GLM-5,0.25,frontier,Open-source
+concept,Concept Formation,vowel_rotation_concept_learning,GLM-5,0.75,frontier,Open-source
+concept,Concept Formation,violation_counter_concept_learning,GLM-5,0.0,frontier,Open-source
+concept,Concept Formation,interleave_reverse_concept_learning,GLM-5,1.0,frontier,Open-source
+concept,Concept Formation,grid_transform_concept_learning,GLM-5,0.0,frontier,Open-source
+concept,Concept Formation,disjunctive_noise_concept_learning,Qwen 3 Next 80B Thinking,0.75,mid,Open-source
+concept,Concept Formation,digit_cipher_concept_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+concept,Concept Formation,dual_recurrence_concept_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+concept,Concept Formation,encoded_triple_concept_learning,Qwen 3 Next 80B Thinking,0.925,mid,Open-source
+concept,Concept Formation,nested_logic_concept_learning,Qwen 3 Next 80B Thinking,0.25,mid,Open-source
+concept,Concept Formation,positional_encode_concept_learning,Qwen 3 Next 80B Thinking,0.25,mid,Open-source
+concept,Concept Formation,layered_transform_concept_learning,Qwen 3 Next 80B Thinking,0.94375,mid,Open-source
+concept,Concept Formation,consonant_clusters_concept_learning,Qwen 3 Next 80B Thinking,0.4678571428571428,mid,Open-source
+concept,Concept Formation,modular_subsequence_concept_learning,Qwen 3 Next 80B Thinking,0.24,mid,Open-source
+concept,Concept Formation,semantic_override_concept_learning,Qwen 3 Next 80B Thinking,0.8,mid,Open-source
+concept,Concept Formation,positional_mapping_concept_learning,Qwen 3 Next 80B Thinking,0.9454545454545454,mid,Open-source
+concept,Concept Formation,relational_pairs_concept_learning,Qwen 3 Next 80B Thinking,0.75,mid,Open-source
+concept,Concept Formation,state_machine_concept_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+concept,Concept Formation,triple_parity_concept_learning,Qwen 3 Next 80B Thinking,0.46,mid,Open-source
+concept,Concept Formation,vowel_rotation_concept_learning,Qwen 3 Next 80B Thinking,0.75,mid,Open-source
+concept,Concept Formation,violation_counter_concept_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+concept,Concept Formation,interleave_reverse_concept_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+concept,Concept Formation,grid_transform_concept_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+concept,Concept Formation,disjunctive_noise_concept_learning,Gemini 2.5 Flash,0.3,mid,Google
+concept,Concept Formation,digit_cipher_concept_learning,Gemini 2.5 Flash,0.16,mid,Google
+concept,Concept Formation,dual_recurrence_concept_learning,Gemini 2.5 Flash,0.0,mid,Google
+concept,Concept Formation,encoded_triple_concept_learning,Gemini 2.5 Flash,1.0,mid,Google
+concept,Concept Formation,nested_logic_concept_learning,Gemini 2.5 Flash,0.75,mid,Google
+concept,Concept Formation,positional_encode_concept_learning,Gemini 2.5 Flash,0.75,mid,Google
+concept,Concept Formation,layered_transform_concept_learning,Gemini 2.5 Flash,0.0,mid,Google
+concept,Concept Formation,consonant_clusters_concept_learning,Gemini 2.5 Flash,0.2392857142857143,mid,Google
+concept,Concept Formation,modular_subsequence_concept_learning,Gemini 2.5 Flash,0.0,mid,Google
+concept,Concept Formation,semantic_override_concept_learning,Gemini 2.5 Flash,0.95,mid,Google
+concept,Concept Formation,positional_mapping_concept_learning,Gemini 2.5 Flash,1.0,mid,Google
+concept,Concept Formation,relational_pairs_concept_learning,Gemini 2.5 Flash,0.72,mid,Google
+concept,Concept Formation,state_machine_concept_learning,Gemini 2.5 Flash,1.0,mid,Google
+concept,Concept Formation,triple_parity_concept_learning,Gemini 2.5 Flash,0.24,mid,Google
+concept,Concept Formation,vowel_rotation_concept_learning,Gemini 2.5 Flash,0.4785714285714286,mid,Google
+concept,Concept Formation,violation_counter_concept_learning,Gemini 2.5 Flash,0.0,mid,Google
+concept,Concept Formation,interleave_reverse_concept_learning,Gemini 2.5 Flash,1.0,mid,Google
+concept,Concept Formation,grid_transform_concept_learning,Gemini 2.5 Flash,1.0,mid,Google
+concept,Concept Formation,disjunctive_noise_concept_learning,Claude Sonnet 4.6,0.46,mid,Anthropic
+concept,Concept Formation,digit_cipher_concept_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+concept,Concept Formation,dual_recurrence_concept_learning,Claude Sonnet 4.6,0.4,mid,Anthropic
+concept,Concept Formation,encoded_triple_concept_learning,Claude Sonnet 4.6,0.6375,mid,Anthropic
+concept,Concept Formation,nested_logic_concept_learning,Claude Sonnet 4.6,0.5,mid,Anthropic
+concept,Concept Formation,positional_encode_concept_learning,Claude Sonnet 4.6,0.22,mid,Anthropic
+concept,Concept Formation,layered_transform_concept_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+concept,Concept Formation,consonant_clusters_concept_learning,Claude Sonnet 4.6,0.1,mid,Anthropic
+concept,Concept Formation,modular_subsequence_concept_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+concept,Concept Formation,semantic_override_concept_learning,Claude Sonnet 4.6,0.8,mid,Anthropic
+concept,Concept Formation,positional_mapping_concept_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+concept,Concept Formation,relational_pairs_concept_learning,Claude Sonnet 4.6,0.56,mid,Anthropic
+concept,Concept Formation,state_machine_concept_learning,Claude Sonnet 4.6,0.5863636363636363,mid,Anthropic
+concept,Concept Formation,triple_parity_concept_learning,Claude Sonnet 4.6,0.51,mid,Anthropic
+concept,Concept Formation,vowel_rotation_concept_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+concept,Concept Formation,violation_counter_concept_learning,Claude Sonnet 4.6,0.2,mid,Anthropic
+concept,Concept Formation,interleave_reverse_concept_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+concept,Concept Formation,grid_transform_concept_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+concept,Concept Formation,disjunctive_noise_concept_learning,Gemini 3.1 Flash-Lite Preview,0.38,mid,Google
+concept,Concept Formation,digit_cipher_concept_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+concept,Concept Formation,dual_recurrence_concept_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+concept,Concept Formation,encoded_triple_concept_learning,Gemini 3.1 Flash-Lite Preview,0.7,mid,Google
+concept,Concept Formation,nested_logic_concept_learning,Gemini 3.1 Flash-Lite Preview,0.75,mid,Google
+concept,Concept Formation,positional_encode_concept_learning,Gemini 3.1 Flash-Lite Preview,0.25,mid,Google
+concept,Concept Formation,layered_transform_concept_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+concept,Concept Formation,consonant_clusters_concept_learning,Gemini 3.1 Flash-Lite Preview,0.4785714285714286,mid,Google
+concept,Concept Formation,modular_subsequence_concept_learning,Gemini 3.1 Flash-Lite Preview,0.24,mid,Google
+concept,Concept Formation,semantic_override_concept_learning,Gemini 3.1 Flash-Lite Preview,0.6375,mid,Google
+concept,Concept Formation,positional_mapping_concept_learning,Gemini 3.1 Flash-Lite Preview,0.4727272727272727,mid,Google
+concept,Concept Formation,relational_pairs_concept_learning,Gemini 3.1 Flash-Lite Preview,0.75,mid,Google
+concept,Concept Formation,state_machine_concept_learning,Gemini 3.1 Flash-Lite Preview,0.2090909090909091,mid,Google
+concept,Concept Formation,triple_parity_concept_learning,Gemini 3.1 Flash-Lite Preview,0.76,mid,Google
+concept,Concept Formation,vowel_rotation_concept_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+concept,Concept Formation,violation_counter_concept_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+concept,Concept Formation,interleave_reverse_concept_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+concept,Concept Formation,grid_transform_concept_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+concept,Concept Formation,disjunctive_noise_concept_learning,Gemma 4 26B A4B,0.435,small,Google
+concept,Concept Formation,digit_cipher_concept_learning,Gemma 4 26B A4B,0.0,small,Google
+concept,Concept Formation,dual_recurrence_concept_learning,Gemma 4 26B A4B,0.4,small,Google
+concept,Concept Formation,encoded_triple_concept_learning,Gemma 4 26B A4B,0.25,small,Google
+concept,Concept Formation,nested_logic_concept_learning,Gemma 4 26B A4B,0.5249999999999999,small,Google
+concept,Concept Formation,positional_encode_concept_learning,Gemma 4 26B A4B,0.44,small,Google
+concept,Concept Formation,layered_transform_concept_learning,Gemma 4 26B A4B,0.0,small,Google
+concept,Concept Formation,consonant_clusters_concept_learning,Gemma 4 26B A4B,0.1214285714285714,small,Google
+concept,Concept Formation,modular_subsequence_concept_learning,Gemma 4 26B A4B,0.2,small,Google
+concept,Concept Formation,semantic_override_concept_learning,Gemma 4 26B A4B,0.9,small,Google
+concept,Concept Formation,positional_mapping_concept_learning,Gemma 4 26B A4B,0.2,small,Google
+concept,Concept Formation,relational_pairs_concept_learning,Gemma 4 26B A4B,0.56,small,Google
+concept,Concept Formation,state_machine_concept_learning,Gemma 4 26B A4B,0.4,small,Google
+concept,Concept Formation,triple_parity_concept_learning,Gemma 4 26B A4B,0.12,small,Google
+concept,Concept Formation,vowel_rotation_concept_learning,Gemma 4 26B A4B,0.0,small,Google
+concept,Concept Formation,violation_counter_concept_learning,Gemma 4 26B A4B,0.435,small,Google
+concept,Concept Formation,interleave_reverse_concept_learning,Gemma 4 26B A4B,0.0,small,Google
+concept,Concept Formation,grid_transform_concept_learning,Gemma 4 26B A4B,0.0,small,Google
+concept,Concept Formation,disjunctive_noise_concept_learning,GPT-5.4 mini,0.5249999999999999,mid,OpenAI
+concept,Concept Formation,digit_cipher_concept_learning,GPT-5.4 mini,0.0,mid,OpenAI
+concept,Concept Formation,dual_recurrence_concept_learning,GPT-5.4 mini,0.22,mid,OpenAI
+concept,Concept Formation,encoded_triple_concept_learning,GPT-5.4 mini,0.5,mid,OpenAI
+concept,Concept Formation,nested_logic_concept_learning,GPT-5.4 mini,0.5,mid,OpenAI
+concept,Concept Formation,positional_encode_concept_learning,GPT-5.4 mini,0.0,mid,OpenAI
+concept,Concept Formation,layered_transform_concept_learning,GPT-5.4 mini,0.0,mid,OpenAI
+concept,Concept Formation,consonant_clusters_concept_learning,GPT-5.4 mini,0.0,mid,OpenAI
+concept,Concept Formation,modular_subsequence_concept_learning,GPT-5.4 mini,0.0,mid,OpenAI
+concept,Concept Formation,semantic_override_concept_learning,GPT-5.4 mini,0.75,mid,OpenAI
+concept,Concept Formation,positional_mapping_concept_learning,GPT-5.4 mini,0.25,mid,OpenAI
+concept,Concept Formation,relational_pairs_concept_learning,GPT-5.4 mini,0.66,mid,OpenAI
+concept,Concept Formation,state_machine_concept_learning,GPT-5.4 mini,0.4454545454545454,mid,OpenAI
+concept,Concept Formation,triple_parity_concept_learning,GPT-5.4 mini,0.32,mid,OpenAI
+concept,Concept Formation,vowel_rotation_concept_learning,GPT-5.4 mini,0.0,mid,OpenAI
+concept,Concept Formation,violation_counter_concept_learning,GPT-5.4 mini,0.41,mid,OpenAI
+concept,Concept Formation,interleave_reverse_concept_learning,GPT-5.4 mini,0.0,mid,OpenAI
+concept,Concept Formation,grid_transform_concept_learning,GPT-5.4 mini,0.0,mid,OpenAI
+concept,Concept Formation,disjunctive_noise_concept_learning,GPT-5.4,0.435,frontier,OpenAI
+concept,Concept Formation,digit_cipher_concept_learning,GPT-5.4,0.0,frontier,OpenAI
+concept,Concept Formation,dual_recurrence_concept_learning,GPT-5.4,0.4,frontier,OpenAI
+concept,Concept Formation,encoded_triple_concept_learning,GPT-5.4,0.35625,frontier,OpenAI
+concept,Concept Formation,nested_logic_concept_learning,GPT-5.4,0.7,frontier,OpenAI
+concept,Concept Formation,positional_encode_concept_learning,GPT-5.4,0.6000000000000001,frontier,OpenAI
+concept,Concept Formation,layered_transform_concept_learning,GPT-5.4,0.0,frontier,OpenAI
+concept,Concept Formation,consonant_clusters_concept_learning,GPT-5.4,0.0,frontier,OpenAI
+concept,Concept Formation,modular_subsequence_concept_learning,GPT-5.4,0.24,frontier,OpenAI
+concept,Concept Formation,semantic_override_concept_learning,GPT-5.4,0.0,frontier,OpenAI
+concept,Concept Formation,positional_mapping_concept_learning,GPT-5.4,0.7272727272727273,frontier,OpenAI
+concept,Concept Formation,relational_pairs_concept_learning,GPT-5.4,0.66,frontier,OpenAI
+concept,Concept Formation,state_machine_concept_learning,GPT-5.4,0.3,frontier,OpenAI
+concept,Concept Formation,triple_parity_concept_learning,GPT-5.4,0.13,frontier,OpenAI
+concept,Concept Formation,vowel_rotation_concept_learning,GPT-5.4,0.0,frontier,OpenAI
+concept,Concept Formation,violation_counter_concept_learning,GPT-5.4,0.235,frontier,OpenAI
+concept,Concept Formation,interleave_reverse_concept_learning,GPT-5.4,0.0,frontier,OpenAI
+concept,Concept Formation,grid_transform_concept_learning,GPT-5.4,0.0,frontier,OpenAI
+concept,Concept Formation,disjunctive_noise_concept_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+concept,Concept Formation,digit_cipher_concept_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+concept,Concept Formation,dual_recurrence_concept_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+concept,Concept Formation,encoded_triple_concept_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+concept,Concept Formation,nested_logic_concept_learning,Claude Opus 4.6,0.52,frontier,Anthropic
+concept,Concept Formation,positional_encode_concept_learning,Claude Opus 4.6,0.1,frontier,Anthropic
+concept,Concept Formation,layered_transform_concept_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+concept,Concept Formation,consonant_clusters_concept_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+concept,Concept Formation,modular_subsequence_concept_learning,Claude Opus 4.6,0.1,frontier,Anthropic
+concept,Concept Formation,semantic_override_concept_learning,Claude Opus 4.6,0.75,frontier,Anthropic
+concept,Concept Formation,positional_mapping_concept_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+concept,Concept Formation,relational_pairs_concept_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+concept,Concept Formation,state_machine_concept_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+concept,Concept Formation,triple_parity_concept_learning,Claude Opus 4.6,0.2,frontier,Anthropic
+concept,Concept Formation,vowel_rotation_concept_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+concept,Concept Formation,violation_counter_concept_learning,Claude Opus 4.6,0.2,frontier,Anthropic
+concept,Concept Formation,interleave_reverse_concept_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+concept,Concept Formation,grid_transform_concept_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+concept,Concept Formation,disjunctive_noise_concept_learning,Claude Haiku 4.5,0.4,small,Anthropic
+concept,Concept Formation,digit_cipher_concept_learning,Claude Haiku 4.5,0.0,small,Anthropic
+concept,Concept Formation,dual_recurrence_concept_learning,Claude Haiku 4.5,0.3,small,Anthropic
+concept,Concept Formation,encoded_triple_concept_learning,Claude Haiku 4.5,0.2,small,Anthropic
+concept,Concept Formation,nested_logic_concept_learning,Claude Haiku 4.5,0.2,small,Anthropic
+concept,Concept Formation,positional_encode_concept_learning,Claude Haiku 4.5,0.2,small,Anthropic
+concept,Concept Formation,layered_transform_concept_learning,Claude Haiku 4.5,0.0,small,Anthropic
+concept,Concept Formation,consonant_clusters_concept_learning,Claude Haiku 4.5,0.0,small,Anthropic
+concept,Concept Formation,modular_subsequence_concept_learning,Claude Haiku 4.5,0.1,small,Anthropic
+concept,Concept Formation,semantic_override_concept_learning,Claude Haiku 4.5,0.75,small,Anthropic
+concept,Concept Formation,positional_mapping_concept_learning,Claude Haiku 4.5,0.4,small,Anthropic
+concept,Concept Formation,relational_pairs_concept_learning,Claude Haiku 4.5,0.42,small,Anthropic
+concept,Concept Formation,state_machine_concept_learning,Claude Haiku 4.5,0.3,small,Anthropic
+concept,Concept Formation,triple_parity_concept_learning,Claude Haiku 4.5,0.2,small,Anthropic
+concept,Concept Formation,vowel_rotation_concept_learning,Claude Haiku 4.5,0.0,small,Anthropic
+concept,Concept Formation,violation_counter_concept_learning,Claude Haiku 4.5,0.0,small,Anthropic
+concept,Concept Formation,interleave_reverse_concept_learning,Claude Haiku 4.5,0.0,small,Anthropic
+concept,Concept Formation,grid_transform_concept_learning,Claude Haiku 4.5,0.0,small,Anthropic
+concept,Concept Formation,disjunctive_noise_concept_learning,DeepSeek V3.2,0.0,mid,Open-source
+concept,Concept Formation,digit_cipher_concept_learning,DeepSeek V3.2,0.4,mid,Open-source
+concept,Concept Formation,dual_recurrence_concept_learning,DeepSeek V3.2,0.2,mid,Open-source
+concept,Concept Formation,encoded_triple_concept_learning,DeepSeek V3.2,0.0,mid,Open-source
+concept,Concept Formation,nested_logic_concept_learning,DeepSeek V3.2,0.48,mid,Open-source
+concept,Concept Formation,positional_encode_concept_learning,DeepSeek V3.2,0.1,mid,Open-source
+concept,Concept Formation,layered_transform_concept_learning,DeepSeek V3.2,0.0,mid,Open-source
+concept,Concept Formation,consonant_clusters_concept_learning,DeepSeek V3.2,0.2071428571428571,mid,Open-source
+concept,Concept Formation,modular_subsequence_concept_learning,DeepSeek V3.2,0.14,mid,Open-source
+concept,Concept Formation,semantic_override_concept_learning,DeepSeek V3.2,0.3,mid,Open-source
+concept,Concept Formation,positional_mapping_concept_learning,DeepSeek V3.2,0.0,mid,Open-source
+concept,Concept Formation,relational_pairs_concept_learning,DeepSeek V3.2,0.51,mid,Open-source
+concept,Concept Formation,state_machine_concept_learning,DeepSeek V3.2,0.3,mid,Open-source
+concept,Concept Formation,triple_parity_concept_learning,DeepSeek V3.2,0.45,mid,Open-source
+concept,Concept Formation,vowel_rotation_concept_learning,DeepSeek V3.2,0.0,mid,Open-source
+concept,Concept Formation,violation_counter_concept_learning,DeepSeek V3.2,0.0,mid,Open-source
+concept,Concept Formation,interleave_reverse_concept_learning,DeepSeek V3.2,0.0,mid,Open-source
+concept,Concept Formation,grid_transform_concept_learning,DeepSeek V3.2,0.4,mid,Open-source
+concept,Concept Formation,disjunctive_noise_concept_learning,Qwen 3 Next 80B Instruct,0.32,small,Open-source
+concept,Concept Formation,digit_cipher_concept_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+concept,Concept Formation,dual_recurrence_concept_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+concept,Concept Formation,encoded_triple_concept_learning,Qwen 3 Next 80B Instruct,0.35625,small,Open-source
+concept,Concept Formation,nested_logic_concept_learning,Qwen 3 Next 80B Instruct,0.64,small,Open-source
+concept,Concept Formation,positional_encode_concept_learning,Qwen 3 Next 80B Instruct,0.19,small,Open-source
+concept,Concept Formation,layered_transform_concept_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+concept,Concept Formation,consonant_clusters_concept_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+concept,Concept Formation,modular_subsequence_concept_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+concept,Concept Formation,semantic_override_concept_learning,Qwen 3 Next 80B Instruct,0.3375,small,Open-source
+concept,Concept Formation,positional_mapping_concept_learning,Qwen 3 Next 80B Instruct,0.4545454545454546,small,Open-source
+concept,Concept Formation,relational_pairs_concept_learning,Qwen 3 Next 80B Instruct,0.45,small,Open-source
+concept,Concept Formation,state_machine_concept_learning,Qwen 3 Next 80B Instruct,0.3,small,Open-source
+concept,Concept Formation,triple_parity_concept_learning,Qwen 3 Next 80B Instruct,0.3,small,Open-source
+concept,Concept Formation,vowel_rotation_concept_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+concept,Concept Formation,violation_counter_concept_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+concept,Concept Formation,interleave_reverse_concept_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+concept,Concept Formation,grid_transform_concept_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+concept,Concept Formation,disjunctive_noise_concept_learning,GPT-5.4 nano,0.1,small,OpenAI
+concept,Concept Formation,digit_cipher_concept_learning,GPT-5.4 nano,0.0,small,OpenAI
+concept,Concept Formation,dual_recurrence_concept_learning,GPT-5.4 nano,0.22,small,OpenAI
+concept,Concept Formation,encoded_triple_concept_learning,GPT-5.4 nano,0.175,small,OpenAI
+concept,Concept Formation,nested_logic_concept_learning,GPT-5.4 nano,0.35,small,OpenAI
+concept,Concept Formation,positional_encode_concept_learning,GPT-5.4 nano,0.13,small,OpenAI
+concept,Concept Formation,layered_transform_concept_learning,GPT-5.4 nano,0.0,small,OpenAI
+concept,Concept Formation,consonant_clusters_concept_learning,GPT-5.4 nano,0.0,small,OpenAI
+concept,Concept Formation,modular_subsequence_concept_learning,GPT-5.4 nano,0.1699999999999999,small,OpenAI
+concept,Concept Formation,semantic_override_concept_learning,GPT-5.4 nano,0.3375,small,OpenAI
+concept,Concept Formation,positional_mapping_concept_learning,GPT-5.4 nano,0.2272727272727273,small,OpenAI
+concept,Concept Formation,relational_pairs_concept_learning,GPT-5.4 nano,0.45,small,OpenAI
+concept,Concept Formation,state_machine_concept_learning,GPT-5.4 nano,0.3409090909090909,small,OpenAI
+concept,Concept Formation,triple_parity_concept_learning,GPT-5.4 nano,0.0,small,OpenAI
+concept,Concept Formation,vowel_rotation_concept_learning,GPT-5.4 nano,0.0,small,OpenAI
+concept,Concept Formation,violation_counter_concept_learning,GPT-5.4 nano,0.175,small,OpenAI
+concept,Concept Formation,interleave_reverse_concept_learning,GPT-5.4 nano,0.0,small,OpenAI
+concept,Concept Formation,grid_transform_concept_learning,GPT-5.4 nano,0.0,small,OpenAI
+language,Language Learning,drelkovak_harmony_lang_learning,Gemini 3.1 Pro Preview,0.75,frontier,Google
+language,Language Learning,dimval_metathesis_lang_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+language,Language Learning,drafnelt_switch_reference_lang_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+language,Language Learning,dralven_tone_sandhi_lang_learning,Gemini 3.1 Pro Preview,0.3321428571428571,frontier,Google
+language,Language Learning,drelvak_reduplication_lang_learning,Gemini 3.1 Pro Preview,0.6142857142857143,frontier,Google
+language,Language Learning,kophar_quantity_lang_learning,Gemini 3.1 Pro Preview,0.5892857142857143,frontier,Google
+language,Language Learning,grelkan_suppletion_lang_learning,Gemini 3.1 Pro Preview,0.48,frontier,Google
+language,Language Learning,mixed_radix_number_lang_learning,Gemini 3.1 Pro Preview,0.8909090909090909,frontier,Google
+language,Language Learning,kelstran_tone_lang_learning,Gemini 3.1 Pro Preview,0.8400000000000001,frontier,Google
+language,Language Learning,pelvan_agreement_lang_learning,Gemini 3.1 Pro Preview,0.4227272727272727,frontier,Google
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,Gemini 3.1 Pro Preview,0.7428571428571429,frontier,Google
+language,Language Learning,skelth_allomorph_lang_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,Gemini 3.1 Pro Preview,0.9076923076923076,frontier,Google
+language,Language Learning,skolvren_polysynthetic_lang_learning,Gemini 3.1 Pro Preview,0.4875,frontier,Google
+language,Language Learning,norkvash_scalar_lang_learning,Gemini 3.1 Pro Preview,0.5800000000000001,frontier,Google
+language,Language Learning,sklonveth_root_pattern_lang_learning,Gemini 3.1 Pro Preview,0.4,frontier,Google
+language,Language Learning,skovar_deletion_lang_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+language,Language Learning,strelkov_ergative_lang_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+language,Language Learning,telvari_evidentiality_lang_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+language,Language Learning,vrendel_templatic_lang_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+language,Language Learning,strevoklan_neg_lang_learning,Gemini 3.1 Pro Preview,0.75,frontier,Google
+language,Language Learning,wukal_tones_lang_learning,Gemini 3.1 Pro Preview,0.5,frontier,Google
+language,Language Learning,vrelthan_rule_interaction_lang_learning,Gemini 3.1 Pro Preview,0.75,frontier,Google
+language,Language Learning,threlkav_scope_ergativity_lang_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+language,Language Learning,trenval_bleeding_lang_learning,Gemini 3.1 Pro Preview,0.8615384615384615,frontier,Google
+language,Language Learning,trevkovan_gradation_lang_learning,Gemini 3.1 Pro Preview,0.75,frontier,Google
+language,Language Learning,drelkovak_harmony_lang_learning,GLM-5,0.72,frontier,Open-source
+language,Language Learning,dimval_metathesis_lang_learning,GLM-5,0.676923076923077,frontier,Open-source
+language,Language Learning,drafnelt_switch_reference_lang_learning,GLM-5,1.0,frontier,Open-source
+language,Language Learning,dralven_tone_sandhi_lang_learning,GLM-5,0.35,frontier,Open-source
+language,Language Learning,drelvak_reduplication_lang_learning,GLM-5,0.5892857142857143,frontier,Open-source
+language,Language Learning,kophar_quantity_lang_learning,GLM-5,0.6535714285714286,frontier,Open-source
+language,Language Learning,grelkan_suppletion_lang_learning,GLM-5,0.64,frontier,Open-source
+language,Language Learning,mixed_radix_number_lang_learning,GLM-5,0.0,frontier,Open-source
+language,Language Learning,kelstran_tone_lang_learning,GLM-5,0.92,frontier,Open-source
+language,Language Learning,pelvan_agreement_lang_learning,GLM-5,0.6272727272727273,frontier,Open-source
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,GLM-5,0.6142857142857143,frontier,Open-source
+language,Language Learning,skelth_allomorph_lang_learning,GLM-5,0.6535714285714286,frontier,Open-source
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,GLM-5,0.6807692307692308,frontier,Open-source
+language,Language Learning,skolvren_polysynthetic_lang_learning,GLM-5,0.0,frontier,Open-source
+language,Language Learning,norkvash_scalar_lang_learning,GLM-5,0.8200000000000001,frontier,Open-source
+language,Language Learning,sklonveth_root_pattern_lang_learning,GLM-5,0.6214285714285714,frontier,Open-source
+language,Language Learning,skovar_deletion_lang_learning,GLM-5,0.95,frontier,Open-source
+language,Language Learning,strelkov_ergative_lang_learning,GLM-5,1.0,frontier,Open-source
+language,Language Learning,telvari_evidentiality_lang_learning,GLM-5,0.9454545454545454,frontier,Open-source
+language,Language Learning,vrendel_templatic_lang_learning,GLM-5,0.9454545454545454,frontier,Open-source
+language,Language Learning,strevoklan_neg_lang_learning,GLM-5,0.75,frontier,Open-source
+language,Language Learning,wukal_tones_lang_learning,GLM-5,0.8363636363636364,frontier,Open-source
+language,Language Learning,vrelthan_rule_interaction_lang_learning,GLM-5,0.25,frontier,Open-source
+language,Language Learning,threlkav_scope_ergativity_lang_learning,GLM-5,1.0,frontier,Open-source
+language,Language Learning,trenval_bleeding_lang_learning,GLM-5,0.9076923076923076,frontier,Open-source
+language,Language Learning,trevkovan_gradation_lang_learning,GLM-5,0.8714285714285714,frontier,Open-source
+language,Language Learning,drelkovak_harmony_lang_learning,Qwen 3 Next 80B Thinking,0.75,mid,Open-source
+language,Language Learning,dimval_metathesis_lang_learning,Qwen 3 Next 80B Thinking,0.8153846153846154,mid,Open-source
+language,Language Learning,drafnelt_switch_reference_lang_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+language,Language Learning,dralven_tone_sandhi_lang_learning,Qwen 3 Next 80B Thinking,0.2071428571428571,mid,Open-source
+language,Language Learning,drelvak_reduplication_lang_learning,Qwen 3 Next 80B Thinking,0.4357142857142857,mid,Open-source
+language,Language Learning,kophar_quantity_lang_learning,Qwen 3 Next 80B Thinking,0.75,mid,Open-source
+language,Language Learning,grelkan_suppletion_lang_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+language,Language Learning,mixed_radix_number_lang_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+language,Language Learning,kelstran_tone_lang_learning,Qwen 3 Next 80B Thinking,0.6300000000000001,mid,Open-source
+language,Language Learning,pelvan_agreement_lang_learning,Qwen 3 Next 80B Thinking,0.2090909090909091,mid,Open-source
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+language,Language Learning,skelth_allomorph_lang_learning,Qwen 3 Next 80B Thinking,0.9571428571428572,mid,Open-source
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+language,Language Learning,skolvren_polysynthetic_lang_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+language,Language Learning,norkvash_scalar_lang_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+language,Language Learning,sklonveth_root_pattern_lang_learning,Qwen 3 Next 80B Thinking,0.5892857142857143,mid,Open-source
+language,Language Learning,skovar_deletion_lang_learning,Qwen 3 Next 80B Thinking,0.85,mid,Open-source
+language,Language Learning,strelkov_ergative_lang_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+language,Language Learning,telvari_evidentiality_lang_learning,Qwen 3 Next 80B Thinking,0.8909090909090909,mid,Open-source
+language,Language Learning,vrendel_templatic_lang_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+language,Language Learning,strevoklan_neg_lang_learning,Qwen 3 Next 80B Thinking,0.25,mid,Open-source
+language,Language Learning,wukal_tones_lang_learning,Qwen 3 Next 80B Thinking,0.8363636363636364,mid,Open-source
+language,Language Learning,vrelthan_rule_interaction_lang_learning,Qwen 3 Next 80B Thinking,0.25,mid,Open-source
+language,Language Learning,threlkav_scope_ergativity_lang_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+language,Language Learning,trenval_bleeding_lang_learning,Qwen 3 Next 80B Thinking,0.7692307692307693,mid,Open-source
+language,Language Learning,trevkovan_gradation_lang_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+language,Language Learning,drelkovak_harmony_lang_learning,GPT-5.4,0.75,frontier,OpenAI
+language,Language Learning,dimval_metathesis_lang_learning,GPT-5.4,0.25,frontier,OpenAI
+language,Language Learning,drafnelt_switch_reference_lang_learning,GPT-5.4,1.0,frontier,OpenAI
+language,Language Learning,dralven_tone_sandhi_lang_learning,GPT-5.4,0.3285714285714286,frontier,OpenAI
+language,Language Learning,drelvak_reduplication_lang_learning,GPT-5.4,0.25,frontier,OpenAI
+language,Language Learning,kophar_quantity_lang_learning,GPT-5.4,0.75,frontier,OpenAI
+language,Language Learning,grelkan_suppletion_lang_learning,GPT-5.4,0.3,frontier,OpenAI
+language,Language Learning,mixed_radix_number_lang_learning,GPT-5.4,0.4,frontier,OpenAI
+language,Language Learning,kelstran_tone_lang_learning,GPT-5.4,0.72,frontier,OpenAI
+language,Language Learning,pelvan_agreement_lang_learning,GPT-5.4,0.3090909090909091,frontier,OpenAI
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,GPT-5.4,0.4428571428571428,frontier,OpenAI
+language,Language Learning,skelth_allomorph_lang_learning,GPT-5.4,1.0,frontier,OpenAI
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,GPT-5.4,0.4307692307692307,frontier,OpenAI
+language,Language Learning,skolvren_polysynthetic_lang_learning,GPT-5.4,0.0,frontier,OpenAI
+language,Language Learning,norkvash_scalar_lang_learning,GPT-5.4,0.8200000000000001,frontier,OpenAI
+language,Language Learning,sklonveth_root_pattern_lang_learning,GPT-5.4,0.3642857142857143,frontier,OpenAI
+language,Language Learning,skovar_deletion_lang_learning,GPT-5.4,0.75,frontier,OpenAI
+language,Language Learning,strelkov_ergative_lang_learning,GPT-5.4,1.0,frontier,OpenAI
+language,Language Learning,telvari_evidentiality_lang_learning,GPT-5.4,1.0,frontier,OpenAI
+language,Language Learning,vrendel_templatic_lang_learning,GPT-5.4,1.0,frontier,OpenAI
+language,Language Learning,strevoklan_neg_lang_learning,GPT-5.4,0.0,frontier,OpenAI
+language,Language Learning,wukal_tones_lang_learning,GPT-5.4,0.5,frontier,OpenAI
+language,Language Learning,vrelthan_rule_interaction_lang_learning,GPT-5.4,0.4125,frontier,OpenAI
+language,Language Learning,threlkav_scope_ergativity_lang_learning,GPT-5.4,1.0,frontier,OpenAI
+language,Language Learning,trenval_bleeding_lang_learning,GPT-5.4,0.8153846153846154,frontier,OpenAI
+language,Language Learning,trevkovan_gradation_lang_learning,GPT-5.4,1.0,frontier,OpenAI
+language,Language Learning,drelkovak_harmony_lang_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+language,Language Learning,dimval_metathesis_lang_learning,Claude Opus 4.6,0.2,frontier,Anthropic
+language,Language Learning,drafnelt_switch_reference_lang_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+language,Language Learning,dralven_tone_sandhi_lang_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+language,Language Learning,drelvak_reduplication_lang_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+language,Language Learning,kophar_quantity_lang_learning,Claude Opus 4.6,0.75,frontier,Anthropic
+language,Language Learning,grelkan_suppletion_lang_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+language,Language Learning,mixed_radix_number_lang_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+language,Language Learning,kelstran_tone_lang_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+language,Language Learning,pelvan_agreement_lang_learning,Claude Opus 4.6,0.1,frontier,Anthropic
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+language,Language Learning,skelth_allomorph_lang_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,Claude Opus 4.6,0.3,frontier,Anthropic
+language,Language Learning,skolvren_polysynthetic_lang_learning,Claude Opus 4.6,0.1,frontier,Anthropic
+language,Language Learning,norkvash_scalar_lang_learning,Claude Opus 4.6,0.5800000000000001,frontier,Anthropic
+language,Language Learning,sklonveth_root_pattern_lang_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+language,Language Learning,skovar_deletion_lang_learning,Claude Opus 4.6,0.1,frontier,Anthropic
+language,Language Learning,strelkov_ergative_lang_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+language,Language Learning,telvari_evidentiality_lang_learning,Claude Opus 4.6,0.8909090909090909,frontier,Anthropic
+language,Language Learning,vrendel_templatic_lang_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+language,Language Learning,strevoklan_neg_lang_learning,Claude Opus 4.6,0.64,frontier,Anthropic
+language,Language Learning,wukal_tones_lang_learning,Claude Opus 4.6,0.2,frontier,Anthropic
+language,Language Learning,vrelthan_rule_interaction_lang_learning,Claude Opus 4.6,0.4,frontier,Anthropic
+language,Language Learning,threlkav_scope_ergativity_lang_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+language,Language Learning,trenval_bleeding_lang_learning,Claude Opus 4.6,0.3,frontier,Anthropic
+language,Language Learning,trevkovan_gradation_lang_learning,Claude Opus 4.6,0.5,frontier,Anthropic
+language,Language Learning,drelkovak_harmony_lang_learning,Gemini 3.1 Flash-Lite Preview,0.25,mid,Google
+language,Language Learning,dimval_metathesis_lang_learning,Gemini 3.1 Flash-Lite Preview,0.4538461538461538,mid,Google
+language,Language Learning,drafnelt_switch_reference_lang_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+language,Language Learning,dralven_tone_sandhi_lang_learning,Gemini 3.1 Flash-Lite Preview,0.4142857142857142,mid,Google
+language,Language Learning,drelvak_reduplication_lang_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+language,Language Learning,kophar_quantity_lang_learning,Gemini 3.1 Flash-Lite Preview,0.75,mid,Google
+language,Language Learning,grelkan_suppletion_lang_learning,Gemini 3.1 Flash-Lite Preview,0.24,mid,Google
+language,Language Learning,mixed_radix_number_lang_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+language,Language Learning,kelstran_tone_lang_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+language,Language Learning,pelvan_agreement_lang_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,Gemini 3.1 Flash-Lite Preview,0.6535714285714286,mid,Google
+language,Language Learning,skelth_allomorph_lang_learning,Gemini 3.1 Flash-Lite Preview,0.75,mid,Google
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,Gemini 3.1 Flash-Lite Preview,0.25,mid,Google
+language,Language Learning,skolvren_polysynthetic_lang_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+language,Language Learning,norkvash_scalar_lang_learning,Gemini 3.1 Flash-Lite Preview,0.25,mid,Google
+language,Language Learning,sklonveth_root_pattern_lang_learning,Gemini 3.1 Flash-Lite Preview,0.4571428571428572,mid,Google
+language,Language Learning,skovar_deletion_lang_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+language,Language Learning,strelkov_ergative_lang_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+language,Language Learning,telvari_evidentiality_lang_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+language,Language Learning,vrendel_templatic_lang_learning,Gemini 3.1 Flash-Lite Preview,0.75,mid,Google
+language,Language Learning,strevoklan_neg_lang_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+language,Language Learning,wukal_tones_lang_learning,Gemini 3.1 Flash-Lite Preview,0.4727272727272727,mid,Google
+language,Language Learning,vrelthan_rule_interaction_lang_learning,Gemini 3.1 Flash-Lite Preview,0.425,mid,Google
+language,Language Learning,threlkav_scope_ergativity_lang_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+language,Language Learning,trenval_bleeding_lang_learning,Gemini 3.1 Flash-Lite Preview,0.6807692307692308,mid,Google
+language,Language Learning,trevkovan_gradation_lang_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+language,Language Learning,drelkovak_harmony_lang_learning,DeepSeek V3.2,0.66,mid,Open-source
+language,Language Learning,dimval_metathesis_lang_learning,DeepSeek V3.2,0.2923076923076923,mid,Open-source
+language,Language Learning,drafnelt_switch_reference_lang_learning,DeepSeek V3.2,1.0,mid,Open-source
+language,Language Learning,dralven_tone_sandhi_lang_learning,DeepSeek V3.2,0.3285714285714286,mid,Open-source
+language,Language Learning,drelvak_reduplication_lang_learning,DeepSeek V3.2,0.4607142857142857,mid,Open-source
+language,Language Learning,kophar_quantity_lang_learning,DeepSeek V3.2,0.75,mid,Open-source
+language,Language Learning,grelkan_suppletion_lang_learning,DeepSeek V3.2,0.6000000000000001,mid,Open-source
+language,Language Learning,mixed_radix_number_lang_learning,DeepSeek V3.2,0.1136363636363636,mid,Open-source
+language,Language Learning,kelstran_tone_lang_learning,DeepSeek V3.2,0.48,mid,Open-source
+language,Language Learning,pelvan_agreement_lang_learning,DeepSeek V3.2,0.2090909090909091,mid,Open-source
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,DeepSeek V3.2,0.3,mid,Open-source
+language,Language Learning,skelth_allomorph_lang_learning,DeepSeek V3.2,0.5892857142857143,mid,Open-source
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,DeepSeek V3.2,0.5384615384615384,mid,Open-source
+language,Language Learning,skolvren_polysynthetic_lang_learning,DeepSeek V3.2,0.0,mid,Open-source
+language,Language Learning,norkvash_scalar_lang_learning,DeepSeek V3.2,0.52,mid,Open-source
+language,Language Learning,sklonveth_root_pattern_lang_learning,DeepSeek V3.2,0.3714285714285714,mid,Open-source
+language,Language Learning,skovar_deletion_lang_learning,DeepSeek V3.2,0.6375,mid,Open-source
+language,Language Learning,strelkov_ergative_lang_learning,DeepSeek V3.2,0.75,mid,Open-source
+language,Language Learning,telvari_evidentiality_lang_learning,DeepSeek V3.2,0.8909090909090909,mid,Open-source
+language,Language Learning,vrendel_templatic_lang_learning,DeepSeek V3.2,0.0,mid,Open-source
+language,Language Learning,strevoklan_neg_lang_learning,DeepSeek V3.2,0.145,mid,Open-source
+language,Language Learning,wukal_tones_lang_learning,DeepSeek V3.2,0.4454545454545454,mid,Open-source
+language,Language Learning,vrelthan_rule_interaction_lang_learning,DeepSeek V3.2,0.45,mid,Open-source
+language,Language Learning,threlkav_scope_ergativity_lang_learning,DeepSeek V3.2,0.8909090909090909,mid,Open-source
+language,Language Learning,trenval_bleeding_lang_learning,DeepSeek V3.2,0.4923076923076923,mid,Open-source
+language,Language Learning,trevkovan_gradation_lang_learning,DeepSeek V3.2,0.3714285714285714,mid,Open-source
+language,Language Learning,drelkovak_harmony_lang_learning,Gemini 2.5 Flash,0.75,mid,Google
+language,Language Learning,dimval_metathesis_lang_learning,Gemini 2.5 Flash,0.4,mid,Google
+language,Language Learning,drafnelt_switch_reference_lang_learning,Gemini 2.5 Flash,0.95,mid,Google
+language,Language Learning,dralven_tone_sandhi_lang_learning,Gemini 2.5 Flash,0.3,mid,Google
+language,Language Learning,drelvak_reduplication_lang_learning,Gemini 2.5 Flash,0.7,mid,Google
+language,Language Learning,kophar_quantity_lang_learning,Gemini 2.5 Flash,0.4,mid,Google
+language,Language Learning,grelkan_suppletion_lang_learning,Gemini 2.5 Flash,0.3,mid,Google
+language,Language Learning,mixed_radix_number_lang_learning,Gemini 2.5 Flash,0.5,mid,Google
+language,Language Learning,kelstran_tone_lang_learning,Gemini 2.5 Flash,0.48,mid,Google
+language,Language Learning,pelvan_agreement_lang_learning,Gemini 2.5 Flash,0.2,mid,Google
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,Gemini 2.5 Flash,0.6142857142857143,mid,Google
+language,Language Learning,skelth_allomorph_lang_learning,Gemini 2.5 Flash,0.0,mid,Google
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,Gemini 2.5 Flash,0.25,mid,Google
+language,Language Learning,skolvren_polysynthetic_lang_learning,Gemini 2.5 Flash,0.0,mid,Google
+language,Language Learning,norkvash_scalar_lang_learning,Gemini 2.5 Flash,0.4,mid,Google
+language,Language Learning,sklonveth_root_pattern_lang_learning,Gemini 2.5 Flash,0.4428571428571428,mid,Google
+language,Language Learning,skovar_deletion_lang_learning,Gemini 2.5 Flash,0.375,mid,Google
+language,Language Learning,strelkov_ergative_lang_learning,Gemini 2.5 Flash,0.5,mid,Google
+language,Language Learning,telvari_evidentiality_lang_learning,Gemini 2.5 Flash,0.6727272727272728,mid,Google
+language,Language Learning,vrendel_templatic_lang_learning,Gemini 2.5 Flash,0.4,mid,Google
+language,Language Learning,strevoklan_neg_lang_learning,Gemini 2.5 Flash,0.4,mid,Google
+language,Language Learning,wukal_tones_lang_learning,Gemini 2.5 Flash,0.5454545454545454,mid,Google
+language,Language Learning,vrelthan_rule_interaction_lang_learning,Gemini 2.5 Flash,0.25,mid,Google
+language,Language Learning,threlkav_scope_ergativity_lang_learning,Gemini 2.5 Flash,1.0,mid,Google
+language,Language Learning,trenval_bleeding_lang_learning,Gemini 2.5 Flash,0.4,mid,Google
+language,Language Learning,trevkovan_gradation_lang_learning,Gemini 2.5 Flash,1.0,mid,Google
+language,Language Learning,drelkovak_harmony_lang_learning,Claude Sonnet 4.6,0.5,mid,Anthropic
+language,Language Learning,dimval_metathesis_lang_learning,Claude Sonnet 4.6,0.223076923076923,mid,Anthropic
+language,Language Learning,drafnelt_switch_reference_lang_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+language,Language Learning,dralven_tone_sandhi_lang_learning,Claude Sonnet 4.6,0.3,mid,Anthropic
+language,Language Learning,drelvak_reduplication_lang_learning,Claude Sonnet 4.6,0.5,mid,Anthropic
+language,Language Learning,kophar_quantity_lang_learning,Claude Sonnet 4.6,0.7428571428571429,mid,Anthropic
+language,Language Learning,grelkan_suppletion_lang_learning,Claude Sonnet 4.6,0.3,mid,Anthropic
+language,Language Learning,mixed_radix_number_lang_learning,Claude Sonnet 4.6,0.4,mid,Anthropic
+language,Language Learning,kelstran_tone_lang_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+language,Language Learning,pelvan_agreement_lang_learning,Claude Sonnet 4.6,0.1136363636363636,mid,Anthropic
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,Claude Sonnet 4.6,0.3,mid,Anthropic
+language,Language Learning,skelth_allomorph_lang_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,Claude Sonnet 4.6,0.7230769230769231,mid,Anthropic
+language,Language Learning,skolvren_polysynthetic_lang_learning,Claude Sonnet 4.6,0.375,mid,Anthropic
+language,Language Learning,norkvash_scalar_lang_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+language,Language Learning,sklonveth_root_pattern_lang_learning,Claude Sonnet 4.6,0.3,mid,Anthropic
+language,Language Learning,skovar_deletion_lang_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+language,Language Learning,strelkov_ergative_lang_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+language,Language Learning,telvari_evidentiality_lang_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+language,Language Learning,vrendel_templatic_lang_learning,Claude Sonnet 4.6,0.509090909090909,mid,Anthropic
+language,Language Learning,strevoklan_neg_lang_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+language,Language Learning,wukal_tones_lang_learning,Claude Sonnet 4.6,0.5,mid,Anthropic
+language,Language Learning,vrelthan_rule_interaction_lang_learning,Claude Sonnet 4.6,0.45,mid,Anthropic
+language,Language Learning,threlkav_scope_ergativity_lang_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+language,Language Learning,trenval_bleeding_lang_learning,Claude Sonnet 4.6,0.4,mid,Anthropic
+language,Language Learning,trevkovan_gradation_lang_learning,Claude Sonnet 4.6,0.5,mid,Anthropic
+language,Language Learning,drelkovak_harmony_lang_learning,GPT-5.4 mini,0.23,mid,OpenAI
+language,Language Learning,dimval_metathesis_lang_learning,GPT-5.4 mini,0.2269230769230769,mid,OpenAI
+language,Language Learning,drafnelt_switch_reference_lang_learning,GPT-5.4 mini,0.95,mid,OpenAI
+language,Language Learning,dralven_tone_sandhi_lang_learning,GPT-5.4 mini,0.4357142857142857,mid,OpenAI
+language,Language Learning,drelvak_reduplication_lang_learning,GPT-5.4 mini,0.1964285714285714,mid,OpenAI
+language,Language Learning,kophar_quantity_lang_learning,GPT-5.4 mini,0.4571428571428572,mid,OpenAI
+language,Language Learning,grelkan_suppletion_lang_learning,GPT-5.4 mini,0.23,mid,OpenAI
+language,Language Learning,mixed_radix_number_lang_learning,GPT-5.4 mini,0.0,mid,OpenAI
+language,Language Learning,kelstran_tone_lang_learning,GPT-5.4 mini,0.22,mid,OpenAI
+language,Language Learning,pelvan_agreement_lang_learning,GPT-5.4 mini,0.0,mid,OpenAI
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,GPT-5.4 mini,0.4785714285714286,mid,OpenAI
+language,Language Learning,skelth_allomorph_lang_learning,GPT-5.4 mini,0.6535714285714286,mid,OpenAI
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,GPT-5.4 mini,0.6461538461538461,mid,OpenAI
+language,Language Learning,skolvren_polysynthetic_lang_learning,GPT-5.4 mini,0.0,mid,OpenAI
+language,Language Learning,norkvash_scalar_lang_learning,GPT-5.4 mini,0.5700000000000001,mid,OpenAI
+language,Language Learning,sklonveth_root_pattern_lang_learning,GPT-5.4 mini,0.4571428571428572,mid,OpenAI
+language,Language Learning,skovar_deletion_lang_learning,GPT-5.4 mini,0.675,mid,OpenAI
+language,Language Learning,strelkov_ergative_lang_learning,GPT-5.4 mini,0.65,mid,OpenAI
+language,Language Learning,telvari_evidentiality_lang_learning,GPT-5.4 mini,0.8909090909090909,mid,OpenAI
+language,Language Learning,vrendel_templatic_lang_learning,GPT-5.4 mini,0.7090909090909091,mid,OpenAI
+language,Language Learning,strevoklan_neg_lang_learning,GPT-5.4 mini,0.19,mid,OpenAI
+language,Language Learning,wukal_tones_lang_learning,GPT-5.4 mini,0.4727272727272727,mid,OpenAI
+language,Language Learning,vrelthan_rule_interaction_lang_learning,GPT-5.4 mini,0.425,mid,OpenAI
+language,Language Learning,threlkav_scope_ergativity_lang_learning,GPT-5.4 mini,0.9454545454545454,mid,OpenAI
+language,Language Learning,trenval_bleeding_lang_learning,GPT-5.4 mini,0.9076923076923076,mid,OpenAI
+language,Language Learning,trevkovan_gradation_lang_learning,GPT-5.4 mini,0.4142857142857142,mid,OpenAI
+language,Language Learning,drelkovak_harmony_lang_learning,Qwen 3 Next 80B Instruct,0.22,small,Open-source
+language,Language Learning,dimval_metathesis_lang_learning,Qwen 3 Next 80B Instruct,0.1807692307692307,small,Open-source
+language,Language Learning,drafnelt_switch_reference_lang_learning,Qwen 3 Next 80B Instruct,0.8,small,Open-source
+language,Language Learning,dralven_tone_sandhi_lang_learning,Qwen 3 Next 80B Instruct,0.4,small,Open-source
+language,Language Learning,drelvak_reduplication_lang_learning,Qwen 3 Next 80B Instruct,0.2178571428571428,small,Open-source
+language,Language Learning,kophar_quantity_lang_learning,Qwen 3 Next 80B Instruct,0.4142857142857142,small,Open-source
+language,Language Learning,grelkan_suppletion_lang_learning,Qwen 3 Next 80B Instruct,0.44,small,Open-source
+language,Language Learning,mixed_radix_number_lang_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+language,Language Learning,kelstran_tone_lang_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+language,Language Learning,pelvan_agreement_lang_learning,Qwen 3 Next 80B Instruct,0.1954545454545454,small,Open-source
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,Qwen 3 Next 80B Instruct,0.1857142857142857,small,Open-source
+language,Language Learning,skelth_allomorph_lang_learning,Qwen 3 Next 80B Instruct,0.6214285714285714,small,Open-source
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,Qwen 3 Next 80B Instruct,0.6115384615384616,small,Open-source
+language,Language Learning,skolvren_polysynthetic_lang_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+language,Language Learning,norkvash_scalar_lang_learning,Qwen 3 Next 80B Instruct,0.76,small,Open-source
+language,Language Learning,sklonveth_root_pattern_lang_learning,Qwen 3 Next 80B Instruct,0.2071428571428571,small,Open-source
+language,Language Learning,skovar_deletion_lang_learning,Qwen 3 Next 80B Instruct,0.2,small,Open-source
+language,Language Learning,strelkov_ergative_lang_learning,Qwen 3 Next 80B Instruct,0.8666666666666667,small,Open-source
+language,Language Learning,telvari_evidentiality_lang_learning,Qwen 3 Next 80B Instruct,0.8363636363636364,small,Open-source
+language,Language Learning,vrendel_templatic_lang_learning,Qwen 3 Next 80B Instruct,0.7272727272727273,small,Open-source
+language,Language Learning,strevoklan_neg_lang_learning,Qwen 3 Next 80B Instruct,0.205,small,Open-source
+language,Language Learning,wukal_tones_lang_learning,Qwen 3 Next 80B Instruct,0.3636363636363636,small,Open-source
+language,Language Learning,vrelthan_rule_interaction_lang_learning,Qwen 3 Next 80B Instruct,0.45,small,Open-source
+language,Language Learning,threlkav_scope_ergativity_lang_learning,Qwen 3 Next 80B Instruct,0.8363636363636364,small,Open-source
+language,Language Learning,trenval_bleeding_lang_learning,Qwen 3 Next 80B Instruct,0.6115384615384616,small,Open-source
+language,Language Learning,trevkovan_gradation_lang_learning,Qwen 3 Next 80B Instruct,0.4285714285714285,small,Open-source
+language,Language Learning,drelkovak_harmony_lang_learning,Claude Haiku 4.5,0.21,small,Anthropic
+language,Language Learning,dimval_metathesis_lang_learning,Claude Haiku 4.5,0.1,small,Anthropic
+language,Language Learning,drafnelt_switch_reference_lang_learning,Claude Haiku 4.5,0.7,small,Anthropic
+language,Language Learning,dralven_tone_sandhi_lang_learning,Claude Haiku 4.5,0.3,small,Anthropic
+language,Language Learning,drelvak_reduplication_lang_learning,Claude Haiku 4.5,0.3,small,Anthropic
+language,Language Learning,kophar_quantity_lang_learning,Claude Haiku 4.5,0.4,small,Anthropic
+language,Language Learning,grelkan_suppletion_lang_learning,Claude Haiku 4.5,0.36,small,Anthropic
+language,Language Learning,mixed_radix_number_lang_learning,Claude Haiku 4.5,0.1136363636363636,small,Anthropic
+language,Language Learning,kelstran_tone_lang_learning,Claude Haiku 4.5,0.2,small,Anthropic
+language,Language Learning,pelvan_agreement_lang_learning,Claude Haiku 4.5,0.1,small,Anthropic
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,Claude Haiku 4.5,0.4,small,Anthropic
+language,Language Learning,skelth_allomorph_lang_learning,Claude Haiku 4.5,0.4,small,Anthropic
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,Claude Haiku 4.5,0.4923076923076923,small,Anthropic
+language,Language Learning,skolvren_polysynthetic_lang_learning,Claude Haiku 4.5,0.0,small,Anthropic
+language,Language Learning,norkvash_scalar_lang_learning,Claude Haiku 4.5,0.46,small,Anthropic
+language,Language Learning,sklonveth_root_pattern_lang_learning,Claude Haiku 4.5,0.3,small,Anthropic
+language,Language Learning,skovar_deletion_lang_learning,Claude Haiku 4.5,0.275,small,Anthropic
+language,Language Learning,strelkov_ergative_lang_learning,Claude Haiku 4.5,0.6000000000000001,small,Anthropic
+language,Language Learning,telvari_evidentiality_lang_learning,Claude Haiku 4.5,0.5636363636363636,small,Anthropic
+language,Language Learning,vrendel_templatic_lang_learning,Claude Haiku 4.5,0.3818181818181818,small,Anthropic
+language,Language Learning,strevoklan_neg_lang_learning,Claude Haiku 4.5,0.0,small,Anthropic
+language,Language Learning,wukal_tones_lang_learning,Claude Haiku 4.5,0.3409090909090909,small,Anthropic
+language,Language Learning,vrelthan_rule_interaction_lang_learning,Claude Haiku 4.5,0.4,small,Anthropic
+language,Language Learning,threlkav_scope_ergativity_lang_learning,Claude Haiku 4.5,0.7818181818181817,small,Anthropic
+language,Language Learning,trenval_bleeding_lang_learning,Claude Haiku 4.5,0.5846153846153846,small,Anthropic
+language,Language Learning,trevkovan_gradation_lang_learning,Claude Haiku 4.5,0.3,small,Anthropic
+language,Language Learning,drelkovak_harmony_lang_learning,GPT-5.4 nano,0.0,small,OpenAI
+language,Language Learning,dimval_metathesis_lang_learning,GPT-5.4 nano,0.1923076923076923,small,OpenAI
+language,Language Learning,drafnelt_switch_reference_lang_learning,GPT-5.4 nano,0.4,small,OpenAI
+language,Language Learning,dralven_tone_sandhi_lang_learning,GPT-5.4 nano,0.1642857142857143,small,OpenAI
+language,Language Learning,drelvak_reduplication_lang_learning,GPT-5.4 nano,0.3071428571428571,small,OpenAI
+language,Language Learning,kophar_quantity_lang_learning,GPT-5.4 nano,0.7428571428571429,small,OpenAI
+language,Language Learning,grelkan_suppletion_lang_learning,GPT-5.4 nano,0.26,small,OpenAI
+language,Language Learning,mixed_radix_number_lang_learning,GPT-5.4 nano,0.1954545454545454,small,OpenAI
+language,Language Learning,kelstran_tone_lang_learning,GPT-5.4 nano,0.0,small,OpenAI
+language,Language Learning,pelvan_agreement_lang_learning,GPT-5.4 nano,0.0,small,OpenAI
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,GPT-5.4 nano,0.4928571428571429,small,OpenAI
+language,Language Learning,skelth_allomorph_lang_learning,GPT-5.4 nano,0.7,small,OpenAI
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,GPT-5.4 nano,0.3153846153846154,small,OpenAI
+language,Language Learning,skolvren_polysynthetic_lang_learning,GPT-5.4 nano,0.0,small,OpenAI
+language,Language Learning,norkvash_scalar_lang_learning,GPT-5.4 nano,0.0,small,OpenAI
+language,Language Learning,sklonveth_root_pattern_lang_learning,GPT-5.4 nano,0.1642857142857143,small,OpenAI
+language,Language Learning,skovar_deletion_lang_learning,GPT-5.4 nano,0.4,small,OpenAI
+language,Language Learning,strelkov_ergative_lang_learning,GPT-5.4 nano,0.2,small,OpenAI
+language,Language Learning,telvari_evidentiality_lang_learning,GPT-5.4 nano,0.6727272727272728,small,OpenAI
+language,Language Learning,vrendel_templatic_lang_learning,GPT-5.4 nano,0.5863636363636363,small,OpenAI
+language,Language Learning,strevoklan_neg_lang_learning,GPT-5.4 nano,0.175,small,OpenAI
+language,Language Learning,wukal_tones_lang_learning,GPT-5.4 nano,0.4636363636363636,small,OpenAI
+language,Language Learning,vrelthan_rule_interaction_lang_learning,GPT-5.4 nano,0.3,small,OpenAI
+language,Language Learning,threlkav_scope_ergativity_lang_learning,GPT-5.4 nano,0.7818181818181817,small,OpenAI
+language,Language Learning,trenval_bleeding_lang_learning,GPT-5.4 nano,0.1692307692307692,small,OpenAI
+language,Language Learning,trevkovan_gradation_lang_learning,GPT-5.4 nano,0.5,small,OpenAI
+language,Language Learning,drelkovak_harmony_lang_learning,Gemma 4 26B A4B,0.28,small,Google
+language,Language Learning,dimval_metathesis_lang_learning,Gemma 4 26B A4B,0.0,small,Google
+language,Language Learning,drafnelt_switch_reference_lang_learning,Gemma 4 26B A4B,0.3375,small,Google
+language,Language Learning,dralven_tone_sandhi_lang_learning,Gemma 4 26B A4B,0.3,small,Google
+language,Language Learning,drelvak_reduplication_lang_learning,Gemma 4 26B A4B,0.3,small,Google
+language,Language Learning,kophar_quantity_lang_learning,Gemma 4 26B A4B,0.4285714285714285,small,Google
+language,Language Learning,grelkan_suppletion_lang_learning,Gemma 4 26B A4B,0.28,small,Google
+language,Language Learning,mixed_radix_number_lang_learning,Gemma 4 26B A4B,0.2545454545454545,small,Google
+language,Language Learning,kelstran_tone_lang_learning,Gemma 4 26B A4B,0.0,small,Google
+language,Language Learning,pelvan_agreement_lang_learning,Gemma 4 26B A4B,0.0,small,Google
+language,Language Learning,prentova_allomorphy_wugtest_lang_learning,Gemma 4 26B A4B,0.4571428571428572,small,Google
+language,Language Learning,skelth_allomorph_lang_learning,Gemma 4 26B A4B,0.3642857142857143,small,Google
+language,Language Learning,gwelthar_mirative_evidential_tone_lang_learning,Gemma 4 26B A4B,0.0,small,Google
+language,Language Learning,skolvren_polysynthetic_lang_learning,Gemma 4 26B A4B,0.0,small,Google
+language,Language Learning,norkvash_scalar_lang_learning,Gemma 4 26B A4B,0.26,small,Google
+language,Language Learning,sklonveth_root_pattern_lang_learning,Gemma 4 26B A4B,0.3321428571428571,small,Google
+language,Language Learning,skovar_deletion_lang_learning,Gemma 4 26B A4B,0.0,small,Google
+language,Language Learning,strelkov_ergative_lang_learning,Gemma 4 26B A4B,0.0,small,Google
+language,Language Learning,telvari_evidentiality_lang_learning,Gemma 4 26B A4B,0.4545454545454546,small,Google
+language,Language Learning,vrendel_templatic_lang_learning,Gemma 4 26B A4B,0.6181818181818182,small,Google
+language,Language Learning,strevoklan_neg_lang_learning,Gemma 4 26B A4B,0.39,small,Google
+language,Language Learning,wukal_tones_lang_learning,Gemma 4 26B A4B,0.2090909090909091,small,Google
+language,Language Learning,vrelthan_rule_interaction_lang_learning,Gemma 4 26B A4B,0.4,small,Google
+language,Language Learning,threlkav_scope_ergativity_lang_learning,Gemma 4 26B A4B,0.7272727272727273,small,Google
+language,Language Learning,trenval_bleeding_lang_learning,Gemma 4 26B A4B,0.4461538461538461,small,Google
+language,Language Learning,trevkovan_gradation_lang_learning,Gemma 4 26B A4B,0.2,small,Google
+observational,Observational Learning,agglutinative_morphology_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,affine_transform_chain_obs_learning,Gemini 3.1 Pro Preview,0.5,frontier,Google
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,deceptive_stack_machine_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,lfu_cache_eviction_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,codon_table_translation_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,flow_network_capacity_obs_learning,Gemini 3.1 Pro Preview,0.75,frontier,Google
+observational,Observational Learning,chemical_reaction_order_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,feistel_cipher_round_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,custom_gravity_simulation_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,hidden_group_operation_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,grid_parity_path_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,hidden_matrix_fill_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,hidden_damping_physics_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,hidden_graph_centrality_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,singleton_gate_local_max_obs_learning,Gemini 3.1 Pro Preview,0.5,frontier,Google
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,lattice_meet_join_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,hidden_region_classifier_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,hidden_token_filter_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,sigil_naming_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,mealy_machine_output_obs_learning,Gemini 3.1 Pro Preview,0.75,frontier,Google
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,register_machine_trace_obs_learning,Gemini 3.1 Pro Preview,0.75,frontier,Google
+observational,Observational Learning,hidden_attribute_rule_obs_learning,Gemini 3.1 Pro Preview,0.75,frontier,Google
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,hidden_state_machine_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,Gemini 3.1 Pro Preview,0.0,frontier,Google
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,Gemini 3.1 Pro Preview,0.75,frontier,Google
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,regex_intersection_membership_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,Gemini 3.1 Pro Preview,0.625,frontier,Google
+observational,Observational Learning,hidden_priority_order_obs_learning,Gemini 3.1 Pro Preview,0.0,frontier,Google
+observational,Observational Learning,titration_curve_diprotic_obs_learning,Gemini 3.1 Pro Preview,0.8,frontier,Google
+observational,Observational Learning,finite_state_transducer_obs_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+observational,Observational Learning,two_counter_machine_obs_learning,Gemini 3.1 Pro Preview,0.1666666666666666,frontier,Google
+observational,Observational Learning,agglutinative_morphology_obs_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+observational,Observational Learning,affine_transform_chain_obs_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,deceptive_stack_machine_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,lfu_cache_eviction_obs_learning,Qwen 3 Next 80B Thinking,0.75,mid,Open-source
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,Qwen 3 Next 80B Thinking,0.25,mid,Open-source
+observational,Observational Learning,codon_table_translation_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,flow_network_capacity_obs_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+observational,Observational Learning,chemical_reaction_order_obs_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+observational,Observational Learning,feistel_cipher_round_obs_learning,Qwen 3 Next 80B Thinking,0.75,mid,Open-source
+observational,Observational Learning,custom_gravity_simulation_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,hidden_group_operation_obs_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+observational,Observational Learning,grid_parity_path_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,hidden_matrix_fill_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,hidden_damping_physics_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,hidden_graph_centrality_obs_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+observational,Observational Learning,singleton_gate_local_max_obs_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+observational,Observational Learning,lattice_meet_join_obs_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,hidden_region_classifier_obs_learning,Qwen 3 Next 80B Thinking,0.6666666666666666,mid,Open-source
+observational,Observational Learning,hidden_token_filter_obs_learning,Qwen 3 Next 80B Thinking,0.75,mid,Open-source
+observational,Observational Learning,sigil_naming_obs_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,mealy_machine_output_obs_learning,Qwen 3 Next 80B Thinking,0.75,mid,Open-source
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,Qwen 3 Next 80B Thinking,0.25,mid,Open-source
+observational,Observational Learning,register_machine_trace_obs_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+observational,Observational Learning,hidden_attribute_rule_obs_learning,Qwen 3 Next 80B Thinking,0.375,mid,Open-source
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,hidden_state_machine_obs_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,Qwen 3 Next 80B Thinking,0.5,mid,Open-source
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,Qwen 3 Next 80B Thinking,0.75,mid,Open-source
+observational,Observational Learning,regex_intersection_membership_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+observational,Observational Learning,hidden_priority_order_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,titration_curve_diprotic_obs_learning,Qwen 3 Next 80B Thinking,0.4,mid,Open-source
+observational,Observational Learning,finite_state_transducer_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,two_counter_machine_obs_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+observational,Observational Learning,agglutinative_morphology_obs_learning,GLM-5,0.5,frontier,Open-source
+observational,Observational Learning,affine_transform_chain_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,deceptive_stack_machine_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,lfu_cache_eviction_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,codon_table_translation_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,flow_network_capacity_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,chemical_reaction_order_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,feistel_cipher_round_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,custom_gravity_simulation_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,hidden_group_operation_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,grid_parity_path_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,hidden_matrix_fill_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,hidden_damping_physics_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,hidden_graph_centrality_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,singleton_gate_local_max_obs_learning,GLM-5,0.5,frontier,Open-source
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,GLM-5,0.75,frontier,Open-source
+observational,Observational Learning,lattice_meet_join_obs_learning,GLM-5,0.75,frontier,Open-source
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,hidden_region_classifier_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,hidden_token_filter_obs_learning,GLM-5,0.75,frontier,Open-source
+observational,Observational Learning,sigil_naming_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,mealy_machine_output_obs_learning,GLM-5,0.75,frontier,Open-source
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,register_machine_trace_obs_learning,GLM-5,0.75,frontier,Open-source
+observational,Observational Learning,hidden_attribute_rule_obs_learning,GLM-5,0.75,frontier,Open-source
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,hidden_state_machine_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,regex_intersection_membership_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,hidden_priority_order_obs_learning,GLM-5,0.0,frontier,Open-source
+observational,Observational Learning,titration_curve_diprotic_obs_learning,GLM-5,0.6,frontier,Open-source
+observational,Observational Learning,finite_state_transducer_obs_learning,GLM-5,1.0,frontier,Open-source
+observational,Observational Learning,two_counter_machine_obs_learning,GLM-5,0.6666666666666666,frontier,Open-source
+observational,Observational Learning,agglutinative_morphology_obs_learning,DeepSeek V3.2,0.0,mid,Open-source
+observational,Observational Learning,affine_transform_chain_obs_learning,DeepSeek V3.2,0.5,mid,Open-source
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,DeepSeek V3.2,0.5,mid,Open-source
+observational,Observational Learning,deceptive_stack_machine_obs_learning,DeepSeek V3.2,1.0,mid,Open-source
+observational,Observational Learning,lfu_cache_eviction_obs_learning,DeepSeek V3.2,0.25,mid,Open-source
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,DeepSeek V3.2,0.75,mid,Open-source
+observational,Observational Learning,codon_table_translation_obs_learning,DeepSeek V3.2,1.0,mid,Open-source
+observational,Observational Learning,flow_network_capacity_obs_learning,DeepSeek V3.2,0.5,mid,Open-source
+observational,Observational Learning,chemical_reaction_order_obs_learning,DeepSeek V3.2,0.0,mid,Open-source
+observational,Observational Learning,feistel_cipher_round_obs_learning,DeepSeek V3.2,0.5,mid,Open-source
+observational,Observational Learning,custom_gravity_simulation_obs_learning,DeepSeek V3.2,0.75,mid,Open-source
+observational,Observational Learning,hidden_group_operation_obs_learning,DeepSeek V3.2,0.25,mid,Open-source
+observational,Observational Learning,grid_parity_path_obs_learning,DeepSeek V3.2,0.5,mid,Open-source
+observational,Observational Learning,hidden_matrix_fill_obs_learning,DeepSeek V3.2,0.0,mid,Open-source
+observational,Observational Learning,hidden_damping_physics_obs_learning,DeepSeek V3.2,0.75,mid,Open-source
+observational,Observational Learning,hidden_graph_centrality_obs_learning,DeepSeek V3.2,1.0,mid,Open-source
+observational,Observational Learning,singleton_gate_local_max_obs_learning,DeepSeek V3.2,0.5,mid,Open-source
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,DeepSeek V3.2,0.0,mid,Open-source
+observational,Observational Learning,lattice_meet_join_obs_learning,DeepSeek V3.2,0.25,mid,Open-source
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,DeepSeek V3.2,0.75,mid,Open-source
+observational,Observational Learning,hidden_region_classifier_obs_learning,DeepSeek V3.2,0.8333333333333334,mid,Open-source
+observational,Observational Learning,hidden_token_filter_obs_learning,DeepSeek V3.2,0.25,mid,Open-source
+observational,Observational Learning,sigil_naming_obs_learning,DeepSeek V3.2,0.25,mid,Open-source
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,DeepSeek V3.2,0.5,mid,Open-source
+observational,Observational Learning,mealy_machine_output_obs_learning,DeepSeek V3.2,0.25,mid,Open-source
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,DeepSeek V3.2,0.5,mid,Open-source
+observational,Observational Learning,register_machine_trace_obs_learning,DeepSeek V3.2,0.0,mid,Open-source
+observational,Observational Learning,hidden_attribute_rule_obs_learning,DeepSeek V3.2,0.625,mid,Open-source
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,DeepSeek V3.2,0.0,mid,Open-source
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,DeepSeek V3.2,1.0,mid,Open-source
+observational,Observational Learning,hidden_state_machine_obs_learning,DeepSeek V3.2,0.0,mid,Open-source
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,DeepSeek V3.2,0.25,mid,Open-source
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,DeepSeek V3.2,1.0,mid,Open-source
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,DeepSeek V3.2,0.75,mid,Open-source
+observational,Observational Learning,regex_intersection_membership_obs_learning,DeepSeek V3.2,0.75,mid,Open-source
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,DeepSeek V3.2,0.375,mid,Open-source
+observational,Observational Learning,hidden_priority_order_obs_learning,DeepSeek V3.2,0.0,mid,Open-source
+observational,Observational Learning,titration_curve_diprotic_obs_learning,DeepSeek V3.2,0.6,mid,Open-source
+observational,Observational Learning,finite_state_transducer_obs_learning,DeepSeek V3.2,0.0,mid,Open-source
+observational,Observational Learning,two_counter_machine_obs_learning,DeepSeek V3.2,0.0,mid,Open-source
+observational,Observational Learning,agglutinative_morphology_obs_learning,Gemini 2.5 Flash,0.25,mid,Google
+observational,Observational Learning,affine_transform_chain_obs_learning,Gemini 2.5 Flash,0.5,mid,Google
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,Gemini 2.5 Flash,1.0,mid,Google
+observational,Observational Learning,deceptive_stack_machine_obs_learning,Gemini 2.5 Flash,1.0,mid,Google
+observational,Observational Learning,lfu_cache_eviction_obs_learning,Gemini 2.5 Flash,0.25,mid,Google
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,Gemini 2.5 Flash,0.25,mid,Google
+observational,Observational Learning,codon_table_translation_obs_learning,Gemini 2.5 Flash,0.0,mid,Google
+observational,Observational Learning,flow_network_capacity_obs_learning,Gemini 2.5 Flash,0.25,mid,Google
+observational,Observational Learning,chemical_reaction_order_obs_learning,Gemini 2.5 Flash,0.0,mid,Google
+observational,Observational Learning,feistel_cipher_round_obs_learning,Gemini 2.5 Flash,0.0,mid,Google
+observational,Observational Learning,custom_gravity_simulation_obs_learning,Gemini 2.5 Flash,1.0,mid,Google
+observational,Observational Learning,hidden_group_operation_obs_learning,Gemini 2.5 Flash,0.0,mid,Google
+observational,Observational Learning,grid_parity_path_obs_learning,Gemini 2.5 Flash,0.25,mid,Google
+observational,Observational Learning,hidden_matrix_fill_obs_learning,Gemini 2.5 Flash,0.75,mid,Google
+observational,Observational Learning,hidden_damping_physics_obs_learning,Gemini 2.5 Flash,0.25,mid,Google
+observational,Observational Learning,hidden_graph_centrality_obs_learning,Gemini 2.5 Flash,0.0,mid,Google
+observational,Observational Learning,singleton_gate_local_max_obs_learning,Gemini 2.5 Flash,0.25,mid,Google
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,Gemini 2.5 Flash,0.0,mid,Google
+observational,Observational Learning,lattice_meet_join_obs_learning,Gemini 2.5 Flash,0.5,mid,Google
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,Gemini 2.5 Flash,1.0,mid,Google
+observational,Observational Learning,hidden_region_classifier_obs_learning,Gemini 2.5 Flash,0.6666666666666666,mid,Google
+observational,Observational Learning,hidden_token_filter_obs_learning,Gemini 2.5 Flash,0.75,mid,Google
+observational,Observational Learning,sigil_naming_obs_learning,Gemini 2.5 Flash,0.25,mid,Google
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,Gemini 2.5 Flash,1.0,mid,Google
+observational,Observational Learning,mealy_machine_output_obs_learning,Gemini 2.5 Flash,0.0,mid,Google
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,Gemini 2.5 Flash,0.25,mid,Google
+observational,Observational Learning,register_machine_trace_obs_learning,Gemini 2.5 Flash,0.0,mid,Google
+observational,Observational Learning,hidden_attribute_rule_obs_learning,Gemini 2.5 Flash,0.75,mid,Google
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,Gemini 2.5 Flash,0.0,mid,Google
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,Gemini 2.5 Flash,0.25,mid,Google
+observational,Observational Learning,hidden_state_machine_obs_learning,Gemini 2.5 Flash,0.25,mid,Google
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,Gemini 2.5 Flash,0.0,mid,Google
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,Gemini 2.5 Flash,0.375,mid,Google
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,Gemini 2.5 Flash,0.25,mid,Google
+observational,Observational Learning,regex_intersection_membership_obs_learning,Gemini 2.5 Flash,0.75,mid,Google
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,Gemini 2.5 Flash,0.625,mid,Google
+observational,Observational Learning,hidden_priority_order_obs_learning,Gemini 2.5 Flash,0.0,mid,Google
+observational,Observational Learning,titration_curve_diprotic_obs_learning,Gemini 2.5 Flash,0.2,mid,Google
+observational,Observational Learning,finite_state_transducer_obs_learning,Gemini 2.5 Flash,0.0,mid,Google
+observational,Observational Learning,two_counter_machine_obs_learning,Gemini 2.5 Flash,0.8333333333333334,mid,Google
+observational,Observational Learning,agglutinative_morphology_obs_learning,Claude Opus 4.6,0.5,frontier,Anthropic
+observational,Observational Learning,affine_transform_chain_obs_learning,Claude Opus 4.6,0.75,frontier,Anthropic
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,Claude Opus 4.6,0.5,frontier,Anthropic
+observational,Observational Learning,deceptive_stack_machine_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,lfu_cache_eviction_obs_learning,Claude Opus 4.6,0.5,frontier,Anthropic
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,codon_table_translation_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,flow_network_capacity_obs_learning,Claude Opus 4.6,0.25,frontier,Anthropic
+observational,Observational Learning,chemical_reaction_order_obs_learning,Claude Opus 4.6,0.25,frontier,Anthropic
+observational,Observational Learning,feistel_cipher_round_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,custom_gravity_simulation_obs_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+observational,Observational Learning,hidden_group_operation_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,grid_parity_path_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,hidden_matrix_fill_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,hidden_damping_physics_obs_learning,Claude Opus 4.6,0.25,frontier,Anthropic
+observational,Observational Learning,hidden_graph_centrality_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,singleton_gate_local_max_obs_learning,Claude Opus 4.6,0.25,frontier,Anthropic
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,Claude Opus 4.6,0.25,frontier,Anthropic
+observational,Observational Learning,lattice_meet_join_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+observational,Observational Learning,hidden_region_classifier_obs_learning,Claude Opus 4.6,0.6666666666666666,frontier,Anthropic
+observational,Observational Learning,hidden_token_filter_obs_learning,Claude Opus 4.6,0.25,frontier,Anthropic
+observational,Observational Learning,sigil_naming_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,Claude Opus 4.6,0.75,frontier,Anthropic
+observational,Observational Learning,mealy_machine_output_obs_learning,Claude Opus 4.6,0.5,frontier,Anthropic
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,register_machine_trace_obs_learning,Claude Opus 4.6,0.25,frontier,Anthropic
+observational,Observational Learning,hidden_attribute_rule_obs_learning,Claude Opus 4.6,0.625,frontier,Anthropic
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,hidden_state_machine_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,Claude Opus 4.6,0.625,frontier,Anthropic
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+observational,Observational Learning,regex_intersection_membership_obs_learning,Claude Opus 4.6,0.75,frontier,Anthropic
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,Claude Opus 4.6,0.625,frontier,Anthropic
+observational,Observational Learning,hidden_priority_order_obs_learning,Claude Opus 4.6,0.75,frontier,Anthropic
+observational,Observational Learning,titration_curve_diprotic_obs_learning,Claude Opus 4.6,0.2,frontier,Anthropic
+observational,Observational Learning,finite_state_transducer_obs_learning,Claude Opus 4.6,0.25,frontier,Anthropic
+observational,Observational Learning,two_counter_machine_obs_learning,Claude Opus 4.6,0.1666666666666666,frontier,Anthropic
+observational,Observational Learning,agglutinative_morphology_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,affine_transform_chain_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,Qwen 3 Next 80B Instruct,1.0,small,Open-source
+observational,Observational Learning,deceptive_stack_machine_obs_learning,Qwen 3 Next 80B Instruct,1.0,small,Open-source
+observational,Observational Learning,lfu_cache_eviction_obs_learning,Qwen 3 Next 80B Instruct,0.5,small,Open-source
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,Qwen 3 Next 80B Instruct,0.5,small,Open-source
+observational,Observational Learning,codon_table_translation_obs_learning,Qwen 3 Next 80B Instruct,1.0,small,Open-source
+observational,Observational Learning,flow_network_capacity_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,chemical_reaction_order_obs_learning,Qwen 3 Next 80B Instruct,0.5,small,Open-source
+observational,Observational Learning,feistel_cipher_round_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,custom_gravity_simulation_obs_learning,Qwen 3 Next 80B Instruct,1.0,small,Open-source
+observational,Observational Learning,hidden_group_operation_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,grid_parity_path_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,hidden_matrix_fill_obs_learning,Qwen 3 Next 80B Instruct,1.0,small,Open-source
+observational,Observational Learning,hidden_damping_physics_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,hidden_graph_centrality_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,singleton_gate_local_max_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,lattice_meet_join_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,Qwen 3 Next 80B Instruct,0.5,small,Open-source
+observational,Observational Learning,hidden_region_classifier_obs_learning,Qwen 3 Next 80B Instruct,1.0,small,Open-source
+observational,Observational Learning,hidden_token_filter_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,sigil_naming_obs_learning,Qwen 3 Next 80B Instruct,0.25,small,Open-source
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,Qwen 3 Next 80B Instruct,1.0,small,Open-source
+observational,Observational Learning,mealy_machine_output_obs_learning,Qwen 3 Next 80B Instruct,0.25,small,Open-source
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,register_machine_trace_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,hidden_attribute_rule_obs_learning,Qwen 3 Next 80B Instruct,0.625,small,Open-source
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,hidden_state_machine_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,Qwen 3 Next 80B Instruct,0.75,small,Open-source
+observational,Observational Learning,regex_intersection_membership_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,Qwen 3 Next 80B Instruct,0.5,small,Open-source
+observational,Observational Learning,hidden_priority_order_obs_learning,Qwen 3 Next 80B Instruct,1.0,small,Open-source
+observational,Observational Learning,titration_curve_diprotic_obs_learning,Qwen 3 Next 80B Instruct,0.2,small,Open-source
+observational,Observational Learning,finite_state_transducer_obs_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+observational,Observational Learning,two_counter_machine_obs_learning,Qwen 3 Next 80B Instruct,0.1666666666666666,small,Open-source
+observational,Observational Learning,agglutinative_morphology_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,affine_transform_chain_obs_learning,GPT-5.4,0.5,frontier,OpenAI
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,GPT-5.4,0.5,frontier,OpenAI
+observational,Observational Learning,deceptive_stack_machine_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,lfu_cache_eviction_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,GPT-5.4,0.5,frontier,OpenAI
+observational,Observational Learning,codon_table_translation_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,flow_network_capacity_obs_learning,GPT-5.4,0.25,frontier,OpenAI
+observational,Observational Learning,chemical_reaction_order_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,feistel_cipher_round_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,custom_gravity_simulation_obs_learning,GPT-5.4,1.0,frontier,OpenAI
+observational,Observational Learning,hidden_group_operation_obs_learning,GPT-5.4,0.25,frontier,OpenAI
+observational,Observational Learning,grid_parity_path_obs_learning,GPT-5.4,0.5,frontier,OpenAI
+observational,Observational Learning,hidden_matrix_fill_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,hidden_damping_physics_obs_learning,GPT-5.4,0.5,frontier,OpenAI
+observational,Observational Learning,hidden_graph_centrality_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,singleton_gate_local_max_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,GPT-5.4,0.25,frontier,OpenAI
+observational,Observational Learning,lattice_meet_join_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,GPT-5.4,0.5,frontier,OpenAI
+observational,Observational Learning,hidden_region_classifier_obs_learning,GPT-5.4,0.8333333333333334,frontier,OpenAI
+observational,Observational Learning,hidden_token_filter_obs_learning,GPT-5.4,0.25,frontier,OpenAI
+observational,Observational Learning,sigil_naming_obs_learning,GPT-5.4,0.25,frontier,OpenAI
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,GPT-5.4,0.75,frontier,OpenAI
+observational,Observational Learning,mealy_machine_output_obs_learning,GPT-5.4,0.5,frontier,OpenAI
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,register_machine_trace_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,hidden_attribute_rule_obs_learning,GPT-5.4,0.75,frontier,OpenAI
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,GPT-5.4,0.5,frontier,OpenAI
+observational,Observational Learning,hidden_state_machine_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,GPT-5.4,0.5,frontier,OpenAI
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,GPT-5.4,0.5,frontier,OpenAI
+observational,Observational Learning,regex_intersection_membership_obs_learning,GPT-5.4,1.0,frontier,OpenAI
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,GPT-5.4,0.5,frontier,OpenAI
+observational,Observational Learning,hidden_priority_order_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,titration_curve_diprotic_obs_learning,GPT-5.4,0.4,frontier,OpenAI
+observational,Observational Learning,finite_state_transducer_obs_learning,GPT-5.4,0.25,frontier,OpenAI
+observational,Observational Learning,two_counter_machine_obs_learning,GPT-5.4,0.0,frontier,OpenAI
+observational,Observational Learning,agglutinative_morphology_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,affine_transform_chain_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+observational,Observational Learning,deceptive_stack_machine_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,lfu_cache_eviction_obs_learning,Gemini 3.1 Flash-Lite Preview,0.25,mid,Google
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,Gemini 3.1 Flash-Lite Preview,0.25,mid,Google
+observational,Observational Learning,codon_table_translation_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,flow_network_capacity_obs_learning,Gemini 3.1 Flash-Lite Preview,0.25,mid,Google
+observational,Observational Learning,chemical_reaction_order_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,feistel_cipher_round_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,custom_gravity_simulation_obs_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+observational,Observational Learning,hidden_group_operation_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,grid_parity_path_obs_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+observational,Observational Learning,hidden_matrix_fill_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,hidden_damping_physics_obs_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+observational,Observational Learning,hidden_graph_centrality_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,singleton_gate_local_max_obs_learning,Gemini 3.1 Flash-Lite Preview,0.25,mid,Google
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+observational,Observational Learning,lattice_meet_join_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+observational,Observational Learning,hidden_region_classifier_obs_learning,Gemini 3.1 Flash-Lite Preview,0.8333333333333334,mid,Google
+observational,Observational Learning,hidden_token_filter_obs_learning,Gemini 3.1 Flash-Lite Preview,0.25,mid,Google
+observational,Observational Learning,sigil_naming_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+observational,Observational Learning,mealy_machine_output_obs_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,register_machine_trace_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,hidden_attribute_rule_obs_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,hidden_state_machine_obs_learning,Gemini 3.1 Flash-Lite Preview,0.25,mid,Google
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+observational,Observational Learning,regex_intersection_membership_obs_learning,Gemini 3.1 Flash-Lite Preview,0.75,mid,Google
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+observational,Observational Learning,hidden_priority_order_obs_learning,Gemini 3.1 Flash-Lite Preview,0.5,mid,Google
+observational,Observational Learning,titration_curve_diprotic_obs_learning,Gemini 3.1 Flash-Lite Preview,0.2,mid,Google
+observational,Observational Learning,finite_state_transducer_obs_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+observational,Observational Learning,two_counter_machine_obs_learning,Gemini 3.1 Flash-Lite Preview,0.6666666666666666,mid,Google
+observational,Observational Learning,agglutinative_morphology_obs_learning,Claude Sonnet 4.6,0.25,mid,Anthropic
+observational,Observational Learning,affine_transform_chain_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,Claude Sonnet 4.6,0.5,mid,Anthropic
+observational,Observational Learning,deceptive_stack_machine_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,lfu_cache_eviction_obs_learning,Claude Sonnet 4.6,0.5,mid,Anthropic
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,Claude Sonnet 4.6,0.5,mid,Anthropic
+observational,Observational Learning,codon_table_translation_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,flow_network_capacity_obs_learning,Claude Sonnet 4.6,0.25,mid,Anthropic
+observational,Observational Learning,chemical_reaction_order_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,feistel_cipher_round_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,custom_gravity_simulation_obs_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+observational,Observational Learning,hidden_group_operation_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,grid_parity_path_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,hidden_matrix_fill_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,hidden_damping_physics_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,hidden_graph_centrality_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,singleton_gate_local_max_obs_learning,Claude Sonnet 4.6,0.25,mid,Anthropic
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,lattice_meet_join_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+observational,Observational Learning,hidden_region_classifier_obs_learning,Claude Sonnet 4.6,0.8333333333333334,mid,Anthropic
+observational,Observational Learning,hidden_token_filter_obs_learning,Claude Sonnet 4.6,0.25,mid,Anthropic
+observational,Observational Learning,sigil_naming_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,Claude Sonnet 4.6,0.75,mid,Anthropic
+observational,Observational Learning,mealy_machine_output_obs_learning,Claude Sonnet 4.6,0.5,mid,Anthropic
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,register_machine_trace_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,hidden_attribute_rule_obs_learning,Claude Sonnet 4.6,0.5,mid,Anthropic
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,hidden_state_machine_obs_learning,Claude Sonnet 4.6,0.25,mid,Anthropic
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,Claude Sonnet 4.6,0.25,mid,Anthropic
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,Claude Sonnet 4.6,0.5,mid,Anthropic
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,Claude Sonnet 4.6,0.25,mid,Anthropic
+observational,Observational Learning,regex_intersection_membership_obs_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,Claude Sonnet 4.6,0.5,mid,Anthropic
+observational,Observational Learning,hidden_priority_order_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,titration_curve_diprotic_obs_learning,Claude Sonnet 4.6,0.2,mid,Anthropic
+observational,Observational Learning,finite_state_transducer_obs_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+observational,Observational Learning,two_counter_machine_obs_learning,Claude Sonnet 4.6,0.1666666666666666,mid,Anthropic
+observational,Observational Learning,agglutinative_morphology_obs_learning,Claude Haiku 4.5,0.25,small,Anthropic
+observational,Observational Learning,affine_transform_chain_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,deceptive_stack_machine_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,lfu_cache_eviction_obs_learning,Claude Haiku 4.5,0.25,small,Anthropic
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,Claude Haiku 4.5,0.5,small,Anthropic
+observational,Observational Learning,codon_table_translation_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,flow_network_capacity_obs_learning,Claude Haiku 4.5,0.75,small,Anthropic
+observational,Observational Learning,chemical_reaction_order_obs_learning,Claude Haiku 4.5,0.25,small,Anthropic
+observational,Observational Learning,feistel_cipher_round_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,custom_gravity_simulation_obs_learning,Claude Haiku 4.5,1.0,small,Anthropic
+observational,Observational Learning,hidden_group_operation_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,grid_parity_path_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,hidden_matrix_fill_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,hidden_damping_physics_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,hidden_graph_centrality_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,singleton_gate_local_max_obs_learning,Claude Haiku 4.5,0.25,small,Anthropic
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,lattice_meet_join_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,Claude Haiku 4.5,0.75,small,Anthropic
+observational,Observational Learning,hidden_region_classifier_obs_learning,Claude Haiku 4.5,0.6666666666666666,small,Anthropic
+observational,Observational Learning,hidden_token_filter_obs_learning,Claude Haiku 4.5,0.25,small,Anthropic
+observational,Observational Learning,sigil_naming_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,Claude Haiku 4.5,0.5,small,Anthropic
+observational,Observational Learning,mealy_machine_output_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,register_machine_trace_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,hidden_attribute_rule_obs_learning,Claude Haiku 4.5,0.625,small,Anthropic
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,hidden_state_machine_obs_learning,Claude Haiku 4.5,0.25,small,Anthropic
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,Claude Haiku 4.5,0.375,small,Anthropic
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,Claude Haiku 4.5,0.5,small,Anthropic
+observational,Observational Learning,regex_intersection_membership_obs_learning,Claude Haiku 4.5,1.0,small,Anthropic
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,Claude Haiku 4.5,0.5,small,Anthropic
+observational,Observational Learning,hidden_priority_order_obs_learning,Claude Haiku 4.5,0.0,small,Anthropic
+observational,Observational Learning,titration_curve_diprotic_obs_learning,Claude Haiku 4.5,0.2,small,Anthropic
+observational,Observational Learning,finite_state_transducer_obs_learning,Claude Haiku 4.5,0.25,small,Anthropic
+observational,Observational Learning,two_counter_machine_obs_learning,Claude Haiku 4.5,0.1666666666666666,small,Anthropic
+observational,Observational Learning,agglutinative_morphology_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,affine_transform_chain_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,Gemma 4 26B A4B,0.25,small,Google
+observational,Observational Learning,deceptive_stack_machine_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,lfu_cache_eviction_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,Gemma 4 26B A4B,0.25,small,Google
+observational,Observational Learning,codon_table_translation_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,flow_network_capacity_obs_learning,Gemma 4 26B A4B,0.5,small,Google
+observational,Observational Learning,chemical_reaction_order_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,feistel_cipher_round_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,custom_gravity_simulation_obs_learning,Gemma 4 26B A4B,1.0,small,Google
+observational,Observational Learning,hidden_group_operation_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,grid_parity_path_obs_learning,Gemma 4 26B A4B,0.25,small,Google
+observational,Observational Learning,hidden_matrix_fill_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,hidden_damping_physics_obs_learning,Gemma 4 26B A4B,0.25,small,Google
+observational,Observational Learning,hidden_graph_centrality_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,singleton_gate_local_max_obs_learning,Gemma 4 26B A4B,0.25,small,Google
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,lattice_meet_join_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,Gemma 4 26B A4B,0.5,small,Google
+observational,Observational Learning,hidden_region_classifier_obs_learning,Gemma 4 26B A4B,1.0,small,Google
+observational,Observational Learning,hidden_token_filter_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,sigil_naming_obs_learning,Gemma 4 26B A4B,0.25,small,Google
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,Gemma 4 26B A4B,0.75,small,Google
+observational,Observational Learning,mealy_machine_output_obs_learning,Gemma 4 26B A4B,0.25,small,Google
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,register_machine_trace_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,hidden_attribute_rule_obs_learning,Gemma 4 26B A4B,0.5,small,Google
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,hidden_state_machine_obs_learning,Gemma 4 26B A4B,0.25,small,Google
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,Gemma 4 26B A4B,0.25,small,Google
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,Gemma 4 26B A4B,0.25,small,Google
+observational,Observational Learning,regex_intersection_membership_obs_learning,Gemma 4 26B A4B,1.0,small,Google
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,Gemma 4 26B A4B,0.25,small,Google
+observational,Observational Learning,hidden_priority_order_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,titration_curve_diprotic_obs_learning,Gemma 4 26B A4B,0.2,small,Google
+observational,Observational Learning,finite_state_transducer_obs_learning,Gemma 4 26B A4B,0.0,small,Google
+observational,Observational Learning,two_counter_machine_obs_learning,Gemma 4 26B A4B,0.3333333333333333,small,Google
+observational,Observational Learning,agglutinative_morphology_obs_learning,GPT-5.4 mini,0.25,mid,OpenAI
+observational,Observational Learning,affine_transform_chain_obs_learning,GPT-5.4 mini,0.25,mid,OpenAI
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,deceptive_stack_machine_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,lfu_cache_eviction_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,GPT-5.4 mini,0.25,mid,OpenAI
+observational,Observational Learning,codon_table_translation_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,flow_network_capacity_obs_learning,GPT-5.4 mini,0.25,mid,OpenAI
+observational,Observational Learning,chemical_reaction_order_obs_learning,GPT-5.4 mini,0.25,mid,OpenAI
+observational,Observational Learning,feistel_cipher_round_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,custom_gravity_simulation_obs_learning,GPT-5.4 mini,0.5,mid,OpenAI
+observational,Observational Learning,hidden_group_operation_obs_learning,GPT-5.4 mini,0.25,mid,OpenAI
+observational,Observational Learning,grid_parity_path_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,hidden_matrix_fill_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,hidden_damping_physics_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,hidden_graph_centrality_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,singleton_gate_local_max_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,lattice_meet_join_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,GPT-5.4 mini,1.0,mid,OpenAI
+observational,Observational Learning,hidden_region_classifier_obs_learning,GPT-5.4 mini,0.8333333333333334,mid,OpenAI
+observational,Observational Learning,hidden_token_filter_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,sigil_naming_obs_learning,GPT-5.4 mini,0.25,mid,OpenAI
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,GPT-5.4 mini,1.0,mid,OpenAI
+observational,Observational Learning,mealy_machine_output_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,register_machine_trace_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,hidden_attribute_rule_obs_learning,GPT-5.4 mini,0.75,mid,OpenAI
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,hidden_state_machine_obs_learning,GPT-5.4 mini,0.25,mid,OpenAI
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,GPT-5.4 mini,0.25,mid,OpenAI
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,GPT-5.4 mini,0.25,mid,OpenAI
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,GPT-5.4 mini,0.5,mid,OpenAI
+observational,Observational Learning,regex_intersection_membership_obs_learning,GPT-5.4 mini,0.75,mid,OpenAI
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,GPT-5.4 mini,0.25,mid,OpenAI
+observational,Observational Learning,hidden_priority_order_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,titration_curve_diprotic_obs_learning,GPT-5.4 mini,0.2,mid,OpenAI
+observational,Observational Learning,finite_state_transducer_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,two_counter_machine_obs_learning,GPT-5.4 mini,0.0,mid,OpenAI
+observational,Observational Learning,agglutinative_morphology_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,affine_transform_chain_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,arithmetic_entropy_coding_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,deceptive_stack_machine_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,lfu_cache_eviction_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,auction_mechanism_second_price_obs_learning,GPT-5.4 nano,0.25,small,OpenAI
+observational,Observational Learning,codon_table_translation_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,flow_network_capacity_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,chemical_reaction_order_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,feistel_cipher_round_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,custom_gravity_simulation_obs_learning,GPT-5.4 nano,0.75,small,OpenAI
+observational,Observational Learning,hidden_group_operation_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,grid_parity_path_obs_learning,GPT-5.4 nano,0.25,small,OpenAI
+observational,Observational Learning,hidden_matrix_fill_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,hidden_damping_physics_obs_learning,GPT-5.4 nano,0.25,small,OpenAI
+observational,Observational Learning,hidden_graph_centrality_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,singleton_gate_local_max_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,linear_feedback_shift_register_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,lattice_meet_join_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,phonological_alternation_harmony_obs_learning,GPT-5.4 nano,0.25,small,OpenAI
+observational,Observational Learning,hidden_region_classifier_obs_learning,GPT-5.4 nano,1.0,small,OpenAI
+observational,Observational Learning,hidden_token_filter_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,sigil_naming_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,pushdown_automaton_inference_obs_learning,GPT-5.4 nano,0.75,small,OpenAI
+observational,Observational Learning,mealy_machine_output_obs_learning,GPT-5.4 nano,0.25,small,OpenAI
+observational,Observational Learning,pipeline_hazard_stall_counting_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,register_machine_trace_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,hidden_attribute_rule_obs_learning,GPT-5.4 nano,0.5,small,OpenAI
+observational,Observational Learning,shapley_values_cooperative_game_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,ring_operations_hidden_carry_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,hidden_state_machine_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,symbolic_glyphpair_scoring_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,hidden_modal_logic_kripke_obs_learning,GPT-5.4 nano,0.375,small,OpenAI
+observational,Observational Learning,syntax_tree_rewrite_obs_learning,GPT-5.4 nano,0.25,small,OpenAI
+observational,Observational Learning,regex_intersection_membership_obs_learning,GPT-5.4 nano,0.25,small,OpenAI
+observational,Observational Learning,hidden_modal_logic_kripke2_obs_learning,GPT-5.4 nano,0.375,small,OpenAI
+observational,Observational Learning,hidden_priority_order_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,titration_curve_diprotic_obs_learning,GPT-5.4 nano,0.2,small,OpenAI
+observational,Observational Learning,finite_state_transducer_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+observational,Observational Learning,two_counter_machine_obs_learning,GPT-5.4 nano,0.0,small,OpenAI
+rl,Reinforcement Learning,arithmetic_next_rf_learning,Gemini 3.1 Pro Preview,0.9333,frontier,Google
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,Gemini 3.1 Pro Preview,0.8,frontier,Google
+rl,Reinforcement Learning,chebyshev_point_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,coin_balance_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,battleship_1d_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,Gemini 3.1 Pro Preview,0.9489,frontier,Google
+rl,Reinforcement Learning,collatz_length_rf_learning,Gemini 3.1 Pro Preview,0.8875,frontier,Google
+rl,Reinforcement Learning,crt_unique_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,base7_decode_rf_learning,Gemini 3.1 Pro Preview,0.8,frontier,Google
+rl,Reinforcement Learning,cubic_eval_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,digitwise_l1_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,divisor_count_rf_learning,Gemini 3.1 Pro Preview,0.8,frontier,Google
+rl,Reinforcement Learning,fib_like_next_rf_learning,Gemini 3.1 Pro Preview,0.85,frontier,Google
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,Gemini 3.1 Pro Preview,0.8935,frontier,Google
+rl,Reinforcement Learning,gray_hamming_rf_learning,Gemini 3.1 Pro Preview,0.9489,frontier,Google
+rl,Reinforcement Learning,grid_octile_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,hanoi_two_rf_learning,Gemini 3.1 Pro Preview,0.0,frontier,Google
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,Gemini 3.1 Pro Preview,0.0,frontier,Google
+rl,Reinforcement Learning,manhattan_point_rf_learning,Gemini 3.1 Pro Preview,0.0,frontier,Google
+rl,Reinforcement Learning,mastermind_classic_rf_learning,Gemini 3.1 Pro Preview,0.08,frontier,Google
+rl,Reinforcement Learning,nim_heap_rf_learning,Gemini 3.1 Pro Preview,0.125,frontier,Google
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,Gemini 3.1 Pro Preview,0.8607,frontier,Google
+rl,Reinforcement Learning,perm_footrule_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,Gemini 3.1 Pro Preview,0.974,frontier,Google
+rl,Reinforcement Learning,quadratic_root_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,product_hotcold_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,rule90_step_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,shift_cipher_rf_learning,Gemini 3.1 Pro Preview,0.8667,frontier,Google
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,sum_product_xy_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,verbal_bandit_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,wordle_micro_rf_learning,Gemini 3.1 Pro Preview,0.97,frontier,Google
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,Gemini 3.1 Pro Preview,1.0,frontier,Google
+rl,Reinforcement Learning,arithmetic_next_rf_learning,GLM-5,0.925,frontier,Open-source
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,GLM-5,0.7868,frontier,Open-source
+rl,Reinforcement Learning,chebyshev_point_rf_learning,GLM-5,1.0,frontier,Open-source
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,GLM-5,0.9531,frontier,Open-source
+rl,Reinforcement Learning,coin_balance_rf_learning,GLM-5,1.0,frontier,Open-source
+rl,Reinforcement Learning,battleship_1d_rf_learning,GLM-5,0.9074,frontier,Open-source
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,GLM-5,0.1714,frontier,Open-source
+rl,Reinforcement Learning,collatz_length_rf_learning,GLM-5,0.06,frontier,Open-source
+rl,Reinforcement Learning,crt_unique_rf_learning,GLM-5,0.2,frontier,Open-source
+rl,Reinforcement Learning,base7_decode_rf_learning,GLM-5,1.0,frontier,Open-source
+rl,Reinforcement Learning,cubic_eval_rf_learning,GLM-5,1.0,frontier,Open-source
+rl,Reinforcement Learning,digitwise_l1_rf_learning,GLM-5,0.1541,frontier,Open-source
+rl,Reinforcement Learning,divisor_count_rf_learning,GLM-5,0.7284,frontier,Open-source
+rl,Reinforcement Learning,fib_like_next_rf_learning,GLM-5,0.9719,frontier,Open-source
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,GLM-5,0.8735,frontier,Open-source
+rl,Reinforcement Learning,gray_hamming_rf_learning,GLM-5,0.1167,frontier,Open-source
+rl,Reinforcement Learning,grid_octile_rf_learning,GLM-5,1.0,frontier,Open-source
+rl,Reinforcement Learning,hanoi_two_rf_learning,GLM-5,0.0,frontier,Open-source
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,GLM-5,0.0,frontier,Open-source
+rl,Reinforcement Learning,manhattan_point_rf_learning,GLM-5,1.0,frontier,Open-source
+rl,Reinforcement Learning,mastermind_classic_rf_learning,GLM-5,0.04,frontier,Open-source
+rl,Reinforcement Learning,nim_heap_rf_learning,GLM-5,0.05,frontier,Open-source
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,GLM-5,0.8179,frontier,Open-source
+rl,Reinforcement Learning,perm_footrule_rf_learning,GLM-5,0.9786,frontier,Open-source
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,GLM-5,1.0,frontier,Open-source
+rl,Reinforcement Learning,quadratic_root_rf_learning,GLM-5,1.0,frontier,Open-source
+rl,Reinforcement Learning,product_hotcold_rf_learning,GLM-5,0.8969,frontier,Open-source
+rl,Reinforcement Learning,rule90_step_rf_learning,GLM-5,1.0,frontier,Open-source
+rl,Reinforcement Learning,shift_cipher_rf_learning,GLM-5,0.9333,frontier,Open-source
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,GLM-5,1.0,frontier,Open-source
+rl,Reinforcement Learning,sum_product_xy_rf_learning,GLM-5,1.0,frontier,Open-source
+rl,Reinforcement Learning,verbal_bandit_rf_learning,GLM-5,0.2,frontier,Open-source
+rl,Reinforcement Learning,wordle_micro_rf_learning,GLM-5,1.0,frontier,Open-source
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,GLM-5,1.0,frontier,Open-source
+rl,Reinforcement Learning,arithmetic_next_rf_learning,Gemini 2.5 Flash,0.9083,mid,Google
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,Gemini 2.5 Flash,0.0,mid,Google
+rl,Reinforcement Learning,chebyshev_point_rf_learning,Gemini 2.5 Flash,1.0,mid,Google
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,Gemini 2.5 Flash,0.1,mid,Google
+rl,Reinforcement Learning,coin_balance_rf_learning,Gemini 2.5 Flash,0.8809,mid,Google
+rl,Reinforcement Learning,battleship_1d_rf_learning,Gemini 2.5 Flash,0.7882,mid,Google
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,Gemini 2.5 Flash,0.1143,mid,Google
+rl,Reinforcement Learning,collatz_length_rf_learning,Gemini 2.5 Flash,0.8875,mid,Google
+rl,Reinforcement Learning,crt_unique_rf_learning,Gemini 2.5 Flash,0.2,mid,Google
+rl,Reinforcement Learning,base7_decode_rf_learning,Gemini 2.5 Flash,0.925,mid,Google
+rl,Reinforcement Learning,cubic_eval_rf_learning,Gemini 2.5 Flash,0.9591,mid,Google
+rl,Reinforcement Learning,digitwise_l1_rf_learning,Gemini 2.5 Flash,0.1363,mid,Google
+rl,Reinforcement Learning,divisor_count_rf_learning,Gemini 2.5 Flash,0.8,mid,Google
+rl,Reinforcement Learning,fib_like_next_rf_learning,Gemini 2.5 Flash,0.2,mid,Google
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,Gemini 2.5 Flash,0.8096,mid,Google
+rl,Reinforcement Learning,gray_hamming_rf_learning,Gemini 2.5 Flash,0.15,mid,Google
+rl,Reinforcement Learning,grid_octile_rf_learning,Gemini 2.5 Flash,1.0,mid,Google
+rl,Reinforcement Learning,hanoi_two_rf_learning,Gemini 2.5 Flash,0.9932,mid,Google
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,Gemini 2.5 Flash,1.0,mid,Google
+rl,Reinforcement Learning,manhattan_point_rf_learning,Gemini 2.5 Flash,0.15,mid,Google
+rl,Reinforcement Learning,mastermind_classic_rf_learning,Gemini 2.5 Flash,0.08,mid,Google
+rl,Reinforcement Learning,nim_heap_rf_learning,Gemini 2.5 Flash,0.125,mid,Google
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,Gemini 2.5 Flash,0.0,mid,Google
+rl,Reinforcement Learning,perm_footrule_rf_learning,Gemini 2.5 Flash,0.0,mid,Google
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,Gemini 2.5 Flash,0.2,mid,Google
+rl,Reinforcement Learning,quadratic_root_rf_learning,Gemini 2.5 Flash,1.0,mid,Google
+rl,Reinforcement Learning,product_hotcold_rf_learning,Gemini 2.5 Flash,0.1909,mid,Google
+rl,Reinforcement Learning,rule90_step_rf_learning,Gemini 2.5 Flash,0.1556,mid,Google
+rl,Reinforcement Learning,shift_cipher_rf_learning,Gemini 2.5 Flash,0.2,mid,Google
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,Gemini 2.5 Flash,1.0,mid,Google
+rl,Reinforcement Learning,sum_product_xy_rf_learning,Gemini 2.5 Flash,0.2,mid,Google
+rl,Reinforcement Learning,verbal_bandit_rf_learning,Gemini 2.5 Flash,0.9763,mid,Google
+rl,Reinforcement Learning,wordle_micro_rf_learning,Gemini 2.5 Flash,0.2,mid,Google
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,Gemini 2.5 Flash,1.0,mid,Google
+rl,Reinforcement Learning,arithmetic_next_rf_learning,Qwen 3 Next 80B Thinking,0.9,mid,Open-source
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+rl,Reinforcement Learning,chebyshev_point_rf_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,Qwen 3 Next 80B Thinking,0.1,mid,Open-source
+rl,Reinforcement Learning,coin_balance_rf_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+rl,Reinforcement Learning,battleship_1d_rf_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,Qwen 3 Next 80B Thinking,0.1714,mid,Open-source
+rl,Reinforcement Learning,collatz_length_rf_learning,Qwen 3 Next 80B Thinking,0.0464,mid,Open-source
+rl,Reinforcement Learning,crt_unique_rf_learning,Qwen 3 Next 80B Thinking,0.9775,mid,Open-source
+rl,Reinforcement Learning,base7_decode_rf_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+rl,Reinforcement Learning,cubic_eval_rf_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+rl,Reinforcement Learning,digitwise_l1_rf_learning,Qwen 3 Next 80B Thinking,0.1481,mid,Open-source
+rl,Reinforcement Learning,divisor_count_rf_learning,Qwen 3 Next 80B Thinking,0.7284,mid,Open-source
+rl,Reinforcement Learning,fib_like_next_rf_learning,Qwen 3 Next 80B Thinking,0.95,mid,Open-source
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,Qwen 3 Next 80B Thinking,0.8,mid,Open-source
+rl,Reinforcement Learning,gray_hamming_rf_learning,Qwen 3 Next 80B Thinking,0.1333,mid,Open-source
+rl,Reinforcement Learning,grid_octile_rf_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+rl,Reinforcement Learning,hanoi_two_rf_learning,Qwen 3 Next 80B Thinking,0.01,mid,Open-source
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+rl,Reinforcement Learning,manhattan_point_rf_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+rl,Reinforcement Learning,mastermind_classic_rf_learning,Qwen 3 Next 80B Thinking,0.04,mid,Open-source
+rl,Reinforcement Learning,nim_heap_rf_learning,Qwen 3 Next 80B Thinking,0.15,mid,Open-source
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+rl,Reinforcement Learning,perm_footrule_rf_learning,Qwen 3 Next 80B Thinking,0.0,mid,Open-source
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,Qwen 3 Next 80B Thinking,0.9,mid,Open-source
+rl,Reinforcement Learning,quadratic_root_rf_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+rl,Reinforcement Learning,product_hotcold_rf_learning,Qwen 3 Next 80B Thinking,0.9531,mid,Open-source
+rl,Reinforcement Learning,rule90_step_rf_learning,Qwen 3 Next 80B Thinking,0.0889,mid,Open-source
+rl,Reinforcement Learning,shift_cipher_rf_learning,Qwen 3 Next 80B Thinking,0.9333,mid,Open-source
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+rl,Reinforcement Learning,sum_product_xy_rf_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+rl,Reinforcement Learning,verbal_bandit_rf_learning,Qwen 3 Next 80B Thinking,0.9,mid,Open-source
+rl,Reinforcement Learning,wordle_micro_rf_learning,Qwen 3 Next 80B Thinking,0.1,mid,Open-source
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,Qwen 3 Next 80B Thinking,1.0,mid,Open-source
+rl,Reinforcement Learning,arithmetic_next_rf_learning,Gemma 4 26B A4B,0.1286,small,Google
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,Gemma 4 26B A4B,0.8,small,Google
+rl,Reinforcement Learning,chebyshev_point_rf_learning,Gemma 4 26B A4B,0.1643,small,Google
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,Gemma 4 26B A4B,0.1,small,Google
+rl,Reinforcement Learning,coin_balance_rf_learning,Gemma 4 26B A4B,1.0,small,Google
+rl,Reinforcement Learning,battleship_1d_rf_learning,Gemma 4 26B A4B,0.9603,small,Google
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,Gemma 4 26B A4B,0.1714,small,Google
+rl,Reinforcement Learning,collatz_length_rf_learning,Gemma 4 26B A4B,0.0192,small,Google
+rl,Reinforcement Learning,crt_unique_rf_learning,Gemma 4 26B A4B,1.0,small,Google
+rl,Reinforcement Learning,base7_decode_rf_learning,Gemma 4 26B A4B,1.0,small,Google
+rl,Reinforcement Learning,cubic_eval_rf_learning,Gemma 4 26B A4B,1.0,small,Google
+rl,Reinforcement Learning,digitwise_l1_rf_learning,Gemma 4 26B A4B,0.16,small,Google
+rl,Reinforcement Learning,divisor_count_rf_learning,Gemma 4 26B A4B,0.8,small,Google
+rl,Reinforcement Learning,fib_like_next_rf_learning,Gemma 4 26B A4B,0.9,small,Google
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,Gemma 4 26B A4B,0.8442,small,Google
+rl,Reinforcement Learning,gray_hamming_rf_learning,Gemma 4 26B A4B,0.1333,small,Google
+rl,Reinforcement Learning,grid_octile_rf_learning,Gemma 4 26B A4B,1.0,small,Google
+rl,Reinforcement Learning,hanoi_two_rf_learning,Gemma 4 26B A4B,0.9864,small,Google
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,Gemma 4 26B A4B,0.9888,small,Google
+rl,Reinforcement Learning,manhattan_point_rf_learning,Gemma 4 26B A4B,0.05,small,Google
+rl,Reinforcement Learning,mastermind_classic_rf_learning,Gemma 4 26B A4B,0.04,small,Google
+rl,Reinforcement Learning,nim_heap_rf_learning,Gemma 4 26B A4B,0.125,small,Google
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,Gemma 4 26B A4B,0.0,small,Google
+rl,Reinforcement Learning,perm_footrule_rf_learning,Gemma 4 26B A4B,1.0,small,Google
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,Gemma 4 26B A4B,0.95,small,Google
+rl,Reinforcement Learning,quadratic_root_rf_learning,Gemma 4 26B A4B,0.847,small,Google
+rl,Reinforcement Learning,product_hotcold_rf_learning,Gemma 4 26B A4B,0.1818,small,Google
+rl,Reinforcement Learning,rule90_step_rf_learning,Gemma 4 26B A4B,0.0,small,Google
+rl,Reinforcement Learning,shift_cipher_rf_learning,Gemma 4 26B A4B,0.9333,small,Google
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,Gemma 4 26B A4B,1.0,small,Google
+rl,Reinforcement Learning,sum_product_xy_rf_learning,Gemma 4 26B A4B,0.9906,small,Google
+rl,Reinforcement Learning,verbal_bandit_rf_learning,Gemma 4 26B A4B,0.2,small,Google
+rl,Reinforcement Learning,wordle_micro_rf_learning,Gemma 4 26B A4B,0.0,small,Google
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,Gemma 4 26B A4B,0.16,small,Google
+rl,Reinforcement Learning,arithmetic_next_rf_learning,Claude Sonnet 4.6,0.1571,mid,Anthropic
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,Claude Sonnet 4.6,0.04,mid,Anthropic
+rl,Reinforcement Learning,chebyshev_point_rf_learning,Claude Sonnet 4.6,0.9394,mid,Anthropic
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,Claude Sonnet 4.6,0.9719,mid,Anthropic
+rl,Reinforcement Learning,coin_balance_rf_learning,Claude Sonnet 4.6,0.8015,mid,Anthropic
+rl,Reinforcement Learning,battleship_1d_rf_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,Claude Sonnet 4.6,0.1857,mid,Anthropic
+rl,Reinforcement Learning,collatz_length_rf_learning,Claude Sonnet 4.6,0.044,mid,Anthropic
+rl,Reinforcement Learning,crt_unique_rf_learning,Claude Sonnet 4.6,0.2,mid,Anthropic
+rl,Reinforcement Learning,base7_decode_rf_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+rl,Reinforcement Learning,cubic_eval_rf_learning,Claude Sonnet 4.6,0.9489,mid,Anthropic
+rl,Reinforcement Learning,digitwise_l1_rf_learning,Claude Sonnet 4.6,0.1526,mid,Anthropic
+rl,Reinforcement Learning,divisor_count_rf_learning,Claude Sonnet 4.6,0.6977,mid,Anthropic
+rl,Reinforcement Learning,fib_like_next_rf_learning,Claude Sonnet 4.6,0.9906,mid,Anthropic
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,Claude Sonnet 4.6,0.8788,mid,Anthropic
+rl,Reinforcement Learning,gray_hamming_rf_learning,Claude Sonnet 4.6,0.1833,mid,Anthropic
+rl,Reinforcement Learning,grid_octile_rf_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+rl,Reinforcement Learning,hanoi_two_rf_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,Claude Sonnet 4.6,0.0,mid,Anthropic
+rl,Reinforcement Learning,manhattan_point_rf_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+rl,Reinforcement Learning,mastermind_classic_rf_learning,Claude Sonnet 4.6,0.16,mid,Anthropic
+rl,Reinforcement Learning,nim_heap_rf_learning,Claude Sonnet 4.6,0.125,mid,Anthropic
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,Claude Sonnet 4.6,0.12,mid,Anthropic
+rl,Reinforcement Learning,perm_footrule_rf_learning,Claude Sonnet 4.6,0.9464,mid,Anthropic
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,Claude Sonnet 4.6,0.9827,mid,Anthropic
+rl,Reinforcement Learning,quadratic_root_rf_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+rl,Reinforcement Learning,product_hotcold_rf_learning,Claude Sonnet 4.6,0.8313,mid,Anthropic
+rl,Reinforcement Learning,rule90_step_rf_learning,Claude Sonnet 4.6,0.8538,mid,Anthropic
+rl,Reinforcement Learning,shift_cipher_rf_learning,Claude Sonnet 4.6,0.2,mid,Anthropic
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,Claude Sonnet 4.6,0.9578,mid,Anthropic
+rl,Reinforcement Learning,sum_product_xy_rf_learning,Claude Sonnet 4.6,1.0,mid,Anthropic
+rl,Reinforcement Learning,verbal_bandit_rf_learning,Claude Sonnet 4.6,0.18,mid,Anthropic
+rl,Reinforcement Learning,wordle_micro_rf_learning,Claude Sonnet 4.6,0.2,mid,Anthropic
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,Claude Sonnet 4.6,0.9182,mid,Anthropic
+rl,Reinforcement Learning,arithmetic_next_rf_learning,DeepSeek V3.2,0.1286,mid,Open-source
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,DeepSeek V3.2,0.0,mid,Open-source
+rl,Reinforcement Learning,chebyshev_point_rf_learning,DeepSeek V3.2,0.9827,mid,Open-source
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,DeepSeek V3.2,0.1,mid,Open-source
+rl,Reinforcement Learning,coin_balance_rf_learning,DeepSeek V3.2,0.9603,mid,Open-source
+rl,Reinforcement Learning,battleship_1d_rf_learning,DeepSeek V3.2,0.9404,mid,Open-source
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,DeepSeek V3.2,0.1143,mid,Open-source
+rl,Reinforcement Learning,collatz_length_rf_learning,DeepSeek V3.2,0.1024,mid,Open-source
+rl,Reinforcement Learning,crt_unique_rf_learning,DeepSeek V3.2,0.8088,mid,Open-source
+rl,Reinforcement Learning,base7_decode_rf_learning,DeepSeek V3.2,1.0,mid,Open-source
+rl,Reinforcement Learning,cubic_eval_rf_learning,DeepSeek V3.2,0.9693,mid,Open-source
+rl,Reinforcement Learning,digitwise_l1_rf_learning,DeepSeek V3.2,0.1659,mid,Open-source
+rl,Reinforcement Learning,divisor_count_rf_learning,DeepSeek V3.2,0.7591,mid,Open-source
+rl,Reinforcement Learning,fib_like_next_rf_learning,DeepSeek V3.2,0.9531,mid,Open-source
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,DeepSeek V3.2,0.8442,mid,Open-source
+rl,Reinforcement Learning,gray_hamming_rf_learning,DeepSeek V3.2,0.1333,mid,Open-source
+rl,Reinforcement Learning,grid_octile_rf_learning,DeepSeek V3.2,1.0,mid,Open-source
+rl,Reinforcement Learning,hanoi_two_rf_learning,DeepSeek V3.2,0.1333,mid,Open-source
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,DeepSeek V3.2,0.0,mid,Open-source
+rl,Reinforcement Learning,manhattan_point_rf_learning,DeepSeek V3.2,1.0,mid,Open-source
+rl,Reinforcement Learning,mastermind_classic_rf_learning,DeepSeek V3.2,0.16,mid,Open-source
+rl,Reinforcement Learning,nim_heap_rf_learning,DeepSeek V3.2,0.15,mid,Open-source
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,DeepSeek V3.2,0.12,mid,Open-source
+rl,Reinforcement Learning,perm_footrule_rf_learning,DeepSeek V3.2,0.0667,mid,Open-source
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,DeepSeek V3.2,0.9481,mid,Open-source
+rl,Reinforcement Learning,quadratic_root_rf_learning,DeepSeek V3.2,0.982,mid,Open-source
+rl,Reinforcement Learning,product_hotcold_rf_learning,DeepSeek V3.2,0.1455,mid,Open-source
+rl,Reinforcement Learning,rule90_step_rf_learning,DeepSeek V3.2,0.9213,mid,Open-source
+rl,Reinforcement Learning,shift_cipher_rf_learning,DeepSeek V3.2,0.2,mid,Open-source
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,DeepSeek V3.2,0.8875,mid,Open-source
+rl,Reinforcement Learning,sum_product_xy_rf_learning,DeepSeek V3.2,1.0,mid,Open-source
+rl,Reinforcement Learning,verbal_bandit_rf_learning,DeepSeek V3.2,0.2,mid,Open-source
+rl,Reinforcement Learning,wordle_micro_rf_learning,DeepSeek V3.2,0.1667,mid,Open-source
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,DeepSeek V3.2,0.16,mid,Open-source
+rl,Reinforcement Learning,arithmetic_next_rf_learning,Gemini 3.1 Flash-Lite Preview,0.1429,mid,Google
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+rl,Reinforcement Learning,chebyshev_point_rf_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+rl,Reinforcement Learning,coin_balance_rf_learning,Gemini 3.1 Flash-Lite Preview,0.8,mid,Google
+rl,Reinforcement Learning,battleship_1d_rf_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,Gemini 3.1 Flash-Lite Preview,0.7852,mid,Google
+rl,Reinforcement Learning,collatz_length_rf_learning,Gemini 3.1 Flash-Lite Preview,0.0436,mid,Google
+rl,Reinforcement Learning,crt_unique_rf_learning,Gemini 3.1 Flash-Lite Preview,0.8088,mid,Google
+rl,Reinforcement Learning,base7_decode_rf_learning,Gemini 3.1 Flash-Lite Preview,0.1063,mid,Google
+rl,Reinforcement Learning,cubic_eval_rf_learning,Gemini 3.1 Flash-Lite Preview,0.9898,mid,Google
+rl,Reinforcement Learning,digitwise_l1_rf_learning,Gemini 3.1 Flash-Lite Preview,0.1704,mid,Google
+rl,Reinforcement Learning,divisor_count_rf_learning,Gemini 3.1 Flash-Lite Preview,0.8,mid,Google
+rl,Reinforcement Learning,fib_like_next_rf_learning,Gemini 3.1 Flash-Lite Preview,0.8625,mid,Google
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,Gemini 3.1 Flash-Lite Preview,0.8881,mid,Google
+rl,Reinforcement Learning,gray_hamming_rf_learning,Gemini 3.1 Flash-Lite Preview,0.15,mid,Google
+rl,Reinforcement Learning,grid_octile_rf_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+rl,Reinforcement Learning,hanoi_two_rf_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+rl,Reinforcement Learning,manhattan_point_rf_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+rl,Reinforcement Learning,mastermind_classic_rf_learning,Gemini 3.1 Flash-Lite Preview,0.04,mid,Google
+rl,Reinforcement Learning,nim_heap_rf_learning,Gemini 3.1 Flash-Lite Preview,0.15,mid,Google
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+rl,Reinforcement Learning,perm_footrule_rf_learning,Gemini 3.1 Flash-Lite Preview,0.0,mid,Google
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,Gemini 3.1 Flash-Lite Preview,0.9,mid,Google
+rl,Reinforcement Learning,quadratic_root_rf_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+rl,Reinforcement Learning,product_hotcold_rf_learning,Gemini 3.1 Flash-Lite Preview,0.9625,mid,Google
+rl,Reinforcement Learning,rule90_step_rf_learning,Gemini 3.1 Flash-Lite Preview,1.0,mid,Google
+rl,Reinforcement Learning,shift_cipher_rf_learning,Gemini 3.1 Flash-Lite Preview,0.925,mid,Google
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,Gemini 3.1 Flash-Lite Preview,0.02,mid,Google
+rl,Reinforcement Learning,sum_product_xy_rf_learning,Gemini 3.1 Flash-Lite Preview,0.9333,mid,Google
+rl,Reinforcement Learning,verbal_bandit_rf_learning,Gemini 3.1 Flash-Lite Preview,0.9,mid,Google
+rl,Reinforcement Learning,wordle_micro_rf_learning,Gemini 3.1 Flash-Lite Preview,0.2,mid,Google
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,Gemini 3.1 Flash-Lite Preview,0.16,mid,Google
+rl,Reinforcement Learning,arithmetic_next_rf_learning,GPT-5.4,0.1857,frontier,OpenAI
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,GPT-5.4,0.8,frontier,OpenAI
+rl,Reinforcement Learning,chebyshev_point_rf_learning,GPT-5.4,1.0,frontier,OpenAI
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,GPT-5.4,1.0,frontier,OpenAI
+rl,Reinforcement Learning,coin_balance_rf_learning,GPT-5.4,1.0,frontier,OpenAI
+rl,Reinforcement Learning,battleship_1d_rf_learning,GPT-5.4,0.9338,frontier,OpenAI
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,GPT-5.4,0.1857,frontier,OpenAI
+rl,Reinforcement Learning,collatz_length_rf_learning,GPT-5.4,0.0196,frontier,OpenAI
+rl,Reinforcement Learning,crt_unique_rf_learning,GPT-5.4,0.2,frontier,OpenAI
+rl,Reinforcement Learning,base7_decode_rf_learning,GPT-5.4,0.2,frontier,OpenAI
+rl,Reinforcement Learning,cubic_eval_rf_learning,GPT-5.4,0.9693,frontier,OpenAI
+rl,Reinforcement Learning,digitwise_l1_rf_learning,GPT-5.4,0.1733,frontier,OpenAI
+rl,Reinforcement Learning,divisor_count_rf_learning,GPT-5.4,0.7284,frontier,OpenAI
+rl,Reinforcement Learning,fib_like_next_rf_learning,GPT-5.4,0.2,frontier,OpenAI
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,GPT-5.4,0.12,frontier,OpenAI
+rl,Reinforcement Learning,gray_hamming_rf_learning,GPT-5.4,0.9182,frontier,OpenAI
+rl,Reinforcement Learning,grid_octile_rf_learning,GPT-5.4,0.0,frontier,OpenAI
+rl,Reinforcement Learning,hanoi_two_rf_learning,GPT-5.4,0.0,frontier,OpenAI
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,GPT-5.4,0.0,frontier,OpenAI
+rl,Reinforcement Learning,manhattan_point_rf_learning,GPT-5.4,0.8615,frontier,OpenAI
+rl,Reinforcement Learning,mastermind_classic_rf_learning,GPT-5.4,0.04,frontier,OpenAI
+rl,Reinforcement Learning,nim_heap_rf_learning,GPT-5.4,0.15,frontier,OpenAI
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,GPT-5.4,0.12,frontier,OpenAI
+rl,Reinforcement Learning,perm_footrule_rf_learning,GPT-5.4,0.9464,frontier,OpenAI
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,GPT-5.4,0.9654,frontier,OpenAI
+rl,Reinforcement Learning,quadratic_root_rf_learning,GPT-5.4,0.982,frontier,OpenAI
+rl,Reinforcement Learning,product_hotcold_rf_learning,GPT-5.4,1.0,frontier,OpenAI
+rl,Reinforcement Learning,rule90_step_rf_learning,GPT-5.4,0.8987,frontier,OpenAI
+rl,Reinforcement Learning,shift_cipher_rf_learning,GPT-5.4,1.0,frontier,OpenAI
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,GPT-5.4,0.8383,frontier,OpenAI
+rl,Reinforcement Learning,sum_product_xy_rf_learning,GPT-5.4,1.0,frontier,OpenAI
+rl,Reinforcement Learning,verbal_bandit_rf_learning,GPT-5.4,0.06,frontier,OpenAI
+rl,Reinforcement Learning,wordle_micro_rf_learning,GPT-5.4,0.1,frontier,OpenAI
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,GPT-5.4,0.7852,frontier,OpenAI
+rl,Reinforcement Learning,arithmetic_next_rf_learning,Claude Opus 4.6,0.1714,frontier,Anthropic
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,Claude Opus 4.6,0.04,frontier,Anthropic
+rl,Reinforcement Learning,chebyshev_point_rf_learning,Claude Opus 4.6,0.9913,frontier,Anthropic
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,Claude Opus 4.6,0.85,frontier,Anthropic
+rl,Reinforcement Learning,coin_balance_rf_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+rl,Reinforcement Learning,battleship_1d_rf_learning,Claude Opus 4.6,0.8279,frontier,Anthropic
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,Claude Opus 4.6,0.1429,frontier,Anthropic
+rl,Reinforcement Learning,collatz_length_rf_learning,Claude Opus 4.6,0.9284,frontier,Anthropic
+rl,Reinforcement Learning,crt_unique_rf_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+rl,Reinforcement Learning,base7_decode_rf_learning,Claude Opus 4.6,0.8,frontier,Anthropic
+rl,Reinforcement Learning,cubic_eval_rf_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+rl,Reinforcement Learning,digitwise_l1_rf_learning,Claude Opus 4.6,0.1615,frontier,Anthropic
+rl,Reinforcement Learning,divisor_count_rf_learning,Claude Opus 4.6,0.8,frontier,Anthropic
+rl,Reinforcement Learning,fib_like_next_rf_learning,Claude Opus 4.6,0.9906,frontier,Anthropic
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,Claude Opus 4.6,0.8442,frontier,Anthropic
+rl,Reinforcement Learning,gray_hamming_rf_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+rl,Reinforcement Learning,grid_octile_rf_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+rl,Reinforcement Learning,hanoi_two_rf_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+rl,Reinforcement Learning,manhattan_point_rf_learning,Claude Opus 4.6,0.9048,frontier,Anthropic
+rl,Reinforcement Learning,mastermind_classic_rf_learning,Claude Opus 4.6,0.16,frontier,Anthropic
+rl,Reinforcement Learning,nim_heap_rf_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+rl,Reinforcement Learning,perm_footrule_rf_learning,Claude Opus 4.6,0.0,frontier,Anthropic
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,Claude Opus 4.6,0.9827,frontier,Anthropic
+rl,Reinforcement Learning,quadratic_root_rf_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+rl,Reinforcement Learning,product_hotcold_rf_learning,Claude Opus 4.6,0.8969,frontier,Anthropic
+rl,Reinforcement Learning,rule90_step_rf_learning,Claude Opus 4.6,0.9325,frontier,Anthropic
+rl,Reinforcement Learning,shift_cipher_rf_learning,Claude Opus 4.6,0.2,frontier,Anthropic
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,Claude Opus 4.6,0.993,frontier,Anthropic
+rl,Reinforcement Learning,sum_product_xy_rf_learning,Claude Opus 4.6,1.0,frontier,Anthropic
+rl,Reinforcement Learning,verbal_bandit_rf_learning,Claude Opus 4.6,0.2,frontier,Anthropic
+rl,Reinforcement Learning,wordle_micro_rf_learning,Claude Opus 4.6,0.2,frontier,Anthropic
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,Claude Opus 4.6,0.9182,frontier,Anthropic
+rl,Reinforcement Learning,arithmetic_next_rf_learning,Claude Haiku 4.5,0.1286,small,Anthropic
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,Claude Haiku 4.5,0.04,small,Anthropic
+rl,Reinforcement Learning,chebyshev_point_rf_learning,Claude Haiku 4.5,0.1857,small,Anthropic
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,Claude Haiku 4.5,0.9719,small,Anthropic
+rl,Reinforcement Learning,coin_balance_rf_learning,Claude Haiku 4.5,1.0,small,Anthropic
+rl,Reinforcement Learning,battleship_1d_rf_learning,Claude Haiku 4.5,0.9404,small,Anthropic
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,Claude Haiku 4.5,0.1429,small,Anthropic
+rl,Reinforcement Learning,collatz_length_rf_learning,Claude Haiku 4.5,0.8364,small,Anthropic
+rl,Reinforcement Learning,crt_unique_rf_learning,Claude Haiku 4.5,0.2,small,Anthropic
+rl,Reinforcement Learning,base7_decode_rf_learning,Claude Haiku 4.5,1.0,small,Anthropic
+rl,Reinforcement Learning,cubic_eval_rf_learning,Claude Haiku 4.5,0.9795,small,Anthropic
+rl,Reinforcement Learning,digitwise_l1_rf_learning,Claude Haiku 4.5,0.1289,small,Anthropic
+rl,Reinforcement Learning,divisor_count_rf_learning,Claude Haiku 4.5,0.7898,small,Anthropic
+rl,Reinforcement Learning,fib_like_next_rf_learning,Claude Haiku 4.5,1.0,small,Anthropic
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,Claude Haiku 4.5,0.8,small,Anthropic
+rl,Reinforcement Learning,gray_hamming_rf_learning,Claude Haiku 4.5,0.15,small,Anthropic
+rl,Reinforcement Learning,grid_octile_rf_learning,Claude Haiku 4.5,0.0,small,Anthropic
+rl,Reinforcement Learning,hanoi_two_rf_learning,Claude Haiku 4.5,0.0,small,Anthropic
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,Claude Haiku 4.5,0.0,small,Anthropic
+rl,Reinforcement Learning,manhattan_point_rf_learning,Claude Haiku 4.5,1.0,small,Anthropic
+rl,Reinforcement Learning,mastermind_classic_rf_learning,Claude Haiku 4.5,0.16,small,Anthropic
+rl,Reinforcement Learning,nim_heap_rf_learning,Claude Haiku 4.5,0.15,small,Anthropic
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,Claude Haiku 4.5,0.04,small,Anthropic
+rl,Reinforcement Learning,perm_footrule_rf_learning,Claude Haiku 4.5,0.0,small,Anthropic
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,Claude Haiku 4.5,0.2,small,Anthropic
+rl,Reinforcement Learning,quadratic_root_rf_learning,Claude Haiku 4.5,1.0,small,Anthropic
+rl,Reinforcement Learning,product_hotcold_rf_learning,Claude Haiku 4.5,1.0,small,Anthropic
+rl,Reinforcement Learning,rule90_step_rf_learning,Claude Haiku 4.5,0.8875,small,Anthropic
+rl,Reinforcement Learning,shift_cipher_rf_learning,Claude Haiku 4.5,0.2,small,Anthropic
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,Claude Haiku 4.5,1.0,small,Anthropic
+rl,Reinforcement Learning,sum_product_xy_rf_learning,Claude Haiku 4.5,0.9333,small,Anthropic
+rl,Reinforcement Learning,verbal_bandit_rf_learning,Claude Haiku 4.5,0.8845,small,Anthropic
+rl,Reinforcement Learning,wordle_micro_rf_learning,Claude Haiku 4.5,0.1667,small,Anthropic
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,Claude Haiku 4.5,0.14,small,Anthropic
+rl,Reinforcement Learning,arithmetic_next_rf_learning,GPT-5.4 mini,0.1143,mid,OpenAI
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,GPT-5.4 mini,0.0,mid,OpenAI
+rl,Reinforcement Learning,chebyshev_point_rf_learning,GPT-5.4 mini,0.1857,mid,OpenAI
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,GPT-5.4 mini,0.9812,mid,OpenAI
+rl,Reinforcement Learning,coin_balance_rf_learning,GPT-5.4 mini,0.9603,mid,OpenAI
+rl,Reinforcement Learning,battleship_1d_rf_learning,GPT-5.4 mini,0.9735,mid,OpenAI
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,GPT-5.4 mini,0.1286,mid,OpenAI
+rl,Reinforcement Learning,collatz_length_rf_learning,GPT-5.4 mini,0.014,mid,OpenAI
+rl,Reinforcement Learning,crt_unique_rf_learning,GPT-5.4 mini,0.2,mid,OpenAI
+rl,Reinforcement Learning,base7_decode_rf_learning,GPT-5.4 mini,0.2,mid,OpenAI
+rl,Reinforcement Learning,cubic_eval_rf_learning,GPT-5.4 mini,0.2,mid,OpenAI
+rl,Reinforcement Learning,digitwise_l1_rf_learning,GPT-5.4 mini,0.1615,mid,OpenAI
+rl,Reinforcement Learning,divisor_count_rf_learning,GPT-5.4 mini,0.8,mid,OpenAI
+rl,Reinforcement Learning,fib_like_next_rf_learning,GPT-5.4 mini,0.2,mid,OpenAI
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,GPT-5.4 mini,0.86,mid,OpenAI
+rl,Reinforcement Learning,gray_hamming_rf_learning,GPT-5.4 mini,0.1167,mid,OpenAI
+rl,Reinforcement Learning,grid_octile_rf_learning,GPT-5.4 mini,0.08,mid,OpenAI
+rl,Reinforcement Learning,hanoi_two_rf_learning,GPT-5.4 mini,0.0,mid,OpenAI
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,GPT-5.4 mini,0.0,mid,OpenAI
+rl,Reinforcement Learning,manhattan_point_rf_learning,GPT-5.4 mini,0.15,mid,OpenAI
+rl,Reinforcement Learning,mastermind_classic_rf_learning,GPT-5.4 mini,0.04,mid,OpenAI
+rl,Reinforcement Learning,nim_heap_rf_learning,GPT-5.4 mini,0.15,mid,OpenAI
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,GPT-5.4 mini,0.12,mid,OpenAI
+rl,Reinforcement Learning,perm_footrule_rf_learning,GPT-5.4 mini,0.0667,mid,OpenAI
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,GPT-5.4 mini,0.2,mid,OpenAI
+rl,Reinforcement Learning,quadratic_root_rf_learning,GPT-5.4 mini,0.1845,mid,OpenAI
+rl,Reinforcement Learning,product_hotcold_rf_learning,GPT-5.4 mini,1.0,mid,OpenAI
+rl,Reinforcement Learning,rule90_step_rf_learning,GPT-5.4 mini,0.91,mid,OpenAI
+rl,Reinforcement Learning,shift_cipher_rf_learning,GPT-5.4 mini,0.9333,mid,OpenAI
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,GPT-5.4 mini,0.02,mid,OpenAI
+rl,Reinforcement Learning,sum_product_xy_rf_learning,GPT-5.4 mini,1.0,mid,OpenAI
+rl,Reinforcement Learning,verbal_bandit_rf_learning,GPT-5.4 mini,0.85,mid,OpenAI
+rl,Reinforcement Learning,wordle_micro_rf_learning,GPT-5.4 mini,0.1,mid,OpenAI
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,GPT-5.4 mini,0.18,mid,OpenAI
+rl,Reinforcement Learning,arithmetic_next_rf_learning,Qwen 3 Next 80B Instruct,0.1,small,Open-source
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+rl,Reinforcement Learning,chebyshev_point_rf_learning,Qwen 3 Next 80B Instruct,0.1643,small,Open-source
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,Qwen 3 Next 80B Instruct,0.1,small,Open-source
+rl,Reinforcement Learning,coin_balance_rf_learning,Qwen 3 Next 80B Instruct,0.8412,small,Open-source
+rl,Reinforcement Learning,battleship_1d_rf_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+rl,Reinforcement Learning,collatz_length_rf_learning,Qwen 3 Next 80B Instruct,0.0248,small,Open-source
+rl,Reinforcement Learning,crt_unique_rf_learning,Qwen 3 Next 80B Instruct,0.9333,small,Open-source
+rl,Reinforcement Learning,base7_decode_rf_learning,Qwen 3 Next 80B Instruct,0.125,small,Open-source
+rl,Reinforcement Learning,cubic_eval_rf_learning,Qwen 3 Next 80B Instruct,0.8159,small,Open-source
+rl,Reinforcement Learning,digitwise_l1_rf_learning,Qwen 3 Next 80B Instruct,0.1541,small,Open-source
+rl,Reinforcement Learning,divisor_count_rf_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+rl,Reinforcement Learning,fib_like_next_rf_learning,Qwen 3 Next 80B Instruct,0.8125,small,Open-source
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,Qwen 3 Next 80B Instruct,0.8,small,Open-source
+rl,Reinforcement Learning,gray_hamming_rf_learning,Qwen 3 Next 80B Instruct,0.15,small,Open-source
+rl,Reinforcement Learning,grid_octile_rf_learning,Qwen 3 Next 80B Instruct,0.8688,small,Open-source
+rl,Reinforcement Learning,hanoi_two_rf_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+rl,Reinforcement Learning,manhattan_point_rf_learning,Qwen 3 Next 80B Instruct,0.1,small,Open-source
+rl,Reinforcement Learning,mastermind_classic_rf_learning,Qwen 3 Next 80B Instruct,0.08,small,Open-source
+rl,Reinforcement Learning,nim_heap_rf_learning,Qwen 3 Next 80B Instruct,0.15,small,Open-source
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+rl,Reinforcement Learning,perm_footrule_rf_learning,Qwen 3 Next 80B Instruct,0.0,small,Open-source
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,Qwen 3 Next 80B Instruct,0.05,small,Open-source
+rl,Reinforcement Learning,quadratic_root_rf_learning,Qwen 3 Next 80B Instruct,0.1974,small,Open-source
+rl,Reinforcement Learning,product_hotcold_rf_learning,Qwen 3 Next 80B Instruct,0.1818,small,Open-source
+rl,Reinforcement Learning,rule90_step_rf_learning,Qwen 3 Next 80B Instruct,1.0,small,Open-source
+rl,Reinforcement Learning,shift_cipher_rf_learning,Qwen 3 Next 80B Instruct,0.9333,small,Open-source
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,Qwen 3 Next 80B Instruct,0.9578,small,Open-source
+rl,Reinforcement Learning,sum_product_xy_rf_learning,Qwen 3 Next 80B Instruct,0.2,small,Open-source
+rl,Reinforcement Learning,verbal_bandit_rf_learning,Qwen 3 Next 80B Instruct,0.9,small,Open-source
+rl,Reinforcement Learning,wordle_micro_rf_learning,Qwen 3 Next 80B Instruct,0.0667,small,Open-source
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,Qwen 3 Next 80B Instruct,0.18,small,Open-source
+rl,Reinforcement Learning,arithmetic_next_rf_learning,GPT-5.4 nano,0.1,small,OpenAI
+rl,Reinforcement Learning,affine_cipher_word_rf_learning,GPT-5.4 nano,0.8,small,OpenAI
+rl,Reinforcement Learning,chebyshev_point_rf_learning,GPT-5.4 nano,0.1571,small,OpenAI
+rl,Reinforcement Learning,battleship_two_ships_rf_learning,GPT-5.4 nano,0.1,small,OpenAI
+rl,Reinforcement Learning,coin_balance_rf_learning,GPT-5.4 nano,0.2,small,OpenAI
+rl,Reinforcement Learning,battleship_1d_rf_learning,GPT-5.4 nano,0.0,small,OpenAI
+rl,Reinforcement Learning,bitstring_hamming_rf_learning,GPT-5.4 nano,0.0714,small,OpenAI
+rl,Reinforcement Learning,collatz_length_rf_learning,GPT-5.4 nano,0.0124,small,OpenAI
+rl,Reinforcement Learning,crt_unique_rf_learning,GPT-5.4 nano,0.2,small,OpenAI
+rl,Reinforcement Learning,base7_decode_rf_learning,GPT-5.4 nano,0.1562,small,OpenAI
+rl,Reinforcement Learning,cubic_eval_rf_learning,GPT-5.4 nano,0.8284,small,OpenAI
+rl,Reinforcement Learning,digitwise_l1_rf_learning,GPT-5.4 nano,0.16,small,OpenAI
+rl,Reinforcement Learning,divisor_count_rf_learning,GPT-5.4 nano,0.0,small,OpenAI
+rl,Reinforcement Learning,fib_like_next_rf_learning,GPT-5.4 nano,0.8969,small,OpenAI
+rl,Reinforcement Learning,graph_shortest_path_rf_learning,GPT-5.4 nano,0.08,small,OpenAI
+rl,Reinforcement Learning,gray_hamming_rf_learning,GPT-5.4 nano,0.1,small,OpenAI
+rl,Reinforcement Learning,grid_octile_rf_learning,GPT-5.4 nano,0.9187,small,OpenAI
+rl,Reinforcement Learning,hanoi_two_rf_learning,GPT-5.4 nano,0.0,small,OpenAI
+rl,Reinforcement Learning,letter_overlap_word_rf_learning,GPT-5.4 nano,0.0,small,OpenAI
+rl,Reinforcement Learning,manhattan_point_rf_learning,GPT-5.4 nano,1.0,small,OpenAI
+rl,Reinforcement Learning,mastermind_classic_rf_learning,GPT-5.4 nano,0.04,small,OpenAI
+rl,Reinforcement Learning,nim_heap_rf_learning,GPT-5.4 nano,0.1,small,OpenAI
+rl,Reinforcement Learning,perm_fixed_points_rf_learning,GPT-5.4 nano,0.12,small,OpenAI
+rl,Reinforcement Learning,perm_footrule_rf_learning,GPT-5.4 nano,0.0667,small,OpenAI
+rl,Reinforcement Learning,recurrence_second_order_rf_learning,GPT-5.4 nano,0.2,small,OpenAI
+rl,Reinforcement Learning,quadratic_root_rf_learning,GPT-5.4 nano,0.1845,small,OpenAI
+rl,Reinforcement Learning,product_hotcold_rf_learning,GPT-5.4 nano,0.1636,small,OpenAI
+rl,Reinforcement Learning,rule90_step_rf_learning,GPT-5.4 nano,0.1333,small,OpenAI
+rl,Reinforcement Learning,shift_cipher_rf_learning,GPT-5.4 nano,0.2,small,OpenAI
+rl,Reinforcement Learning,sudoku_2x2_rf_learning,GPT-5.4 nano,0.02,small,OpenAI
+rl,Reinforcement Learning,sum_product_xy_rf_learning,GPT-5.4 nano,0.2,small,OpenAI
+rl,Reinforcement Learning,verbal_bandit_rf_learning,GPT-5.4 nano,0.2,small,OpenAI
+rl,Reinforcement Learning,wordle_micro_rf_learning,GPT-5.4 nano,0.1,small,OpenAI
+rl,Reinforcement Learning,xor_subset_hamming_rf_learning,GPT-5.4 nano,0.14,small,OpenAI

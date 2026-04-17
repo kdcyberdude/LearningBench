@@ -1,0 +1,6 @@
+category,n_tasks,mean_entropy,mean_normalized_entropy,std_entropy,min_entropy,max_entropy,n_high_entropy,n_low_entropy,pct_high_entropy
+language,26,2.2114,0.6657,0.5356,1.0892,3.2359,17,2,65.4
+concept,19,1.9268,0.58,0.6365,0.7496,2.8074,8,4,42.1
+associative,20,1.8933,0.57,0.3496,0.9403,2.3527,3,2,15.0
+observational,42,1.5554,0.4682,0.4818,0.3712,2.6106,5,12,11.9
+rl,50,1.0665,0.3211,0.5399,-0.0,2.006,0,35,0.0

@@ -1,0 +1,158 @@
+category,task_name,gemini_score,max_score,gemini_rank,beaten_by
+associative,blocking_effect_assoc_learning,0.5,1.0,11,"Gemma 4 26B A4B, Claude Haiku 4.5, DeepSeek V3.2, Qwen 3 Next 80B Instruct, Claude Opus 4.6, Claude Sonnet 4.6, GPT-5.4, Gemini 3.1 Flash-Lite Preview, GPT-5.4 mini, GPT-5.4 nano"
+associative,contextual_flip_assoc_learning,0.75,0.75,1,
+associative,cumulative_state_rewrite_assoc_learning,1.0,1.0,1,
+associative,deep_second_order_extinction_assoc_learning,1.0,1.0,1,
+associative,gated_dual_signal_binding_assoc_learning,1.0,1.0,1,
+associative,glyph_bind_assoc_learning,1.0,1.0,1,
+associative,inference_dyad_operators_assoc_learning,1.0,1.0,1,
+associative,inhibitory_summation_assoc_learning,1.0,1.0,1,
+associative,latent_cross_binding_assoc_learning,1.0,1.0,1,
+associative,latent_inhibition_assoc_learning,1.0,1.0,1,
+associative,latent_set_binding_assoc_learning,1.0,1.0,1,
+associative,latent_set_variant_assoc_learning,1.0,1.0,1,
+associative,learned_irrelevance_assoc_learning,1.0,1.0,1,
+associative,occasion_setting_assoc_learning,0.7857,1.0,10,"GLM-5, Gemma 4 26B A4B, Claude Haiku 4.5, Qwen 3 Next 80B Instruct, Claude Opus 4.6, Claude Sonnet 4.6, GPT-5.4, Gemini 3.1 Flash-Lite Preview, GPT-5.4 mini"
+associative,odd_letter_score_pair_assoc_learning,0.8333,0.8333,1,
+associative,overexpectation_assoc_learning,1.0,1.0,1,
+associative,retrospective_revaluation_assoc_learning,1.0,1.0,1,
+associative,spurious_hue_true_edge_assoc_learning,1.0,1.0,1,
+associative,temporal_pairing_tnr_assoc_learning,1.0,1.0,1,
+associative,xor_attribute_binding_assoc_learning,0.8333,0.8333,1,
+concept,consonant_clusters_concept_learning,0.9571,0.9571,1,
+concept,digit_cipher_concept_learning,1.0,1.0,1,
+concept,disjunctive_noise_concept_learning,0.525,0.75,3,"GLM-5, Qwen 3 Next 80B Thinking"
+concept,dual_recurrence_concept_learning,0.2,0.4,8,"Claude Sonnet 4.6, Gemma 4 26B A4B, GPT-5.4 mini, GPT-5.4, Claude Opus 4.6, Claude Haiku 4.5, GPT-5.4 nano"
+concept,encoded_triple_concept_learning,1.0,1.0,1,
+concept,grid_transform_concept_learning,1.0,1.0,1,
+concept,hapax_prime_concept_learning,0.22,0.66,12,"Qwen 3 Next 80B Thinking, Gemini 2.5 Flash, Claude Sonnet 4.6, Gemini 3.1 Flash-Lite Preview, Gemma 4 26B A4B, GPT-5.4 mini, GPT-5.4, Claude Opus 4.6, Claude Haiku 4.5, Qwen 3 Next 80B Instruct, GPT-5.4 nano"
+concept,interleave_reverse_concept_learning,1.0,1.0,1,
+concept,layered_transform_concept_learning,1.0,1.0,1,
+concept,modular_subsequence_concept_learning,0.22,0.24,4,"Qwen 3 Next 80B Thinking, Gemini 3.1 Flash-Lite Preview, GPT-5.4"
+concept,nested_logic_concept_learning,1.0,1.0,1,
+concept,positional_encode_concept_learning,0.96,0.96,1,
+concept,positional_mapping_concept_learning,1.0,1.0,1,
+concept,relational_pairs_concept_learning,0.6,0.75,6,"Qwen 3 Next 80B Thinking, Gemini 2.5 Flash, Gemini 3.1 Flash-Lite Preview, GPT-5.4 mini, GPT-5.4"
+concept,semantic_override_concept_learning,0.0,0.95,13,"GLM-5, Qwen 3 Next 80B Thinking, Gemini 2.5 Flash, Claude Sonnet 4.6, Gemini 3.1 Flash-Lite Preview, Gemma 4 26B A4B, GPT-5.4 mini, Claude Opus 4.6, Claude Haiku 4.5, DeepSeek V3.2, Qwen 3 Next 80B Instruct, GPT-5.4 nano"
+concept,state_machine_concept_learning,0.7273,1.0,2,Gemini 2.5 Flash
+concept,triple_parity_concept_learning,0.64,0.76,2,Gemini 3.1 Flash-Lite Preview
+concept,violation_counter_concept_learning,0.7,0.7,1,
+concept,vowel_rotation_concept_learning,1.0,1.0,1,
+language,dimval_metathesis_lang_learning,1.0,1.0,1,
+language,drafnelt_switch_reference_lang_learning,1.0,1.0,1,
+language,dralven_tone_sandhi_lang_learning,0.3321,0.4357,6,"GLM-5, Claude Opus 4.6, Gemini 3.1 Flash-Lite Preview, GPT-5.4 mini, Qwen 3 Next 80B Instruct"
+language,drelkovak_harmony_lang_learning,0.75,1.0,2,Claude Opus 4.6
+language,drelvak_reduplication_lang_learning,0.6143,0.7,2,Gemini 2.5 Flash
+language,grelkan_suppletion_lang_learning,0.48,0.64,3,"GLM-5, DeepSeek V3.2"
+language,gwelthar_mirative_evidential_tone_lang_learning,0.9077,0.9077,1,
+language,kelstran_tone_lang_learning,0.84,0.92,2,GLM-5
+language,kophar_quantity_lang_learning,0.5893,0.75,9,"GLM-5, Qwen 3 Next 80B Thinking, GPT-5.4, Claude Opus 4.6, Gemini 3.1 Flash-Lite Preview, DeepSeek V3.2, Claude Sonnet 4.6, GPT-5.4 nano"
+language,mixed_radix_number_lang_learning,0.8909,0.8909,1,
+language,norkvash_scalar_lang_learning,0.58,0.82,4,"GLM-5, GPT-5.4, Qwen 3 Next 80B Instruct"
+language,pelvan_agreement_lang_learning,0.4227,0.6273,2,GLM-5
+language,prentova_allomorphy_wugtest_lang_learning,0.7429,1.0,2,Qwen 3 Next 80B Thinking
+language,skelth_allomorph_lang_learning,1.0,1.0,1,
+language,sklonveth_root_pattern_lang_learning,0.4,0.6214,6,"GLM-5, Qwen 3 Next 80B Thinking, Gemini 3.1 Flash-Lite Preview, Gemini 2.5 Flash, GPT-5.4 mini"
+language,skolvren_polysynthetic_lang_learning,0.4875,0.4875,1,
+language,skovar_deletion_lang_learning,1.0,1.0,1,
+language,strelkov_ergative_lang_learning,1.0,1.0,1,
+language,strevoklan_neg_lang_learning,0.75,0.75,1,
+language,telvari_evidentiality_lang_learning,1.0,1.0,1,
+language,threlkav_scope_ergativity_lang_learning,1.0,1.0,1,
+language,trenval_bleeding_lang_learning,0.8615,0.9077,3,"GLM-5, GPT-5.4 mini"
+language,trevkovan_gradation_lang_learning,0.75,1.0,5,"GLM-5, Qwen 3 Next 80B Thinking, GPT-5.4, Gemini 2.5 Flash"
+language,vrelthan_rule_interaction_lang_learning,0.75,0.75,1,
+language,vrendel_templatic_lang_learning,1.0,1.0,1,
+language,wukal_tones_lang_learning,0.5,0.8364,4,"GLM-5, Qwen 3 Next 80B Thinking, Gemini 2.5 Flash"
+observational,affine_transform_chain_obs_learning,0.5,0.75,2,Claude Opus 4.6
+observational,agglutinative_morphology_obs_learning,1.0,1.0,1,
+observational,arithmetic_entropy_coding_obs_learning,1.0,1.0,1,
+observational,auction_mechanism_second_price_obs_learning,1.0,1.0,1,
+observational,chemical_reaction_order_obs_learning,1.0,1.0,1,
+observational,codon_table_translation_obs_learning,1.0,1.0,1,
+observational,custom_gravity_simulation_obs_learning,1.0,1.0,1,
+observational,deceptive_stack_machine_obs_learning,1.0,1.0,1,
+observational,feistel_cipher_round_obs_learning,1.0,1.0,1,
+observational,finite_state_transducer_obs_learning,1.0,1.0,1,
+observational,flow_network_capacity_obs_learning,0.75,0.75,1,
+observational,grid_parity_path_obs_learning,1.0,1.0,1,
+observational,hidden_attribute_rule_obs_learning,0.75,0.75,1,
+observational,hidden_damping_physics_obs_learning,1.0,1.0,1,
+observational,hidden_graph_centrality_obs_learning,1.0,1.0,1,
+observational,hidden_group_operation_obs_learning,1.0,1.0,1,
+observational,hidden_matrix_fill_obs_learning,1.0,1.0,1,
+observational,hidden_modal_logic_kripke2_obs_learning,0.625,0.625,1,
+observational,hidden_modal_logic_kripke_obs_learning,0.75,1.0,2,DeepSeek V3.2
+observational,hidden_priority_order_obs_learning,0.0,1.0,5,"Qwen 3 Next 80B Thinking, Claude Opus 4.6, Qwen 3 Next 80B Instruct, Gemini 3.1 Flash-Lite Preview"
+observational,hidden_region_classifier_obs_learning,1.0,1.0,1,
+observational,hidden_state_machine_obs_learning,1.0,1.0,1,
+observational,hidden_token_filter_obs_learning,1.0,1.0,1,
+observational,lattice_meet_join_obs_learning,1.0,1.0,1,
+observational,lfu_cache_eviction_obs_learning,1.0,1.0,1,
+observational,linear_feedback_shift_register_obs_learning,1.0,1.0,1,
+observational,mealy_machine_output_obs_learning,0.75,0.75,1,
+observational,phonological_alternation_harmony_obs_learning,1.0,1.0,1,
+observational,pipeline_hazard_stall_counting_obs_learning,1.0,1.0,1,
+observational,pushdown_automaton_inference_obs_learning,1.0,1.0,1,
+observational,regex_intersection_membership_obs_learning,1.0,1.0,1,
+observational,register_machine_trace_obs_learning,0.75,0.75,1,
+observational,ring_operations_hidden_carry_obs_learning,1.0,1.0,1,
+observational,shapley_values_cooperative_game_obs_learning,1.0,1.0,1,
+observational,sigil_naming_obs_learning,1.0,1.0,1,
+observational,singleton_gate_local_max_obs_learning,0.5,0.5,1,
+observational,symbolic_glyphpair_scoring_obs_learning,0.0,0.5,5,"Qwen 3 Next 80B Thinking, DeepSeek V3.2, Claude Sonnet 4.6, GPT-5.4 mini"
+observational,syntax_tree_rewrite_obs_learning,1.0,1.0,1,
+observational,titration_curve_diprotic_obs_learning,0.8,0.8,1,
+observational,two_counter_machine_obs_learning,0.1667,1.0,6,"Qwen 3 Next 80B Thinking, GLM-5, Gemini 2.5 Flash, Gemini 3.1 Flash-Lite Preview, Gemma 4 26B A4B"
+observational,vigenere_variant_cipher_obs_learning,0.5,0.5,1,
+observational,voronoi_custom_metric_obs_learning,0.3333,0.8333,6,"GLM-5, GPT-5.4, Gemini 3.1 Flash-Lite Preview, Claude Sonnet 4.6, Claude Haiku 4.5"
+rl,affine_cipher_word_rf_learning,0.8,0.8,1,
+rl,arithmetic_next_rf_learning,0.9333,0.9333,1,
+rl,base7_decode_rf_learning,0.8,1.0,8,"GLM-5, Gemini 2.5 Flash, Qwen 3 Next 80B Thinking, Gemma 4 26B A4B, Claude Sonnet 4.6, DeepSeek V3.2, Claude Haiku 4.5"
+rl,battleship_1d_rf_learning,1.0,1.0,1,
+rl,battleship_two_ships_rf_learning,1.0,1.0,1,
+rl,bitstring_hamming_rf_learning,0.9489,0.9489,1,
+rl,chebyshev_point_rf_learning,1.0,1.0,1,
+rl,coin_balance_rf_learning,1.0,1.0,1,
+rl,collatz_length_rf_learning,0.8875,0.9284,2,Claude Opus 4.6
+rl,crt_unique_rf_learning,1.0,1.0,1,
+rl,cubic_eval_rf_learning,1.0,1.0,1,
+rl,cyclic_distance_rf_learning,1.0,1.0,1,
+rl,digit_square_error_rf_learning,0.1967,0.8924,8,"GLM-5, Qwen 3 Next 80B Thinking, Claude Sonnet 4.6, DeepSeek V3.2, GPT-5.4, GPT-5.4 mini, GPT-5.4 nano"
+rl,digitwise_l1_rf_learning,1.0,1.0,1,
+rl,divisor_count_rf_learning,0.8,0.8,1,
+rl,euler_totient_rf_learning,0.0,0.0,1,
+rl,fib_like_next_rf_learning,0.85,1.0,10,"GLM-5, Qwen 3 Next 80B Thinking, Gemma 4 26B A4B, Claude Sonnet 4.6, DeepSeek V3.2, Gemini 3.1 Flash-Lite Preview, Claude Opus 4.6, Claude Haiku 4.5, GPT-5.4 nano"
+rl,graph_shortest_path_rf_learning,0.8935,0.8935,1,
+rl,gray_hamming_rf_learning,0.9489,0.9489,1,
+rl,grid_nav_rf_learning,0.9801,0.9801,1,
+rl,grid_octile_rf_learning,1.0,1.0,1,
+rl,grid_seven_rf_learning,0.0,0.1333,7,"GLM-5, Gemini 2.5 Flash, Qwen 3 Next 80B Thinking, Gemma 4 26B A4B, DeepSeek V3.2, Claude Haiku 4.5"
+rl,hangman_lite_rf_learning,0.0,0.1333,2,Gemini 2.5 Flash
+rl,hanoi_three_rf_learning,0.0,0.8554,6,"GLM-5, Gemini 2.5 Flash, Gemma 4 26B A4B, DeepSeek V3.2, Gemini 3.1 Flash-Lite Preview"
+rl,hanoi_two_rf_learning,0.0,0.9932,5,"Gemini 2.5 Flash, Qwen 3 Next 80B Thinking, Gemma 4 26B A4B, DeepSeek V3.2"
+rl,hot_cold_rf_learning,0.0,0.8172,5,"Gemini 2.5 Flash, Gemma 4 26B A4B, DeepSeek V3.2, Gemini 3.1 Flash-Lite Preview"
+rl,interval_contains_rf_learning,0.0,0.9489,7,"Gemini 2.5 Flash, Qwen 3 Next 80B Thinking, Gemma 4 26B A4B, Gemini 3.1 Flash-Lite Preview, Qwen 3 Next 80B Instruct, GPT-5.4 nano"
+rl,letter_overlap_word_rf_learning,0.0,1.0,3,"Gemini 2.5 Flash, Gemma 4 26B A4B"
+rl,levenshtein_words_rf_learning,0.0,0.1,2,Gemini 2.5 Flash
+rl,lights_out_2x2_rf_learning,0.0,0.1,2,Gemini 2.5 Flash
+rl,linear_equation_rf_learning,0.0,1.0,2,Gemini 2.5 Flash
+rl,linear_polynomial_rf_learning,0.0,1.0,2,Gemini 2.5 Flash
+rl,manhattan_point_rf_learning,0.0,1.0,14,"GLM-5, Gemini 2.5 Flash, Qwen 3 Next 80B Thinking, Gemma 4 26B A4B, Claude Sonnet 4.6, DeepSeek V3.2, Gemini 3.1 Flash-Lite Preview, GPT-5.4, Claude Opus 4.6, Claude Haiku 4.5, GPT-5.4 mini, Qwen 3 Next 80B Instruct, GPT-5.4 nano"
+rl,mastermind_aggregate_rf_learning,0.2,0.925,2,Claude Sonnet 4.6
+rl,mastermind_classic_rf_learning,0.08,0.16,5,"Claude Sonnet 4.6, DeepSeek V3.2, Claude Opus 4.6, Claude Haiku 4.5"
+rl,minesweeper_1d_rf_learning,0.9345,0.9345,1,
+rl,nim_heap_rf_learning,0.125,0.15,8,"Qwen 3 Next 80B Thinking, DeepSeek V3.2, Gemini 3.1 Flash-Lite Preview, GPT-5.4, Claude Haiku 4.5, GPT-5.4 mini, Qwen 3 Next 80B Instruct"
+rl,parity_groups_rf_learning,0.1333,0.1667,4,"Gemini 2.5 Flash, Claude Sonnet 4.6, Claude Haiku 4.5"
+rl,perm_fixed_points_rf_learning,0.8607,1.0,2,Qwen 3 Next 80B Thinking
+rl,perm_footrule_rf_learning,1.0,1.0,1,
+rl,product_hotcold_rf_learning,1.0,1.0,1,
+rl,quadratic_root_rf_learning,1.0,1.0,1,
+rl,recurrence_second_order_rf_learning,0.974,1.0,4,"GLM-5, Claude Sonnet 4.6, Claude Opus 4.6"
+rl,rule90_step_rf_learning,1.0,1.0,1,
+rl,shift_cipher_rf_learning,0.8667,1.0,8,"GLM-5, Qwen 3 Next 80B Thinking, Gemma 4 26B A4B, Gemini 3.1 Flash-Lite Preview, GPT-5.4, GPT-5.4 mini, Qwen 3 Next 80B Instruct"
+rl,sudoku_2x2_rf_learning,1.0,1.0,1,
+rl,sum_product_xy_rf_learning,1.0,1.0,1,
+rl,verbal_bandit_rf_learning,1.0,1.0,1,
+rl,wordle_micro_rf_learning,0.97,1.0,2,GLM-5
+rl,xor_subset_hamming_rf_learning,1.0,1.0,1,

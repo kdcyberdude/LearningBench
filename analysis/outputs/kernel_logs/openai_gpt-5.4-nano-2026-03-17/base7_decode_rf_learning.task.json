@@ -1,0 +1,6 @@
+{
+  "versionNumber": 1,
+  "name": "base7_decode_rf_learning",
+  "description": "Alternating glyph substitution on base-3 strings; witnesses fix isomorphism; MAP probes mismatch; RL/planning; score\u2208[0,1], cap 36.",
+  "definition": "@kbench.task(\n    name=\"base7_decode_rf_learning\",\n    description=\"Alternating glyph substitution on base-3 strings; witnesses fix isomorphism; MAP probes mismatch; RL/planning; score\u2208[0,1], cap 36.\",\n)\ndef base7_decode_rf_learning(llm) -> float:\n    \"\"\"Alternating glyph maps on base-3 strings; MAP mismatch telemetry; composite score in [0,1].\"\"\"\n\n    def turn(user_message: str) -> str:\n        try:\n            return str(llm.prompt(user_message))\n        except Exception:\n            return \"\"\n\n    result = run(turn, seed=0, max_steps=BUDGET_N)\n    score = _composite_score(result.solved, result.num_steps, BUDGET_N, MIN_EXPLORE, result.progress)\n    _log_trace(\n        \"base7_decode_rf_learning\",\n        _TASK_DESCRIPTION,\n        result.conversation,\n        result.solved,\n        result.num_steps,\n        BUDGET_N,\n        score,\n    )\n    return score\n"
+}

@@ -1,0 +1,38 @@
+metric,value,source,notes
+total_tasks,157,score_matrix,Before curation
+total_models,14,score_matrix,
+total_categories,5,score_matrix,
+tasks_associative,20,score_matrix,
+tasks_concept,19,score_matrix,
+tasks_language,26,score_matrix,
+tasks_observational,42,score_matrix,
+tasks_rl,50,score_matrix,
+tasks_after_curation_estimate,134,C1_analysis,After removing 23 flagged tasks (9 high + 14 medium)
+pct_tasks_excellent_discrimination,59.2%,B1_discrimination,93/157 tasks with r ≥ 0.50
+tasks_negative_discrimination,10,B1_discrimination,Candidates for removal
+mean_cross_category_spearman,0.717,B2_cross_category,Mean pairwise Spearman r across all category pairs
+weakest_cross_category_pair,Concept × Observational (r=0.552),B2_cross_category,Most distinct learning sub-abilities
+strongest_cross_category_pair,Concept × RL (r=0.886),B2_cross_category,Hypothesis testing link
+n_scale_inversions,22,B3_scaling,Model-level inversions with gap > 0.05
+biggest_inversion,Qwen Thinking (mid) > GPT-5.4 (frontier) on Observational by 0.289,B3_scaling,H2 evidence
+efficiency_max_rank_change,0,B4_efficiency,Rankings identical with/without efficiency — monotonic transformation
+most_informative_category_by_entropy,language,B7_entropy,Highest mean task entropy
+least_informative_category_by_entropy,rl,B7_entropy,Lowest mean task entropy
+max_thinking_advantage,+0.350,B8_thinking,On concept — thinking models vs non-thinking
+mean_thinking_advantage_pct,+241%,B8_thinking,Mean improvement across all categories (Qwen Thinking vs Instruct)
+gemini_rank1_tasks,37,B6_dominance,Out of 157 tasks (expected 11 by random)
+gemini_rank1_pct,23.6%,B6_dominance,vs 7.1% random expectation (3.3× baseline)
+n_bimodal_tasks,84,B5_bimodality,84/157 tasks (54%) show bimodal score distribution
+provider_openai_concept_score,0.233,B9_provider,Weakest provider on rule induction
+provider_anthropic_concept_score,0.263,B9_provider,Concept formation deficit
+provider_google_best_overall,0.49,B9_provider,Highest mean across all categories
+loo_max_rank_change,1,C1_loo,Maximum rank change from removing any single task
+loo_mean_spearman,0.9965,C1_loo,Mean Spearman correlation after LOO removal
+loo_pct_zero_change,40.8%,C1_loo,% tasks whose removal causes zero rank changes
+signal_ratio_associative,1.8×,C2_random_baseline,Mean model score is 1.8× above random
+signal_ratio_concept,17.2×,C2_random_baseline,Mean model score is 17.2× above random
+signal_ratio_language,49.2×,C2_random_baseline,Mean model score is 49.2× above random
+signal_ratio_observational,35.7×,C2_random_baseline,Mean model score is 35.7× above random
+signal_ratio_rl,20.7×,C2_random_baseline,Mean model score is 20.7× above random
+h5_epistemic_verdict,INVERTED — models score BETTER on UNKNOWN tasks,C4_epistemic,"Models score 0.695 on UNKNOWN tasks vs 0.582 on normal tasks. Frontier models (Claude Opus/Sonnet 1.0, GPT-5.4 1.0) show epistemic awareness. Gemini Pro scores LOWER (0.5) on blocking_effect — possibly overthinking. H5 is incorrect: models show epistemic humility on explicit UNKNOWN traps."
+n_unknown_tasks,3,C4_epistemic,"Tasks with UNKNOWN as correct answer: blocking_effect, xor_attribute_binding, deep_second_order_extinction"

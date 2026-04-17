@@ -1,0 +1,15 @@
+model,rank_original,rank_after_high_removal,rank_after_all_removal,delta_high,delta_all
+Gemini 3.1 Pro Preview,1.0,1.0,1.0,0,0
+GLM-5,2.0,2.0,2.0,0,0
+Qwen 3 Next 80B Thinking,3.0,3.0,3.0,0,0
+Gemini 2.5 Flash,4.0,4.0,4.0,0,0
+GPT-5.4,5.0,5.0,5.0,0,0
+Claude Opus 4.6,6.0,6.0,6.0,0,0
+DeepSeek V3.2,7.0,7.0,7.0,0,0
+Claude Sonnet 4.6,8.0,8.0,8.0,0,0
+Gemini 3.1 Flash-Lite Preview,9.0,9.0,9.0,0,0
+Gemma 4 26B A4B,10.0,10.0,10.0,0,0
+Claude Haiku 4.5,11.0,11.0,11.0,0,0
+GPT-5.4 mini,12.0,13.0,13.0,1,1
+Qwen 3 Next 80B Instruct,13.0,12.0,12.0,-1,-1
+GPT-5.4 nano,14.0,14.0,14.0,0,0

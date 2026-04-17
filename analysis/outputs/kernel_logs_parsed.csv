@@ -1,0 +1,14 @@
+model_part,display_name,source_kernel,score,total_wall_sec,n_api_requests,median_lat_ms,mean_lat_ms,total_lat_ms,input_tokens,output_tokens,avg_input_tokens,avg_output_tokens,cost_nanodollars,conversations,task_name,start_time
+anthropic_claude-haiku-4-520251001,Claude Haiku 4.5,arithmetic-entropy-coding-obs-learning,,1.7,1,842,842,842,1695,92,1695.0,92.0,2155000,1,arithmetic_entropy_coding_obs_learning,2026-04-12T01:25:49.772005Z
+anthropic_claude-opus-4-6default,Claude Opus 4.6,inhibitory-summation-assoc-learning,0.5,4.3,1,3218,3218,3218,1422,184,1422.0,184.0,11710000,1,inhibitory_summation_assoc_learning,2026-04-09T11:28:51.263374Z
+anthropic_claude-sonnet-4-6default,Claude Sonnet 4.6,affine-transform-chain-obs-learning,,2.5,1,1605,1605,1605,1174,101,1174.0,101.0,5037000,1,affine_transform_chain_obs_learning,2026-04-12T11:37:41.759879Z
+deepseek-ai_deepseek-v3.2,DeepSeek V3.2,feistel-cipher-round-obs-learning,0.5,167.6,1,166750,166750,166750,615,5431,615.0,5431.0,9468480,1,feistel_cipher_round_obs_learning,2026-04-12T11:32:04.208458Z
+google_gemini-2.5-flash,Gemini 2.5 Flash,chebyshev-point-rf-learning,1.0,276.0,5,68710,54813,274068,708,70,141.6,14.0,149652400,1,chebyshev_point_rf_learning,2026-04-13T16:10:01.243878Z
+google_gemini-3.1-pro-preview,Gemini 3.1 Pro,mastermind-aggregate-rf-learning,0.2,981.5,30,30242,32535,976079,22618,301,753.9,10.0,972536000,1,mastermind_aggregate_rf_learning,2026-04-15T14:01:15.508069Z
+google_gemma-4-26b-a4b,Gemma 4 26B,disjunctive-noise-concept-learning,0.43500000000000005,1824.8,8,1026,1625,13007,6825,496,853.1,62.0,660675,2,disjunctive_noise_concept_learning,2026-04-10T13:32:49.233675Z
+openai_gpt-5.4-2026-03-05,GPT-5.4,codon-table-translation-obs-learning,,2.8,1,1144,1144,1144,435,36,435.0,36.0,1627500,1,codon_table_translation_obs_learning,2026-04-12T11:34:08.568593Z
+openai_gpt-5.4-mini-2026-03-17,GPT-5.4 mini,dual-recurrence-concept-learning,0.22,5.0,6,568,603,3621,3291,180,548.5,30.0,3278250,2,dual_recurrence_concept_learning,2026-04-10T15:24:52.832348Z
+openai_gpt-5.4-nano-2026-03-17,GPT-5.4 nano,base7-decode-rf-learning,0.1562,32.9,36,684,712,25640,42590,566,1183.1,15.7,8902940,1,base7_decode_rf_learning,2026-04-13T03:58:33.214679Z
+qwen_qwen3-next-80b-a3b-instruct,Qwen3 80B Instruct,bitstring-hamming-rf-learning,,519.5,30,5746,16775,503258,2518981,144660,83966.0,4822.0,551439150,1,bitstring_hamming_rf_learning,2026-04-13T03:23:36.189762Z
+qwen_qwen3-next-80b-a3b-thinking,Qwen3 80B Thinking,affine-cipher-word-rf-learning,,169.8,23,5507,6865,157904,139702,28546,6074.0,1241.1,55210500,1,affine_cipher_word_rf_learning,2026-04-13T02:51:55.319198Z
+zai_glm-5,GLM-5,deceptive-stack-machine-obs-learning,1.0,130.0,1,129075,129075,129075,2206,8502,2206.0,8502.0,29412400,1,deceptive_stack_machine_obs_learning,2026-04-15T14:03:20.357149Z

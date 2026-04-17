@@ -1,0 +1,66 @@
+{
+  "taskVersion": {
+    "versionNumber": 1,
+    "name": "arithmetic_entropy_coding_obs_learning",
+    "description": "Observe 13 sequence\u2192bit-length pairs for an entropy coder with five hidden non-uniform probabilities over {A,B,C,D,E} (all distinct). Structured demos allow isolating each symbol's self-information. Compute encoded lengths for 4 new sequences.",
+    "definition": "@kbench.task(\n    name=\"arithmetic_entropy_coding_obs_learning\",\n    description=(\n        \"Observe 13 sequence\u2192bit-length pairs for an entropy coder with five hidden \"\n        \"non-uniform probabilities over {A,B,C,D,E} (all distinct). Structured demos \"\n        \"allow isolating each symbol's self-information. Compute encoded lengths for \"\n        \"4 new sequences.\"\n    ),\n)\ndef arithmetic_entropy_coding_obs_learning(llm) -> float:\n    \"\"\"Infer five hidden symbol probabilities from 13 coding examples; compute bit lengths for 4 new sequences.\"\"\"\n    prompt, grade_fn = _prepare()\n    try:\n        response = llm.prompt(prompt, schema=_Answer)\n    except Exception:\n        response = None\n\n    if response is not None:\n        score, test_results = grade_fn(response)\n    else:\n        score = 0.0\n        test_results = [\n            {\"q\": i, \"expected\": _TEST_CASES[i - 1][1], \"got\": None, \"correct\": False}\n            for i in range(1, 5)\n        ]\n\n    reasoning = (\n        getattr(response, \"reasoning\", \"\") or getattr(response, \"thinking\", \"\") or \"\"\n    )\n    _log_trace(\n        task=\"arithmetic_entropy_coding_obs_learning\",\n        description=_TASK_DESCRIPTION,\n        prompt=prompt,\n        test_results=test_results,\n        score=score,\n        reasoning=str(reasoning),\n    )\n    return score\n"
+  },
+  "modelVersion": {
+    "slug": "anthropic/claude-haiku-4-5@20251001"
+  },
+  "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+  "startTime": "2026-04-12T01:25:49.772005Z",
+  "endTime": "2026-04-12T01:25:51.487758Z",
+  "conversations": [
+    {
+      "id": "arithmetic_entropy_coding_obs_learning-dfc7577f",
+      "requests": [
+        {
+          "contents": [
+            {
+              "parts": [
+                {
+                  "text": "You are observing a data compression system that encodes symbol sequences.\nThe alphabet is {A, B, C, D, E}. Each symbol has a fixed but hidden probability.\nEncoded length = ceil( sum of -log2(P(x)) over every symbol occurrence ).\n\nObservations (symbol sequence \u2192 encoded bit length):\n   1. AABBCCDDEE  (counts: {'A': 2, 'B': 2, 'C': 2, 'D': 2, 'E': 2}) \u2192 26 bits\n   2. AABCDDEEBC  (counts: {'A': 2, 'B': 2, 'C': 2, 'D': 2, 'E': 2}) \u2192 26 bits\n   3. BBAAECDCDE  (counts: {'A': 2, 'B': 2, 'C': 2, 'D': 2, 'E': 2}) \u2192 26 bits\n   4. AAAAAAAABCDE  (counts: {'A': 8, 'B': 1, 'C': 1, 'D': 1, 'E': 1}) \u2192 23 bits\n   5. BBBBBBBACDE  (counts: {'A': 1, 'B': 7, 'C': 1, 'D': 1, 'E': 1}) \u2192 25 bits\n   6. CCCCCCCABDE  (counts: {'A': 1, 'B': 1, 'C': 7, 'D': 1, 'E': 1}) \u2192 28 bits\n   7. DDDDDDDABCE  (counts: {'A': 1, 'B': 1, 'C': 1, 'D': 7, 'E': 1}) \u2192 32 bits\n   8. EEEEEEEABCD  (counts: {'A': 1, 'B': 1, 'C': 1, 'D': 1, 'E': 7}) \u2192 36 bits\n   9. AAABBBCDE  (counts: {'A': 3, 'B': 3, 'C': 1, 'D': 1, 'E': 1}) \u2192 20 bits\n  10. AACCCDE  (counts: {'A': 2, 'C': 3, 'D': 1, 'E': 1}) \u2192 18 bits\n  11. AADDDDE  (counts: {'A': 2, 'D': 4, 'E': 1}) \u2192 20 bits\n  12. AABBBBCDE  (counts: {'A': 2, 'B': 4, 'C': 1, 'D': 1, 'E': 1}) \u2192 21 bits\n  13. CCDDDDDE  (counts: {'C': 2, 'D': 5, 'E': 1}) \u2192 25 bits\n\nNow solve these 4 test questions:\n  Q1: AAAAABBBCDE  (counts: {'A': 5, 'B': 3, 'C': 1, 'D': 1, 'E': 1}) \u2192 ? bits\n  Q2: BBBBCCCDDE  (counts: {'B': 4, 'C': 3, 'D': 2, 'E': 1}) \u2192 ? bits\n  Q3: CCCDDDEEE  (counts: {'C': 3, 'D': 3, 'E': 3}) \u2192 ? bits\n  Q4: ABCDE  (counts: {'A': 1, 'B': 1, 'C': 1, 'D': 1, 'E': 1}) \u2192 ? bits\n\nSubmit answer_1 through answer_4 as integer bit lengths."
+                }
+              ],
+              "role": "CONTENT_ROLE_USER",
+              "senderName": "User"
+            },
+            {
+              "parts": [
+                {
+                  "text": "\"{\\\"answer_1\\\": 22, \\\"answer_2\\\": 19, \\\"answer_3\\\": 18, \\\"answer_4\\\": 12}\""
+                }
+              ],
+              "role": "CONTENT_ROLE_ASSISTANT",
+              "senderName": "anthropic/claude-haiku-4-5@20251001"
+            }
+          ],
+          "metrics": {
+            "inputTokens": 1695,
+            "outputTokens": 92,
+            "inputTokensCostNanodollars": "1695000",
+            "outputTokensCostNanodollars": "460000",
+            "totalBackendLatencyMs": "842"
+          },
+          "id": "arithmetic_entropy_coding_obs_learning-dfc7577f-req-1"
+        }
+      ],
+      "metrics": {
+        "inputTokens": 1695,
+        "outputTokens": 92,
+        "inputTokensCostNanodollars": "1695000",
+        "outputTokensCostNanodollars": "460000",
+        "totalBackendLatencyMs": "842"
+      },
+      "modelVersionSlug": "model_version_slug for conversation is DEPRECATED"
+    }
+  ],
+  "results": [
+    {
+      "type": "AGGREGATED",
+      "numericResult": {}
+    }
+  ],
+  "pyRunId": "arithmetic_entropy_coding_obs_learning-Run #1"
+}

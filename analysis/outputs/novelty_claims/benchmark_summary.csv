@@ -1,0 +1,2 @@
+total_tasks,total_models,total_runs,n_categories,loo_min_spearman,loo_mean_spearman,loo_max_rank_change,loo_tasks_causing_2plus_moves,random_baseline_associative,random_baseline_concept,random_baseline_rl,best_model,best_model_score
+138,14,1901,5,0.9868,0.9965,1,0,0.3333333333333333,0.02,0.02,Gemini 3.1 Pro Preview,0.7751

@@ -1,0 +1,6 @@
+{
+  "versionNumber": 1,
+  "name": "affine_cipher_word_rf_learning",
+  "description": "Monoalphabetic substitution; closed word pool; graded CIPHER_* alignment telemetry. Multi-turn RL; return float in [0,1], cap 24 steps.",
+  "definition": "@kbench.task(\n    name=\"affine_cipher_word_rf_learning\",\n    description=\"Monoalphabetic substitution; closed word pool; graded CIPHER_* alignment telemetry. Multi-turn RL; return float in [0,1], cap 24 steps.\",\n)\ndef affine_cipher_word_rf_learning(llm) -> float:\n    \"\"\"Monoalphabetic ciphertext recovery; multi-turn run/llm loop; composite score in [0,1].\"\"\"\n\n    def turn(user_message: str) -> str:\n        try:\n            return llm.prompt(user_message)\n        except Exception:\n            return \"\"\n\n    result = run(turn, seed=0, max_steps=BUDGET_N)\n    score = _composite_score(result.solved, result.num_steps, BUDGET_N, MIN_EXPLORE, result.progress)\n    _log_trace(\n        \"affine_cipher_word_rf_learning\",\n        _TASK_DESCRIPTION,\n        result.conversation,\n        result.solved,\n        result.num_steps,\n        BUDGET_N,\n        score,\n    )\n    return score\n"
+}
