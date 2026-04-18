@@ -53,6 +53,8 @@ learning_eval/
 │
 ├── README.md                        ← You are here
 ├── WRITEUP.md                       ← Full Kaggle competition writeup
+├── ROBUSTNESS.md                    ← Robustness checks, hypothesis tests, anomalous findings
+├── VALIDITY.md                      ← Why frontier models underperform; diversity, difficulty, reliability
 ├── SCORING.md                       ← Scoring formulas for all six sub-abilities
 ├── TASKS.md                         ← Task taxonomy and descriptions
 ├── requirements.txt                 ← Python dependencies
@@ -181,6 +183,8 @@ python make_writeup_figures.py
 ```
 
 See [`analysis/scripts/README.md`](analysis/scripts/README.md) for a complete description of what each script does and what it outputs.
+
+See [`ROBUSTNESS.md`](ROBUSTNESS.md) for the full robustness analysis: benchmark integrity checks, all formal hypothesis tests, anomalous task findings, and curation decisions.
 
 ### Option C — Download raw task files
 

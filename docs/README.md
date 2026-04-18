@@ -7,6 +7,13 @@ Public-facing documentation for LearningBench.
 | [`METHODOLOGY.md`](METHODOLOGY.md) | Benchmark construction, task validation, and curation methodology |
 | [`KERNEL_LOG_DOWNLOAD.md`](KERNEL_LOG_DOWNLOAD.md) | Developer reference for scripts 19 & 20: fetching task run metrics and conversation logs from Kaggle's internal API |
 
+See also the top-level documents:
+
+| File | Description |
+|---|---|
+| [`../VALIDITY.md`](../VALIDITY.md) | Why frontier models underperform; benchmark diversity, difficulty distribution, validity & reliability |
+| [`../ROBUSTNESS.md`](../ROBUSTNESS.md) | Benchmark integrity, measurement validity, hypothesis tests, anomalous findings |
+
 ## `internal/`
 
 Internal working documents from the analysis phases. Not required to reproduce results — included for transparency.
