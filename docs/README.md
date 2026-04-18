@@ -1,33 +1,25 @@
 # docs/
 
-Public-facing documentation for LearningBench.
+Public-facing documentation is in the top-level [`README.md`](../README.md). That file is the single complete guide to the benchmark.
 
 | File | Description |
 |---|---|
-| [`METHODOLOGY.md`](METHODOLOGY.md) | Benchmark construction, task validation, and curation methodology |
-| [`KERNEL_LOG_DOWNLOAD.md`](KERNEL_LOG_DOWNLOAD.md) | Developer reference for scripts 19 & 20: fetching task run metrics and conversation logs from Kaggle's internal API |
-
-See also the top-level documents:
-
-| File | Description |
-|---|---|
-| [`../VALIDITY.md`](../VALIDITY.md) | Why frontier models underperform; benchmark diversity, difficulty distribution, validity & reliability |
-| [`../ROBUSTNESS.md`](../ROBUSTNESS.md) | Benchmark integrity, measurement validity, hypothesis tests, anomalous findings |
+| [`KERNEL_LOG_DOWNLOAD.md`](KERNEL_LOG_DOWNLOAD.md) | Developer reference for fetching raw task run metrics and conversation logs from Kaggle's internal API (scripts 19 & 20) |
 
 ## `internal/`
 
-Internal working documents from the analysis phases. Not required to reproduce results — included for transparency.
+Working documents from the analysis phases. Not required to reproduce any result — included for transparency.
 
 | File | Description |
 |---|---|
-| `PROJECT_MASTER.md` | Session-by-session project log and decision tracker |
-| `STRATEGY.md` | Full strategy document: hypothesis list, analysis plan, framing decisions |
-| `PHASE_D curation scripts` | Rank optimizer iterations used during Phase D curation |
-| `CONSTRAINED_RANK_OPT.md` | Rank optimization constraints explored during curation |
-| `RANK_MANIPULATION_ANALYSIS.md` | Analysis of rank stability under different curation choices |
+| `VALIDITY.md` | Full validity and reliability analysis |
+| `ROBUSTNESS.md` | Full robustness and hypothesis test reference |
+| `TASKS.md` | Raw task catalog (per-task descriptions) |
+| `METHODOLOGY.md` | Benchmark construction methodology (detailed) |
+| `PROJECT_MASTER.md` | Session-by-session project log |
+| `STRATEGY.md` | Hypothesis list and analysis plan |
+| `CURATION_DECISIONS.md` | Per-task curation verdicts |
+| `PHASE_D curation scripts` | Rank optimizer iterations used during Phase D |
+| `RANK_MANIPULATION_ANALYSIS.md` | Rank stability under different curation choices |
 | `RANK4_AND_QWEN_HYPOTHESIS.md` | Rank-4 and Qwen hypothesis exploration |
 | `MASTER_REMOVAL_LIST.md` | Working list of tasks considered for removal |
-| `LEADERBOARD_UPDATE_V2.md` | Leaderboard update notes from v2 |
-| `KERNEL_STATS.md` | Kernel log statistics (intermediate) |
-| `EFFICIENCY_ANALYSIS.md` | Efficiency analysis working notes |
-| `PROC_LEARNING_ANALYSIS.md` | Procedural learning analysis working notes |

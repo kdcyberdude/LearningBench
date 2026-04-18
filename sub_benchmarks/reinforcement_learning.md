@@ -50,3 +50,6 @@ What the benchmark measures underneath is whether a model can maintain a live hy
 ![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F11780821%2Fe15bfe5f5a0c0f6e77ae44095749986a%2Ffig_meta_calibration.png?generation=1776464036007614&alt=media)
 
 **Capability rankings have systematic blind spots.** The benchmark surfaces multiple cross-family inversions in both directions. On `collatz-length`, Haiku (0.836) and Opus (0.928) outperform GPT-5.4 (0.020) and GLM-5 (0.060). On `affine-cipher-word`, the ranking reverses: GPT-5.4 (0.800) and Gemma (0.800) outperform Haiku (0.040) and Sonnet (0.040). These inversions are not noise — they appear on multiple tasks and in both directions, confirming that the benchmark captures task-specific learning capacities that overall capability scores do not proxy.
+
+
+https://www.kaggle.com/benchmarks/kdcyberdude/reinforcementlearning/

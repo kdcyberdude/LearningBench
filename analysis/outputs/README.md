@@ -9,7 +9,7 @@ All CSV files produced by the LearningBench analysis pipeline. Pre-computed outp
 These are the starting point for any analysis.
 
 ### `score_matrix.csv`
-**The raw score matrix — all 157 tasks before curation.**
+**The raw score matrix — all tasks before curation.**
 
 | Column | Type | Description |
 |---|---|---|
@@ -26,9 +26,9 @@ These are the starting point for any analysis.
 ---
 
 ### `score_matrix_phase_d.csv`
-**The curated score matrix — 138 tasks after Phase D curation.**
+**The curated score matrix — 135 tasks after Phase D curation.**
 
-Same schema as `score_matrix.csv`. Use this for all primary analyses. 19 tasks were removed (see `CURATION_DECISIONS.md` for rationale).
+Same schema as `score_matrix.csv`. Use this for all primary analyses.
 
 ~1,928 rows · 7 columns · 193 KB
 
@@ -291,7 +291,7 @@ Extends the score matrix with additional computed columns like within-task rank 
 ## Curation (Phase D)
 
 ### `phase_d_final_task_list.csv`
-**The final list of 138 retained tasks after Phase D curation.**
+**The final list of 135 retained tasks after Phase D curation.**
 
 139 rows · 4.5 KB
 
