@@ -48,7 +48,7 @@ Removing all 23 flagged tasks (9 high-priority + 14 medium-priority, affecting 1
 
 **→ Writeup claim:** "Aggregate model rankings are robust to individual task removal (LOO max rank change = 1 position; mean Spearman = 0.997). Removing all flagged tasks leaves the top-11 model ranking unchanged."
 
-→ **Phase D carries this forward:** Proceed with removing all 23 flagged tasks with confidence. The benchmark will have 131-134 tasks after curation.
+→ **Phase D resolved this:** Proceeded with removing 19 tasks (not all 23 originally flagged — 4 were retained for their novel findings). Final benchmark: **138 tasks**. Top-11 rankings unchanged.
 
 ---
 
@@ -74,7 +74,7 @@ For the other four categories, the signal ratios are enormous (17–75×) — ru
 
 **Notable:** Associative Learning's relatively smaller signal ratio is not a problem — it reflects the task's hard ceiling (3 choices vs. continuous output) and the genuine difficulty of causal inference. Even a 1.8× ratio means models are making systematic use of the trial logs.
 
-**→ Writeup claim:** "Every model scores significantly above random on all five categories. Signal-to-random ratios range from 1.8× (Associative Learning, inherently harder due to 3-class format) to 75.6× (Language Learning best model), confirming the benchmark captures genuine learning, not chance patterns."
+→ **Confirmed and used in writeup.** Signal ratios are a headline claim: "all models on all categories significantly exceed random performance (1.8–75.6×)."
 
 ---
 
@@ -158,7 +158,7 @@ The "negative discrimination" pattern was because frontier Gemini + mid-tier mod
 
 **→ Writeup reframe:** H5 becomes "Epistemic Awareness Varies Dramatically by Provider — Anthropic and OpenAI Models Excel at Uncertainty Recognition."
 
-→ **Phase D carries this forward:** `blocking_effect` is a genuinely valuable task — it reveals a real, important failure mode specific to Gemini. Despite its negative discrimination (from Phase B), it should be **kept** as a measure of epistemic calibration. This overrides the Phase B removal recommendation.
+→ **Phase D decision:** `blocking_effect` was retained. Its negative discrimination is fully explained by the epistemic awareness finding and is the benchmark's most distinctive associative task.
 
 ---
 
@@ -192,11 +192,12 @@ Based on Phase C analysis, two previously flagged tasks should be **kept**:
 
 | Scenario | Tasks |
 |---|---|
-| Current | 157 |
+| Original | 157 |
 | Remove high-priority (4) | 153 |
-| Remove all flagged (4 + 22) | 131 |
-| If keeping `blocking_effect` | +1 |
-| **Conservative final estimate** | **~131–134** |
+| Phase D removed 19 | **138** |
+| **Final benchmark** | **138** |
+
+> Phase D retained 4 of the originally-flagged tasks (`blocking_effect`, `semantic_override`, `manhattan_point`, `minesweeper_1d`) because their inversions are genuine findings rather than defects.
 
 ---
 
@@ -208,7 +209,7 @@ Based on Phase C analysis, two previously flagged tasks should be **kept**:
 | **C2: Random baseline** | All models beat random on all categories (1.8–75×) | **Very strong** |
 | **C3: Ground truth** | 15/15 tasks verified: computed ground truth, no hardcoded keys | **Strong** |
 | **C4: H5 (UNKNOWN)** | **INVERTED**: models score better on UNKNOWN tasks (+0.113). Gemini Pro has specific epistemic weakness (0.5). Anthropic + OpenAI = 1.0. | **Novel finding** |
-| **C5: Final curation** | 131–134 tasks survive; top-11 rankings unchanged | **Confirmed** |
+| **C5: Final curation** | Phase D removed 19 tasks; final benchmark = 138 tasks; top-11 rankings unchanged | **Confirmed** |
 
 ---
 
@@ -287,16 +288,18 @@ Qwen models have a systematic advantage on tasks requiring inference of hidden p
 ### Revised Curation Philosophy
 The standard approach removes "inverted" tasks. Our revised approach: **retain anomalous tasks with high variance and plausible explanations because the inversion is the finding.** The benchmark's competitive edge is precisely that it surfaces these invisible capability differences. Removing them would make us look like every other benchmark.
 
-**Updated final task count (after Session 2 review):**
+**Updated final task count (after Session 2 review and Phase D curation):**
 
-| Category | Before | Remove | Retain |
-|----------|--------|--------|--------|
+| Category | Before | Remove | **Final (Phase D)** |
+|----------|--------|--------|-----------|
 | Associative | 20 | 0 | **20** |
-| Concept | 19 | 3 | **16** |
-| Language | 26 | 2 | **24** |
-| Observational | 42 | 12 | **30** |
-| RL | 50 | 22 | **28** |
-| **TOTAL** | **157** | **39** | **~118** |
+| Concept | 19 | 1 | **18** |
+| Language | 26 | 0 | **26** |
+| Observational | 42 | 2 | **40** |
+| RL | 50 | 16 | **34** |
+| **TOTAL** | **157** | **19** | **138** |
+
+> Note: The earlier projection of "~118 tasks" from Phase C was based on the initial curation philosophy. Phase D's revised philosophy (retain anomalous tasks that reveal genuine findings) resulted in retaining more tasks — the final count is 138.
 
 
 

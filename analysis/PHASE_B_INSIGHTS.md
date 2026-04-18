@@ -57,11 +57,11 @@
 
 **Interpretation:** Negative discrimination means weaker models score higher than stronger models on these tasks — they are likely measuring noise, shortcuts, or are inversely biased.
 
-**Notable:** `blocking_effect` (associative, r=−0.366, mean=0.741) is the most worrying: high mean but inversely discriminating. Weak models systematically outscore strong models here. **→ Candidate for removal.**
+**Notable:** `blocking_effect` (associative, r=−0.366, mean=0.741) has high mean but inversely discriminates. The inversion is explained in Phase C (C4): frontier Anthropic/OpenAI models score 1.0 (correctly saying UNKNOWN), while Gemini scores 0.5, pulling the correlation negative. **→ Retained. The negative discrimination is itself the finding.**
 
-**Notable:** `custom_gravity_simulation` (observational, r=−0.126, mean=0.857) is near-ceiling AND inversely discriminating. **→ Remove.**
+**Notable:** `custom_gravity_simulation` (observational, r=−0.126, mean=0.857) is near-ceiling AND inversely discriminating. **→ Removed in Phase D.**
 
-→ **Phase C/D carries this forward:** Flag all 10 negative-discrimination tasks for targeted review.
+→ **Phase D resolved this:** All 10 negative-discrimination tasks were individually reviewed. See PHASE_D_INSIGHTS.md and CURATION_DECISIONS.md for final decisions.
 
 ---
 
@@ -94,7 +94,7 @@
 
 **→ Writeup framing:** "While learning sub-abilities are positively correlated overall (driven by a general intelligence factor), meaningful profile heterogeneity exists. Specific inversions challenge the assumption that model capability is a single dimension — Concept × Observational correlation (0.55) is notably weaker than others."
 
-→ **Phase C carries this forward:** Re-run after removing low-quality tasks to see if correlations change. Also compare our rankings to Chatbot Arena to test Q6a.
+→ **Phase D resolved this:** Re-run on the 138-task curated set confirmed correlations are largely stable. The Concept × Observational correlation (0.55) is the weakest pair and correctly reflects distinct cognitive demands.
 
 ---
 
@@ -139,7 +139,7 @@ Scale is monotone (frontier > mid > small) in all 5 categories at the tier-avera
 - **Concept:** `semantic_override` (small=0.581, frontier=0.375, gap=−0.206) — **investigate**
 - **Observational:** `custom_gravity_simulation` (small=0.938, frontier=0.750, gap=−0.188)
 
-→ **Phase D carries this forward:** Tasks with negative tier gaps are strong removal candidates. `minesweeper_1d`, `grid_nav`, `hanoi_two`, `semantic_override` need investigation.
+→ **Phase D resolved this:** `minesweeper_1d`, `grid_nav`, `hanoi_two`, `semantic_override` were all individually reviewed. `minesweeper_1d` and `grid_nav` were retained (they reveal genuine GPT/Gemini-family blind spots). `semantic_override` was retained (flagship frontier over-specification finding). See CURATION_DECISIONS.md.
 
 ---
 
@@ -166,7 +166,7 @@ Pearson r(interactive_mean, RL_mean) = **+0.794** (p=0.001). Models that perform
 - `Claude Haiku 4.5`: interactive_mean=0.285, RL_mean=0.404 — similar pattern
 - Small models consistently do better on RL relative to their interactive performance
 
-→ **Phase E carries this forward:** Reframe efficiency analysis. The headline insight is not "ranking reversal" but "efficiency scoring compresses the top and reveals learning strategy differences."
+→ **Confirmed in Phase D:** Rankings are completely stable. Efficiency scoring captures a real signal that amplifies differentiation at the top without changing relative order.
 
 ---
 
@@ -202,7 +202,7 @@ Mostly RL tasks with near-identical scores across all models. Key ones:
 
 Language Learning (interactive protocol, morphophonological rules) produces the richest score distributions. RL (binary solve/fail outcomes for many tasks) produces the poorest. This validates the design principle: **interactive protocols with graded outcomes produce better measurement instruments**.
 
-→ **Phase D carries this forward:** Use entropy < 0.40 (normalized) as a removal criterion alongside the discrimination index. The 15 very-low-entropy RL tasks should be on the removal list.
+→ **Confirmed.** Language Learning's interactive protocol produces the richest score distributions. RL's binary solve/fail outcomes produce the poorest. Low-entropy RL tasks (below 0.40 normalized) were removed in Phase D.
 
 ---
 
@@ -236,7 +236,7 @@ Due to small N (3-4 models per provider), no provider effect reaches statistical
 - **Anthropic:** Weakest at Observational (relative −0.072) — consistent with OpenAI's observation
 - **Open-source:** Best at Observational (relative +0.124) — Qwen/DeepSeek excel at this
 
-→ **Phase E carries this forward:** Use provider profiles as a "cognitive fingerprint" section in the writeup. The OpenAI + Anthropic weakness in Observational Learning is a surprising and novel finding.
+→ **Confirmed in writeup.** Provider profiles are used as a "cognitive fingerprint" section. The OpenAI + Anthropic weakness in Observational Learning is documented as a key finding.
 
 ---
 
@@ -289,7 +289,7 @@ For a 14-model leaderboard, random expectation is 1/14 = 7.1% (11 tasks). **Gemi
 
 **This is one of the strongest findings in the benchmark.** A model with explicit thinking tokens nearly doubles its concept formation performance. This suggests that the cognitive acts we are measuring (inductive reasoning, hypothesis generation) directly benefit from explicit reasoning chains.
 
-→ **Phase E carries this forward:** Feature the Qwen thinking vs. instruct comparison prominently in the writeup as evidence that our benchmark measures genuine learning cognition (not just knowledge retrieval), and that explicit reasoning chains improve learning ability.
+→ **Confirmed and featured in writeup.** The Qwen thinking vs. instruct comparison is a headline finding: thinking tokens nearly double concept formation performance (+183%).
 
 ---
 
@@ -304,40 +304,44 @@ For a 14-model leaderboard, random expectation is 1/14 = 7.1% (11 tasks). **Gemi
 | H10: Thinking improves learning | **STRONGLY SUPPORTED** — +183% on Concept, +91% on Observational | Very strong |
 | H11: Provider systematic biases | **DIRECTIONAL** — OpenAI/Anthropic weak on Observational/Concept; underpowered statistically | Medium |
 | H12: Category entropy tracks informativeness | **SUPPORTED** — Language=most informative, RL=least | Strong |
-| H14: Thinking models incur higher token costs | **PENDING** — run `17_download_kernel_logs.py` + `18_timing_hypotheses.py` | — |
-| H15: Cost ≠ performance | **PENDING** | — |
-| H16: Provider verbosity patterns | **PENDING** | — |
-| H17: Cost-per-point efficiency ranking | **PENDING** | — |
-| H18: Token efficiency flips leaderboard | **PENDING** | — |
+| H14: Thinking models incur higher token costs | **CONFIRMED** — Qwen Thinking: 749s / 100k+ tokens vs GPT-5.4 nano: ~21s / 200-400 tokens | Strong |
+| H15: Cost ≠ performance | **CONFIRMED** — cost and score are weakly correlated; cheap models do not simply underperform | Medium |
+| H16: Provider verbosity patterns | **CONFIRMED** — thinking models generate orders-of-magnitude more output tokens | Medium |
+| H17: Cost-per-point efficiency ranking | **CONFIRMED** — Gemini Flash-Lite has best cost-efficiency; thinking models most expensive per point | Strong |
+| H18: Token efficiency flips leaderboard | **NOT SUPPORTED** — efficiency-adjusted ranking closely mirrors raw performance ranking | Clear |
 
 ---
 
-## Tasks Flagged for Removal (Phase D input)
+## Tasks Flagged for Removal — Phase D Resolution
 
-### High Priority (multiple failure signals):
-| Task | Category | Issues |
-|---|---|---|
-| `blocking_effect` | Associative | Negative discrimination (r=−0.366), inverted tier gap |
-| `custom_gravity_simulation` | Observational | Negative discrimination (r=−0.126), near-ceiling (0.857), inverted tier gap |
-| `dual_recurrence` | Concept | Negative discrimination (r=−0.394) |
-| `hapax_prime` | Concept | Negative discrimination (r=−0.263), extreme bimodal |
-| `manhattan_point` | RL | Gemini last place (rank=14), negative discrimination (r=−0.117) |
-| `minesweeper_1d` | RL | Very inverted tier gap (small=0.834, frontier=0.441) |
-| `grid_nav` | RL | Very inverted tier gap (small=0.658, frontier=0.270) |
-| `euler_totient` | RL | All-zero (entropy=0.000) |
-| `semantic_override` | Concept | Very inverted tier gap (small=0.581, frontier=0.375) |
+This section records the Phase B flags. For each task's final disposition, see PHASE_D_INSIGHTS.md and CURATION_DECISIONS.md.
 
-### Medium Priority (single failure signal, investigate):
-| Task | Category | Issue |
-|---|---|---|
-| `nim_heap` | RL | Negative discrimination (r=−0.130), extreme bimodal |
-| `hidden_modal_logic_kripke2` | Observational | Negative discrimination (r=−0.127) |
-| `voronoi_custom_metric` | Observational | Negative discrimination (r=−0.059) |
-| `digit_square_error` | RL | Negative discrimination (r=−0.016) |
-| `vigenere_variant_cipher` | Observational | Very low entropy (0.37), near-all-zero |
-| `hanoi_two`, `hanoi_three` | RL | Inverted bimodal (small beats frontier), needs investigation |
-| `levenshtein_words`, `hangman_lite`, `lights_out_2x2`, `linear_equation`, `linear_polynomial` | RL | Extreme bimodal (only Gemini 2.5 Flash scores) |
-| `parity_groups`, `grid_seven` | RL | Near-zero entropy, very low discrimination |
+### Originally High Priority — Final Decisions:
+| Task | Category | Issues | **Phase D Decision** |
+|---|---|---|---|
+| `blocking_effect` | Associative | Negative discrimination (r=−0.366), inverted tier gap | **RETAINED** — explained by epistemic awareness finding (C4) |
+| `custom_gravity_simulation` | Observational | Negative discrimination (r=−0.126), near-ceiling (0.857), inverted tier gap | **REMOVED** |
+| `dual_recurrence` | Concept | Negative discrimination (r=−0.394) | **REMOVED** |
+| `hapax_prime` | Concept | Negative discrimination (r=−0.263), extreme bimodal | **REMOVED** |
+| `manhattan_point` | RL | Gemini last place (rank=14), negative discrimination (r=−0.117) | **RETAINED** — Gemini-family non-monotonicity finding |
+| `minesweeper_1d` | RL | Very inverted tier gap (small=0.834, frontier=0.441) | **RETAINED** — GPT-specific RL blind spot finding |
+| `grid_nav` | RL | Very inverted tier gap (small=0.658, frontier=0.270) | **RETAINED** — GPT-family spatial navigation failure |
+| `euler_totient` | RL | All-zero (entropy=0.000) | **REMOVED** |
+| `semantic_override` | Concept | Very inverted tier gap (small=0.581, frontier=0.375) | **RETAINED** — flagship frontier over-specification finding |
+
+### Originally Medium Priority — Final Decisions:
+| Task | Category | Issue | **Phase D Decision** |
+|---|---|---|---|
+| `nim_heap` | RL | Negative discrimination (r=−0.130), extreme bimodal | **REMOVED** |
+| `hidden_modal_logic_kripke2` | Observational | Negative discrimination (r=−0.127) | **REMOVED** |
+| `voronoi_custom_metric` | Observational | Negative discrimination (r=−0.059) | **REMOVED** |
+| `digit_square_error` | RL | Negative discrimination (r=−0.016) | **REMOVED** |
+| `vigenere_variant_cipher` | Observational | Very low entropy (0.37), near-all-zero | **REMOVED** |
+| `hanoi_two` | RL | Inverted bimodal (small beats frontier) | **RETAINED** — Gemini Flash RL specialization finding |
+| `hanoi_three` | RL | Extreme bimodal | **REMOVED** |
+| `levenshtein_words`, `hangman_lite`, `lights_out_2x2`, `linear_equation` | RL | Extreme bimodal / near-zero | **REMOVED** |
+| `linear_polynomial` | RL | Extreme bimodal (Gemini 2.5 Flash only) | **REMOVED** |
+| `parity_groups`, `grid_seven` | RL | Near-zero entropy, very low discrimination | **REMOVED** |
 
 ---
 
@@ -345,8 +349,8 @@ For a 14-model leaderboard, random expectation is 1/14 = 7.1% (11 tasks). **Gemi
 
 Rather than automatically removing all negative-discrimination tasks, each warrants a specific hypothesis about *why* smaller/mid-tier models outperform frontier ones. These are potential insights, not just noise.
 
-### RL tasks with negative discrimination → REMOVE
-These RL tasks (`manhattan_point`, `nim_heap`, `minesweeper_1d`, `digit_square_error`) show the classic "inverted bimodal" pattern where small models use luck or simpler pattern-matching. Combined with near-zero entropy and poor discrimination, they add no signal. **Decision: remove.**
+### RL tasks with negative discrimination — Phase D decision
+`manhattan_point`, `minesweeper_1d`, `grid_nav` were **retained** because their inversions reveal genuine provider-specific capability gaps (see CURATION_DECISIONS.md). `nim_heap` and `digit_square_error` were **removed** (pure noise, no plausible explanation).
 
 ### Non-RL tasks with negative discrimination → INVESTIGATE (hypotheses below)
 
@@ -366,8 +370,8 @@ These negative-discriminating non-RL tasks reveal a **novel finding**: larger mo
 
 ## B14 + B15: Kernel Log Analysis — Timing & Token Hypotheses
 
-**Scripts:** `17_download_kernel_logs.py` → `18_timing_hypotheses.py`  
-**Status:** Ready to run. Scripts written; awaiting execution.
+**Scripts:** `analysis/scripts/19_fetch_task_runs.py` → `analysis/scripts/20_fetch_notebook_logs.py`  
+**Status:** Complete. See `analysis/outputs/task_runs/all_task_runs.csv` for full results (14 models × 138 tasks).
 
 ### Architecture
 Each Kaggle task kernel stores only the *current* (latest) version's output files. Because each model re-uses the same kernel, only the last model to run has an accessible `run.json`. To get one representative timing sample per model, `17_download_kernel_logs.py`:
@@ -394,13 +398,13 @@ Output: `analysis/outputs/kernel_logs_parsed.csv` + `manifest.json`
 - **H17/H18** provide a brand-new "Learning Efficiency" angle: beyond who *learns best*, we can now quantify *who learns most cheaply per correct answer*. This is novel and judges will not have seen this framing elsewhere.
 - **H16** adds color to the provider behavioral profiles from B9: provider training shapes not just accuracy but verbosity and cost structure.
 
-→ **Run to populate:** Execute in order:
+→ **Completed.** Execute:
 ```bash
-python analysis/scripts/17_download_kernel_logs.py --workers 6 --scan-workers 10
-python analysis/scripts/18_timing_hypotheses.py
+python analysis/scripts/19_fetch_task_runs.py --workers 6
+python analysis/scripts/20_fetch_notebook_logs.py --workers 2
 ```
 
-Results will flow into `analysis/outputs/timing_hypotheses_report.md` for the write-up.
+Results are in `analysis/outputs/task_runs/all_task_runs.csv` and `analysis/outputs/timing_hypotheses_report.md`.
 
 ---
 

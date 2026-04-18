@@ -5,6 +5,7 @@ Public-facing documentation for LearningBench.
 | File | Description |
 |---|---|
 | [`METHODOLOGY.md`](METHODOLOGY.md) | Benchmark construction, task validation, and curation methodology |
+| [`KERNEL_LOG_DOWNLOAD.md`](KERNEL_LOG_DOWNLOAD.md) | Developer reference for scripts 19 & 20: fetching task run metrics and conversation logs from Kaggle's internal API |
 
 ## `internal/`
 

@@ -1,7 +1,7 @@
 # Phase A Insights — Data Extraction & Analysis Foundation
 
 **Generated:** 2026-04-14  
-**Script:** `analysis/phase_a.py`  
+**Script:** `analysis/scripts/04_discriminatory_power.py` (data foundation built by the data loader pipeline)  
 **Outputs:** `analysis/outputs/` (score_matrix.csv, aggregates.csv, task_stats.csv, model_stats.csv, flagged_tasks.csv)
 
 ---
@@ -63,13 +63,15 @@ Parsed all 5 leaderboard JSON files into a unified dataset and computed three la
 | Qwen 3 Next 80B Instruct | 0.464 |
 | GPT-5.4 nano | 0.437 |
 
-**Action required:** Update the Associative Learning leaderboard on the platform with these computed values, or confirm the platform will eventually recalculate them automatically.
+**Note:** Associative Learning aggregates were recomputed from individual task scores (the platform's aggregate field was 0.0 or missing for several models during initial data extraction). These computed values are what appear in `score_matrix.csv` and all downstream analysis.
 
 ---
 
 ## Key Finding 3 — Flagged Tasks (145 / 157 flagged on at least one criterion)
 
 The flagging system identifies tasks that might have quality issues. A task can be flagged on multiple criteria simultaneously. **Being flagged does not mean the task is bad** — it means it needs human review.
+
+**Note:** This section records flagging statistics on the original 157-task corpus. After Phase D curation, 19 tasks were removed, leaving 138 tasks in the final benchmark. See PHASE_D_INSIGHTS.md for the final curation decisions.
 
 ### Flag types explained (plain language):
 
@@ -111,19 +113,21 @@ There's a clear break. Either you get the rule or you don't. No model scores 0.5
 - **Good bimodality:** The high-scoring group is the frontier/strong models — the task genuinely discriminates capability tiers.
 - **Concerning bimodality:** The high-scoring group is random (e.g., one small model scores 1.0 while frontier models score 0) — may indicate task ambiguity or a lucky shortcut.
 
-Phase B will classify bimodal tasks by which tier the high-scorers belong to.
+Phase B classified bimodal tasks by tier composition; see PHASE_B_INSIGHTS.md for findings.
 
 ---
 
-## Questions for Phase B to Answer
+## Key Open Questions Resolved in Later Phases
 
-1. **The 14 tasks with no discrimination** — which specific tasks are these, and why do they fail? (Task design issues vs. genuine ceiling/floor effects?)
-2. **The 1 all-zero task** — which task? Is it broken or genuinely impossible?
-3. **The 5 "too hard" tasks** — are these good frontier-failure tasks or broken?
-4. **The 4 "too easy" tasks** — should these be removed or difficulty-increased?
-5. **Bimodal task classification** — for each of the 84 bimodal tasks, is the "high scoring" group the expected strong models?
-6. **GLM-5 anomaly** — why does a frontier model (GLM-5) rank #2 overall while GPT-5.4 and Claude Opus, also frontier, rank #5 and #6? Category-level breakdown needed.
-7. **Associative Learning dominance** — Gemini 3.1 Pro Preview scores 0.935 on Associative Learning. Is this a ceiling effect? How many tasks does it get perfect?
+All questions below were investigated and resolved in Phase B–D analysis:
+
+1. **The 14 tasks with no discrimination** — resolved in Phase B (B1). Most removed in Phase D.
+2. **The 1 all-zero task** — `euler_totient_rf_learning`; removed in Phase D.
+3. **The 5 "too hard" tasks** — reviewed in Phase D; most removed (budget-infeasible).
+4. **The 4 "too easy" tasks** — reviewed; tasks with max < 0.90 retained; near-ceiling ones removed.
+5. **Bimodal classification** — see Phase B (B5). Good vs. inverted bimodal tasks identified.
+6. **GLM-5 anomaly** — explained in Phase B (B9): GLM-5 excels at Language and Associative categories.
+7. **Associative Learning ceiling** — Gemini 3.1 Pro dominates (0.935); 13/20 tasks it scores ≥ 0.90.
 
 ---
 
