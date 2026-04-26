@@ -2,7 +2,7 @@ LearningBench measures **how efficiently language models learn** — not what th
 
 **135 tasks across 6 sub-abilities**, each targeting a distinct cognitive act:
 
-**Scoring by sub-ability** — each sub-ability is published as a standalone Kaggle benchmark as well containing only the tasks for that learning type. Click any sub-ability to explore its dedicated leaderboard, per-task scores, key findings and insights specific to that learning type.
+**Scoring by sub-ability** — each sub-ability is published as a standalone Kaggle benchmark as well containing only the tasks for that learning type. Click any sub-ability to explore its **dedicated leaderboard**, per-task scores, key findings and insights specific to that learning type.
 
 
 | Sub-ability                                                                               | Tasks | Scoring                                                                                                                        | What it tells us                                                                                                            |
@@ -21,42 +21,66 @@ All tasks use a deterministic programmatic grader. Expected answers are computed
 
 ## What this benchmark reveals
 
-**Frontier models largely demonstrate recall, not learning.** When tasks require genuinely novel rule discovery, 11 of 14 models evaluated score below 0.50.
+1. **Larger models are not better learners.** When tasks require genuine in-context learning, 11 of 14 models score below 0.50 — and model scale alone does not close this gap. The Qwen Thinking vs. Instruct comparison makes this concrete: enabling extended reasoning lifts Concept Formation by 183% (0.191 → 0.541), Observational by 91%, and RL by 77%. A small model with extended reasoning outperforms a larger model without it on every induction-heavy sub-ability.
 
-**Reasoning helps generation but may hurt fast adaptation.** Enabling reasoning mode lifts induction-heavy sub-abilities significantly, but shows a suggestive dip on procedural tasks — where rapid hypothesis iteration matters more than deep deliberation.
+2. **Reasoning helps generation but may hurt fast adaptation.** Enabling reasoning mode lifts induction-heavy sub-abilities significantly, but shows a suggestive dip on procedural tasks — where rapid hypothesis iteration matters more than deep deliberation.
 
-**The best learners need the least evidence.** Evidence efficiency and accuracy are tightly linked (ρ = −0.52). Models that commit early score higher; models that exhaust their example budget without improving are not learning — they are stalling.
+3. **The best learners need the least evidence.** Evidence efficiency and accuracy are tightly linked (ρ = −0.52). Models that commit early score higher; models that exhaust their example budget without improving are not learning — they are stalling.
 
-**Token spend is a failure signal, not a success signal.** In reinforcement tasks, failed runs consume 4.3× more tokens than solved ones. Many models, once their first hypothesis is wrong, cannot update at all.
+4. **How much evidence a model seeks predicts how well it learns.** Across Concept Formation and Language Learning — two structurally different interactive learning sub-abilities — mean probe(asking for examples) count per model correlates strongly across the two (Spearman ρ = 0.793, p = 0.0007). The spread is striking: Qwen 3 Thinking requests 1.8 examples on average; Claude Haiku requests 11.9 — a 6.5× gap. The pattern holds regardless of model size or tier: Claude Opus requests nearly as many examples as Claude Haiku, while Gemini Flash-Lite commits after just 2 probes on average. A model that over-probes on invented Boolean rules also over-probes on invented phonological rules. Evidence appetite is not calibrated to task difficulty or domain — it is a fixed property of the model. And it predicts performance: ρ = −0.52 between probe count and score, meaning the most aggressive evidence-seekers are also the lowest scorers.
 
-The three findings point to the same three axes of hypothesis management: **generating** a candidate rule, judging **sufficiency** of evidence, and **updating** when wrong. None are measured by existing benchmarks.
+5. **Token spend is a failure signal, not a success signal.** In reinforcement tasks, failed runs consume 4.3× more tokens than solved ones. Many models, once their first hypothesis is wrong, cannot update at all — 43 runs show streaks of 10 or more consecutive identical actions, the behavioral signature of a model that has no remaining hypothesis to test.
+
+>These findings converge on three axes that separate genuine learners from pattern matchers: **generating** a candidate rule(s) from limited evidence, judging **sufficiency** — knowing when to stop — and **updating** when the hypothesis is wrong. No existing benchmark measures all three.
+
+---
+
+## Results and Analysis
+
+### The Interactivity Paradox
+
+Concept Formation (interactive: model requests examples) and Observational Learning (passive: all demonstrations given upfront) both require the same core act — inducing a hidden rule(s). The only structural difference is whether the model controls its evidence budget. 9 of 14 models score higher on the passive setting than the interactive one. The largest instance is DeepSeek V3.2: Concept = 0.194, Observational = 0.428. Giving models control over how much evidence they see degrades performance because it requires a meta-cognitive signal while learning — "I have seen enough to generalize" — that most models do not produce. 
+
+### Learning Jaggedness Profiles
+
+The jaggedness index ("Characterizing Model Jaggedness Supports Safety and Usability", Google DeepMind) measures how unevenly a model's strengths are distributed across capability domains. It is the standard deviation of per-domain z-scores: each domain score is first normalized by the cross-model mean and SD for that domain, then J = std of those z-scores across domains for a given model. A J of 0 means perfectly uniform; a higher J means strength on some sub-abilities coexists with weakness on others. Because this benchmark has no published human baseline, z-scores are normalized against the 14-model population rather than human performance (see `analysis/compute_jaggedness.py`).
+
+
+| Model                         | Overall | J     | Assoc | Concept | Lang | Observ | RL   | Proc |
+| ----------------------------- | ------- | ----- | ----- | ------- | ---- | ------ | ---- | ---- |
+| Gemini 3.1 Pro Preview        | 0.840   | 0.246 | 0.95  | 0.80    | 0.78 | 0.85   | 0.93 | 0.73 |
+| GLM-5                         | 0.678   | 0.164 | 0.77  | 0.57    | 0.75 | 0.65   | 0.79 | 0.54 |
+| Qwen 3 Next 80B Thinking      | 0.583   | 0.589 | 0.65  | 0.56    | 0.64 | 0.67   | 0.63 | 0.34 |
+| Gemini 2.5 Flash              | 0.512   | 0.490 | 0.61  | 0.53    | 0.50 | 0.44   | 0.50 | 0.49 |
+| Claude Opus 4.6               | 0.498   | 0.386 | 0.68  | 0.26    | 0.52 | 0.39   | 0.69 | 0.45 |
+| GPT-5.4                       | 0.470   | 0.560 | 0.66  | 0.28    | 0.62 | 0.31   | 0.66 | 0.28 |
+| Gemini 3.1 Flash-Lite Preview | 0.455   | 0.149 | 0.59  | 0.31    | 0.50 | 0.33   | 0.58 | 0.41 |
+| DeepSeek V3.2                 | 0.415   | 0.321 | 0.52  | 0.19    | 0.47 | 0.43   | 0.53 | 0.35 |
+| Claude Haiku 4.5              | 0.373   | 0.332 | 0.50  | 0.19    | 0.36 | 0.27   | 0.57 | 0.35 |
+| Qwen 3 Next 80B Instruct      | 0.355   | 0.592 | 0.48  | 0.19    | 0.44 | 0.24   | 0.33 | 0.45 |
+| GPT-5.4 mini                  | 0.348   | 0.357 | 0.48  | 0.22    | 0.50 | 0.21   | 0.45 | 0.22 |
+| Gemma 4 26B A4B               | 0.337   | 0.500 | 0.51  | 0.25    | 0.25 | 0.22   | 0.55 | 0.24 |
+| Claude Sonnet 4.6             | 0.462   | 0.320 | 0.66  | 0.33    | 0.48 | 0.29   | 0.64 | 0.37 |
+| GPT-5.4 nano                  | 0.247   | 0.283 | 0.43  | 0.15    | 0.30 | 0.14   | 0.25 | 0.20 |
+
+
+GLM-5 is the most uniform learner (J = 0.164): its strength is distributed across all six sub learning abilities without a pronounced weak spot. Qwen 3 Instruct is the most jagged (J = 0.592): it scores comparably on Procedural (0.45) and Associative (0.48) but collapses on Concept Formation (0.19) and RL (0.33) — the two sub-abilities that most directly require active hypothesis updating. GPT-5.4 (J = 0.560) shows the same pattern in a different shape: strong on RL and Associative (0.66), near-floor on Concept and Procedural (0.28). The top two models — Gemini 3.1 Pro (J = 0.246) and GLM-5 (J = 0.164) — are also the most uniform, consistent with the general finding that higher overall learning ability comes with more even capability distribution across the six learning sub-abilities.
 
 ---
 
 ## Domain coverage
 
-Tasks span 17 distinct subject areas with no single domain exceeding 11% of the benchmark, ensuring no reasoning modality is over-represented.
+Tasks span 6 broad domains, ensuring no subject-area familiarity can substitute for genuine in-context learning.
 
 
-| Domain                                | Tasks | Examples                                                                                        |
-| ------------------------------------- | ----- | ----------------------------------------------------------------------------------------------- |
-| Mathematics & Number Theory           | 14    | Modular recurrences, CRT reconstruction, polynomial interpolation, factorization, digit ciphers |
-| Linguistics & Morphology              | 12    | Vowel harmony, tone sandhi, evidentiality, ergativity, reduplication, switch-reference          |
-| Formal Language & Automata            | 7     | DFA/PDA inference, Mealy machines, FSTs, CFG identification                                     |
-| Logic & Boolean Reasoning             | 6     | XOR/XNOR binding, Boolean circuits, nested logic, disjunctive rules                             |
-| String & Sequence Manipulation        | 6     | Interleave-reverse, layered transforms, vowel rotation, counterfactual rewrite                  |
-| Game Theory & Decision Theory         | 5     | Nim variants, iterated games, voting protocols, Shapley values, multi-armed bandit              |
-| Cryptography                          | 5     | Feistel cipher, LFSR, affine ciphers, shift cipher, substitution                                |
-| Computer Science & Systems            | 5     | Pipeline hazards, LFU cache policy, SQL query inference, firewall rules, instruction set RE     |
-| Abstract Algebra                      | 4     | Ring operations, lattice meet/join, symbol grounding, modular addition                          |
-| Causal & Statistical Reasoning        | 4     | Blocking effect, overexpectation, learned irrelevance, spurious correlation resistance          |
-| Search & Localization                 | 4     | 1D/2D Battleship, Chebyshev search, Manhattan localization                                      |
-| Information Theory                    | 3     | Hamming distance oracle, Gray codes, XOR subset identification                                  |
-| Cellular Automata & Dynamical Systems | 3     | CA rule inference, Collatz maps, rule-90/30/110/150                                             |
-| Graph Theory & Geometry               | 3     | Shortest path under noisy oracle, 2D point localization                                         |
-| Planning & Constraint Satisfaction    | 2     | Tower of Hanoi with hidden constraints, 4×4 Latin square                                        |
-| Spatial & Grid Reasoning              | 2     | Grid transposition, Lights-Out toggle mask discovery                                            |
-| Molecular Biology                     | 1     | Codon table / genetic code translation                                                          |
+| Domain                                | Tasks | Examples                                                                    |
+| ------------------------------------- | ----- | --------------------------------------------------------------------------- |
+| Mathematical & Algebraic Structures   | 18    | Modular recurrences, CRT reconstruction, ring operations, lattice meet/join |
+| Linguistics & Morphological Systems   | 18    | Vowel harmony, tone sandhi, evidentiality, layered transforms               |
+| Formal & Logical Systems              | 13    | DFA/PDA inference, Mealy machines, Boolean circuits, XOR/XNOR binding       |
+| Cryptographic & Computational Systems | 13    | Feistel cipher, LFSR, pipeline hazards, LFU cache policy                    |
+| Causal & Strategic Reasoning          | 13    | Overexpectation, spurious correlation, Nim variants, Shapley values         |
+| Dynamical, Spatial & Natural Systems  | 11    | CA rule inference, shortest-path oracle, Lights-Out toggle, codon table     |
 
 
 ---
@@ -65,4 +89,4 @@ Tasks span 17 distinct subject areas with no single domain exceeding 11% of the 
 
 **Why does Qwen 3 72B Thinking outperform GPT-5.4 and Claude Opus 4.6 on many tasks?** GPT-5.4 and Claude Opus 4.6 are reasoning models whose thinking effort can be set to `auto / low / medium / high / max`. When left on `auto`, the model may suppress chain-of-thought on tasks it judges as easy — degrading quality on tasks that actually require step-by-step simulation. This matters especially here: extended reasoning is not a luxury for learning tasks, it is foundational to them, as the performance gap between Qwen Thinking and Qwen Instruct makes clear. Additionally, enforcing a structured output schema further reduces effective thinking depth. Both factors likely explain the unexpected ranking.
 
-https://www.kaggle.com/benchmarks/kdcyberdude/learningbench
+[https://www.kaggle.com/benchmarks/kdcyberdude/learningbench](https://www.kaggle.com/benchmarks/kdcyberdude/learningbench)

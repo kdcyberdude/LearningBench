@@ -47,7 +47,7 @@ LearningBench covers **six cognitive sub-abilities of inference-time learning**,
 | Multi-turn / episodic     | RL, Procedural             | Hypothesis generation, update, and abandonment under feedback |
 
 
-**Domain coverage** spans 17 distinct subject areas — mathematics, linguistics, formal languages, cryptography, game theory, physics, computer systems, and more — with no single domain exceeding 11% of the benchmark. Full task catalog: `[sub_benchmarks/](sub_benchmarks/)`.
+**Domain coverage** spans 6 broad domains — mathematical structures, linguistics, formal systems, cryptography and computation, causal and strategic reasoning, and dynamical systems — ensuring no subject-area familiarity can substitute for genuine in-context learning. Full task catalog: `[sub_benchmarks/](sub_benchmarks/)`.
 
 ---
 
@@ -143,35 +143,31 @@ Full technical specification for all formulas: `[SCORING.md](SCORING.md)`.
 ### 5.1 Leaderboard
 
 - Only **Gemini 3.1 Pro Preview** clears 0.70 (scores 0.85)
-- **11 of 14 models** score below 0.50
+- **11 of 14 models** score below 0.50 — scale alone does not close this gap; a small model with extended reasoning outperforms a larger model without it on every induction-heavy learning sub-ability
 - **GLM-5 (open-source)** ranks #2, outranking every closed-source lab except Google
 - **Google + open-source** score +40.8% higher on rule induction than Anthropic + OpenAI (Mann-Whitney p = 0.029, Cliff's δ = 0.71, large effect)
 
-Leaderboard with 95% CIsPer-model cognitive ability profiles
+### 5.2 Finding 1 — Larger models are not better learners
 
-### 5.2 Finding 1 — Reasoning is the cleanest controlled win
-
-**Qwen 3 Next 80B Thinking vs. Instruct** is a controlled A/B: same weights, same training, only the reasoning trace toggled.
+**Qwen 3 Next 80B Thinking vs. Instruct** comparison makes this concrete: enabling extended reasoning lifts Concept Formation by 183% (0.191 → 0.541), Observational by 91%, and RL by 77%. A small model with extended reasoning outperforms a larger model without it on every induction-heavy sub-ability.
 
 - Across 132 matched tasks: Thinking wins **87**, Instruct wins **19**, ties **26**
 - Largest gains on induction-heavy abilities: **Observational +0.43, Concept +0.38, RL +0.30** (all p ≤ 0.001)
 - Apparent dip on **Procedural −0.11 (p = 0.55, not significant)** — when feedback rounds arrive in rapid succession, extended deliberation per round may blunt the iteration loop itself
 
-Thinking vs. instruct comparison
+### 5.3 Finding 2 — The best learners need the least evidence
 
-Reasoning is the **only** controlled intervention in the benchmark that lifts every induction-heavy sub-ability simultaneously.
-
-### 5.3 Finding 2 — Evidence calibration separates learners from stallers
-
-The best learners need the least evidence. Across 403 interactive runs (Concept Formation + Language Learning), models requesting fewer examples score higher (ρ = **−0.52**, p < 10⁻²⁸, n = 403). Evidence appetite spans 3.8 to 13.9 avg examples — a **3.6× spread** across the 14 models.
+The best learners need the least evidence. Across 403 interactive runs (Concept Formation + Language Learning), models requesting fewer examples score higher (ρ = **−0.52**, p < 10⁻²⁸, n = 403). Evidence appetite spans 1.8 to 11.9 avg examples — a **6.5× spread** across the 14 models.
 
 **Insight:** Models do not fail because the tasks are too hard — they fail because they do not know when to stop asking. The well-calibrated models commit earlier and more accurately; the underconfident ones exhaust their probe budget without reaching a better hypothesis. Claude Opus is the sharpest anomaly: it ranks #4 overall yet probes as aggressively as the weakest models, held up by strength on other sub-abilities.
+
+**A deeper pattern:** This evidence-seeking style is not a response to domain difficulty — it is a fixed property of the model. Across Concept Formation and Language Learning (structurally different tasks), a model's mean probe count correlates strongly across both (Spearman ρ = 0.793, p = 0.0007). A model that over-probes on invented Boolean rules also over-probes on invented phonological rules. Evidence appetite is not calibrated to the task — it travels with the model.
 
 Evidence-seeking efficiency scatter
 
 *The underconfident model is the one in deployment that keeps asking "can you clarify?" instead of just answering.*
 
-### 5.4 Finding 3 — Token spend is a real-time failure signal
+### 5.4 Finding 3 — Token spend is a failure signal, not a success signal
 
 Across 397 RL runs: ρ(tokens, score) = **−0.53** (p < 10⁻³⁰). Tokens consumed track not just outcome but descent into failure:
 
@@ -192,7 +188,7 @@ Across 397 RL runs: ρ(tokens, score) = **−0.53** (p < 10⁻³⁰). Tokens con
 
 Token spend vs. score
 
-### 5.5 Conclusion — Learning is hypothesis management
+### 5.5 Conclusion — Three axes separate genuine learners from pattern matchers
 
 The three findings converge on the same three axes:
 
@@ -200,8 +196,8 @@ The three findings converge on the same three axes:
 | Axis            | What fails                                       | Benchmark signal                                                            |
 | --------------- | ------------------------------------------------ | --------------------------------------------------------------------------- |
 | **Generation**  | Cannot form a new hypothesis from novel evidence | Concept/Observational scores                                                |
-| **Sufficiency** | Cannot judge when evidence is enough to commit   | Evidence appetite ρ = −0.52, 3.6× spread (H1)                               |
-| **Update**      | Cannot revise a wrong first guess under feedback | Token-score ρ = −0.53, 4.3× solved/failed gap, repeat-streak count (H2, H8) |
+| **Sufficiency** | Cannot judge when evidence is enough to commit   | Evidence appetite ρ = −0.52, 6.5× spread (H1)                               |
+| **Update**      | Cannot revise a wrong guess under feedback       | Token-score ρ = −0.53, 4.3× solved/failed gap, repeat-streak count (H2, H8) |
 
 
 These three axes had not been simultaneously isolated in any existing LLM benchmark before LearningBench.
@@ -235,8 +231,6 @@ These baselines are mathematical (derived from answer-space size). They are equi
 **2 — Is the grader correct?**
 
 The same function that generates training examples also grades responses — no static answer keys that could be wrong. 15 tasks spot-checked manually: 15/15 confirmed. RL tasks use seeded generation — correct by construction.
-
-
 
 ### 6.2 Leaderboard Stability
 
