@@ -19,6 +19,7 @@ Existing benchmarks measure what models already *know*. **LearningBench measures
 9. [Models Evaluated](#9-models-evaluated)
 10. [Repository Structure](#10-repository-structure)
 11. [Citation](#11-citation)
+12. [License](#12-license)
 
 ---
 
@@ -446,6 +447,7 @@ learning_eval/
 ├── README.md                        ← This file — full benchmark guide
 ├── WRITEUP.md                       ← Kaggle competition writeup (narrative)
 ├── SCORING.md                       ← Complete scoring formulas (technical spec)
+├── LICENSE                          ← CC BY 4.0
 ├── requirements.txt
 │
 ├── figures/                         ← All publication figures (PNG)
@@ -505,4 +507,10 @@ learning_eval/
 2. Srivastava, A. et al. (2022). *Beyond the Imitation Game (BIG-Bench)*. TMLR.
 3. Chollet, F. et al. (2025). *ARC-AGI-2*. ARC Prize Foundation.
 4. Morris, J. et al. (2026). *Measuring Progress Toward AGI: A Cognitive Framework*. Google DeepMind.
+
+---
+
+## 12. License
+
+This work is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). See [`LICENSE`](LICENSE) for the full text.
 
